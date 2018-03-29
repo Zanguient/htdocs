@@ -1,0 +1,199 @@
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Estilo para arquivo.
+ */
+
+/**
+ * Visualizar arquivo.
+ */
+
+.visualizar-arquivo {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 99998;
+  overflow: auto;
+  width: 100%;
+  height: 95%;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.visualizar-arquivo .esconder-arquivo {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+
+.visualizar-arquivo .download-arquivo {
+  position: fixed;
+  top: 60px;
+  right: 120px;
+}
+
+.visualizar-arquivo object {
+  display: block;
+  margin: 0 auto;
+}
+
+.visualizar-arquivo object.pdf {
+  width: 100%;
+  height: 100%;
+}
+
+.visualizar-arquivo object.txt {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.pesquisa-res-container.lista-operacao-container {
+  width: 865px;
+}
+
+.pesquisa-res-container.lista-operacao-container ul.operacao li a,
+.pesquisa-res-container.lista-operacao-container ul.operacao li .titulo-lista {
+  font-size: 11px;
+}
+
+.pesquisa-res-container.lista-operacao-container ul.operacao li a span.span-codigo,
+.pesquisa-res-container.lista-operacao-container ul.operacao li .titulo-lista span.span-codigo {
+  width: 48px;
+}
+
+.pesquisa-res-container.lista-operacao-container ul.operacao li a span.span-ccontabil,
+.pesquisa-res-container.lista-operacao-container ul.operacao li .titulo-lista span.span-ccontabil {
+  width: 116px;
+  text-align: left;
+}
+
+.pesquisa-res-container.lista-operacao-container ul.operacao li a span.span-ccontabil-desc,
+.pesquisa-res-container.lista-operacao-container ul.operacao li .titulo-lista span.span-ccontabil-desc {
+  width: 300px;
+  text-align: left;
+}
+
+.pesquisa-res-container.lista-operacao-container ul.operacao li a span.span-ccusto,
+.pesquisa-res-container.lista-operacao-container ul.operacao li .titulo-lista span.span-ccusto {
+  width: 84px;
+  text-align: left;
+}
+
+.pesquisa-res-container.lista-operacao-container ul.operacao li a span.span-ccusto-desc,
+.pesquisa-res-container.lista-operacao-container ul.operacao li .titulo-lista span.span-ccusto-desc {
+  width: 300px;
+  border-right: 0;
+  text-align: left;
+}
+
+.lista-produtos-container {
+  width: 670px !important;
+}
+
+.lista-produtos-container .titulo-lista span.span-FAMILIA {
+  width: 264px;
+  text-overflow: clip;
+  overflow: hidden;
+  border: 1px solid #c5c5c5;
+  height: 34px;
+  border-bottom: 0px;
+  border-left: 0px;
+  padding: 7px;
+}
+
+.lista-produtos-container span.span-FAMILIA {
+  width: 260px;
+  text-overflow: clip;
+  overflow: hidden;
+  border: 1px solid #c5c5c5;
+  height: 34px;
+  border-bottom: 0px;
+  border-left: 0px;
+  padding: 7px;
+}
+
+.lista-produtos-container span.span-PRODUTO {
+  width: 387px;
+  text-overflow: clip;
+  overflow: hidden;
+  border: 1px solid #c5c5c5;
+  height: 34px;
+  border-bottom: 0px;
+  border-left: 0px;
+  padding: 7px;
+}
+
+.lista-produtos-container .pesquisa-res ul li a {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin-bottom: -11px !important;
+}

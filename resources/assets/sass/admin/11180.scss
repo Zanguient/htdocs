@@ -1,0 +1,30 @@
+/**
+ * _11180 - Blok
+ */
+@import "../helper/partials/padrao.scss";
+
+.div-frase{
+    text-align: center;
+    font-weight: 800;
+    color: #349c5a;
+    font-size: 2vw;
+}
+
+.tab-pane.fade.active.in {
+    display: block;
+}
+
+.tab-pane{
+	padding: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    border-top: 0px;
+
+    .table-container .table-header ~ .scroll-table {
+		height: 66vh;
+    }
+}
+
+.tab-pane.fade{
+    display: none;
+}

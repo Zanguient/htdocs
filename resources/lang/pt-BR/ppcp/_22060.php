@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'titulo'				=> '22060 - Gerenciamento de Produção',
+	'aberto'				=> 'Aberto',
+	'aberto-hoje'			=> 'Aberto Hoje',
+	'atrasado'				=> 'Atrasado',
+	'cor'					=> 'Cor',
+	'dividir-por-estacao'	=> 'Dividir por Estação',
+	'densidade'				=> 'Densidade',
+	'em-producao'			=> 'Em produção',
+	'em-aberto'				=> 'Em aberto',
+	'encerrado'				=> 'Encerrado',
+	'espessura'				=> 'Espessura',
+	'estacao'				=> 'Estação',
+	'gp'					=> 'GP',
+	'id'					=> 'Id',
+	'liberado'				=> 'Liberado',
+	'modelo'				=> 'Modelo',
+	'produto'				=> 'Produto',
+	'produzido'				=> 'Produzido',
+	'projetado'				=> 'Projetado',
+	'saldo'					=> 'Saldo',
+	'sobra'					=> 'Sobra',
+	'talao'					=> 'Talão',
+	'tam'					=> 'Tam.',
+	'up'					=> 'UP',
+];

@@ -1,0 +1,114 @@
+fieldset {
+  margin: 10px 0 0 0;
+  border: 1px solid black;
+}
+
+fieldset legend {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  border: 1px solid lightgray;
+  text-align: left;
+  padding: 4px;
+}
+
+table td.text-center,
+table th.text-center {
+  text-align: center;
+}
+
+table td.text-right,
+table th.text-right {
+  text-align: right;
+}
+
+table thead tr {
+  background-color: #e6e6e6;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+table tfoot {
+  font-weight: bold;
+}
+
+.form-group {
+  display: inline-grid;
+  margin: 5px 10px 5px 0;
+}
+
+.form-group > label {
+  font-weight: bold;
+}
+
+.title {
+  margin-left: 0;
+  margin-top: 5px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+
+.number {
+  font-family: monospace !important;
+}
+
+.span-icon-check {
+  position: relative;
+  top: 1px;
+  line-height: 1em;
+  font-size: 14px;
+}
+
+.fieldset-fator .title {
+  border: 0;
+}
+
+.fieldset-fator .row-fator-pontuacao {
+  float: right;
+  margin-top: 5px;
+}
+
+.fieldset-fator .row-fator-pontuacao .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.fieldset-fator table th.titulo,
+.fieldset-fator table td.titulo {
+  width: 20%;
+}
+
+.fieldset-fator table th.descricao,
+.fieldset-fator table td.descricao {
+  width: 35%;
+}
+
+.fieldset-fator table th.ponto,
+.fieldset-fator table td.ponto {
+  width: 5%;
+}
+
+.fieldset-fator table th.descritivo,
+.fieldset-fator table td.descritivo {
+  width: 40%;
+}
+
+.fieldset-formacao .form-group,
+.fieldset-media .form-group {
+  display: inline-block;
+}
+
+.fieldset-formacao .formacao-ponto {
+  font-weight: bold;
+}

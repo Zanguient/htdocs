@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+/**
+ * _26021 - Pesquisa de satisfação do cliente
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.table-ec {
+  height: 70vh;
+}
+
+.table-ec.table-pesquisa table thead th.status,
+.table-ec.table-pesquisa table thead td.status,
+.table-ec.table-pesquisa table tbody th.status,
+.table-ec.table-pesquisa table tbody td.status {
+  max-width: 20px;
+  width: 20px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.table-ec.table-pesquisa table tbody td {
+  text-transform: none;
+}
+
+.table-ec.table-pesquisa table tbody td.status.status-1 {
+  color: #f0ad4e;
+}
+
+.table-ec.table-pesquisa table tbody td.status.status-2 {
+  color: #449d44;
+}
+
+.table-ec.table-cliente table thead th.id,
+.table-ec.table-cliente table thead td.id,
+.table-ec.table-cliente table tbody th.id,
+.table-ec.table-cliente table tbody td.id {
+  width: 50px;
+}
+
+.table-ec.table-cliente table thead th.razao-social,
+.table-ec.table-cliente table thead td.razao-social,
+.table-ec.table-cliente table tbody th.razao-social,
+.table-ec.table-cliente table tbody td.razao-social {
+  width: 278px;
+}
+
+.table-ec.table-cliente table thead th.nome-fantasia,
+.table-ec.table-cliente table thead td.nome-fantasia,
+.table-ec.table-cliente table tbody th.nome-fantasia,
+.table-ec.table-cliente table tbody td.nome-fantasia {
+  width: 218px;
+}
+
+.table-ec.table-modelo-pesquisa table thead th.id,
+.table-ec.table-modelo-pesquisa table thead td.id,
+.table-ec.table-modelo-pesquisa table tbody th.id,
+.table-ec.table-modelo-pesquisa table tbody td.id {
+  width: 50px;
+}
+
+.table-ec.table-modelo-pesquisa table thead th.titulo,
+.table-ec.table-modelo-pesquisa table thead td.titulo,
+.table-ec.table-modelo-pesquisa table tbody th.titulo,
+.table-ec.table-modelo-pesquisa table tbody td.titulo {
+  width: 396px;
+}
+
+.table-ec.table-modelo-pesquisa table thead th.data-criacao,
+.table-ec.table-modelo-pesquisa table thead td.data-criacao,
+.table-ec.table-modelo-pesquisa table tbody th.data-criacao,
+.table-ec.table-modelo-pesquisa table tbody td.data-criacao {
+  width: 100px;
+}
+
+form.form-inline .legend-pesquisa-sem-nota {
+  width: calc(100% + 140px);
+}
+
+form.form-inline .legend-pesquisa-com-nota {
+  width: calc(100% + 210px);
+}
+
+form.form-inline .bloco-resultado {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  float: right;
+  margin-top: 50px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #646464;
+  box-shadow: 1px 1px 3px #646464;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+form.form-inline .bloco-resultado:hover {
+  opacity: .1;
+}
+
+form.form-inline .bloco-resultado .form-group {
+  margin-top: 0;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+form.form-inline .bloco-resultado .form-group label {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+form.form-inline .bloco-resultado .form-group label:first-of-type {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+form.form-inline .bloco-resultado .form-group label:nth-of-type(2) {
+  font-size: 26px;
+}
+
+form.form-inline .bloco-resultado .satisfacao {
+  width: 50px;
+  height: 50px;
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.2em;
+  vertical-align: bottom;
+  color: black;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 4px black;
+  border-radius: 50%;
+}
+
+form.form-inline .bloco-resultado .satisfacao.pessimo {
+  background-color: #d9534f;
+  background-image: linear-gradient(#d9534f, #a90f0f);
+}
+
+form.form-inline .bloco-resultado .satisfacao.ruim {
+  background-color: #9650d7;
+  background-image: linear-gradient(#9650d7, purple);
+}
+
+form.form-inline .bloco-resultado .satisfacao.regular {
+  background-color: #f0ad4e;
+  background-image: linear-gradient(#f0ad4e, #be7b1c);
+}
+
+form.form-inline .bloco-resultado .satisfacao.bom {
+  background-color: #2196f3;
+  background-image: linear-gradient(#2196f3, #337ab7);
+}
+
+form.form-inline .bloco-resultado .satisfacao.otimo {
+  background-color: #42cc42;
+  background-image: linear-gradient(#42cc42, #449d44);
+}
+
+form.form-inline .form-group label.label-indicador,
+form.form-inline .form-group label.label-pergunta,
+form.form-inline .form-group label.label-alternativa {
+  font-weight: normal;
+}
+
+form.form-inline .form-group label.label-indicador,
+form.form-inline .form-group label.label-pergunta-numero,
+form.form-inline .form-group label.label-pergunta,
+form.form-inline .form-group label.label-alternativa {
+  display: inline-block !important;
+}
+
+form.form-inline .form-group label.label-indicador {
+  margin-bottom: 5px;
+  padding: 3px 9px;
+  font-size: 12px;
+}
+
+form.form-inline .form-group label.label-pergunta-numero,
+form.form-inline .form-group label.label-pergunta {
+  font-size: 16px;
+}
+
+form.form-inline .form-group label.label-alternativa {
+  margin-top: 10px !important;
+  margin-right: 30px;
+}
+
+form.form-inline .form-group.form-group-textarea {
+  display: block;
+  margin-top: 10px;
+}
+
+.item-dinamico-pergunta {
+  width: 100%;
+}
+
+.item-dinamico-pergunta .form-group {
+  vertical-align: top;
+}
+
+.item-dinamico-pergunta.perg-resposta-negativa {
+  background-color: rgba(217, 83, 79, 0.1) !important;
+  border-left-color: rgba(217, 83, 79, 0.5) !important;
+}

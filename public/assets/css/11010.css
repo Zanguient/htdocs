@@ -1,0 +1,153 @@
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.fundo-perc {
+  background-color: #d2f1ff;
+}
+
+.disable-menu-item {
+  display: table-column;
+}
+
+.menu-item-disabled {
+  cursor: no-drop;
+}
+
+.consulta-itens {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  margin-bottom: 7px;
+}
+
+.sub-acoes {
+  position: absolute;
+  top: 54px;
+  right: 13px;
+}
+
+#index-list thead th.col-min-small-normal,
+#index-list thead td.col-min-small-normal,
+#index-list tbody th.col-min-small-normal,
+#index-list tbody td.col-min-small-normal {
+  min-width: 20px !important;
+}
+
+#index-list thead th.col-min-small-extra,
+#index-list thead td.col-min-small-extra,
+#index-list tbody th.col-min-small-extra,
+#index-list tbody td.col-min-small-extra {
+  min-width: 40px !important;
+}
+
+#index-list thead th.col-min-normal,
+#index-list thead td.col-min-normal,
+#index-list tbody th.col-min-normal,
+#index-list tbody td.col-min-normal {
+  min-width: 150px;
+}
+
+#index-list thead th.col-min-big-normal,
+#index-list thead td.col-min-big-normal,
+#index-list tbody th.col-min-big-normal,
+#index-list tbody td.col-min-big-normal {
+  min-width: 300px;
+}
+
+#index-list thead th.t-status.status1:before,
+#index-list thead td.t-status.status1:before,
+#index-list tbody th.t-status.status1:before,
+#index-list tbody td.t-status.status1:before {
+  background-color: #449d44;
+}
+
+#index-list thead th.t-status.status0:before,
+#index-list thead td.t-status.status0:before,
+#index-list tbody th.t-status.status0:before,
+#index-list tbody td.t-status.status0:before {
+  background-color: #d9534f;
+}
+
+ul.list-inline.popup-acoes {
+  float: none;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 9997;
+  top: 58px;
+  width: calc(100% - 30px);
+  height: calc(100% - 70px);
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  margin-left: 15px;
+}

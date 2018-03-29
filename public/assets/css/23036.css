@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/**
+ * _23036 - Cadastro de avaliação de desempenho.
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Elemento switch, formado por:
+ *
+ * <label class="switch">
+ *     <input type="checkbox">
+ *     <div class="slider round"></div>
+ * </label>
+ */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  /* Rounded sliders */
+}
+
+.switch.round .slider {
+  border-radius: 34px;
+}
+
+.switch.round .slider:before {
+  border-radius: 50%;
+}
+
+.switch input {
+  display: none;
+}
+
+.switch input:checked + .slider {
+  background-color: #449d44;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.switch input:disabled + .slider {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d9534f;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+table tbody {
+  text-transform: none;
+}
+
+.table-base {
+  height: 70vh;
+}
+
+.table-base table thead th.id,
+.table-base table thead td.id,
+.table-base table tbody th.id,
+.table-base table tbody td.id {
+  width: 100px;
+}
+
+.table-base table thead th.status,
+.table-base table thead td.status,
+.table-base table tbody th.status,
+.table-base table tbody td.status {
+  width: 25px;
+}
+
+.table-base table thead th.status span.status-ativo,
+.table-base table thead td.status span.status-ativo,
+.table-base table tbody th.status span.status-ativo,
+.table-base table tbody td.status span.status-ativo {
+  color: #449d44;
+}
+
+.table-base table thead th.status span.status-inativo,
+.table-base table thead td.status span.status-inativo,
+.table-base table tbody th.status span.status-inativo,
+.table-base table tbody td.status span.status-inativo {
+  color: #d9534f;
+}
+
+.table-base table thead th.data,
+.table-base table thead td.data,
+.table-base table tbody th.data,
+.table-base table tbody td.data {
+  width: 100px;
+}
+
+.table-base ~ .legenda-container .ativo {
+  background-color: #449d44;
+}
+
+.table-base ~ .legenda-container .inativo {
+  background-color: #d9534f;
+}
+
+.table-pesq-ccusto table thead th.mask,
+.table-pesq-ccusto table thead td.mask,
+.table-pesq-ccusto table tbody th.mask,
+.table-pesq-ccusto table tbody td.mask,
+.table-ccusto table thead th.mask,
+.table-ccusto table thead td.mask,
+.table-ccusto table tbody th.mask,
+.table-ccusto table tbody td.mask {
+  width: 100px;
+}
+
+.table-pesq-ccusto table thead th.descricao,
+.table-pesq-ccusto table thead td.descricao,
+.table-pesq-ccusto table tbody th.descricao,
+.table-pesq-ccusto table tbody td.descricao,
+.table-ccusto table thead th.descricao,
+.table-ccusto table thead td.descricao,
+.table-ccusto table tbody th.descricao,
+.table-ccusto table tbody td.descricao {
+  width: 420px;
+}
+
+.table-pesq-ccusto {
+  height: 65vh;
+}
+
+.table-ccusto {
+  width: 558px;
+  height: 200px;
+}
+
+form.form-inline .form-group {
+  vertical-align: top;
+}
+
+form.form-inline .form-group .select-modelo {
+  width: 400px;
+}
+
+form.form-inline .form-group .input-ccusto.alterando {
+  background-color: white !important;
+}

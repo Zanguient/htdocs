@@ -1,0 +1,156 @@
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+body > .container-fluid {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.list-tipo {
+  background-color: black !important;
+  color: white !important;
+  cursor: default !important;
+}
+
+.log-show {
+  height: calc(100vh - 60px);
+}
+
+.log-list {
+  float: left;
+  margin-right: -23px;
+  margin-left: 15px;
+  width: 170px;
+  max-height: 670px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.log-list ul li a {
+  float: left;
+  width: 100%;
+  margin-bottom: 1px;
+  padding: 5px 2px;
+  background-color: lightgray;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+
+.log-list ul li a.selected {
+  color: white;
+  background-color: #a0a0a0;
+}
+
+.log-list ul li a:hover {
+  background-color: #e7e7e7;
+}
+
+.log-list ul li a:hover.selected {
+  background-color: #828282;
+}
+
+.log-show {
+  float: left;
+  margin-left: 5px;
+  width: calc(100% - 182px);
+}
+
+.log-show textarea {
+  height: calc(100% - 10px);
+  font-family: Courier New;
+  color: lightgray;
+  background: black !important;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.log-show button {
+  position: fixed;
+  top: 70px;
+  left: 180px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px black;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.log-show button:hover {
+  opacity: 1;
+}
+
+.log-show button:before {
+  display: none;
+}

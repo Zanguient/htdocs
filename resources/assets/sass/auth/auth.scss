@@ -1,0 +1,150 @@
+/**
+ * CSS para login e registro de usuário
+ */
+@import "../helper/app.scss";
+@import "../helper/partials/_padrao.scss";
+@import "../helper/master.scss"; /*alert e balao*/
+@import "../helper/style.scss";
+
+html {
+	height: 100%;
+}
+
+
+body {
+	$gradient: $redDelfa, $redDelfa2, $redDelfa3;
+	@include linear-gradient(#337ab7, #337ab7);
+	background-attachment: fixed;
+	
+	.login .alert {
+		position: fixed;
+		top: 40px;
+		right: 40px;
+		z-index: 9;
+		max-width: 400px;
+		max-height: 200px;
+		padding: 15px;
+		text-align: left;
+		overflow: auto;
+		box-shadow: 0px 1px 3px $black100;
+
+		&.esconder {
+			display: none;
+		}
+
+		button {
+			&.close {
+				margin-left: 10px;
+				line-height: 0.9em;
+
+				> i {
+					&.glyphicon-remove {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+
+	}
+	
+	.login, .registrar {
+		padding-top: 150px;
+		background: url("/../../../assets/images/logo3.png") no-repeat center 50px $white238;
+		box-shadow: 1px 1px 1px $black;
+		@include border-radius(5px);
+		
+		span#gc {
+			display: block;
+		    position: relative;
+		    margin: -40px auto 30px auto;
+		    text-align: center;
+		    text-indent: 170px;
+		    color: $redDelfa;
+		}
+		
+		.panel {
+		
+			&.panel-default {
+				border: 0;
+				background: none;
+				
+				.panel-heading {
+					text-align: center;
+					background: none;
+					border-color: $black50;
+					color: $black50;
+				}
+			}
+			
+			label {
+				font-weight: normal;
+				color: $black50;
+			}
+
+			button {
+				padding-left: 25px;
+    			padding-right: 25px;
+				background: $black50;
+				border-color: $black50;
+
+				&:hover {
+					background: $black85;
+				}
+				&:active {
+					background: $black;
+				}
+				&:focus {
+					color: $white;
+				}
+			}
+			
+			.esqueceu {
+				float: right;
+				clear: right;
+				color: $redDelfa;
+				font-size: 12px;
+				margin-bottom: 3px;
+			}
+		}
+	}
+	
+	/**
+	 * Certificado SSL
+	 */
+	#sslblindado {
+		position: absolute;
+	    right: 4px;
+	    bottom: 4px;
+	    padding: 5px;
+	    width: 70px;
+	    height: 70px;
+	    background-color: white;
+	    background: url(/../../../assets/images/letsencrypt.png) no-repeat center 0px #eeeeee;
+	    background-size: 70px;
+	    border-radius: 6px;
+	}
+
+}
+
+.resaltarTexto{
+    color: #F3AA04;
+    background-color: #FFFF96;
+}
+
+.stat-zoom {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.64);
+    border-radius: 10px;
+    /* width: 150px; */
+    height: 67px;
+    font-size: 47px;
+    color: white;
+    padding: 3px;
+    margin-top: -98px;
+    margin-left: 10px;
+    z-index: 999999;
+    left: -6px;
+    top: 103px;
+}
+
+@import "auth-media.scss";

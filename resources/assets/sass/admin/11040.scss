@@ -1,0 +1,90 @@
+@import "../helper/partials/padrao.scss";
+
+body > .container-fluid {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.log-show{
+    height: calc(100vh - 60px);
+}
+
+.log-list {
+    float: left;
+	margin-right: -23px;
+    margin-left: 15px;
+    width: 170px;
+	max-height: 670px;
+    overflow: auto;
+	border-radius: 5px;
+	position: relative;
+	
+	ul {
+		li {
+			a {
+				float: left;
+				width: 100%;
+				margin-bottom: 1px;
+				padding: 5px 2px;
+				background-color: $lightGrey;
+				font-size: 12px;
+				text-align: center;
+				text-decoration: none;
+				color: $black;
+				transition: 0.2s;
+				
+				&.selected {
+					color: $white;
+					background-color: $grey160;
+				}
+				
+				&:hover {
+					background-color: $lightGrey231;
+					
+					&.selected {
+						background-color: $grey130;
+					}
+				}
+			}
+		}
+	}
+}
+
+.log-show {
+    float: left;
+	margin-left: 5px;
+    width: calc(100% - 182px);
+    position: relative;
+
+    textarea {
+		height: calc(100% - 10px);
+        font-family: Courier New;
+		color: $lightGrey;
+		background: $black !important;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-radius: 0 5px 5px 0;
+    }
+	
+	button {
+		position: fixed;
+		top: 70px;
+		left: 180px;
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+		box-shadow: 0px 1px 1px $black;
+		opacity: 0.7;
+		transition: 0.3s;
+		
+		&:hover {
+			opacity: 1;
+		}
+		
+		&:before {
+			display: none;
+		}
+	}
+}

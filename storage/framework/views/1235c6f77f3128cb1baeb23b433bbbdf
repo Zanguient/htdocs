@@ -1,0 +1,5 @@
+<div id="relogio" class="a_resizable">
+	<span id="data"><?php echo e(date("d/m/Y")); ?></span>
+	<span id="hora"><?php echo e(date("H:i:s")); ?></span>
+</div>
+<input type="hidden" id="_hora-servidor" value="<?php echo e(date("Y-m-d H:i:s")); ?>" />

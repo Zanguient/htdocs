@@ -1,0 +1,295 @@
+@import "../helper/partials/_padrao.scss";
+@import "../helper/file.scss";
+
+fieldset {
+	
+	.panel-orcamentos {
+		min-width: 1415px;
+		overflow: auto;
+		
+		> .panel-body {
+			//max-height: 400px;
+			overflow: auto;
+			padding: 5px;
+
+			>.panel-group {
+				margin-bottom: 0px;
+				//max-height: 600px;
+			}
+		}		
+	}
+				
+	.label-total {
+		float: right;
+		font-size: 14px;
+		padding: 6px;
+    	margin-top: 5px;
+  	}
+}
+
+.table {
+	margin-bottom: 0px;
+	vertical-align: middle;
+	
+	td {
+		position: relative;
+        
+        .form-group {
+            padding: 0;
+        }
+		
+		.replicar-data {
+			position: absolute;
+			top: 9px;
+			right: 5px;
+			width: 32px;
+			height: 33px;
+			
+			.glyphicon {
+				position: absolute;
+				top: 6px;
+				left: 8px;
+				
+				&:nth-child(2) {
+					top: 11px;
+				}
+			}
+		}
+	}
+
+    input[type="radio"] {
+        position: relative;
+    	top: 2px;
+		margin: 0;
+    }
+	
+	span.prod-info {
+		float: right;
+		margin-left: 10px;
+		font-size: 15px;
+	}
+    
+	.t-numb {
+		padding-right: 8px;
+		text-align: right;
+	}
+
+	.t-text {
+		padding-left: 30px;
+		text-align: left;
+	}
+	
+	.t-input {
+		padding: 0px;
+	}
+	
+	.t-v-center {
+		vertical-align: middle;
+	}
+
+	.t-center {
+		text-align: center;
+	}
+
+	.t-btn {
+		padding: 3px 5px;
+	}
+	
+	.t-small {
+		min-width: 75px;
+	}
+
+	.t-low {
+		min-width: 150px;
+	}
+
+	.t-medium {
+		min-width: 250px;
+	}
+
+	.t-large {
+		min-width: 400px;
+	}	
+	
+	.t-extra-large {
+		min-width: 650px;
+	}
+	
+	.t-max-small {
+		max-width: 75px;
+	}
+
+	.t-max-low {
+		max-width: 150px;
+	}
+
+	.t-max-medium {
+		max-width: 250px;
+	}
+
+	.t-max-large {
+		max-width: 400px;
+	}
+	
+	.t-max-extra-large {
+		max-width: 650px;
+	}
+	
+	.t-ellipsis {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	.form-group {
+		margin: 0px !important;
+	    padding: 5px;		
+	    
+	    .input-group {
+	    	
+	    	&.input-search-small {
+	    		width: 105px;
+			}
+			
+	    	&.input-search-medio {
+	    		width: 235px;
+			}
+	    	
+		    input[type="checkbox"] {
+	    		top: 0px;
+	    		margin: 0px;	    
+		    }	    	
+	    }
+	}
+	
+	
+	.t-gravar {
+		background-color: rgb(230, 230, 230);
+				
+		&:hover {
+			background-color: rgb(225, 225, 225);
+		}	
+	}
+	
+	.t-fornecedor {
+		height: 50px;
+		
+		&:nth-child(first) {
+			border-top: 2px solid $lightGrey;
+		}
+		
+		&:nth-child(odd) {
+			background-color: rgb(230, 240, 235);
+			
+			&:hover {
+				background-color: rgb(225, 235, 230);
+			}
+		}
+		
+		&:nth-child(even) {
+		    background-color: rgb(240, 250, 245);
+		    
+			&:hover {
+				background-color: rgb(235, 245, 240);
+			}		    
+		}		
+	}
+
+	.t-sugestao {
+		height: 50px;
+		
+		&:nth-child(first) {
+			border-top: 2px solid $lightGrey;
+		}
+		
+		&:nth-child(odd) {
+			background-color: rgb(230, 235, 240);
+			
+			&:hover {
+				background-color: rgb(225, 230, 235);
+			}					
+		}
+		
+		&:nth-child(even) {
+			background-color: rgb(240, 245, 250);
+			
+			&:hover {
+				background-color: rgb(235, 240, 245);
+			}					
+		}		
+	}
+
+}
+
+.accordion {
+	
+    .panel-heading {
+        background-color: #f5f5f5;
+
+        &:hover, &:focus {
+          background-color: #e7e7e7;
+        }
+        
+        a {
+        	text-decoration: none;
+        }
+        
+    }
+	
+}
+
+form {
+	
+	div.form-group {
+		
+		.pesquisa-res-container {
+			
+			&.lista-operacao-container {
+				width: 865px;
+
+                    ul.operacao {
+                        li {
+                            a, .titulo-lista {
+
+                                span {
+
+                                    &.span-codigo {
+                                        width: 48px;
+                                    }
+                                    &.span-ccontabil {
+                                        width: 116px;
+                                        text-align: left;
+                                    }
+                                    &.span-ccontabil-desc {
+                                        width: 300px;
+                                        text-align: left;
+                                    }
+                                    &.span-ccusto {
+                                        width: 84px;
+                                        text-align: left;
+                                    }
+                                    &.span-ccusto-desc {
+                                        width: 300px;
+                                        border-right: 0;
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                
+			}
+		}
+	}
+}
+
+span {
+
+    &.danger {
+        color: $redDanger;
+    }
+    
+    &.float-right {
+        float: right;
+    }
+}

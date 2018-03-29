@@ -1,0 +1,31 @@
+/**
+ * _23033 - Cadastro de formação do avaliado para avaliação de desempenho.
+ */
+@import "../helper/partials/padrao.scss";
+
+table {
+
+	tbody {
+		text-transform: none;
+	}
+}
+
+.table-formacao {
+	table {
+		thead, tbody {
+			th, td {
+				&.id {
+					width: 100px;
+				}
+
+				&.ponto {
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+
+form.form-inline .form-group {
+	vertical-align: top;
+}

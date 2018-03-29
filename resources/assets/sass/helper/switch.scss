@@ -1,0 +1,71 @@
+/**
+ * Elemento switch, formado por:
+ *
+ * <label class="switch">
+ *     <input type="checkbox">
+ *     <div class="slider round"></div>
+ * </label>
+ */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+    /* Rounded sliders */
+    &.round {
+
+        .slider {
+            @include border-radius(34px);
+
+            &:before {
+                @include border-radius(50%);
+            }
+        }
+    }
+
+    input {
+        display: none;
+
+        &:checked + .slider {
+            background-color: $greenSuccess;
+
+            &:before {
+                @include transform(translateX(26px));
+            }
+        }
+
+        &:focus + .slider {
+            box-shadow: 0 0 1px $blueFocus;
+        }
+
+        &:disabled + .slider {
+            opacity: 0.65;
+            cursor: not-allowed;
+        }
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $redDanger;
+        @include border-radius(4px);
+        @include transition(.4s);
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            @include border-radius(4px);
+            @include transition(.4s);
+        }
+    }
+}

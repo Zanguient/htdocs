@@ -1,0 +1,30 @@
+/**
+ * _12060 - Representante
+ */
+@import "../helper/partials/padrao.scss";
+
+.modal {
+
+	&#modal-consultar-representante {
+
+		.table-container-representante {
+
+			table {
+				thead, tbody {
+					tr {
+						th, td {
+							&.representante {
+								min-width: 470px;
+								width: 470px;
+							}
+							&.uf {
+								min-width: 50px;
+								width: 50px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

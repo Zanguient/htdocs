@@ -1,0 +1,455 @@
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/* Mobile Large */
+
+@media (max-width: 425px) {
+  fieldset.montar-orcamento,
+  fieldset.resumo-orcamento {
+    overflow: auto;
+  }
+}
+
+fieldset.montar-orcamento .form-group,
+fieldset.resumo-orcamento .form-group {
+  float: left;
+  width: 710px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body {
+  height: 400px;
+  overflow: auto;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista {
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista > span,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista > span {
+  display: inline-block;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(1),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(1) {
+  width: 360px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(2),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(2) {
+  width: 30px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(3),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(3) {
+  width: 80px;
+  padding-right: 5px;
+  text-align: right;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(4),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(4) {
+  width: 30px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(5),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body div.titulo-lista > span:nth-child(5) {
+  width: 80px;
+  text-align: right;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button,
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label {
+  float: left;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div,
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div {
+  float: left;
+  padding: 7px 5px;
+  border-right: 1px solid #cccccc;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:first-of-type,
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:first-of-type,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:first-of-type,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:first-of-type {
+  width: 55px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(2),
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(2),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(2),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(2) {
+  width: 300px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(2) span.descricao,
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(2) span.descricao,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(2) span.descricao,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(2) span.descricao {
+  float: left;
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(2) span.obs,
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(2) span.obs,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(2) span.obs,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(2) span.obs {
+  float: right;
+  top: 2px;
+  font-size: 13px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(3),
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(3),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(3),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(3) {
+  width: 30px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(4),
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(4),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(4),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(4) {
+  width: 80px;
+  text-align: right;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(5),
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(5),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(5),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(5) {
+  width: 35px;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(6),
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(6),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:nth-of-type(6),
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:nth-of-type(6) {
+  width: 80px;
+  text-align: right;
+}
+
+fieldset.montar-orcamento .form-group > .panel > .panel-body button > div:last-of-type,
+fieldset.montar-orcamento .form-group > .panel > .panel-body .label > div:last-of-type,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body button > div:last-of-type,
+fieldset.resumo-orcamento .form-group > .panel > .panel-body .label > div:last-of-type {
+  border-right: 0;
+}
+
+fieldset.montar-orcamento .form-group .requisicoes > .panel-body .panel-body button.prod-nao-cad,
+fieldset.resumo-orcamento .form-group .requisicoes > .panel-body .panel-body button.prod-nao-cad {
+  background-color: rgba(169, 15, 15, 0.1);
+  opacity: 1;
+}
+
+fieldset.montar-orcamento .form-group .requisicoes > .panel-body .panel-body button.prod-nao-cad i.glyphicon,
+fieldset.resumo-orcamento .form-group .requisicoes > .panel-body .panel-body button.prod-nao-cad i.glyphicon {
+  float: right;
+  padding: 8px 0px;
+  border: 0;
+  font-size: 15px;
+}
+
+fieldset.montar-orcamento .form-group .orcamento .item .label,
+fieldset.resumo-orcamento .form-group .orcamento .item .label {
+  display: block;
+  position: relative;
+  width: auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+fieldset.montar-orcamento .form-group .orcamento .item .label div,
+fieldset.resumo-orcamento .form-group .orcamento .item .label div {
+  float: left;
+  padding: 7px 5px;
+  border-right: 1px solid #cccccc;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+fieldset.montar-orcamento .form-group .orcamento .item .label div:first-of-type,
+fieldset.resumo-orcamento .form-group .orcamento .item .label div:first-of-type {
+  width: 55px;
+}
+
+fieldset.montar-orcamento .form-group .orcamento .item .label div:nth-of-type(2),
+fieldset.resumo-orcamento .form-group .orcamento .item .label div:nth-of-type(2) {
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+fieldset.montar-orcamento .form-group .orcamento .item .label div:last-of-type,
+fieldset.resumo-orcamento .form-group .orcamento .item .label div:last-of-type {
+  border-right: 0;
+}
+
+fieldset.montar-orcamento .form-group .orcamento .item button.excluir,
+fieldset.resumo-orcamento .form-group .orcamento .item button.excluir {
+  position: absolute;
+  margin-left: 10px;
+  width: auto;
+  padding: 8px 9px 5px 9px;
+  text-shadow: none;
+}
+
+fieldset.fornecedores .empresa-sugestao {
+  display: none;
+  float: right;
+  margin-top: -2px;
+  margin-right: 0;
+}
+
+fieldset.fornecedores .empresa-sugestao .panel {
+  margin-bottom: 0;
+}
+
+fieldset.fornecedores .empresa-sugestao .panel .panel-heading {
+  padding: 1px 9px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+fieldset.fornecedores .empresa-sugestao .panel .panel-body {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body {
+  height: 400px;
+  overflow: auto;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista {
+  display: inline-block;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(1) {
+  width: 372px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(2) {
+  width: 247px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(3) {
+  width: 147px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(4) {
+  width: 197px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(5) {
+  width: 197px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(6) {
+  width: 37px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body div.titulo-lista > span:nth-child(7) {
+  width: 45px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 0;
+  font-weight: normal;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label.selec {
+  border-bottom-color: #449d44;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span {
+  float: left;
+  height: 32px;
+  padding: 7px 5px;
+  border-right: 1px solid #cccccc;
+  line-height: 1.5em;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*&:empty {
+								border-right: 0;
+								padding: 0;
+							}*/
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:first-of-type {
+  width: 50px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:nth-child(2) {
+  width: 320px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:nth-child(3) {
+  width: 250px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:nth-child(4) {
+  width: 150px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:nth-child(5),
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:nth-child(6) {
+  width: 200px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:nth-child(7) {
+  width: 40px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span:last-of-type {
+  width: 45px;
+  border-right: 0;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span div {
+  float: left;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label span input {
+  display: none;
+  margin-top: -2px;
+  margin-left: 5px;
+  padding: 0 7px;
+  height: 23px;
+  width: 95%;
+  color: black;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label button {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  padding: 5px 9px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label button.empresa-cancelar,
+fieldset.fornecedores .empresas-selec .panel .panel-body .label button.excluir {
+  right: -80px;
+}
+
+fieldset.fornecedores .empresas-selec .panel .panel-body .label button.empresa-gravar,
+fieldset.fornecedores .empresas-selec .panel .panel-body .label button.empresa-cancelar {
+  display: none;
+}
+
+fieldset.resumo-orcamento .form-group {
+  width: 625px;
+}
+
+fieldset.resumo-orcamento .resumo .panel-body {
+  height: auto !important;
+}

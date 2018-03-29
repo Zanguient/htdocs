@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+/**
+ * _25011 - Formulários
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+label {
+  font-weight: normal;
+}
+
+label.lbl-descricao,
+label.lbl-periodo {
+  display: block;
+}
+
+label.lbl-descricao {
+  font-size: 16px;
+}
+
+label.lbl-periodo {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+label.lbl-periodo-data {
+  float: left;
+}
+
+label.lbl-periodo-data ~ span.status {
+  float: left;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+label.lbl-periodo-data ~ span.status.status-0 {
+  background-color: #d9534f;
+}
+
+label.lbl-periodo-data ~ span.status.status-1 {
+  background-color: #449d44;
+}
+
+label.lbl-ja-respondeu {
+  float: left;
+  clear: left;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #449d44;
+  border-radius: 3px;
+}
+
+label.lbl-pergunta {
+  margin-bottom: 5px !important;
+  font-size: 16px;
+}
+
+label.lbl-colaborador-nome {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+input[type="radio"] {
+  top: 0 !important;
+}
+
+input[type="radio"] ~ label {
+  top: 0 !important;
+}
+
+.form-inline .form-group {
+  vertical-align: top;
+}
+
+.form-inline .form-group.form-group-textarea.justificativa-tipo-2 {
+  float: left;
+  clear: left;
+}
+
+.form-inline .form-group .alternativa-container {
+  float: left;
+  margin-right: 10px;
+}
+
+.table-container.table-container-formulario table thead tr th,
+.table-container.table-container-formulario table thead tr td,
+.table-container.table-container-formulario table tbody tr th,
+.table-container.table-container-formulario table tbody tr td {
+  text-transform: none !important;
+}
+
+.table-container.table-container-formulario table thead tr th.id,
+.table-container.table-container-formulario table thead tr td.id,
+.table-container.table-container-formulario table tbody tr th.id,
+.table-container.table-container-formulario table tbody tr td.id {
+  max-width: 50px;
+  width: 50px;
+}
+
+.table-container.table-container-formulario table thead tr th.status,
+.table-container.table-container-formulario table thead tr td.status,
+.table-container.table-container-formulario table tbody tr th.status,
+.table-container.table-container-formulario table tbody tr td.status {
+  max-width: 20px;
+  width: 20px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.table-container.table-container-formulario table thead tr th.status.status-0,
+.table-container.table-container-formulario table thead tr td.status.status-0,
+.table-container.table-container-formulario table tbody tr th.status.status-0,
+.table-container.table-container-formulario table tbody tr td.status.status-0 {
+  color: #d9534f;
+}
+
+.table-container.table-container-formulario table thead tr th.status.status-1,
+.table-container.table-container-formulario table thead tr td.status.status-1,
+.table-container.table-container-formulario table tbody tr th.status.status-1,
+.table-container.table-container-formulario table tbody tr td.status.status-1 {
+  color: #449d44;
+}
+
+.table-container.table-container-formulario table thead tr th.titulo,
+.table-container.table-container-formulario table thead tr td.titulo,
+.table-container.table-container-formulario table tbody tr th.titulo,
+.table-container.table-container-formulario table tbody tr td.titulo {
+  max-width: 300px;
+  width: 300px;
+}
+
+.table-container.table-container-formulario table thead tr th.descricao,
+.table-container.table-container-formulario table thead tr td.descricao,
+.table-container.table-container-formulario table tbody tr th.descricao,
+.table-container.table-container-formulario table tbody tr td.descricao {
+  max-width: 400px;
+  width: 400px;
+}
+
+.table-container.table-container-formulario table thead tr th.tipo,
+.table-container.table-container-formulario table thead tr td.tipo,
+.table-container.table-container-formulario table tbody tr th.tipo,
+.table-container.table-container-formulario table tbody tr td.tipo {
+  max-width: 200px;
+  width: 200px;
+}
+
+.table-container.table-container-formulario table thead tr th.usuario,
+.table-container.table-container-formulario table thead tr td.usuario,
+.table-container.table-container-formulario table tbody tr th.usuario,
+.table-container.table-container-formulario table tbody tr td.usuario {
+  max-width: 200px;
+  width: 200px;
+}
+
+.table-container.table-container-formulario table thead tr th.periodo-form,
+.table-container.table-container-formulario table thead tr td.periodo-form,
+.table-container.table-container-formulario table tbody tr th.periodo-form,
+.table-container.table-container-formulario table tbody tr td.periodo-form {
+  text-transform: none;
+}
+
+#autenticacao-container {
+  float: left;
+  clear: left;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #e7e7e7;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#autenticacao-container label.lbl-autenticar {
+  display: block;
+  font-weight: bold;
+}

@@ -1,0 +1,74 @@
+process.env.DISABLE_NOTIFIER = true;
+
+var gulp = require("gulp");
+//var bower = require("gulp-bower");
+var elixir = require("laravel-elixir");
+require('laravel-elixir-livereload');
+var elixirTypscript = require('elixir-typescript');
+/*
+gulp.task('bower', function () {
+    return bower();
+});*/
+
+var vendors = '../../assets/vendors/';
+
+var paths = {
+    'jquery': vendors + 'jquery/dist',
+    'jqueryUi': vendors + 'jquery-ui',
+    'moment': vendors + 'moment',
+    'bootstrap': vendors + 'bootstrap/dist',
+    'fontawesome': vendors + 'font-awesome',
+    'eonasdanBootstrapDatetimepicker': vendors + 'eonasdan-bootstrap-datetimepicker/build',
+    'tether' : vendors + 'tether/dist'
+};
+
+
+var vercao = [];
+
+elixir.extend('addarray', function(item) {
+	item.forEach(function(obj){
+			vercao.push(obj);
+	});
+});
+
+
+elixir(function(mix) {
+	
+	var cssPathPublic	= 'public/assets/css';
+	var jsPathPublic	= 'public/assets/js';
+	
+	mix
+	/*
+    .copy('node_modules/@angular', 'public/@angular')
+    .copy('node_modules/rxjs', 'public/rxjs')
+    .copy('node_modules/systemjs', 'public/systemjs')
+    .copy('node_modules/es6-promise', 'public/es6-promise')
+    .copy('node_modules/es6-shim', 'public/es6-shim')
+    .copy('node_modules/zone.js', 'public/zone.js')
+    .copy('node_modules/satellizer', 'public/satellizer')
+    .copy('node_modules/platform', 'public/platform')
+    .copy('node_modules/reflect-metadata', 'public/reflect-metadata')
+
+    .typescript(
+        '//*.ts',
+        'public/js',
+        {
+            "target": "es5",
+            "module": "system",
+            "moduleResolution": "node",
+            "sourceMap": true,
+            "emitDecoratorMetadata": true,
+            "experimentalDecorators": true,
+            "removeComments": false,
+            "noImplicitAny": false
+        }
+    )
+	*/
+
+
+
+
+
+
+
+

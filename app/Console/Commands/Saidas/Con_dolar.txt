@@ -1,0 +1,7 @@
+
+                                                                             
+  [SoapFault]                                                                
+  br.gov.bcb.pec.sgs.comum.excecoes.SGSNegocioException: Value(s) not found  
+                                                                             
+
+O sistema n∆o pode encontrar o caminho especificado.

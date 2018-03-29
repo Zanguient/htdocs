@@ -1,0 +1,209 @@
+/**
+ * _27020 - Cadastro de Modelos
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Estilo para arquivo.
+ */
+
+/**
+ * Visualizar arquivo.
+ */
+
+.visualizar-arquivo {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 99998;
+  overflow: auto;
+  width: 100%;
+  height: 95%;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.visualizar-arquivo .esconder-arquivo {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+
+.visualizar-arquivo .download-arquivo {
+  position: fixed;
+  top: 60px;
+  right: 120px;
+}
+
+.visualizar-arquivo object {
+  display: block;
+  margin: 0 auto;
+}
+
+.visualizar-arquivo object.pdf {
+  width: 100%;
+  height: 100%;
+}
+
+.visualizar-arquivo object.txt {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.modal#modal-consultar-modelo-por-cliente form .form-group label.lbl-radio {
+  display: inline-block !important;
+  margin-top: 0px !important;
+  margin-left: 10px;
+}
+
+.table-container-modelo-por-cliente table thead tr th.amostra,
+.table-container-modelo-por-cliente table thead tr td.amostra,
+.table-container-modelo-por-cliente table tbody tr th.amostra,
+.table-container-modelo-por-cliente table tbody tr td.amostra {
+  width: 70px;
+}
+
+.table-container-modelo-por-cliente table thead tr th.modelo,
+.table-container-modelo-por-cliente table thead tr td.modelo,
+.table-container-modelo-por-cliente table tbody tr th.modelo,
+.table-container-modelo-por-cliente table tbody tr td.modelo {
+  width: 250px;
+}
+
+.table-container-modelo-por-cliente table thead tr th.grade,
+.table-container-modelo-por-cliente table thead tr td.grade,
+.table-container-modelo-por-cliente table tbody tr th.grade,
+.table-container-modelo-por-cliente table tbody tr td.grade {
+  width: 215px;
+}
+
+.table-container-modelo-por-cliente table tbody tr.mais-pedido {
+  background-color: rgba(240, 173, 78, 0.2);
+}
+
+.table-container-modelo-por-cliente table tbody tr.mais-pedido:nth-of-type(odd),
+.table-container-modelo-por-cliente table tbody tr.mais-pedido:hover {
+  background-color: rgba(240, 173, 78, 0.25);
+}
+
+.table-container-modelo-por-cliente table tbody tr td.amostra {
+  position: relative;
+  padding: 6px 0 0 0;
+}
+
+.table-container-modelo-por-cliente table tbody tr td.amostra span {
+  position: absolute;
+  top: 1px;
+  left: 9px;
+  width: 50px;
+  height: 30px;
+  font-size: 21px;
+  text-shadow: 1px 1px 1px #646464;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 3px;
+  transition: 0.5s 0s;
+}
+
+.table-container-modelo-por-cliente table tbody tr td.amostra span:hover {
+  z-index: 1;
+  cursor: zoom-in;
+  background-color: white;
+  box-shadow: 0 0 3px black;
+  transform-origin: top left;
+  transform: scale(5);
+  transition: 1s 0.5s;
+}
+
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(1):not(:nth-child(1)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(2):not(:nth-child(2)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(3):not(:nth-child(3)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(4):not(:nth-child(4)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(5):not(:nth-child(5)) td.amostra span:hover {
+  transform-origin: bottom left;
+}
+
+.table-container-modelo-por-cliente table.table-header ~ .scroll-table {
+  height: 66vh;
+}
+
+.table-container-modelo-por-cliente ~ ul.legenda {
+  margin-bottom: 0;
+}
+
+.table-container-modelo-por-cliente ~ ul.legenda li div.cor-legenda {
+  background-color: rgba(240, 173, 78, 0.3);
+  box-shadow: 0px 0px 2px black;
+}

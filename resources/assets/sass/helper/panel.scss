@@ -1,0 +1,168 @@
+/**
+ * Estilos para painel.
+ */
+.panel {
+	
+	&[disabled] {
+		opacity: 0.7;
+	}
+	
+	/* simula table */
+	&.panel-table {
+		font-size: 12px;
+		
+		.panel-heading {
+			padding: 0;
+			border-bottom: 0;
+			
+			a {
+				padding: 0;
+				font-size: 12px;
+				
+				> span {
+					display: table-cell;
+					padding: 7px 5px;
+					border-right: 1px solid $lightGrey;
+					
+					&:last-of-type {
+						border-right: 0;
+					}
+				}
+			}
+			
+		}
+		
+		> .panel-body {
+			height: 70vh;
+			overflow: auto;
+		}
+		
+		.panel-body {
+			padding: 0;
+			
+			.panel-group {
+				display: inline-table;
+			}
+			
+			.panel {
+				margin-top: 0;
+				border: 0;
+				border-bottom: 1px solid $lightGrey;
+				border-radius: 0;
+				
+				&.in {
+					margin: 5px;
+					box-shadow: 0 0 5px rgb(0, 0, 0);
+				}
+				
+				&:nth-child(even) {
+					background-color: $white;
+					
+					.panel-heading {
+						background-color: $white;
+					}
+					
+				}
+				
+				.panel-heading {
+					border: 0;
+				}
+			
+				.t-status {
+
+					&:before {
+						content: '';
+						display: inline-block;
+						width: 10px;
+						height: 10px;
+						background-color: $black;
+						@include border-radius(5px);
+					}
+
+					&.inativo {
+						&:before {
+							background-color: $redDanger;
+						}
+					}
+
+					&.ativo {
+						&:before {
+							background-color: $greenSuccess;
+						}
+					}
+				}
+				
+				.panel-collapse {
+					
+					> .panel-body {
+						padding: 5px;
+					}
+					
+					table {
+						border-bottom: 0;
+					}
+				}
+			}
+			
+			div.dataTables_wrapper {
+				
+				.dataTables_scrollHead {
+					background-color: rgba($bluePrimary, 0.3);
+					
+					table thead {
+						th {
+							padding: 3px 5px;
+							color: $black;
+							background-color: rgba($bluePrimary, 0.3);
+							border-color: $whiteSmoke;
+						}
+					}
+				}
+				
+			}
+		}
+		
+		.text-right {
+			text-align: right;
+		}
+		.text-center {
+			text-align: center;
+		}
+		
+	}
+		
+}
+
+.panel-group {
+
+	.panel-heading {
+		padding: 0;
+
+		.panel-title {
+			padding: 10px;
+			font-size: 14px;
+		}
+
+		a {
+			display: block;
+			padding: 10px;
+			color: $black50;
+			text-decoration: none;
+			border-radius: 0;
+
+			&:hover {
+				background-color: $lightGrey231;
+			}
+
+		}
+
+		span {
+
+			&.glyphicon-alert {
+				float: right;
+			}
+		}
+	}
+}
+
+

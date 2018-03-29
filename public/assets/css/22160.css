@@ -1,0 +1,451 @@
+@charset "UTF-8";
+
+/**
+ * _15070 - Transacoes de Consumos de Remessas
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+#main td {
+  font-size: 2vw;
+}
+
+#main .table-taloes.table-container .scroll-table {
+  height: calc(100% - 45px);
+}
+
+#main .main-ctrl {
+  position: relative;
+  height: calc(100vh - 130px);
+}
+
+#main .tab-content {
+  height: calc(100vh - 177px);
+  min-height: 450px;
+}
+
+#main .tab-content .tab-pane {
+  height: 100%;
+}
+
+#main .main-container {
+  height: 100%;
+  /*        .header {
+            height: 200px;
+            
+            .header-item {
+                height: 100%;
+            }
+        }
+        
+        .footer {
+            height: calc(100% - 210px);
+            min-height: 218px;
+            
+            .footer-item {
+                height: 100%;
+            }
+        }*/
+}
+
+#main .main-container .input-action {
+  width: calc(100% - 212px);
+  display: initial;
+}
+
+#main .main-container .table-container {
+  height: calc(100% - 25px);
+}
+
+#main .main-container .input-filter-table {
+  margin-bottom: 3px;
+  height: 23px;
+}
+
+#main .table-container {
+  overflow: scroll;
+  height: 100%;
+}
+
+#main .table-container .scroll-table {
+  height: calc(100% - 22px);
+}
+
+#main table tbody tr {
+  height: 3.28vw;
+}
+
+#main table tr {
+  height: 23px;
+}
+
+#main table tr:focus {
+  outline: none;
+}
+
+#main table tr th {
+  padding-top: 0 !important;
+}
+
+#main table tr th,
+#main table tr td {
+  padding: 3px 4px 0 4px;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#main table tr th button,
+#main table tr td button {
+  margin-bottom: 3px;
+}
+
+#main #remessa {
+  width: 100%;
+  height: 100%;
+}
+
+#main #talao {
+  width: 100%;
+  /*width: calc(100% - 325px);*/
+  /*float: left;*/
+  /*margin-left: 10px;*/
+}
+
+#main #consumo {
+  width: 100%;
+  /*        float: left;
+        clear: both;*/
+  margin-top: 10px;
+}
+
+#main .produto-alerta {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+#main .text-alert {
+  color: #d9534f;
+}
+
+#main .um {
+  text-transform: lowercase;
+}
+
+#main .wid-acoes {
+  width: 3%;
+  min-width: 40px;
+  max-width: 40px;
+}
+
+#main .wid-cor {
+  width: 40%;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#main .wid-data {
+  width: 14%;
+  min-width: 14vw;
+  max-width: 14vw;
+}
+
+#main .wid-datahora {
+  width: 18%;
+  min-width: 17vw;
+  max-width: 17vw;
+}
+
+#main .wid-familia {
+  width: 45%;
+  min-width: 120px;
+  max-width: 120px;
+}
+
+#main .wid-modelo {
+  width: 30%;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+#main .wid-produto {
+  /*width: 17%;*/
+  min-width: 19vw;
+  max-width: 19vw;
+}
+
+#main .wid-remessa {
+  width: 40%;
+  min-width: 19vw;
+  max-width: 19vw;
+}
+
+#main .wid-quantidade {
+  width: 14%;
+  min-width: 14vw;
+  max-width: 14vw;
+}
+
+#main .wid-quantidade-talao {
+  width: 10%;
+  min-width: 10vw;
+  max-width: 10vw;
+}
+
+#main .wid-talao {
+  width: 10%;
+  min-width: 40px;
+  max-width: 40px;
+}
+
+#main .wid-tamanho {
+  width: 3%;
+  min-width: 40px;
+  max-width: 40px;
+  left: 290px !important;
+}
+
+#main .wid-tamanho {
+  width: 3%;
+  min-width: 40px;
+  max-width: 40px;
+  left: 290px !important;
+}
+
+#main .wid-usuario {
+  width: 18%;
+  min-width: 17vw;
+  max-width: 17vw;
+}
+
+#main .table-container {
+  /**
+         * Controle padrão de linhas para a coluna fixada no table-lc
+         */
+}
+
+#main .table-container .table-header {
+  overflow: initial;
+}
+
+#main .table-container tr:nth-child(even) td.col-fixed {
+  background: white;
+}
+
+#main .table-container tr:nth-child(odd) td.col-fixed {
+  background: #f9f9f9;
+}
+
+#main .table-container tr:hover td.col-fixed {
+  background-color: whitesmoke !important;
+}
+
+#main .table-container tr.selected {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+#main .table-container tr.selected td.col-fixed {
+  background-color: #adcae2 !important;
+}
+
+#main .table-container tr th .col-fixed {
+  background-color: #337ab7;
+}
+
+#main .table-container tr .col-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  margin-bottom: -2px;
+  box-shadow: 1px 0 0 0 #cccccc;
+}
+
+#main .table-container tr .row-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 1px 0 0 0 #cccccc;
+}
+
+#main .table-container tr .row-fixed-1 {
+  top: 47px;
+  background: #dae6f3;
+}
+
+#main .table-container tr .row-fixed-2 {
+  top: calc(47px + 3.28vw);
+  background: #dee1e6;
+}
+
+/**
+ * Modal da balança
+ */
+
+#modal-balanca {
+  /*    		
+    .modal-dialog {
+        width: 65vw;
+        min-width: 500px;
+    }*/
+}
+
+#modal-balanca input::-webkit-inner-spin-button {
+  display: none;
+}
+
+#modal-balanca .row .form-group {
+  width: calc(50% - 7px);
+}
+
+#modal-balanca .row .form-group:only-child {
+  width: 100%;
+}
+
+#modal-balanca .row .form-group:last-of-type {
+  margin-right: 0px;
+}
+
+#modal-balanca .row .form-group label span {
+  display: none;
+}
+
+#modal-balanca .row .form-group .input-group {
+  width: 100%;
+}
+
+#modal-balanca .row .form-group .input-group .input-group-addon {
+  width: 45px;
+  font-size: 18px;
+  text-transform: lowercase;
+  background-color: #e7e7e7;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+#modal-balanca .row .form-group input.form-control {
+  height: 50px;
+  width: 100% !important;
+  font-size: 30px;
+  text-align: right;
+}
+
+#modal-balanca .row .form-group input.form-control#balanca-produto,
+#modal-balanca .row .form-group input.form-control#balanca-peso-baixar,
+#modal-balanca .row .form-group input.form-control#balanca-metragem-baixar,
+#modal-balanca .row .form-group input.form-control#balanca-metragem-baixar-2 {
+  font-weight: bold;
+}
+
+#modal-balanca .row .form-group input.form-control#balanca-peso-baixar,
+#modal-balanca .row .form-group input.form-control#balanca-metragem-baixar,
+#modal-balanca .row .form-group input.form-control#balanca-metragem-baixar-2 {
+  font-size: 35px;
+}
+
+#modal-balanca .row .form-group input.form-control#balanca-produto {
+  text-align: left;
+}
+
+.form-inline.table-filter {
+  background: #f3f3f3;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+#main .main-container #consumo-baixado input[type="date"] {
+  width: calc(100% - 27px) !important;
+}
+
+#main .main-container #consumo-baixado .table-panel {
+  height: calc(100% - 70px);
+}
+
+#main .main-container #consumo-baixado .table-panel .header {
+  height: calc(100% - 165px);
+}
+
+#main .main-container #consumo-baixado .table-panel .header .table-container {
+  height: calc(100% - 35px);
+}
+
+#main .main-container #consumo-baixado .table-panel .bottom {
+  height: 165px;
+}
+
+#main .main-container #consumo-baixado .table-panel .bottom .table-container {
+  height: 100%;
+}

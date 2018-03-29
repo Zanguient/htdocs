@@ -1,0 +1,8 @@
+		.copy('resources/assets/sass/helper/graficos.css', cssPathPublic)
+		.scripts([
+			'helper/plugin/colorbrewer.js',
+			'helper/plugin/d3.min.js',
+			'helper/plugin/nv.d3.js',
+			'helper/plugin/stream_layers.js'
+		], jsPathPublic+'/graficos.js')
+		.addarray([jsPathPublic+'/graficos.js',cssPathPublic+'/graficos.css'])

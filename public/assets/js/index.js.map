@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["//Fechar modal quando for feito o login ao expirar sessão.\n//Está fora do document.read porque a página não precisa ser carregada.\nif(window.name === 'login-modal') {\n\twindow.close();\n}"]}

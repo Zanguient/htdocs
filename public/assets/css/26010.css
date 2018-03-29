@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+fieldset .panel-default .panel-accordion-heading {
+  background-color: #fafafa !important;
+}
+
+fieldset .panel-default .panel-accordion-heading a:hover {
+  background-color: #f0f0f0;
+}
+
+fieldset .panel-default .panel-collapse .panel-body {
+  padding: 5px;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .panel-item:nth-child(odd) .panel-item-heading {
+  background-color: #e6ebf5;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .panel-item:nth-child(even) .panel-item-heading {
+  background-color: #e6f5f5;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .panel-item a.link {
+  color: #337ab7;
+  text-decoration: none;
+  display: initial;
+  padding: initial;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .panel-item a.link:hover {
+  color: #23527c;
+  text-decoration: underline;
+  background: initial;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .ball-prioridade {
+  width: 16px;
+  height: 16px;
+  border-radius: 17px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -1px;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .ball-prioridade.BAIXA {
+  background-color: #98d696;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .ball-prioridade.MÉDIA {
+  background-color: #5281ff;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .ball-prioridade.ALTA {
+  background-color: #ff6262;
+}
+
+fieldset .panel-default .panel-collapse .panel-body .ball-prioridade.CRÍTICA {
+  background-color: #ccc30c;
+}

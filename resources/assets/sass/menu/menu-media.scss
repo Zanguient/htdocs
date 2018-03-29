@@ -1,0 +1,163 @@
+@media (max-width: 1480px) {
+	
+	#menu .menu-container div#menu-itens button {
+		width: calc(100% / 4.6);
+	}
+	
+}
+
+@media (max-width: 1240px) {
+	
+	#menu .menu-container div#menu-itens button {
+		width: calc(100% / 3.333);
+	}
+	
+}
+
+@media (max-width: 900px) {
+	
+	#menu .menu-container {
+		width: 90%;
+	}
+	
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	
+	/* Menu */
+	#menu {
+
+		.sessao {
+			display: block;
+		}
+
+		.menu-container {
+
+			.input-group {
+				margin-bottom: 10px;
+
+				input#menu-filtro {
+					display: block;
+					float: none;
+					margin: 0 auto;
+				}
+			}
+
+			div#menu-filtro-resultado {
+				position: relative;
+				margin: 0 auto;
+				width: calc(100% - 40px);
+			}
+
+			div#menu-itens {
+				display: block;
+				overflow: auto;
+				width: calc(100% - 40px);
+				margin: 0 auto;
+
+				button {
+					width: calc(100% / 3.4);
+					height: 95px;
+					background-size: 60px;
+				}
+			}
+		}
+	}
+	
+}
+
+/* Mobile Large */
+@media (max-width: 610px) {
+	
+	#menu .menu-container {
+		
+		.input-group {
+			width: 70%;
+		}
+		
+		div#menu-itens button {
+			width: calc(100% / 2.333);
+		}
+	}
+	
+}
+
+
+@media (max-width: 500px) {
+	
+	#menu {		
+		.menu-container {
+			margin-top: 20px;
+			
+			div#menu-itens {
+				height: 65vh;
+			}
+		}
+	}
+	
+}
+
+
+/* Mobile Large */
+@media (max-width: 425px) {
+	
+	#menu {
+		top: 100px;
+		
+		.menu-container {
+		
+			.input-group {
+				width: 90%;
+			}
+		}
+	}
+	
+}
+
+/* Mobile Medium */
+@media (max-width: 375px) {
+	
+	#menu .menu-container div#menu-itens {
+		height: 70vh;
+		width: 100%;
+		
+		button {
+			width: 50%;
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
+	
+}
+
+@media (max-height: 768px) {
+	
+	#menu .menu-container {
+		
+		div#menu-filtro-resultado.ativo {
+			height: 60vh;
+		}
+		
+		div#menu-itens {
+			height: 75vh;
+		}
+	}
+	
+}
+
+@media (max-height: 600px) {
+	
+	#menu .menu-container div#menu-itens {
+		height: 65vh;
+	}
+	
+}
+
+@media (max-height: 475px) {
+	
+	#menu .menu-container div#menu-itens {
+		height: 60vh;
+	}
+	
+}

@@ -1,0 +1,76 @@
+@import "../helper/partials/padrao.scss";
+
+fieldset {
+    .panel-default {
+        .panel-accordion-heading {
+            background-color: rgb(250, 250, 250) !important;
+            
+            a {
+                &:hover {
+                    background-color: rgb(240, 240, 240);
+                }                
+            }
+        }
+
+        .panel-collapse {
+            
+            .panel-body {
+                padding: 5px;
+                
+                .panel-item:nth-child(odd) {
+                    
+                    .panel-item-heading {
+                        background-color: rgb(230, 235, 245);
+                    }
+                }
+                
+                .panel-item:nth-child(even) {
+                    
+                    .panel-item-heading {
+                        background-color: rgb(230, 245, 245);
+                    }
+                }
+                
+                .panel-item {
+                    
+                    a.link {
+                        color: rgb(51, 122, 183);
+                        text-decoration: none;
+                        display: initial;
+                        padding: initial;
+                        
+                        &:hover {
+                            color: rgb(35, 82, 124);
+                            text-decoration: underline;
+                            background: initial;
+                        }
+                    }
+                }
+                
+                .ball-prioridade {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 17px;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-top: -1px;
+                    
+                    &.BAIXA {
+                        background-color: rgb(152, 214, 150);
+                    }
+                    
+                    &.MÉDIA {
+                        background-color: rgb(82, 129, 255);
+                    }
+                    
+                    &.ALTA {
+                        background-color: rgb(255, 98, 98);
+                    }
+                    &.CRÍTICA {
+                        background-color: rgb(204, 195, 12);
+                    }
+                }
+            }
+        }
+    }
+}

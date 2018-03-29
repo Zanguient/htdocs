@@ -1,0 +1,245 @@
+/**
+ * _27030 - Cadastro de Cores - Modal
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.modal#modal-consultar-cor-por-modelo table thead tr th,
+.modal#modal-consultar-cor-por-modelo table thead tr td,
+.modal#modal-consultar-cor-por-modelo table tbody tr th,
+.modal#modal-consultar-cor-por-modelo table tbody tr td,
+.modal#modal-consultar-cor table thead tr th,
+.modal#modal-consultar-cor table thead tr td,
+.modal#modal-consultar-cor table tbody tr th,
+.modal#modal-consultar-cor table tbody tr td {
+  /*
+						&.cor-classe {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						&.cor-perfil {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						&.cor-tonalidade {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						&.cor-tonalidade-fornecedor {
+							min-width: 80px;
+							max-width: 80px;
+							width: 80px;
+						}
+						&.cor-observacao {
+							min-width: 150px;
+							max-width: 150px;
+							width: 150px;
+						}
+						&.cor-quantidade {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						*/
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-amostra,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-amostra,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-amostra,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra,
+.modal#modal-consultar-cor table thead tr th.cor-amostra,
+.modal#modal-consultar-cor table thead tr td.cor-amostra,
+.modal#modal-consultar-cor table tbody tr th.cor-amostra,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra {
+  min-width: 70px;
+  max-width: 70px;
+  width: 70px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-id,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-id,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-id,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-id,
+.modal#modal-consultar-cor table thead tr th.cor-id,
+.modal#modal-consultar-cor table thead tr td.cor-id,
+.modal#modal-consultar-cor table tbody tr th.cor-id,
+.modal#modal-consultar-cor table tbody tr td.cor-id {
+  min-width: 60px;
+  max-width: 60px;
+  width: 60px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-descricao,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-descricao,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-descricao,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-descricao,
+.modal#modal-consultar-cor table thead tr th.cor-descricao,
+.modal#modal-consultar-cor table thead tr td.cor-descricao,
+.modal#modal-consultar-cor table tbody tr th.cor-descricao,
+.modal#modal-consultar-cor table tbody tr td.cor-descricao {
+  min-width: 275px;
+  max-width: 275px;
+  width: 275px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-condicao,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-condicao,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-condicao,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-condicao,
+.modal#modal-consultar-cor table thead tr th.cor-condicao,
+.modal#modal-consultar-cor table thead tr td.cor-condicao,
+.modal#modal-consultar-cor table tbody tr th.cor-condicao,
+.modal#modal-consultar-cor table tbody tr td.cor-condicao {
+  min-width: 125px;
+  max-width: 125px;
+  width: 125px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-condicao.col-maior,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-condicao.col-maior,
+.modal#modal-consultar-cor table thead tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor table thead tr td.cor-condicao.col-maior,
+.modal#modal-consultar-cor table tbody tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor table tbody tr td.cor-condicao.col-maior {
+  min-width: 400px;
+  max-width: 400px;
+  width: 400px;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr.mais-pedido,
+.modal#modal-consultar-cor table tbody tr.mais-pedido {
+  background-color: rgba(240, 173, 78, 0.2);
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr.mais-pedido:nth-of-type(odd),
+.modal#modal-consultar-cor-por-modelo table tbody tr.mais-pedido:hover,
+.modal#modal-consultar-cor table tbody tr.mais-pedido:nth-of-type(odd),
+.modal#modal-consultar-cor table tbody tr.mais-pedido:hover {
+  background-color: rgba(240, 173, 78, 0.25);
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra {
+  position: relative;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra > span,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra > span {
+  position: absolute;
+  top: 4px;
+  width: 52px;
+  height: calc(100% - 8px);
+  box-shadow: 0px 1px 3px #646464;
+  border-radius: 3px;
+  transition: 0.5s 0s;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra > span:hover,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra > span:hover {
+  z-index: 1;
+  cursor: zoom-in;
+  box-shadow: 0 0 3px black;
+  transform-origin: top left;
+  transform: scale(3);
+  transition: 1s 0.5s;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(1):not(:nth-child(1)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(2):not(:nth-child(2)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(3):not(:nth-child(3)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(4):not(:nth-child(4)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(5):not(:nth-child(5)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(1):not(:nth-child(1)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(2):not(:nth-child(2)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(3):not(:nth-child(3)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(4):not(:nth-child(4)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(5):not(:nth-child(5)) td.cor-amostra span:hover {
+  transform-origin: bottom left;
+}
+
+.modal#modal-consultar-cor-por-modelo table.table-header ~ .scroll-table,
+.modal#modal-consultar-cor table.table-header ~ .scroll-table {
+  height: 66vh;
+}
+
+.modal#modal-consultar-cor-por-modelo ul.legenda,
+.modal#modal-consultar-cor ul.legenda {
+  margin-bottom: 0;
+}
+
+.modal#modal-consultar-cor-por-modelo ul.legenda li div.cor-legenda,
+.modal#modal-consultar-cor ul.legenda li div.cor-legenda {
+  background-color: rgba(240, 173, 78, 0.3);
+  box-shadow: 0px 0px 2px black;
+}

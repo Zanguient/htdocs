@@ -1,0 +1,37 @@
+@import "../helper/partials/padrao.scss";
+
+.row {
+    margin-top: -51px;
+    
+    .container-env {
+        
+        height: calc(100vh - 60px);
+        
+        textarea {
+            height: calc(100% - 10px);
+            font-family: Courier New;
+            color: $lightGrey;
+            background: $black !important;
+        }
+
+        button {
+            position: absolute;
+            top: 65px;
+            left: 22px;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 1px 1px rgb(0, 0, 0);
+            opacity: 0.3;
+            transition: 0.3s;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+}

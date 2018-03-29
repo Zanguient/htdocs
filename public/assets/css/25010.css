@@ -1,0 +1,739 @@
+@charset "UTF-8";
+
+/**
+ * _25010 - Cadastro de Formulários
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.form-inline .form-group {
+  vertical-align: top;
+}
+
+.button-container .radio-group {
+  display: inline-block;
+  margin-right: 10px;
+  padding-left: 5px;
+  background-color: whitesmoke;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.button-container .radio-group label {
+  left: -2px;
+  font-size: 12px;
+}
+
+.button-container button {
+  margin-top: -10px;
+}
+
+.table-ec {
+  height: 70vh;
+}
+
+.table-ec table thead tr th.vazio,
+.table-ec table thead tr td.vazio,
+.table-ec table tbody tr th.vazio,
+.table-ec table tbody tr td.vazio {
+  text-align: center;
+}
+
+.table-ec table thead tr th.id,
+.table-ec table thead tr td.id,
+.table-ec table tbody tr th.id,
+.table-ec table tbody tr td.id {
+  max-width: 50px;
+  width: 50px;
+}
+
+.table-ec table thead tr th.ccusto-mask,
+.table-ec table thead tr td.ccusto-mask,
+.table-ec table tbody tr th.ccusto-mask,
+.table-ec table tbody tr td.ccusto-mask {
+  max-width: 80px;
+  width: 80px;
+}
+
+.table-ec table thead tr th.usuario,
+.table-ec table thead tr td.usuario,
+.table-ec table tbody tr th.usuario,
+.table-ec table tbody tr td.usuario {
+  max-width: 100px;
+  width: 100px;
+}
+
+.table-ec table thead tr th.nome,
+.table-ec table thead tr td.nome,
+.table-ec table tbody tr th.nome,
+.table-ec table tbody tr td.nome {
+  max-width: 250px;
+  width: 250px;
+}
+
+.table-ec.table-container-formulario {
+  height: 70vh;
+}
+
+.table-ec.table-container-formulario table thead tr th,
+.table-ec.table-container-formulario table thead tr td,
+.table-ec.table-container-formulario table tbody tr th,
+.table-ec.table-container-formulario table tbody tr td {
+  text-transform: none !important;
+}
+
+.table-ec.table-container-formulario table thead tr th.status,
+.table-ec.table-container-formulario table thead tr td.status,
+.table-ec.table-container-formulario table tbody tr th.status,
+.table-ec.table-container-formulario table tbody tr td.status {
+  max-width: 20px;
+  width: 20px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.table-ec.table-container-formulario table thead tr th.status.status-0,
+.table-ec.table-container-formulario table thead tr td.status.status-0,
+.table-ec.table-container-formulario table tbody tr th.status.status-0,
+.table-ec.table-container-formulario table tbody tr td.status.status-0 {
+  color: #d9534f;
+}
+
+.table-ec.table-container-formulario table thead tr th.status.status-1,
+.table-ec.table-container-formulario table thead tr td.status.status-1,
+.table-ec.table-container-formulario table tbody tr th.status.status-1,
+.table-ec.table-container-formulario table tbody tr td.status.status-1 {
+  color: #449d44;
+}
+
+.table-ec.table-container-formulario table thead tr th.titulo,
+.table-ec.table-container-formulario table thead tr td.titulo,
+.table-ec.table-container-formulario table tbody tr th.titulo,
+.table-ec.table-container-formulario table tbody tr td.titulo {
+  max-width: 300px;
+  width: 300px;
+}
+
+.table-ec.table-container-formulario table thead tr th.descricao,
+.table-ec.table-container-formulario table thead tr td.descricao,
+.table-ec.table-container-formulario table tbody tr th.descricao,
+.table-ec.table-container-formulario table tbody tr td.descricao {
+  max-width: 400px;
+  width: 400px;
+}
+
+.table-ec.table-container-formulario table thead tr th.tipo,
+.table-ec.table-container-formulario table thead tr td.tipo,
+.table-ec.table-container-formulario table tbody tr th.tipo,
+.table-ec.table-container-formulario table tbody tr td.tipo {
+  max-width: 260px;
+  width: 260px;
+}
+
+.table-ec.table-container-formulario table thead tr th.usuario,
+.table-ec.table-container-formulario table thead tr td.usuario,
+.table-ec.table-container-formulario table tbody tr th.usuario,
+.table-ec.table-container-formulario table tbody tr td.usuario {
+  max-width: 200px;
+  width: 200px;
+}
+
+.table-ec.table-container-formulario table thead tr th.data-criacao,
+.table-ec.table-container-formulario table thead tr td.data-criacao,
+.table-ec.table-container-formulario table tbody tr th.data-criacao,
+.table-ec.table-container-formulario table tbody tr td.data-criacao {
+  max-width: 100px;
+  width: 100px;
+}
+
+.table-ec.table-container-formulario table thead tr th.periodo-form,
+.table-ec.table-container-formulario table thead tr td.periodo-form,
+.table-ec.table-container-formulario table tbody tr th.periodo-form,
+.table-ec.table-container-formulario table tbody tr td.periodo-form {
+  max-width: 150px;
+  width: 150px;
+  text-transform: none;
+}
+
+.table-ec.table-container-destinatario {
+  width: 800px;
+  height: 30vh;
+}
+
+.table-ec.table-container-destinatario table thead tr th,
+.table-ec.table-container-destinatario table thead tr td,
+.table-ec.table-container-destinatario table tbody tr th,
+.table-ec.table-container-destinatario table tbody tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+}
+
+.table-ec.table-container-destinatario table thead tr th input[type="checkbox"],
+.table-ec.table-container-destinatario table thead tr td input[type="checkbox"],
+.table-ec.table-container-destinatario table tbody tr th input[type="checkbox"],
+.table-ec.table-container-destinatario table tbody tr td input[type="checkbox"] {
+  vertical-align: text-bottom;
+}
+
+.table-ec.table-container-destinatario table thead tr th.peso,
+.table-ec.table-container-destinatario table thead tr td.peso,
+.table-ec.table-container-destinatario table tbody tr th.peso,
+.table-ec.table-container-destinatario table tbody tr td.peso {
+  max-width: 100px;
+  width: 100px;
+}
+
+.table-ec.table-container-destinatario table thead tr th.peso input,
+.table-ec.table-container-destinatario table thead tr td.peso input,
+.table-ec.table-container-destinatario table tbody tr th.peso input,
+.table-ec.table-container-destinatario table tbody tr td.peso input {
+  padding: 0 0 0 12px;
+  height: 25px;
+  width: 50px !important;
+  text-align: center;
+}
+
+.table-ec.table-container-destinatario table thead tr th.reabilitar,
+.table-ec.table-container-destinatario table thead tr td.reabilitar,
+.table-ec.table-container-destinatario table tbody tr th.reabilitar,
+.table-ec.table-container-destinatario table tbody tr td.reabilitar {
+  max-width: 100px;
+  width: 100px;
+}
+
+.table-ec.table-container-destinatario table thead tr th.visualiza-cadastro,
+.table-ec.table-container-destinatario table thead tr td.visualiza-cadastro,
+.table-ec.table-container-destinatario table tbody tr th.visualiza-cadastro,
+.table-ec.table-container-destinatario table tbody tr td.visualiza-cadastro {
+  max-width: 150px;
+  width: 150px;
+}
+
+.bloco-total-nota {
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -13px;
+  z-index: 1;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #646464;
+  box-shadow: 1px 1px 3px #646464;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.bloco-total-nota:hover {
+  opacity: .1;
+}
+
+.bloco-total-nota > label {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.bloco-total-nota > label:first-of-type {
+  font-weight: normal;
+}
+
+.bloco-total-nota > label:nth-of-type(2) {
+  font-size: 18px;
+  color: #d9534f;
+}
+
+.bloco-total-nota > label:nth-of-type(2).ok {
+  color: #449d44;
+}
+
+.item-dinamico-pergunta button.btn-pergunta-excluir {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0 !important;
+}
+
+.tipo-resposta-container {
+  float: left;
+  padding: 10px;
+  margin-top: 15px;
+  min-width: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.tipo-resposta-container .alternativa-grupo {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.tipo-resposta-container .alternativa-grupo > .form-group:last-child {
+  margin-right: 0;
+}
+
+.tipo-resposta-container .alternativa-grupo > .form-group.form-group-justif input[type="checkbox"] {
+  top: 22px;
+}
+
+.tipo-resposta-container .alternativa-grupo > .form-group.form-group-justif input[type="checkbox"] ~ label {
+  top: 22px;
+}
+
+.tipo-resposta-container .alternativa-grupo > .form-group input[type="text"],
+.tipo-resposta-container .alternativa-grupo > .form-group input[type="number"],
+.tipo-resposta-container .alternativa-grupo > .form-group select {
+  padding: 4px 6px;
+  height: 30px;
+  vertical-align: super;
+  text-transform: none;
+}
+
+.tipo-resposta-container .form-group-textarea {
+  display: block;
+}
+
+.tipo-resposta-container textarea[disabled] {
+  background-color: white;
+}
+
+.tipo-resposta-container input[type="radio"] {
+  top: 0 !important;
+}
+
+.tipo-resposta-container input[type="radio"] ~ label {
+  top: 0 !important;
+}
+
+.tipo-resposta-container .add-item-dinamico {
+  float: left;
+  clear: left;
+  margin-top: 0 !important;
+}
+
+.painel > div {
+  float: left;
+  width: 100%;
+}
+
+.painel > div.painel-bloco-1 {
+  margin-bottom: 10px;
+}
+
+.painel > div.painel-bloco-1 .painel-info-top {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.painel > div.painel-bloco-1 .painel-info-top > label {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.painel > div.painel-bloco-1 .painel-info-top .painel-filtro {
+  margin-top: 5px;
+}
+
+.painel > div.painel-bloco-1 .painel-info-top .painel-filtro label {
+  font-weight: normal;
+}
+
+.painel > div.painel-bloco-1 .geral-container,
+.painel > div.painel-bloco-1 .geral-grafico-container {
+  float: left;
+}
+
+.painel > div.painel-bloco-1 .geral-container {
+  width: 120px;
+}
+
+.painel > div.painel-bloco-1 .geral-container .lbl-grupo {
+  float: left;
+  clear: left;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding-top: 18px;
+  width: 90px;
+  height: 90px;
+  background-color: #e7e7e7;
+  border-radius: 45px;
+}
+
+.painel > div.painel-bloco-1 .geral-container .lbl-grupo label.lbl-rotulo,
+.painel > div.painel-bloco-1 .geral-container .lbl-grupo label.lbl-dado {
+  width: 100%;
+  line-height: 1em;
+  text-align: center;
+}
+
+.painel > div.painel-bloco-1 .geral-container .lbl-grupo label.lbl-rotulo {
+  font-weight: normal;
+}
+
+.painel > div.painel-bloco-1 .geral-container .lbl-grupo label.lbl-dado {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.painel > div.painel-bloco-1 .geral-grafico-container {
+  width: calc(100% - 120px);
+}
+
+.painel > div.painel-bloco-1 .geral-grafico-container > div {
+  float: left;
+  width: 50%;
+}
+
+.painel > div.painel-bloco-2 {
+  clear: left;
+  width: 100%;
+}
+
+.painel > div.painel-bloco-2 fieldset {
+  margin-top: 15px;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-bloco {
+  float: left;
+  margin-right: 15px;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-bloco .destinatario-filtro {
+  margin-bottom: 5px;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-bloco .destinatario-filtro .input-group {
+  width: 100%;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-bloco .destinatario-filtro .input-group .btn-filtro {
+  width: auto;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-resposta-bloco {
+  float: left;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-resposta-bloco .grafico-container .sobre-delfa-bloco {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #e7e7e7;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-resposta-bloco .grafico-container .sobre-delfa-bloco label {
+  width: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  line-height: 1.2em;
+  vertical-align: bottom;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-resposta-bloco .grafico-container .sobre-delfa-bloco label.lbl-titulo {
+  width: 100%;
+  text-align: center;
+}
+
+.painel > div.painel-bloco-2 fieldset.destinatario-container .destinatario-resposta-bloco .grafico-container .sobre-delfa-bloco label.lbl-valor {
+  max-height: 65px;
+  overflow: auto;
+  font-weight: normal;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario {
+  width: 320px;
+  height: 339px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr td.destinatario,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr th.destinatario,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr td.destinatario {
+  max-width: 250px;
+  width: 250px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-peso,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-status-resposta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr td.destinatario-peso,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr td.destinatario-status-resposta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr th.destinatario-peso,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr th.destinatario-status-resposta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr td.destinatario-peso,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr td.destinatario-status-resposta {
+  max-width: 40px;
+  width: 40px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-uf,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr td.destinatario-uf,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr th.destinatario-uf,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr td.destinatario-uf {
+  max-width: 35px;
+  width: 35px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-status-resposta.status-0,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr td.destinatario-status-resposta.status-0,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr th.destinatario-status-resposta.status-0,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr td.destinatario-status-resposta.status-0 {
+  color: #d9534f;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-status-resposta.status-1,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr td.destinatario-status-resposta.status-1,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr th.destinatario-status-resposta.status-1,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario tbody tr td.destinatario-status-resposta.status-1 {
+  color: #449d44;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th {
+  font-size: 11px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-peso,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-destinatario thead tr th.destinatario-status-resposta {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta {
+  float: left;
+  width: 950px;
+  height: 378px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td {
+  text-transform: none;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th.usuario,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td.usuario,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th.usuario,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td.usuario {
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th.pergunta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td.pergunta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th.pergunta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td.pergunta {
+  max-width: 350px;
+  min-width: 350px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th.resposta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td.resposta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th.resposta,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td.resposta {
+  max-width: 150px;
+  min-width: 150px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th.nota,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td.nota,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th.nota,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td.nota {
+  max-width: 50px;
+  min-width: 50px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th.nivel-satisfacao,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td.nivel-satisfacao,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th.nivel-satisfacao,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td.nivel-satisfacao {
+  max-width: 120px;
+  min-width: 120px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr th.justificativa,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta thead tr td.justificativa,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr th.justificativa,
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta tbody tr td.justificativa {
+  max-width: 250px;
+  min-width: 250px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta ~ .grafico-container {
+  float: left;
+  margin-left: 5px;
+  width: 235px;
+  height: 378px;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+}
+
+.painel > div.painel-bloco-2 fieldset .table-ec.table-container-resposta ~ .grafico-container label {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel.panel-pergunta {
+  float: left;
+  margin-right: 10px;
+  min-width: 750px;
+  width: calc(100% / 2 - 10px);
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel.panel-pergunta .panel-heading > span.pergunta {
+  display: table-cell;
+  padding: 10px;
+  height: 70px;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel.panel-pergunta .panel-collapse .panel-body {
+  padding: 5px;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel.panel-pergunta .panel-collapse .panel-body .grafico-container {
+  float: left;
+  height: auto;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel.panel-pergunta .panel-collapse .panel-body .grafico-container:nth-child(1) {
+  width: 45%;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel.panel-pergunta .panel-collapse .panel-body .grafico-container:nth-child(2) {
+  width: 55%;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel .panel-heading a > span {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel .panel-heading a > span.usuario {
+  width: 500px;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel .panel-heading a > span.peso,
+.painel > div.painel-bloco-2 .panel-group .panel .panel-heading a > span.satisfacao {
+  float: right;
+  color: white;
+  background-color: #337ab7;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel .panel-heading a > span.satisfacao.green {
+  background-color: #449d44;
+}
+
+.painel > div.painel-bloco-2 .panel-group .panel .panel-heading a > span.satisfacao.red {
+  background-color: #d9534f;
+}
+
+.table-filter .input-group {
+  display: inline-table;
+}
+
+.table-filter .input-group .input-group-addon.btn-filtro.btn-filtro-limpar {
+  margin-right: 0;
+}
+
+.table-representante table thead tr th.representante,
+.table-representante table thead tr td.representante,
+.table-representante table tbody tr th.representante,
+.table-representante table tbody tr td.representante {
+  width: 470px;
+}
+
+.table-uf table thead tr th.uf,
+.table-uf table thead tr td.uf,
+.table-uf table tbody tr th.uf,
+.table-uf table tbody tr td.uf {
+  width: 40px;
+}
+
+.table-uf table thead tr th.descricao,
+.table-uf table thead tr td.descricao,
+.table-uf table tbody tr th.descricao,
+.table-uf table tbody tr td.descricao {
+  width: 470px;
+}

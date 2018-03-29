@@ -1,0 +1,78 @@
+/**
+ * _12100 - NOTAS FISCAIS
+ */
+@import "../helper/partials/padrao.scss";
+
+.ng-invalid-max{
+	border-color: red;
+}
+
+.ng-invalid-min{
+	border-color: red;
+}
+
+.div-frase{
+    text-align: center;
+    font-weight: 800;
+    color: #349c5a;
+    font-size: 2vw;
+}
+
+.linha_pedido{
+	text-align: center;
+    max-width: 50px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.linha_produto{
+	text-align: left;
+    min-width: 350px;
+    max-width: 450px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.pdf-ver {
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba($black, 0.8);
+	
+	.pdf-acoes {
+        position: fixed;
+		z-index: 99999;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		height: 50px;
+        
+		button, a {
+			float: right;
+			margin-top: 10px;
+			margin-right: 40px;
+		}
+	}
+	
+	.conteudoPDF{
+
+		width: 100%;
+		height: calc(100% - 0px);
+
+		object {
+			position: fixed;
+			z-index: 99999;
+			top: 100px;
+			left: 0;
+			width: 100%;
+			height: calc(100% - 100px);
+		}
+	}
+}

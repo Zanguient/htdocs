@@ -1,0 +1,74 @@
+@import "../helper/partials/padrao.scss";
+
+.fundo-perc{
+    background-color: #d2f1ff;
+}
+
+.disable-menu-item{
+    display: table-column;
+}
+
+.menu-item-disabled{
+    cursor: no-drop;
+}
+
+.consulta-itens{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    margin-bottom: 7px;
+}
+
+.sub-acoes{
+    position: absolute;
+    top: 54px;
+    right: 13px;
+}
+
+#index-list {
+    thead, tbody {
+        th, td {
+
+            &.col-min-small-normal {
+                min-width: 20px !important;
+            }
+            &.col-min-small-extra {
+                min-width: 40px !important;
+            }
+            &.col-min-normal {
+                min-width: 150px;
+            }
+            &.col-min-big-normal {
+                min-width: 300px;
+            }
+            
+            &.t-status {
+                &.status1:before {
+                    background-color: $greenSuccess;
+                }
+                &.status0:before {
+                    background-color: $redDanger;
+                }
+            }
+        }
+    }
+}
+
+ul.list-inline.popup-acoes {
+    float: none;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 9997;
+    top: 58px;
+    width: calc(100% - 30px);
+    height: calc(100% - 70px);
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    margin-left: 15px;
+}

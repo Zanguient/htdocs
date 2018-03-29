@@ -1,0 +1,17 @@
+/**
+ * _15120 - Consulta Resumida de Estoque
+ */
+@import "../helper/partials/padrao.scss";
+
+.div-frase{
+    text-align: center;
+    font-weight: 800;
+    color: #349c5a;
+    font-size: 2vw;
+}
+
+
+.filho-tabela-estoque{
+	height: calc(100vh - 360px);
+	min-height: 270px;
+}

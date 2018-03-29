@@ -1,0 +1,23 @@
+/**
+ * _23031 - Cadastro de tipos de fatores para avaliação de desempenho.
+ */
+@import "../helper/partials/padrao.scss";
+
+table {
+
+	tbody {
+		text-transform: none;
+	}
+}
+
+.table-tipo {
+	table {
+		thead, tbody {
+			th, td {
+				&.id {
+					width: 100px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,260 @@
+/** 
+ * Estilo para o menu
+ */
+ 
+@import "../helper/partials/padrao.scss";
+
+.menu-legenda{
+    width: calc(100% - 2px);
+    height: 20px;
+    margin-right: 1px;
+    float: right;
+
+    .item-legenda{
+	    height: calc(100% - 2px);
+	    margin: 1px;
+	    display: inline-flex;
+
+    	.cor1-legenda{
+    		width: 18px;
+		    height: 18px;
+		    background-color: #0000b4;
+		    border-radius: 3px;
+    	}
+
+    	.cor2-legenda{
+    		width: 18px;
+		    height: 18px;
+		    background-color: black;
+		    border-radius: 3px;
+    	}
+
+    	.cor3-legenda{
+    		width: 18px;
+		    height: 18px;
+		    background-color: #b40000;
+		    border-radius: 3px;
+    	}
+
+    	.desc-legenda{
+			margin-left: 2px;
+    	}
+    }
+}
+
+.selo-ssl{ 
+    background-image: url('../../../../assets/images/Selo-SSL.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-size: 100px;
+}
+
+#menu {
+	position: fixed;
+	z-index: 99908;
+	top: 50px;
+    left: 0;
+    width: 100%;
+	overflow: hidden;
+	background-color: rgba($black, 0.85);
+	@include transition(0.5s);
+	
+	&.fechado {
+    	height: 0px;
+	}
+	
+	&.aberto {
+	    height: 100%;
+	}
+	
+	.menu-container {
+		margin: 10px auto 0 auto;
+		width: 70%;
+		overflow: hidden;
+		
+		.input-group {
+			display: block;
+			position: relative;
+			z-index: 99999;
+			margin: 0 auto;
+			width: 50%;
+			overflow: auto;
+		
+			input#menu-filtro {
+				width: 100% !important;
+				@include border-radius(4px);
+
+				&:focus {
+					border-color: $redDelfa;
+					box-shadow: inset 0 1px 1px rgba($black,.075), 0 0 8px rgba($redDelfa,.6);
+				}
+			}
+			
+			button {
+				
+				&.btn-filtro {
+					position: absolute;
+					top: 0;
+					right: 0px;
+					z-index: 5;
+					width: 40px;
+					background: transparent;
+					border: 0;
+				}
+			}
+			
+		}
+		
+		#menu-filtro-titulo {
+			margin-top: 5px;
+			text-align: center;
+		    font-weight: bold;
+		}
+		
+		div#menu-filtro-resultado {
+			position: absolute;
+			z-index: 2;
+			margin-top: 5px;
+			height: 0px;
+    		width: 70%;
+			background-color: $white;
+			overflow: hidden;
+			@include border-radius(5px);
+			@include transition(0.2s);
+			
+			&.ativo {
+				height: 500px;
+				
+				~ #menu-itens {
+					visibility: hidden;
+					@include transition(0.2s);
+				}
+			}
+			
+			#menu-fechar {
+   				position: absolute;
+				z-index: 2;
+				top: 7px;
+    			right: 20px;
+				font-size: 15px;
+				background: none;
+				border: 0;
+				cursor: pointer;
+				
+				&:hover {
+					color: $redDelfa;
+				}
+			}
+			
+			div#menu-filtro-itens {
+				position: relative;
+				width: 100%;
+			    height: calc(100% - 46px);
+			    overflow: auto;
+				
+				ul li {
+					width: 100%;
+					
+					&.nao-encontrado {
+						padding: 10px;
+					}
+					
+					a {
+						z-index: 1;
+						padding: 10px;
+						border-bottom: 1px solid $lightGrey231;
+						cursor: pointer;
+						
+						&:hover, &:focus {
+							background-color: rgba($redDelfa, 0.2);
+						}
+						
+						&.tipo-1 {
+							color: $blue180;
+						}
+						&.tipo-2 {
+							color: $black;
+						}
+						&.tipo-3 {
+							color: $red180;
+						}
+					}
+				}
+				
+			}
+		}
+		
+		div#menu-itens {
+			height: 85vh;
+			z-index: 1;
+			visibility: visible;
+			overflow: auto;
+		
+			button {
+			    display: block;
+			    position: relative;
+			    float: left;
+			    margin: 10px;
+			    height: 115px;
+			    width: calc(100% / 5.6);
+			    color: $white;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			    background-color: transparent;
+			    background-repeat: no-repeat;
+			    background-position: center 10px;
+			    background-size: 80px;
+			    border: 0;
+			    @include border-radius(5px);
+			    @include transition(0.5s);
+			    
+                &[disabled] {
+                    opacity: 0.15;
+                }
+                
+			    &:hover:not([disabled]) {
+			    	background-color: rgba($redDelfa, 0.4) !important;
+			    	box-shadow: 0 1px 2px $redDelfa;
+			    }
+			    
+			    &.admin 		{ background-image: url('../../../../assets/images/admin.png'); }
+			    &.comercial 	{ background-image: url('../../../../assets/images/sale.png'); }
+			    &.compras 		{ background-image: url('../../../../assets/images/compras.png'); }
+			    &.logistica		{ background-image: url('../../../../assets/images/logistica.png'); }
+			    &.estoque 		{ background-image: url('../../../../assets/images/controle-estoque.png'); }
+			    &.patrimonial	{ background-image: url('../../../../assets/images/controle-patrimonial.png'); }
+			    &.contabilidade { background-image: url('../../../../assets/images/contabilidade.png'); }
+			    &.engenharia	{ background-image: url('../../../../assets/images/engenharia.png'); }
+			    &.favoritos 	{ background-image: url('../../../../assets/images/favoritos.png'); }
+			    &.financeiro 	{ background-image: url('../../../../assets/images/financeiro.png'); }
+			    &.fiscal	 	{ background-image: url('../../../../assets/images/fiscal.png'); }
+			    &.pcp		 	{ background-image: url('../../../../assets/images/pcp.png'); }
+			    &.rh		 	{ background-image: url('../../../../assets/images/rh.png'); }
+			    &.supply 		{ background-image: url('../../../../assets/images/supply.png'); }
+                &.Opex 			{ background-image: url('../../../../assets/images/opex.png'); }
+				&.chamados		{ background-image: url('../../../../assets/images/helpdesk.png'); }
+			    &.produto	 	{ background-image: url('../../../../assets/images/produto.png'); }
+				&.relatorio	 	{ background-image: url('../../../../assets/images/relatorio.png'); }
+				&.workflow	 	{ background-image: url('../../../../assets/images/workflow.png'); }
+				&.bi	 	    { background-image: url('../../../../assets/images/bi.png'); }
+				&.custo  	    { background-image: url('../../../../assets/images/custos.png'); }
+				&.pcm     	    { background-image: url('../../../../assets/images/pcm.png'); }
+			    
+			    > span {
+			    	position: absolute;
+			    	bottom: 5px;
+			    	left: 0;
+			    	width: 100%;
+			    	text-align: center;
+			    	line-height: 1.2em;
+					overflow: hidden;
+					text-overflow: ellipsis;
+			    }
+			}
+		}
+	}
+	
+}

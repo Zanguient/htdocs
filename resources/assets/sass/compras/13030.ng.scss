@@ -1,0 +1,442 @@
+@import "../helper/partials/padrao.scss";
+@import "../helper/print.scss";
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/08/2017, 16:44:26
+    Author     : TI7
+*/
+$height_tbody_tr : 31px;
+
+
+@media (max-width: 1348px) {
+	
+	fieldset.cota-extra {
+        width: 100% !important;
+        margin-right: initial !important;
+	}
+	
+}
+
+fieldset {
+    &.cota-extra {
+        float: left;
+        margin-right: 10px;
+        width: calc(50% - 10px);
+    }
+    
+    &.cota-extra,&.cota-reducao {
+        min-width: 648px;
+    }
+    
+    &.cota-lancamentos {
+        clear: both;
+    }
+}
+
+#main {
+    margin-top: -7px;
+}
+
+#main-app {
+    
+    .wid-descricao {
+        width: 25%;
+        min-width: 300px;
+        max-width: 300px;
+    }
+    
+    .wid-quantidade {
+        width: 10%;        
+        min-width: 130px;
+        max-width: 130px; 
+        text-align: right;
+    }
+    
+    .wid-percentual {
+        width: 7%;        
+        min-width: 91px;
+        max-width: 91px; 
+        text-align: right;
+    }
+    
+    tr {        
+        &:focus {
+            outline: none;
+        }   
+        
+        th, td {
+            /*padding: 3px 4px 0 4px;*/
+            
+            &[title], &[autotitle] {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            
+            vertical-align: middle;         
+
+            button {
+                margin-bottom: 3px;
+            }
+        }
+    }
+    
+    .input-filter-table {
+        margin-bottom: 3px;
+        height: 23px;        
+    }
+    
+    .table-cotas {
+        height: calc(100vh - 260px);
+        min-height: 230px;
+    }
+    
+    
+    /**
+     * Controle padrão de linhas para a coluna fixada no table-lc
+     */
+    tr {
+        &:nth-child(even) {
+
+            td.col-fixed:not(.row-fixed) {
+                background: rgb(255, 255, 255);
+            }            
+        }          
+
+        &:nth-child(odd) {
+            td.col-fixed:not(.row-fixed) {
+                background: rgb(249, 249, 249);
+            }    
+        }
+
+        &:hover {
+            td.col-fixed:not(.row-fixed) {
+                background-color: rgb(245, 245, 245) !important;
+            }
+        }
+
+        &.selected {
+            -webkit-user-select: none; /* Chrome/Safari */        
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+ */
+
+            /* Rules below not implemented in browsers yet */
+            -o-user-select: none;
+            user-select: none;   
+
+            td.col-fixed:not(.row-fixed) {
+                background-color: rgb(173, 202, 226) !important;
+            }
+        }
+
+        th {
+            .col-fixed {    
+                background-color: rgb(51, 122, 183);
+            }   
+        }
+        
+        th.col-fixed {
+            z-index: 999;
+        }
+        td.col-fixed {
+            z-index: 99;
+        }
+        
+        .col-fixed {
+            position: -webkit-sticky;
+            position: sticky;
+            left: 0;
+            margin-bottom: -2px;
+            box-shadow: 1px 0 0 0 rgb(204, 204, 204);
+        }
+
+        .row-fixed {
+            position: -webkit-sticky;
+            position: sticky;
+            box-shadow: 1px 0 0 0 rgb(204, 204, 204);
+            font-weight: bold;
+        }
+
+
+        $row_fixed_base_height : 31px;
+
+        
+        &.tr-fixed-1 {
+            &:nth-child(even) {
+
+                .row-fixed-1 {
+                    background: rgb(255, 247, 218);/*#76ca41;/*rgb(200, 207, 224);*/
+                    
+                    &.col-fixed {
+                        background: rgb(255, 247, 218) !important;/*rgb(200, 207, 224);*/
+                    }
+                }         
+            }          
+
+            &:nth-child(odd) {
+                .row-fixed-1 {
+                    background: rgb(249, 239, 202);/*rgb(200, 207, 224);*/
+                    
+                    &.col-fixed {
+                        background: rgb(249, 239, 202) !important;/*rgb(200, 207, 224);*/
+                    }
+                }   
+            }
+        }
+        
+        .row-fixed-1 {
+            top: #{$row_fixed_base_height};
+            /*background: #76ca41;rgb(200, 207, 224);*/
+
+            &.col-fixed {
+                z-index: 999;
+                /*background: #76ca41 !important;rgb(200, 207, 224);*/
+            }
+        }
+
+        .row-fixed-2 {
+            top: calc(#{$row_fixed_base_height} + #{$height_tbody_tr});
+            background: rgb(200, 224, 222);
+
+            &.col-fixed {
+                z-index: 999;
+                background: rgb(200, 224, 222) !important;
+            }
+        }
+    }
+}
+
+
+#form-filtro {
+    background: rgba(221, 221, 221, 0.33);
+    padding: 2px 10px 7px 10px;
+    border-radius: 5px;
+
+    .consulta-container {
+         margin-right: initial; 
+         margin-bottom: initial; 
+    }    
+
+    input {
+        width: calc(100% - 27px) !important;
+    }
+
+    input[type="checkbox"] {
+        top: 10px;
+        position: relative;
+        width: 20px !important;
+        height: 20px;
+        vertical-align: baseline;
+        box-shadow: none;
+    }
+    
+    .label-checkbox {
+        top: 9px;
+    }
+    
+    [type="submit"] {
+        margin-top: 16px;
+    }
+}
+
+#modal-cota, #modal-cota-incluir {
+    margin: -10px;
+    padding-left: 0 !important;
+
+    .modal-dialog {
+        height: calc(100% - 73px);
+
+        form {
+            /*height: 100%;*/
+        }
+        .modal-content {
+            border-radius: 0px;
+            height: 100%;
+            margin-top: -1px;  
+            width: 100vw;
+
+            .modal-body {
+                height: calc(100% - 46px);
+                max-height: initial;
+            }
+        }
+
+    }
+
+    .modal .modal-dialog.modal-big {
+        width: 100%;
+        margin: 0;            
+    }    
+    
+}
+
+
+#dre-modal {
+    
+    .modal-body {
+        min-height: calc(100vh - 120px);
+    }
+    
+    .pesquisa-obj-container {
+        top: -10px;
+        right: 0px;
+    }
+    
+    tr {
+        td {
+            a {
+                &.totaliza {
+                    color: rgb(0, 41, 255);
+                    font-weight: bold;
+                }
+
+                &.totaliza {
+                    color: rgb(0, 41, 255);
+                    font-weight: bold;
+                }                
+            }
+
+            .media-red {
+                    color: rgb(255, 0, 0);
+                    font-weight: bold;
+            }
+        }
+
+        &.ccusto {
+            td {
+                font-weight: bold;
+                background-color: rgb(230, 240, 250) !important;
+            }
+        }
+
+        &.total,&.faturamento {
+            td {
+                font-weight: bold;
+                color: rgb(40, 96, 144);
+                background-color: rgba(178, 216, 226, 0.28) !important;
+            }
+        }    
+    }
+}
+
+
+ 
+    /**
+     * Controle padrão de linhas para a coluna fixada no table-ec
+     */
+    tr {
+        $height_tbody_tr : 28px;
+        $row_fixed_base_height : 22px;
+
+        &:nth-child(even) {
+
+            td.col-fixed:not(.row-fixed) {
+                background: rgb(255, 255, 255);
+            }            
+        }          
+
+        &:nth-child(odd) {
+            td.col-fixed:not(.row-fixed) {
+                background: rgb(249, 249, 249);
+            }    
+        }
+
+        &:hover {
+            td.col-fixed:not(.row-fixed) {
+                background-color: rgb(245, 245, 245) !important;
+            }
+        }
+
+        &.selected {
+            -webkit-user-select: none; /* Chrome/Safari */        
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+ */
+
+            /* Rules below not implemented in browsers yet */
+            -o-user-select: none;
+            user-select: none;   
+
+            td.col-fixed:not(.row-fixed) {
+                background-color: rgb(173, 202, 226) !important;
+            }
+        }
+
+        th {
+            .col-fixed {    
+                background-color: rgb(51, 122, 183);
+            }   
+        }
+
+        th.col-fixed {
+            z-index: 999;
+        }
+        td.col-fixed {
+            z-index: 99;
+        }
+
+        .col-fixed {
+            position: -webkit-sticky;
+            position: sticky;
+            left: 0;
+            margin-bottom: -2px;
+            box-shadow: 1px 0 0 0 rgb(204, 204, 204);
+        }
+
+        .row-fixed {
+            position: -webkit-sticky;
+            position: sticky;
+            box-shadow: 1px 0 0 0 rgb(204, 204, 204);
+            font-weight: bold;
+        }
+
+
+
+        &.tr-fixed-1 {
+            &:nth-child(even) {
+
+                .row-fixed-1 {
+                    background: rgb(255, 247, 218);/*#76ca41;/*rgb(200, 207, 224);*/
+
+                    &.col-fixed {
+                        background: rgb(255, 247, 218) !important;/*rgb(200, 207, 224);*/
+                    }
+                }         
+            }          
+
+            &:nth-child(odd) {
+                .row-fixed-1 {
+                    background: rgb(249, 239, 202);/*rgb(200, 207, 224);*/
+
+                    &.col-fixed {
+                        background: rgb(249, 239, 202) !important;/*rgb(200, 207, 224);*/
+                    }
+                }   
+            }
+        }
+
+        .row-fixed-1 {
+            top: #{$row_fixed_base_height};
+            /*background: #76ca41;rgb(200, 207, 224);*/
+
+            &.col-fixed {
+                z-index: 999;
+                /*background: #76ca41 !important;rgb(200, 207, 224);*/
+            }
+        }
+
+        .row-fixed-2 {
+            top: calc(#{$row_fixed_base_height} + #{$height_tbody_tr});
+            background: rgb(200, 224, 222);
+
+            &.col-fixed {
+                z-index: 999;
+                background: rgb(200, 224, 222) !important;
+            }
+        }
+    }    

@@ -1,0 +1,147 @@
+/**
+ * _23038 - Registro de indicadores por centro de custo
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+table tbody {
+  text-transform: none;
+}
+
+.table-indicador-por-ccusto table thead th.id,
+.table-indicador-por-ccusto table thead td.id,
+.table-indicador-por-ccusto table tbody th.id,
+.table-indicador-por-ccusto table tbody td.id {
+  width: 60px;
+}
+
+.table-indicador-por-ccusto table thead th.ccusto,
+.table-indicador-por-ccusto table thead td.ccusto,
+.table-indicador-por-ccusto table tbody th.ccusto,
+.table-indicador-por-ccusto table tbody td.ccusto {
+  width: 300px;
+}
+
+.table-indicador-por-ccusto table thead th.data,
+.table-indicador-por-ccusto table thead td.data,
+.table-indicador-por-ccusto table tbody th.data,
+.table-indicador-por-ccusto table tbody td.data {
+  width: 200px;
+}
+
+.table-indicador-por-ccusto table thead th.percentual,
+.table-indicador-por-ccusto table thead td.percentual,
+.table-indicador-por-ccusto table tbody th.percentual,
+.table-indicador-por-ccusto table tbody td.percentual {
+  width: 100px;
+}
+
+.table-pesq-ccusto {
+  height: 65vh;
+}
+
+.table-pesq-ccusto table thead th.mask,
+.table-pesq-ccusto table thead td.mask,
+.table-pesq-ccusto table tbody th.mask,
+.table-pesq-ccusto table tbody td.mask {
+  width: 100px;
+}
+
+.table-pesq-ccusto table thead th.descricao,
+.table-pesq-ccusto table thead td.descricao,
+.table-pesq-ccusto table tbody th.descricao,
+.table-pesq-ccusto table tbody td.descricao {
+  width: 420px;
+}
+
+.table-pesq-indicador {
+  height: 65vh;
+}
+
+.table-pesq-indicador table thead th.id,
+.table-pesq-indicador table thead td.id,
+.table-pesq-indicador table tbody th.id,
+.table-pesq-indicador table tbody td.id {
+  width: 60px;
+}
+
+.table-pesq-indicador table thead th.titulo,
+.table-pesq-indicador table thead td.titulo,
+.table-pesq-indicador table tbody th.titulo,
+.table-pesq-indicador table tbody td.titulo {
+  width: 460px;
+}
+
+form fieldset {
+  margin-bottom: 0;
+}
+
+input.alterando {
+  background-color: white !important;
+}

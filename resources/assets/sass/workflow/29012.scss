@@ -1,0 +1,213 @@
+/**
+ * _29012 - Workflow
+ */
+@import "29011.scss";
+
+#modal-create-arquivo-todos {
+
+	.arquivo-container {
+		margin-top: 0px;
+
+		.scroll {
+			height: auto;
+			max-height: none;
+		}
+	}
+}
+
+#tarefa {
+
+	ul.nav-pills {
+		max-width: 100%;
+		
+		> li {
+			> a {
+				span {
+					&.fa {
+						position: absolute;
+						bottom: 2px;
+						right: 4px;
+						font-size: 11px;
+
+						&.icon-reprovacao {
+							right: 20px;
+							bottom: 4px;
+							font-size: 9px;
+							@include transform(rotate(45deg));
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.table-container {
+
+		&.table-container-destinatario, &.table-container-notificado {
+			background: none;
+
+			table {
+
+				&.table-header ~ .scroll-table {
+					height: 232px;
+				}
+			}
+		}
+
+		&.table-container-movimentacao {
+	
+			table {
+				thead, tbody {
+					tr {
+						th, td {
+							&.id {
+								max-width: 50px;
+								width: 50px;
+							}
+
+							&.usuario {
+								max-width: 200px;
+								width: 200px;
+							}
+
+							&.status-conclusao {
+								max-width: 100px;
+								width: 100px;
+							}
+
+							&.data {
+								max-width: 140px;
+								width: 140px;
+							}
+						}
+					}
+				}
+
+				&.table-header ~ .scroll-table {
+					height: 232px;
+				}
+			}
+		}
+	}
+
+	.destinatario-container, .notificado-container, .movimentacao-container {
+		float: left;
+		position: relative;
+	    margin-top: 20px;
+	    margin-right: 15px;
+	    padding: 0;
+	    border: 0;
+	    @include border-radius(0);
+
+	    > label {
+	    	position: relative;
+	    	top: 0;
+	    	margin-bottom: 0;
+	    }
+	}
+
+	.arquivo-container, .comentario-container {
+
+		> .scroll {
+			height: 200px;
+			max-height: 200px;
+		}
+	}
+
+	.arquivo-container {
+		min-width: 450px;
+		min-height: 270px;
+
+		> button.btn-success {
+			float: right;
+			clear: none;
+		}
+	}
+
+	.campo-container, .comentario-container {
+		min-height: 270px;
+	}
+
+	.comentario-container {
+
+		> .scroll {
+
+			> .form-group {
+				margin-right: 0;
+				margin-bottom: 20px;
+
+				.textarea-grupo {
+					float: left;
+
+					> span {
+						bottom: -15px;
+						font-size: 11px;
+
+						&.comentario-usuario {
+							left: 0;
+							max-width: 200px;
+						    overflow: hidden;
+						    text-overflow: ellipsis;
+						    white-space: nowrap;
+						}
+					}
+				}
+
+				> button {
+					float: right;
+					margin-left: 5px;
+				}
+			}
+		}
+
+		.form-group, > button {
+			float: left;
+			clear: left;
+		}
+
+		> button {
+			margin-top: 10px;
+
+			&.btn-success {
+				float: right;
+				clear: none;
+			}
+		}
+	}
+
+	.movimentacao-container {
+
+		.tempo-realizado {
+			float: right;
+		}
+	}
+
+	.campo-container {
+		min-width: 250px;
+
+		.scroll {
+			overflow: visible;
+			
+			> div {
+    			float: left;
+    		}
+    	}
+
+		label.label-radio {
+			display: inline-block;
+		    margin-right: 10px;
+		    font-weight: normal;
+
+		    input[type="radio"] {
+		    	top: 0;
+			    margin: 0;
+			    vertical-align: middle;
+		    }
+		}
+
+		> button.btn-success {
+			float: right;
+			clear: none;
+		}
+	}
+}

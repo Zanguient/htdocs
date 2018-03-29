@@ -1,0 +1,74 @@
+.panel-primary {
+  width: 420px;
+}
+
+.panel-primary .observacao {
+  width: 100%;
+  margin-bottom: -5px;
+  resize: none;
+}
+
+@media (max-width: 420px) {
+  .panel-primary {
+    width: 100%;
+  }
+
+  .panel-primary .observacao {
+    width: 100%;
+    margin-bottom: -5px;
+    resize: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .add-item-dinamico {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 2000px) {
+  .add-item-dinamico {
+    margin-top: 5px;
+  }
+}
+
+.item {
+  margin: 3px;
+  width: calc(100% - 6px);
+  background-color: #777777;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.item .valor {
+  width: 70px;
+  text-align: center;
+  margin-top: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.item .modelo {
+  width: calc(100% - 85px);
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.item button {
+  display: block;
+  height: 30px;
+  width: 39px;
+  margin: 2px;
+}
+
+.email {
+  margin-left: 10px;
+}

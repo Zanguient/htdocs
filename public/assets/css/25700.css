@@ -1,0 +1,29 @@
+.planoacao .titulo {
+  text-align: center;
+}
+
+table .col-ccusto {
+  width: 7%;
+}
+
+table .col-oque {
+  width: 30%;
+}
+
+table .col-Quem {
+  width: 13%;
+}
+
+table .col-como {
+  width: 30%;
+}
+
+table .col-quando {
+  width: 20%;
+}
+
+fieldset legend {
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-align: center;
+}

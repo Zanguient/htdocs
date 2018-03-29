@@ -1,0 +1,2373 @@
+@charset "UTF-8";
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Estilo para Google Charts.
+ */
+
+.google-visualization-controls-categoryfilter {
+  margin-bottom: 15px;
+  padding: 7px 5px;
+  font-size: 12px;
+  background-color: whitesmoke;
+  box-shadow: 0px 1px 5px #a0a0a0;
+  border-radius: 3px;
+}
+
+.google-visualization-controls-categoryfilter .goog-menu-button {
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+.google-visualization-controls-categoryfilter .goog-menu-button.goog-menu-button-hover .goog-menu-button-outer-box,
+.google-visualization-controls-categoryfilter .goog-menu-button.goog-menu-button-hover .goog-menu-button-inner-box {
+  border-color: #a0a0a0 !important;
+}
+
+.google-visualization-controls-categoryfilter .goog-menu-button .goog-menu-button-outer-box,
+.google-visualization-controls-categoryfilter .goog-menu-button .goog-menu-button-inner-box {
+  /* estilo .form-control */
+  color: #555555;
+  background-color: white;
+  border-color: #a0a0a0;
+  border-radius: 2px;
+}
+
+.google-visualization-controls-categoryfilter .goog-menu-button .goog-menu-button-inner-box {
+  /* estilo .form-control */
+  padding: 2px 7px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.google-visualization-controls-categoryfilter ul {
+  width: calc(100% - 95px);
+}
+
+.google-visualization-controls-categoryfilter ul li {
+  padding-left: 12px;
+  padding-right: 5px;
+  font-size: 11px;
+  color: white;
+  background-color: #337ab7;
+  border: 0;
+  transition: 0.2s;
+}
+
+.google-visualization-controls-categoryfilter ul li:hover {
+  background-color: #286090;
+  border: 0;
+}
+
+.google-visualization-controls-categoryfilter ul li .goog-link-button {
+  position: absolute;
+  z-index: 1;
+  left: 2px;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+
+.google-visualization-controls-categoryfilter ul li .goog-link-button:hover {
+  color: #eeeeee;
+}
+
+.goog-menu.goog-menu-vertical .goog-menuitem {
+  font-size: 12px;
+}
+
+/**
+ * Estilo para impressão.
+ */
+
+@page {
+  size: A4 portrait;
+  margin: 30pt 25pt 30pt 25pt;
+}
+
+page[size="A4"] {
+  display: block;
+  /*
+	background: white;
+	height: 21cm;
+	width: 29.7cm;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	*/
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+.pdf-ver {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pdf-ver .pdf-acoes {
+  position: fixed;
+  z-index: 99999;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.pdf-ver .pdf-acoes button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.pdf-ver object {
+  position: fixed;
+  z-index: 99999;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.tab-pane.fade.active.in {
+  display: block;
+}
+
+.tab-pane.fade {
+  display: none;
+}
+
+.table-container .col_linha_2 {
+  width: 200px;
+}
+
+.table-container .col_linha_3 {
+  width: 200px;
+}
+
+.linha-total {
+  background: black !important;
+  font-size: 13px;
+  color: white;
+}
+
+.coluna-quantidade {
+  text-align: right;
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
+
+.coluna-quantidade-LINHA,
+.coluna-quantidade-GP,
+.coluna-quantidade-COR,
+.coluna-quantidade-DENSIDADE,
+.coluna-quantidade-MODELO,
+.coluna-quantidade-PERFIL {
+  text-align: right;
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
+
+.coluna-quantidade-DEFEITO {
+  text-align: right;
+  min-width: 202px;
+  max-width: 202px;
+  width: 202px;
+}
+
+.coluna-descricao {
+  text-align: left;
+  min-width: 250px;
+  max-width: 250px;
+  width: 250px;
+}
+
+.modal-historico .modal-content {
+  height: 90vh;
+}
+
+.modal-historico .modal-content .modal-body .tab-content {
+  height: calc(100vh - 257px);
+}
+
+.modal-historico .modal-content .modal-body .tab-content .tab-pane {
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal-historico .modal-content .modal-body .tab-content .tab-pane .scroll-table {
+  height: 66vh;
+}
+
+.modal-historico .modal-content .modal-body .tab-content .tab-pane .dataTables_scroll {
+  height: calc(100vh - 316px) !important;
+}
+
+.div-chec-tipo {
+  display: block !important;
+}
+
+.filtro-tipo {
+  height: 51px !important;
+}
+
+.filtro-tipo .div-chec-tipo {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -6px;
+}
+
+.filtro-tipo .div-chec-tipo input[type="checkbox"] {
+  position: relative;
+  top: 6px !important;
+  width: 29px !important;
+  height: 20px !important;
+}
+
+#totalizador-grafico-div .area-filtro-grafico,
+#totalizador-diario-grafico-dashboard .area-filtro-grafico {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #f5f5f5;
+  box-shadow: 0px 1px 5px #a0a0a0;
+  margin-bottom: 4px;
+  border-radius: 3px;
+}
+
+#totalizador-grafico-div .area-filtro-grafico select,
+#totalizador-diario-grafico-dashboard .area-filtro-grafico select {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#totalizador-grafico-div ul,
+#totalizador-diario-grafico-dashboard ul {
+  margin-top: 4px;
+  margin-right: 4px;
+  padding: 2px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 1px 5px #a0a0a0;
+  margin-bottom: 4px;
+  border-radius: 3px;
+}
+
+#totalizador-grafico-div ul li,
+#totalizador-diario-grafico-dashboard ul li {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0 5px;
+  border-bottom: 5px solid;
+}
+
+#totalizador-grafico-div ul li label,
+#totalizador-diario-grafico-dashboard ul li label {
+  top: 1px;
+  font-size: 12px;
+  line-height: 1.2em;
+  margin-left: 4px;
+}
+
+#totalizador-grafico-div ul li input[type="checkbox"],
+#totalizador-diario-grafico-dashboard ul li input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+.contador-Atualizar {
+  font-size: 9px;
+}
+
+.info-Atualizar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.79);
+  z-index: 99999;
+}
+
+.info-Atualizar .info-Atualizar-fraze {
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #ffed15;
+  font-size: 20px;
+  text-align: center;
+}
+
+/**
+ * Fix para modal do bootstrap.
+ * Está incrementando padding ao body quando o modal é chamado via js.
+ */
+
+body {
+  padding-right: 0 !important;
+}
+
+.dataTables_scrollBody:-webkit-full-screen {
+  height: 100vh !important;
+}
+
+.dataTables_scrollBody:-moz-full-screen {
+  height: 100vh !important;
+}
+
+.dataTables_scrollBody:-ms-fullscreen {
+  height: 100vh !important;
+}
+
+.dataTables_scrollBody:fullscreen {
+  height: 100vh !important;
+}
+
+#info-destaque {
+  position: fixed;
+  z-index: 99;
+  top: 55px;
+  right: 15px;
+}
+
+#info-destaque::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: 100%;
+  background-color: white;
+  box-shadow: -3px 8px 8px white;
+}
+
+#info-destaque .label {
+  display: inline-table;
+  margin-left: -4px;
+  height: 52px;
+  padding: 10px 15px 7px 15px;
+  font-size: 40px;
+  border-radius: 0;
+}
+
+#info-destaque .label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+#info-destaque .label:first-of-type.label-default-light {
+  float: left;
+  margin-right: 3px;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid lightgray;
+}
+
+#info-destaque .label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+#info-destaque .label#operador span.valor {
+  max-width: 180px;
+}
+
+#info-destaque .label#up-destaque span.valor {
+  max-width: 150px;
+}
+
+#info-destaque .label#estacao-destaque span.valor {
+  max-width: 100px;
+}
+
+#info-destaque .label > span {
+  display: block;
+  width: 100%;
+}
+
+#info-destaque .label > span:first-of-type {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#info-destaque .label > span.valor {
+  margin-top: 2px;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#status-producao {
+  padding: 1px 8px 0px 8px;
+  line-height: 1.2em;
+  font-size: 40px;
+  border: 0;
+  background: none !important;
+}
+
+#status-producao.status-0 {
+  color: #d9534f;
+}
+
+#status-producao.status-1 {
+  color: #f0ad4e;
+}
+
+#status-producao.status-2 {
+  color: #337ab7;
+}
+
+#status-producao.status-3 {
+  color: #449d44;
+}
+
+#status-producao.status-6 {
+  color: #a0a0a0;
+}
+
+#resumo-producao {
+  position: fixed;
+  z-index: 9999;
+  top: 140px;
+  right: 15px;
+  width: calc(100% - 30px);
+  height: 80vh;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
+}
+
+#resumo-producao label.abrir-auto {
+  position: absolute;
+  top: 15px;
+  right: 185px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#resumo-producao .bootstrap-switch {
+  position: absolute;
+  top: 10px;
+  right: 85px;
+}
+
+#resumo-producao #fechar-resumo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#resumo-producao > div:not(.bootstrap-switch) {
+  float: left;
+  margin: 5px;
+  padding: 10px;
+}
+
+#resumo-producao > div:not(.status-container-resumo) {
+  width: calc(100% / 2 - 10px);
+  background-color: rgba(50, 50, 50, 0.5);
+  border-radius: 3px;
+}
+
+#resumo-producao > div:not(.status-container-resumo) > span {
+  width: 100%;
+}
+
+#resumo-producao > div:not(.status-container-resumo) > span:nth-child(1) {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#resumo-producao > div > span {
+  float: left;
+  font-size: 42px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#resumo-producao > div.status-container-resumo {
+  display: table;
+  padding: 0;
+  font-size: 30px;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo {
+  padding-left: 0;
+  font-size: 80px;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo.status-00 {
+  color: white;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo.status-0 {
+  color: #d9534f;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo.status-1 {
+  color: #f0ad4e;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo.status-2 {
+  color: #337ab7;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo.status-3 {
+  color: #449d44;
+}
+
+#resumo-producao > div.status-container-resumo #status-icone-resumo.status-6 {
+  color: #a0a0a0;
+}
+
+#resumo-producao > div.status-container-resumo #status-resumo {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+#resumo-producao > div.tempo-realizado-container-resumo {
+  clear: left;
+}
+
+#resumo-producao > div.modelo-container-resumo,
+#resumo-producao > div.detalhe-container-resumo {
+  width: calc(100% - 10px);
+}
+
+#resumo-producao > div.detalhe-container-resumo {
+  border-color: #828282 !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo * {
+  border-color: #828282 !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo #detalhe-label-resumo {
+  margin-bottom: 5px;
+}
+
+#resumo-producao > div.detalhe-container-resumo #detalhe-resumo > span {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#resumo-producao > div.detalhe-container-resumo .dataTables_scrollHead {
+  background-color: rgba(85, 85, 85, 0.5);
+  border: 1px solid #828282 !important;
+  border-bottom: 0 !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo .dataTables_scrollHead .dataTables_scrollHeadInner {
+  width: auto !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo .ui-resizable-handle {
+  display: none;
+}
+
+#resumo-producao > div.detalhe-container-resumo table {
+  border-color: #828282;
+}
+
+#resumo-producao > div.detalhe-container-resumo table * {
+  border-color: #828282;
+}
+
+#resumo-producao > div.detalhe-container-resumo table tr {
+  color: white;
+  background: none;
+}
+
+#resumo-producao > div.detalhe-container-resumo table th,
+#resumo-producao > div.detalhe-container-resumo table td {
+  padding: 3px 5px;
+  font-size: 20px;
+  background: none;
+}
+
+#resumo-producao > div.detalhe-container-resumo table th:not(.cor):not(.qtd-projetada):not(.qtd-projetada-alternativa),
+#resumo-producao > div.detalhe-container-resumo table td:not(.cor):not(.qtd-projetada):not(.qtd-projetada-alternativa) {
+  display: none;
+}
+
+#resumo-producao > div.detalhe-container-resumo table th.cor,
+#resumo-producao > div.detalhe-container-resumo table td.cor {
+  width: 300px !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo table th.qtd-projetada,
+#resumo-producao > div.detalhe-container-resumo table td.qtd-projetada {
+  width: 100px !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo table th.qtd-projetada-alternativa,
+#resumo-producao > div.detalhe-container-resumo table td.qtd-projetada-alternativa {
+  width: 100px !important;
+}
+
+#resumo-producao > div.detalhe-container-resumo table th {
+  font-weight: bold;
+}
+
+#filtrar-toggle {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div#relatorio-filtro {
+  position: relative;
+}
+
+div#relatorio-filtro.desabilitado::before {
+  content: ' ';
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+div#relatorio-filtro > .form-group.filtro-remessa {
+  display: none;
+}
+
+div#relatorio-filtro.table-filter .consulta-container {
+  margin-right: 0;
+}
+
+div#relatorio-filtro.table-filter .form-group {
+  margin-right: 8px;
+}
+
+div#relatorio-filtro.table-filter div.filtro-periodo {
+  padding: 3px 5px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+div#relatorio-filtro.table-filter div.filtro-periodo #periodo-todos {
+  top: -2px;
+  margin-left: 7px;
+}
+
+div#relatorio-filtro.table-filter div.filtro-periodo #periodo-todos + label {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: -1px;
+}
+
+#btn-table-filter {
+  margin-top: 16px;
+}
+
+#detalhe-container,
+#materia-prima,
+#historico,
+#defeito {
+  float: left;
+}
+
+#detalhe-container,
+#materia-prima {
+  width: 100%;
+}
+
+#detalhe-container,
+#historico {
+  margin-right: 20px;
+}
+
+#historico,
+#defeito {
+  margin-top: 10px;
+  width: calc(50% - 10px);
+}
+
+#historico {
+  clear: left;
+}
+
+#historico .botao-container {
+  top: 4px;
+  padding: 1px 5px;
+  background-color: #e7e7e7;
+  border-radius: 2px;
+}
+
+#historico .botao-container span:first-child {
+  font-size: 12px;
+}
+
+#historico .botao-container span#tempo-realizado {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.botao-container {
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+
+.legenda-container {
+  float: left;
+  margin-right: 15px;
+}
+
+.legenda-container .legenda-label {
+  float: left;
+  margin-bottom: 0;
+  font-size: 11px;
+}
+
+ul.legenda {
+  clear: left;
+  margin-top: 0;
+}
+
+ul.legenda.talao li:nth-child(1) div.cor-legenda,
+ul.legenda.status-componente li:nth-child(1) div.cor-legenda {
+  background-color: #d9534f;
+}
+
+ul.legenda.talao li:nth-child(2) div.cor-legenda,
+ul.legenda.status-componente li:nth-child(2) div.cor-legenda {
+  background-color: #f0ad4e;
+}
+
+ul.legenda.talao li:nth-child(3) div.cor-legenda,
+ul.legenda.status-componente li:nth-child(3) div.cor-legenda {
+  background-color: #337ab7;
+}
+
+ul.legenda.talao li:nth-child(4) div.cor-legenda,
+ul.legenda.status-componente li:nth-child(4) div.cor-legenda {
+  background-color: #449d44;
+}
+
+ul.legenda.talao li:nth-child(5) div.cor-legenda,
+ul.legenda.status-componente li:nth-child(5) div.cor-legenda {
+  background-color: #828282;
+}
+
+ul.legenda.talao-status-componentes li:nth-child(1) div.cor-legenda {
+  background-color: #d9534f;
+}
+
+ul.legenda.talao-status-componentes li:nth-child(2) div.cor-legenda {
+  background-color: #f0ad4e;
+}
+
+ul.legenda.talao-status-componentes li:nth-child(3) div.cor-legenda {
+  background-color: #449d44;
+}
+
+ul.legenda.talao-status-componentes li:nth-child(4) div.cor-legenda {
+  background-color: #828282;
+}
+
+ul.legenda.status-componente,
+ul.legenda.status-materia-prima {
+  margin-top: 10px;
+}
+
+ul.legenda.status-materia-prima li:nth-child(1) div.cor-legenda,
+ul.legenda.status-materias-primas li:nth-child(1) div.cor-legenda {
+  background-color: #d9534f;
+}
+
+ul.legenda.status-materia-prima li:nth-child(2) div.cor-legenda,
+ul.legenda.status-materias-primas li:nth-child(2) div.cor-legenda {
+  background-color: #449d44;
+}
+
+ul.legenda.talao-detalhe li:nth-child(1) div.cor-legenda {
+  background-color: #f0ad4e;
+}
+
+ul.legenda.talao-detalhe li:nth-child(2) div.cor-legenda {
+  background-color: #337ab7;
+}
+
+ul.legenda.talao-detalhe li:nth-child(3) div.cor-legenda {
+  background-color: #449d44;
+}
+
+ul.legenda.talao-detalhe li:nth-child(4) div.cor-legenda {
+  background-color: #828282;
+}
+
+table.table-talao-produzir tr.em-producao,
+table.table-talao-produzido tr.em-producao {
+  font-weight: bold;
+}
+
+table.table-talao-produzir tr.tipo-2 td span.tipo,
+table.table-talao-produzido tr.tipo-2 td span.tipo {
+  background-color: #323232;
+  color: gold;
+}
+
+table.table-talao-produzir tr.tipo-3 td span.tipo,
+table.table-talao-produzido tr.tipo-3 td span.tipo {
+  background-color: #337ab7;
+  color: white;
+}
+
+table.table-talao-produzir tr td.t-status.status0:before,
+table.table-talao-produzido tr td.t-status.status0:before {
+  background-color: #d9534f;
+}
+
+table.table-talao-produzir tr td.t-status.status1:before,
+table.table-talao-produzido tr td.t-status.status1:before {
+  background-color: #f0ad4e;
+}
+
+table.table-talao-produzir tr td.t-status.status2:before,
+table.table-talao-produzido tr td.t-status.status2:before {
+  background-color: #337ab7;
+}
+
+table.table-talao-produzir tr td.t-status.status3:before,
+table.table-talao-produzido tr td.t-status.status3:before {
+  background-color: #449d44;
+}
+
+table.table-talao-produzir tr td.t-status.status6:before,
+table.table-talao-produzido tr td.t-status.status6:before {
+  background-color: #828282;
+}
+
+table.table-talao-produzir tr td.t-status.status-materias-primas-1 div.cor-legenda,
+table.table-talao-produzido tr td.t-status.status-materias-primas-1 div.cor-legenda {
+  background-color: #d9534f;
+}
+
+table.table-talao-produzir tr td.t-status.status-materias-primas-2 div.cor-legenda,
+table.table-talao-produzido tr td.t-status.status-materias-primas-2 div.cor-legenda {
+  background-color: #449d44;
+}
+
+table.table-talao-produzir tr td span.tipo,
+table.table-talao-produzido tr td span.tipo {
+  float: right;
+  padding: 1px 5px;
+  width: 32px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+}
+
+table.table-totalizador-diario thead th,
+table.table-totalizador-diario thead td,
+table.table-totalizador-diario tbody th,
+table.table-totalizador-diario tbody td {
+  white-space: nowrap;
+}
+
+table.table-totalizador-diario thead th.data,
+table.table-totalizador-diario thead td.data,
+table.table-totalizador-diario tbody th.data,
+table.table-totalizador-diario tbody td.data {
+  min-width: 50px;
+}
+
+table.table-totalizador-diario thead th.up,
+table.table-totalizador-diario thead td.up,
+table.table-totalizador-diario tbody th.up,
+table.table-totalizador-diario tbody td.up {
+  min-width: 180px;
+}
+
+table.table-totalizador-diario thead th.capac-disp,
+table.table-totalizador-diario thead td.capac-disp,
+table.table-totalizador-diario tbody th.capac-disp,
+table.table-totalizador-diario tbody td.capac-disp {
+  min-width: 70px;
+}
+
+table.table-totalizador-diario thead th.carga-prog,
+table.table-totalizador-diario thead td.carga-prog,
+table.table-totalizador-diario tbody th.carga-prog,
+table.table-totalizador-diario tbody td.carga-prog {
+  min-width: 290px;
+}
+
+table.table-totalizador-diario thead th.carga-util,
+table.table-totalizador-diario thead td.carga-util,
+table.table-totalizador-diario tbody th.carga-util,
+table.table-totalizador-diario tbody td.carga-util {
+  min-width: 220px;
+}
+
+table.table-totalizador-diario thead th.eficiencia,
+table.table-totalizador-diario thead td.eficiencia,
+table.table-totalizador-diario tbody th.eficiencia,
+table.table-totalizador-diario tbody td.eficiencia {
+  min-width: 60px;
+}
+
+table.table-totalizador-diario thead th.perc-aprov,
+table.table-totalizador-diario thead td.perc-aprov,
+table.table-totalizador-diario tbody th.perc-aprov,
+table.table-totalizador-diario tbody td.perc-aprov {
+  min-width: 60px;
+}
+
+table.table-totalizador-diario tbody tr td:not(.dataTables_empty):not(.up) {
+  text-transform: lowercase;
+}
+
+table.table-talao-produzido tbody tr td div.label,
+table.table-totalizador-diario tbody tr td div.label,
+table.table-total-totalizador tbody tr td div.label {
+  display: inline-block;
+  min-width: 45px;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: right;
+}
+
+table.table-talao-produzido tbody tr td div.label:not(.percentual),
+table.table-totalizador-diario tbody tr td div.label:not(.percentual),
+table.table-total-totalizador tbody tr td div.label:not(.percentual) {
+  color: #323232;
+  border-radius: 0;
+}
+
+table.table-talao-produzido tbody tr td div.label:not(.percentual):not(:first-of-type),
+table.table-totalizador-diario tbody tr td div.label:not(.percentual):not(:first-of-type),
+table.table-total-totalizador tbody tr td div.label:not(.percentual):not(:first-of-type) {
+  border-left: 2px solid #cccccc;
+}
+
+table.table-talao-produzido tbody tr td div.label.qtd-carga,
+table.table-totalizador-diario tbody tr td div.label.qtd-carga,
+table.table-total-totalizador tbody tr td div.label.qtd-carga {
+  min-width: 80px;
+}
+
+table.table-talao-produzido tbody tr td div.label.qtd-pares,
+table.table-totalizador-diario tbody tr td div.label.qtd-pares,
+table.table-total-totalizador tbody tr td div.label.qtd-pares {
+  min-width: 70px;
+}
+
+table.table-talao-produzido tbody tr td div.label.percentual,
+table.table-totalizador-diario tbody tr td div.label.percentual,
+table.table-total-totalizador tbody tr td div.label.percentual {
+  min-width: 60px;
+  text-align: center;
+}
+
+table.table-talao-produzido tbody tr td div.label.soma-min,
+table.table-totalizador-diario tbody tr td div.label.soma-min,
+table.table-total-totalizador tbody tr td div.label.soma-min {
+  min-width: 70px;
+}
+
+table.table-talao-produzido tbody tr td div.label.soma-qtd,
+table.table-totalizador-diario tbody tr td div.label.soma-qtd,
+table.table-total-totalizador tbody tr td div.label.soma-qtd {
+  min-width: 80px;
+}
+
+table.table-talao-produzido tbody tr td div.label.soma-pares,
+table.table-totalizador-diario tbody tr td div.label.soma-pares,
+table.table-total-totalizador tbody tr td div.label.soma-pares {
+  min-width: 70px;
+}
+
+table.table-talao-produzido tbody tr td div.label.soma-talao,
+table.table-totalizador-diario tbody tr td div.label.soma-talao,
+table.table-total-totalizador tbody tr td div.label.soma-talao {
+  min-width: 60px;
+}
+
+table.table-total-totalizador tbody tr td {
+  white-space: nowrap;
+}
+
+table.table-total-totalizador tbody tr td:not(.dataTables_empty) {
+  text-transform: lowercase;
+}
+
+table.table-detalhe td.cor.cor-amostra {
+  position: relative;
+}
+
+table.table-detalhe td.cor.cor-amostra > span:first-child {
+  position: relative;
+  display: inline-block;
+  top: 1px;
+  width: 25px;
+  height: calc(100% - 2px);
+  max-height: 18px;
+  box-shadow: 0px 1px 2px #646464;
+  border-radius: 3px;
+}
+
+table.table-detalhe td.cor.cor-amostra > span:first-child.disabled {
+  box-shadow: none;
+}
+
+table.table-detalhe td.cor.cor-amostra > span.descricao {
+  position: relative;
+  top: -2px;
+}
+
+table.table-detalhe td.t-status.status1:before {
+  background-color: #f0ad4e;
+}
+
+table.table-detalhe td.t-status.status2:before {
+  background-color: #337ab7;
+}
+
+table.table-detalhe td.t-status.status3:before {
+  background-color: #449d44;
+}
+
+table.table-detalhe td.t-status.status6:before {
+  background-color: #828282;
+}
+
+table thead tr th {
+  font-size: 12px;
+}
+
+fieldset {
+  margin-bottom: 10px !important;
+}
+
+fieldset.programacao.iniciada #talao-produzir .dataTables_scroll {
+  height: 84px !important;
+}
+
+fieldset.programacao.iniciada #talao-produzir .dataTables_scroll > .ui-resizable-handle {
+  display: none;
+}
+
+fieldset.programacao.iniciada #talao-produzir .dataTables_scrollBody {
+  height: 51px !important;
+  overflow-x: scroll !important;
+}
+
+fieldset.programacao.iniciada #talao-produzir .dataTables_scrollBody tr:not(.selected) {
+  display: none;
+}
+
+fieldset.programacao.totalizador-diario-ativo ~ div {
+  display: none;
+}
+
+fieldset.programacao .tab-container .nav-tabs > li.active a span.btn {
+  color: #555555;
+  border-color: #555555;
+}
+
+fieldset.programacao .tab-container .nav-tabs > li > a {
+  font-weight: bold;
+}
+
+fieldset.programacao .tab-container .nav-tabs > li > a span.btn {
+  margin-left: 10px;
+  margin-top: -4px;
+  color: #337ab7;
+  border-color: #337ab7;
+}
+
+fieldset.programacao .tab-container .tab-content {
+  float: left;
+  width: 100%;
+}
+
+fieldset.programacao .tab-container .tab-content .legenda-container {
+  margin-top: 5px;
+}
+
+fieldset.programacao .tab-container .tab-content .legenda-container ul.legenda {
+  margin-bottom: 0;
+}
+
+fieldset.programacao .detalhe {
+  margin-top: 10px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzir thead td:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzir tbody th:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzir tbody td:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzido thead th:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzido thead td:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzido tbody th:first-child:not(.dataTables_empty),
+fieldset.programacao table.table-talao-produzido tbody td:first-child:not(.dataTables_empty) {
+  display: none;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status,
+fieldset.programacao table.table-talao-produzir thead td.t-status,
+fieldset.programacao table.table-talao-produzir tbody th.t-status,
+fieldset.programacao table.table-talao-produzir tbody td.t-status,
+fieldset.programacao table.table-talao-produzido thead th.t-status,
+fieldset.programacao table.table-talao-produzido thead td.t-status,
+fieldset.programacao table.table-talao-produzido tbody th.t-status,
+fieldset.programacao table.table-talao-produzido tbody td.t-status {
+  min-width: 9px;
+  width: 10px !important;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzir thead td.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzir tbody th.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzir tbody td.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzido thead th.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzido thead td.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzido tbody th.t-status.status-componentes-0:before,
+fieldset.programacao table.table-talao-produzido tbody td.t-status.status-componentes-0:before {
+  background-color: #d9534f;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzir thead td.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzir tbody th.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzir tbody td.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzido thead th.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzido thead td.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzido tbody th.t-status.status-componentes-1:before,
+fieldset.programacao table.table-talao-produzido tbody td.t-status.status-componentes-1:before {
+  background-color: #f0ad4e;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzir thead td.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzir tbody th.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzir tbody td.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzido thead th.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzido thead td.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzido tbody th.t-status.status-componentes-2:before,
+fieldset.programacao table.table-talao-produzido tbody td.t-status.status-componentes-2:before {
+  background-color: #449d44;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzir thead td.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzir tbody th.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzir tbody td.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzido thead th.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzido thead td.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzido tbody th.t-status.status-componentes-6:before,
+fieldset.programacao table.table-talao-produzido tbody td.t-status.status-componentes-6:before {
+  background-color: #828282;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzir thead td.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzir tbody th.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzir tbody td.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzido thead th.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzido thead td.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzido tbody th.t-status.status-materias-primas-0:before,
+fieldset.programacao table.table-talao-produzido tbody td.t-status.status-materias-primas-0:before {
+  background-color: #d9534f;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzir thead td.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzir tbody th.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzir tbody td.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzido thead th.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzido thead td.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzido tbody th.t-status.status-materias-primas-1:before,
+fieldset.programacao table.table-talao-produzido tbody td.t-status.status-materias-primas-1:before {
+  background-color: #449d44;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.up,
+fieldset.programacao table.table-talao-produzir thead td.up,
+fieldset.programacao table.table-talao-produzir tbody th.up,
+fieldset.programacao table.table-talao-produzir tbody td.up,
+fieldset.programacao table.table-talao-produzido thead th.up,
+fieldset.programacao table.table-talao-produzido thead td.up,
+fieldset.programacao table.table-talao-produzido tbody th.up,
+fieldset.programacao table.table-talao-produzido tbody td.up {
+  min-width: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.estacao,
+fieldset.programacao table.table-talao-produzir thead td.estacao,
+fieldset.programacao table.table-talao-produzir tbody th.estacao,
+fieldset.programacao table.table-talao-produzir tbody td.estacao,
+fieldset.programacao table.table-talao-produzido thead th.estacao,
+fieldset.programacao table.table-talao-produzido thead td.estacao,
+fieldset.programacao table.table-talao-produzido tbody th.estacao,
+fieldset.programacao table.table-talao-produzido tbody td.estacao {
+  min-width: 90px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.data-remessa,
+fieldset.programacao table.table-talao-produzir thead td.data-remessa,
+fieldset.programacao table.table-talao-produzir tbody th.data-remessa,
+fieldset.programacao table.table-talao-produzir tbody td.data-remessa,
+fieldset.programacao table.table-talao-produzido thead th.data-remessa,
+fieldset.programacao table.table-talao-produzido thead td.data-remessa,
+fieldset.programacao table.table-talao-produzido tbody th.data-remessa,
+fieldset.programacao table.table-talao-produzido tbody td.data-remessa {
+  min-width: 50px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.remessa,
+fieldset.programacao table.table-talao-produzir thead td.remessa,
+fieldset.programacao table.table-talao-produzir tbody th.remessa,
+fieldset.programacao table.table-talao-produzir tbody td.remessa,
+fieldset.programacao table.table-talao-produzido thead th.remessa,
+fieldset.programacao table.table-talao-produzido thead td.remessa,
+fieldset.programacao table.table-talao-produzido tbody th.remessa,
+fieldset.programacao table.table-talao-produzido tbody td.remessa {
+  min-width: 80px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.talao,
+fieldset.programacao table.table-talao-produzir thead td.talao,
+fieldset.programacao table.table-talao-produzir tbody th.talao,
+fieldset.programacao table.table-talao-produzir tbody td.talao,
+fieldset.programacao table.table-talao-produzido thead th.talao,
+fieldset.programacao table.table-talao-produzido thead td.talao,
+fieldset.programacao table.table-talao-produzido tbody th.talao,
+fieldset.programacao table.table-talao-produzido tbody td.talao {
+  min-width: 35px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.talao-origem,
+fieldset.programacao table.table-talao-produzir thead td.talao-origem,
+fieldset.programacao table.table-talao-produzir tbody th.talao-origem,
+fieldset.programacao table.table-talao-produzir tbody td.talao-origem,
+fieldset.programacao table.table-talao-produzido thead th.talao-origem,
+fieldset.programacao table.table-talao-produzido thead td.talao-origem,
+fieldset.programacao table.table-talao-produzido tbody th.talao-origem,
+fieldset.programacao table.table-talao-produzido tbody td.talao-origem {
+  max-width: 105px;
+  min-width: 105px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.talao-origem span,
+fieldset.programacao table.table-talao-produzir thead td.talao-origem span,
+fieldset.programacao table.table-talao-produzir tbody th.talao-origem span,
+fieldset.programacao table.table-talao-produzir tbody td.talao-origem span,
+fieldset.programacao table.table-talao-produzido thead th.talao-origem span,
+fieldset.programacao table.table-talao-produzido thead td.talao-origem span,
+fieldset.programacao table.table-talao-produzido tbody th.talao-origem span,
+fieldset.programacao table.table-talao-produzido tbody td.talao-origem span {
+  float: right;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzir thead td.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzir tbody th.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzir tbody td.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzido thead th.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzido thead td.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzido tbody th.talao-origem span:nth-child(2),
+fieldset.programacao table.table-talao-produzido tbody td.talao-origem span:nth-child(2) {
+  margin-right: 3px;
+  max-width: 85px;
+  min-width: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.up-origem,
+fieldset.programacao table.table-talao-produzir thead td.up-origem,
+fieldset.programacao table.table-talao-produzir tbody th.up-origem,
+fieldset.programacao table.table-talao-produzir tbody td.up-origem,
+fieldset.programacao table.table-talao-produzido thead th.up-origem,
+fieldset.programacao table.table-talao-produzido thead td.up-origem,
+fieldset.programacao table.table-talao-produzido tbody th.up-origem,
+fieldset.programacao table.table-talao-produzido tbody td.up-origem {
+  min-width: 120px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.modelo,
+fieldset.programacao table.table-talao-produzir thead td.modelo,
+fieldset.programacao table.table-talao-produzir tbody th.modelo,
+fieldset.programacao table.table-talao-produzir tbody td.modelo,
+fieldset.programacao table.table-talao-produzido thead th.modelo,
+fieldset.programacao table.table-talao-produzido thead td.modelo,
+fieldset.programacao table.table-talao-produzido tbody th.modelo,
+fieldset.programacao table.table-talao-produzido tbody td.modelo {
+  min-width: 200px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.densidade,
+fieldset.programacao table.table-talao-produzir thead td.densidade,
+fieldset.programacao table.table-talao-produzir tbody th.densidade,
+fieldset.programacao table.table-talao-produzir tbody td.densidade,
+fieldset.programacao table.table-talao-produzido thead th.densidade,
+fieldset.programacao table.table-talao-produzido thead td.densidade,
+fieldset.programacao table.table-talao-produzido tbody th.densidade,
+fieldset.programacao table.table-talao-produzido tbody td.densidade {
+  min-width: 40px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.espessura,
+fieldset.programacao table.table-talao-produzir thead td.espessura,
+fieldset.programacao table.table-talao-produzir tbody th.espessura,
+fieldset.programacao table.table-talao-produzir tbody td.espessura,
+fieldset.programacao table.table-talao-produzido thead th.espessura,
+fieldset.programacao table.table-talao-produzido thead td.espessura,
+fieldset.programacao table.table-talao-produzido tbody th.espessura,
+fieldset.programacao table.table-talao-produzido tbody td.espessura {
+  min-width: 40px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.qtd,
+fieldset.programacao table.table-talao-produzir thead td.qtd,
+fieldset.programacao table.table-talao-produzir tbody th.qtd,
+fieldset.programacao table.table-talao-produzir tbody td.qtd,
+fieldset.programacao table.table-talao-produzido thead th.qtd,
+fieldset.programacao table.table-talao-produzido thead td.qtd,
+fieldset.programacao table.table-talao-produzido tbody th.qtd,
+fieldset.programacao table.table-talao-produzido tbody td.qtd {
+  min-width: 75px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.qtd-alternativa,
+fieldset.programacao table.table-talao-produzir thead td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzir tbody th.qtd-alternativa,
+fieldset.programacao table.table-talao-produzir tbody td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzido thead th.qtd-alternativa,
+fieldset.programacao table.table-talao-produzido thead td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzido tbody th.qtd-alternativa,
+fieldset.programacao table.table-talao-produzido tbody td.qtd-alternativa {
+  min-width: 75px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.qtd-produzida,
+fieldset.programacao table.table-talao-produzir thead td.qtd-produzida,
+fieldset.programacao table.table-talao-produzir tbody th.qtd-produzida,
+fieldset.programacao table.table-talao-produzir tbody td.qtd-produzida,
+fieldset.programacao table.table-talao-produzido thead th.qtd-produzida,
+fieldset.programacao table.table-talao-produzido thead td.qtd-produzida,
+fieldset.programacao table.table-talao-produzido tbody th.qtd-produzida,
+fieldset.programacao table.table-talao-produzido tbody td.qtd-produzida {
+  min-width: 75px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.tempo-prev,
+fieldset.programacao table.table-talao-produzir thead td.tempo-prev,
+fieldset.programacao table.table-talao-produzir tbody th.tempo-prev,
+fieldset.programacao table.table-talao-produzir tbody td.tempo-prev,
+fieldset.programacao table.table-talao-produzido thead th.tempo-prev,
+fieldset.programacao table.table-talao-produzido thead td.tempo-prev,
+fieldset.programacao table.table-talao-produzido tbody th.tempo-prev,
+fieldset.programacao table.table-talao-produzido tbody td.tempo-prev {
+  min-width: 70px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.data-ini-prev,
+fieldset.programacao table.table-talao-produzir thead td.data-ini-prev,
+fieldset.programacao table.table-talao-produzir tbody th.data-ini-prev,
+fieldset.programacao table.table-talao-produzir tbody td.data-ini-prev,
+fieldset.programacao table.table-talao-produzido thead th.data-ini-prev,
+fieldset.programacao table.table-talao-produzido thead td.data-ini-prev,
+fieldset.programacao table.table-talao-produzido tbody th.data-ini-prev,
+fieldset.programacao table.table-talao-produzido tbody td.data-ini-prev {
+  min-width: 70px;
+}
+
+fieldset.programacao table.table-talao-produzir thead th.eficiencia,
+fieldset.programacao table.table-talao-produzir thead td.eficiencia,
+fieldset.programacao table.table-talao-produzir tbody th.eficiencia,
+fieldset.programacao table.table-talao-produzir tbody td.eficiencia,
+fieldset.programacao table.table-talao-produzido thead th.eficiencia,
+fieldset.programacao table.table-talao-produzido thead td.eficiencia,
+fieldset.programacao table.table-talao-produzido tbody th.eficiencia,
+fieldset.programacao table.table-talao-produzido tbody td.eficiencia {
+  min-width: 60px;
+}
+
+fieldset.programacao table.table-talao-produzir thead td.qtd,
+fieldset.programacao table.table-talao-produzir thead td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzir thead td.qtd-produzida,
+fieldset.programacao table.table-talao-produzir thead td.tempo-prev,
+fieldset.programacao table.table-talao-produzir thead td.tempo-realiz,
+fieldset.programacao table.table-talao-produzir tbody td.qtd,
+fieldset.programacao table.table-talao-produzir tbody td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzir tbody td.qtd-produzida,
+fieldset.programacao table.table-talao-produzir tbody td.tempo-prev,
+fieldset.programacao table.table-talao-produzir tbody td.tempo-realiz,
+fieldset.programacao table.table-talao-produzido thead td.qtd,
+fieldset.programacao table.table-talao-produzido thead td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzido thead td.qtd-produzida,
+fieldset.programacao table.table-talao-produzido thead td.tempo-prev,
+fieldset.programacao table.table-talao-produzido thead td.tempo-realiz,
+fieldset.programacao table.table-talao-produzido tbody td.qtd,
+fieldset.programacao table.table-talao-produzido tbody td.qtd-alternativa,
+fieldset.programacao table.table-talao-produzido tbody td.qtd-produzida,
+fieldset.programacao table.table-talao-produzido tbody td.tempo-prev,
+fieldset.programacao table.table-talao-produzido tbody td.tempo-realiz {
+  text-transform: lowercase;
+}
+
+fieldset.programacao table.table-talao-produzido thead th:nth-child(14),
+fieldset.programacao table.table-talao-produzido thead td:nth-child(14),
+fieldset.programacao table.table-talao-produzido tbody th:nth-child(14),
+fieldset.programacao table.table-talao-produzido tbody td:nth-child(14) {
+  min-width: 70px;
+}
+
+fieldset.programacao table.table-talao-produzido thead th:nth-child(15),
+fieldset.programacao table.table-talao-produzido thead td:nth-child(15),
+fieldset.programacao table.table-talao-produzido tbody th:nth-child(15),
+fieldset.programacao table.table-talao-produzido tbody td:nth-child(15) {
+  min-width: 70px;
+}
+
+fieldset.programacao table.table-talao-produzido thead td:nth-child(13),
+fieldset.programacao table.table-talao-produzido thead td:nth-child(14),
+fieldset.programacao table.table-talao-produzido tbody td:nth-child(13),
+fieldset.programacao table.table-talao-produzido tbody td:nth-child(14) {
+  text-transform: lowercase;
+}
+
+fieldset.programacao .totalizador-produzir,
+fieldset.programacao .totalizador-produzido {
+  float: right;
+  margin-top: 5px;
+}
+
+fieldset.programacao .totalizador-produzir label,
+fieldset.programacao .totalizador-produzido label {
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: right;
+}
+
+fieldset.programacao .totalizador-produzir label:not(:last-of-type),
+fieldset.programacao .totalizador-produzido label:not(:last-of-type) {
+  border-right: 1px solid lightgray;
+}
+
+fieldset.programacao .totalizador-produzir .panel,
+fieldset.programacao .totalizador-produzido .panel {
+  border-color: #f0ad4e;
+}
+
+fieldset.programacao .totalizador-produzir .panel .panel-heading label,
+fieldset.programacao .totalizador-produzir .panel .panel-body label,
+fieldset.programacao .totalizador-produzido .panel .panel-heading label,
+fieldset.programacao .totalizador-produzido .panel .panel-body label {
+  display: table-cell;
+  padding: 0 5px;
+  width: 80px;
+}
+
+fieldset.programacao .totalizador-produzir .panel .panel-heading,
+fieldset.programacao .totalizador-produzido .panel .panel-heading {
+  padding: 0 2px;
+  background-color: #f0ad4e;
+}
+
+fieldset.programacao .totalizador-produzir .panel .panel-heading label,
+fieldset.programacao .totalizador-produzido .panel .panel-heading label {
+  font-size: 11px;
+  color: white;
+}
+
+fieldset.programacao .totalizador-produzir .panel .panel-body,
+fieldset.programacao .totalizador-produzido .panel .panel-body {
+  padding: 0 2px;
+  line-height: 1.5em;
+}
+
+fieldset.programacao .totalizador-produzir .panel .panel-body label,
+fieldset.programacao .totalizador-produzido .panel .panel-body label {
+  font-size: 12px;
+}
+
+fieldset.programacao #totalizador-diario .dataTables_wrapper {
+  margin-top: 10px;
+}
+
+fieldset.programacao #totalizador-diario .dataTables_wrapper:nth-child(2) .dataTables_scroll .dataTables_scrollHead {
+  background-color: #f0ad4e;
+}
+
+fieldset.programacao #totalizador-diario .dataTables_wrapper:nth-child(2) .dataTables_scroll .dataTables_scrollHead table thead tr th {
+  background-color: #f0ad4e;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+fieldset.programacao #totalizador-diario .dataTables_wrapper:nth-child(2) .dataTables_scroll .dataTables_scrollBody {
+  height: auto !important;
+}
+
+fieldset.programacao #totalizador-diario .dataTables_wrapper:nth-child(2) .dataTables_scroll > .ui-resizable-handle {
+  display: none !important;
+}
+
+fieldset.programacao #totalizador-diario .grafico {
+  margin: 30px 0 !important;
+}
+
+fieldset.programacao #totalizador-diario .grafico #totalizador-diario-grafico {
+  width: 100%;
+  height: 500px;
+}
+
+fieldset.detalhe table tbody td input.qtd-alocada,
+fieldset.detalhe table tbody td input.qtd-alternativa-aloc,
+fieldset.detalhe table tbody td input.qtd,
+fieldset.detalhe table tbody td input.qtd-alternativa,
+fieldset.materia-prima table tbody td input.qtd-alocada,
+fieldset.materia-prima table tbody td input.qtd-alternativa-aloc,
+fieldset.materia-prima table tbody td input.qtd,
+fieldset.materia-prima table tbody td input.qtd-alternativa {
+  display: none;
+  width: 80px;
+  height: 24px;
+  padding: 4px;
+}
+
+fieldset.detalhe table tbody td button,
+fieldset.materia-prima table tbody td button {
+  padding: 0 4px;
+  margin-top: -3px;
+  margin-bottom: -2px;
+}
+
+fieldset.detalhe table tbody td button.qtd-gravar,
+fieldset.detalhe table tbody td button.qtd-cancelar,
+fieldset.materia-prima table tbody td button.qtd-gravar,
+fieldset.materia-prima table tbody td button.qtd-cancelar {
+  display: none;
+}
+
+fieldset.detalhe table thead th:first-child:not(.dataTables_empty),
+fieldset.detalhe table thead td:first-child:not(.dataTables_empty),
+fieldset.detalhe table tbody th:first-child:not(.dataTables_empty),
+fieldset.detalhe table tbody td:first-child:not(.dataTables_empty) {
+  display: none;
+}
+
+fieldset.detalhe table thead th:nth-child(2),
+fieldset.detalhe table thead td:nth-child(2),
+fieldset.detalhe table tbody th:nth-child(2),
+fieldset.detalhe table tbody td:nth-child(2) {
+  min-width: 15px;
+}
+
+fieldset.detalhe table thead th:nth-child(3),
+fieldset.detalhe table thead td:nth-child(3),
+fieldset.detalhe table tbody th:nth-child(3),
+fieldset.detalhe table tbody td:nth-child(3) {
+  min-width: 30px;
+}
+
+fieldset.detalhe table thead th:nth-child(4),
+fieldset.detalhe table thead td:nth-child(4),
+fieldset.detalhe table tbody th:nth-child(4),
+fieldset.detalhe table tbody td:nth-child(4) {
+  min-width: 50px;
+}
+
+fieldset.detalhe table thead th:nth-child(5),
+fieldset.detalhe table thead td:nth-child(5),
+fieldset.detalhe table tbody th:nth-child(5),
+fieldset.detalhe table tbody td:nth-child(5) {
+  min-width: 170px;
+  max-width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+fieldset.detalhe table thead th:nth-child(6),
+fieldset.detalhe table thead td:nth-child(6),
+fieldset.detalhe table tbody th:nth-child(6),
+fieldset.detalhe table tbody td:nth-child(6) {
+  min-width: 60px;
+}
+
+fieldset.detalhe table thead th:nth-child(7),
+fieldset.detalhe table thead td:nth-child(7),
+fieldset.detalhe table tbody th:nth-child(7),
+fieldset.detalhe table tbody td:nth-child(7) {
+  min-width: 70px;
+}
+
+fieldset.detalhe table thead th:nth-child(11),
+fieldset.detalhe table thead td:nth-child(11),
+fieldset.detalhe table tbody th:nth-child(11),
+fieldset.detalhe table tbody td:nth-child(11) {
+  min-width: 60px;
+}
+
+fieldset.detalhe table thead th:nth-child(12),
+fieldset.detalhe table thead td:nth-child(12),
+fieldset.detalhe table tbody th:nth-child(12),
+fieldset.detalhe table tbody td:nth-child(12) {
+  min-width: 70px;
+}
+
+fieldset.detalhe table thead th.qtd,
+fieldset.detalhe table thead th.qtd-alternativa,
+fieldset.detalhe table thead td.qtd,
+fieldset.detalhe table thead td.qtd-alternativa,
+fieldset.detalhe table tbody th.qtd,
+fieldset.detalhe table tbody th.qtd-alternativa,
+fieldset.detalhe table tbody td.qtd,
+fieldset.detalhe table tbody td.qtd-alternativa {
+  min-width: 100px;
+}
+
+fieldset.detalhe table thead th.editando,
+fieldset.detalhe table thead td.editando,
+fieldset.detalhe table tbody th.editando,
+fieldset.detalhe table tbody td.editando {
+  min-width: 150px;
+}
+
+fieldset.detalhe table thead th.sobra-tipo,
+fieldset.detalhe table thead td.sobra-tipo,
+fieldset.detalhe table tbody th.sobra-tipo,
+fieldset.detalhe table tbody td.sobra-tipo {
+  min-width: 60px;
+}
+
+fieldset.detalhe table thead td:not(.dataTables_empty):not(:nth-child(5)):not(.sobra-tipo),
+fieldset.detalhe table tbody td:not(.dataTables_empty):not(:nth-child(5)):not(.sobra-tipo) {
+  text-transform: lowercase;
+}
+
+fieldset.detalhe table thead td.sobra-tipo.sobra-tipo-M > span,
+fieldset.detalhe table tbody td.sobra-tipo.sobra-tipo-M > span {
+  background-color: #d9534f;
+}
+
+fieldset.detalhe table thead td.sobra-tipo.sobra-tipo-P > span,
+fieldset.detalhe table tbody td.sobra-tipo.sobra-tipo-P > span {
+  background-color: #449d44;
+}
+
+fieldset.detalhe table thead td.sobra-tipo > span,
+fieldset.detalhe table tbody td.sobra-tipo > span {
+  padding: 3px 8px;
+  color: white;
+  border-radius: 2px;
+}
+
+fieldset.materia-prima table thead th:first-child:not(.dataTables_empty),
+fieldset.materia-prima table thead td:first-child:not(.dataTables_empty),
+fieldset.materia-prima table tbody th:first-child:not(.dataTables_empty),
+fieldset.materia-prima table tbody td:first-child:not(.dataTables_empty) {
+  display: none;
+}
+
+fieldset.materia-prima table thead th.t-status.status-componente-0:before,
+fieldset.materia-prima table thead td.t-status.status-componente-0:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-0:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-0:before {
+  background-color: #d9534f;
+}
+
+fieldset.materia-prima table thead th.t-status.status-componente-1:before,
+fieldset.materia-prima table thead td.t-status.status-componente-1:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-1:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-1:before {
+  background-color: #f0ad4e;
+}
+
+fieldset.materia-prima table thead th.t-status.status-componente-2:before,
+fieldset.materia-prima table thead td.t-status.status-componente-2:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-2:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-2:before {
+  background-color: #337ab7;
+}
+
+fieldset.materia-prima table thead th.t-status.status-componente-3:before,
+fieldset.materia-prima table thead td.t-status.status-componente-3:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-3:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-3:before {
+  background-color: #449d44;
+}
+
+fieldset.materia-prima table thead th.t-status.status-componente-6:before,
+fieldset.materia-prima table thead td.t-status.status-componente-6:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-6:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-6:before {
+  background-color: #828282;
+}
+
+fieldset.materia-prima table thead th.t-status.status-materia-prima-0:before,
+fieldset.materia-prima table thead th.t-status.status-componente-reduzido-0:before,
+fieldset.materia-prima table thead td.t-status.status-materia-prima-0:before,
+fieldset.materia-prima table thead td.t-status.status-componente-reduzido-0:before,
+fieldset.materia-prima table tbody th.t-status.status-materia-prima-0:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-reduzido-0:before,
+fieldset.materia-prima table tbody td.t-status.status-materia-prima-0:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-reduzido-0:before {
+  background-color: #d9534f;
+}
+
+fieldset.materia-prima table thead th.t-status.status-materia-prima-1:before,
+fieldset.materia-prima table thead th.t-status.status-componente-reduzido-1:before,
+fieldset.materia-prima table thead td.t-status.status-materia-prima-1:before,
+fieldset.materia-prima table thead td.t-status.status-componente-reduzido-1:before,
+fieldset.materia-prima table tbody th.t-status.status-materia-prima-1:before,
+fieldset.materia-prima table tbody th.t-status.status-componente-reduzido-1:before,
+fieldset.materia-prima table tbody td.t-status.status-materia-prima-1:before,
+fieldset.materia-prima table tbody td.t-status.status-componente-reduzido-1:before {
+  background-color: #449d44;
+}
+
+fieldset.materia-prima table thead th:nth-child(3),
+fieldset.materia-prima table thead td:nth-child(3),
+fieldset.materia-prima table tbody th:nth-child(3),
+fieldset.materia-prima table tbody td:nth-child(3) {
+  min-width: 35px;
+}
+
+fieldset.materia-prima table thead th:nth-child(4),
+fieldset.materia-prima table thead td:nth-child(4),
+fieldset.materia-prima table tbody th:nth-child(4),
+fieldset.materia-prima table tbody td:nth-child(4) {
+  min-width: 215px;
+}
+
+fieldset.materia-prima table thead th:nth-child(4) span.glyphicon,
+fieldset.materia-prima table thead td:nth-child(4) span.glyphicon,
+fieldset.materia-prima table tbody th:nth-child(4) span.glyphicon,
+fieldset.materia-prima table tbody td:nth-child(4) span.glyphicon {
+  float: right;
+}
+
+fieldset.materia-prima table thead th:nth-child(5),
+fieldset.materia-prima table thead td:nth-child(5),
+fieldset.materia-prima table tbody th:nth-child(5),
+fieldset.materia-prima table tbody td:nth-child(5) {
+  min-width: 40px;
+}
+
+fieldset.materia-prima table thead th:nth-child(6),
+fieldset.materia-prima table thead td:nth-child(6),
+fieldset.materia-prima table tbody th:nth-child(6),
+fieldset.materia-prima table tbody td:nth-child(6) {
+  min-width: 80px;
+}
+
+fieldset.materia-prima table thead th:nth-child(7),
+fieldset.materia-prima table thead td:nth-child(7),
+fieldset.materia-prima table tbody th:nth-child(7),
+fieldset.materia-prima table tbody td:nth-child(7) {
+  min-width: 80px;
+}
+
+fieldset.materia-prima table thead th:nth-child(10),
+fieldset.materia-prima table thead td:nth-child(10),
+fieldset.materia-prima table tbody th:nth-child(10),
+fieldset.materia-prima table tbody td:nth-child(10) {
+  min-width: 55px;
+}
+
+fieldset.materia-prima table thead th.qtd-alocada,
+fieldset.materia-prima table thead th.qtd-alternativa-aloc,
+fieldset.materia-prima table thead td.qtd-alocada,
+fieldset.materia-prima table thead td.qtd-alternativa-aloc,
+fieldset.materia-prima table tbody th.qtd-alocada,
+fieldset.materia-prima table tbody th.qtd-alternativa-aloc,
+fieldset.materia-prima table tbody td.qtd-alocada,
+fieldset.materia-prima table tbody td.qtd-alternativa-aloc {
+  min-width: 100px;
+}
+
+fieldset.materia-prima table thead th.editando,
+fieldset.materia-prima table thead td.editando,
+fieldset.materia-prima table tbody th.editando,
+fieldset.materia-prima table tbody td.editando {
+  min-width: 150px;
+}
+
+fieldset.materia-prima table thead th.qtd-total span.pecas-disponiveis,
+fieldset.materia-prima table thead td.qtd-total span.pecas-disponiveis,
+fieldset.materia-prima table tbody th.qtd-total span.pecas-disponiveis,
+fieldset.materia-prima table tbody td.qtd-total span.pecas-disponiveis {
+  margin-right: 5px;
+}
+
+fieldset.materia-prima table thead td:nth-child(5),
+fieldset.materia-prima table thead td:nth-child(6),
+fieldset.materia-prima table thead td:nth-child(7),
+fieldset.materia-prima table thead td.qtd-alocada,
+fieldset.materia-prima table thead td.qtd-alternativa-aloc,
+fieldset.materia-prima table tbody td:nth-child(5),
+fieldset.materia-prima table tbody td:nth-child(6),
+fieldset.materia-prima table tbody td:nth-child(7),
+fieldset.materia-prima table tbody td.qtd-alocada,
+fieldset.materia-prima table tbody td.qtd-alternativa-aloc {
+  text-transform: lowercase;
+}
+
+fieldset.defeito {
+  margin-right: 0;
+}
+
+fieldset.totalizador > div {
+  margin-bottom: 10px;
+}
+
+fieldset.totalizador > div label {
+  margin-right: 5px;
+  width: 130px;
+  font-size: 18px;
+  text-align: right;
+}
+
+fieldset.totalizador > div input {
+  width: calc(100% - 140px);
+  height: 40px;
+  font-size: 25px;
+}
+
+/**
+ * Modal da balança
+ */
+
+#modal-balanca.show-conjunto-2 .modal-dialog .row .peso-baixar {
+  width: calc(50% - 17px) !important;
+}
+
+#modal-balanca.show-conjunto-2 .modal-dialog .row:nth-child(4) .form-group,
+#modal-balanca.show-conjunto-2 .modal-dialog .row:nth-child(5) .form-group {
+  width: calc(25% - 17px);
+}
+
+#modal-balanca.show-conjunto-2 .modal-dialog .row .conjunto-2 {
+  display: inline-block;
+}
+
+#modal-balanca.show-conjunto-2 .modal-dialog .row label span {
+  display: inline-block !important;
+}
+
+#modal-balanca .modal-dialog {
+  width: 1000px;
+}
+
+#modal-balanca .modal-dialog .row {
+  /*			&:last-child {
+				.form-group {
+					width: calc(25% - 18px);
+				}
+			}*/
+}
+
+#modal-balanca .modal-dialog .row:first-child .form-group {
+  width: calc(100% - 15px);
+}
+
+#modal-balanca .modal-dialog .row:nth-child(4) .form-group,
+#modal-balanca .modal-dialog .row:nth-child(5) .form-group {
+  width: calc(50% - 17px);
+}
+
+#modal-balanca .modal-dialog .row:nth-child(4) .form-group.form-group-conjunto,
+#modal-balanca .modal-dialog .row:nth-child(5) .form-group.form-group-conjunto {
+  width: calc(25% - 17px);
+}
+
+#modal-balanca .modal-dialog .row .conjunto-2 {
+  display: none;
+}
+
+#modal-balanca .modal-dialog .row .form-group {
+  width: calc(33.3% - 17px);
+}
+
+#modal-balanca .modal-dialog .row .form-group:last-of-type {
+  margin-right: 0px;
+}
+
+#modal-balanca .modal-dialog .row .form-group label span {
+  display: none;
+}
+
+#modal-balanca .modal-dialog .row .form-group .input-group {
+  width: 100%;
+}
+
+#modal-balanca .modal-dialog .row .form-group .input-group .input-group-addon {
+  width: 45px;
+  font-size: 18px;
+  text-transform: lowercase;
+  background-color: #e7e7e7;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+#modal-balanca .modal-dialog .row .form-group input.form-control {
+  height: 50px;
+  width: 100% !important;
+  font-size: 30px;
+  text-align: right;
+}
+
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-produto,
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-peso-baixar,
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-metragem-baixar,
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-metragem-baixar-2 {
+  font-weight: bold;
+}
+
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-peso-baixar,
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-metragem-baixar,
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-metragem-baixar-2 {
+  font-size: 35px;
+}
+
+#modal-balanca .modal-dialog .row .form-group input.form-control#balanca-produto {
+  text-align: left;
+}
+
+/**
+ * Balão em Matéria-prima
+ */
+
+.popover .popover-content {
+  float: left;
+  width: 100%;
+}
+
+.popover .popover-content .alocado-content .alocado-row {
+  float: left;
+  clear: left;
+  padding: 5px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+.popover .popover-content .alocado-content .alocado-row:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+.popover .popover-content .alocado-content .alocado-row:hover {
+  background-color: #eeeeee;
+}
+
+.popover .popover-content .alocado-content .alocado-row > span {
+  display: inline-block;
+  line-height: 2.2em;
+}
+
+.popover .popover-content .alocado-content .alocado-row button.alocado-excluir,
+.popover .popover-content .alocado-content .alocado-row button.aproveitado-excluir {
+  float: right;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.popover .popover-content .alocado-content .alocado-row button.alocado-excluir .glyphicon,
+.popover .popover-content .alocado-content .alocado-row button.aproveitado-excluir .glyphicon {
+  top: 0px;
+  left: -1px;
+}
+
+.popover .popover-content .pecas-disponiveis-container table {
+  width: 100%;
+}
+
+.popover .popover-content .pecas-disponiveis-container table tbody tr td:not(.remessa) {
+  text-transform: lowercase;
+}
+
+.form-group {
+  display: block !important;
+  height: 100% !important;
+}
+
+.linta-total {
+  background-color: #a5afb7 !important;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.coll-numeric {
+  text-align: right;
+}
+
+.coll-string {
+  text-align: center;
+}
+
+.faturamento-familias {
+  width: 100%;
+  height: 400px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.faturamento-familias .tabela-conteiner {
+  width: 30vw;
+}
+
+.faturamento-familias .grafico-conteiner {
+  width: 68vw;
+}
+
+.grafico3-conteiner #totalizador-grafico {
+  height: 338px;
+}
+
+#totalizador-diario-grafico-dashboard {
+  margin-left: 10px;
+}
+
+#totalizador-diario-grafico {
+  height: 300px;
+}
+
+.google-visualization-controls-categoryfilter {
+  margin-bottom: 15px;
+  padding: 7px 5px;
+  font-size: 12px;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 5px #a0a0a0;
+  border-radius: 3px;
+}
+
+.btn-screem-grafico {
+  background: transparent;
+  border-color: black;
+  color: black;
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.btn-screem-grafico .glyphicon {
+  margin-left: -3px;
+  top: 2px !important;
+}
+
+@media (max-width: 500px) {
+  .modal-historico {
+    margin-top: 46px !important;
+  }
+
+  .modal-historico .modal-dialog {
+    height: 82vh !important;
+  }
+
+  .modal-historico .modal-dialog .modal-content {
+    margin-bottom: 10px !important;
+  }
+
+  .modal-historico .modal-dialog .modal-content .modal-body {
+    height: 72vh !important;
+  }
+
+  .modal-historico .modal-dialog .modal-content .modal-body .historico-corpo {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .modal-historico .modal-dialog .modal-content .modal-body .historico-corpo .dataTables_scroll ui-resizable {
+    height: 68vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .faturamento-familias {
+    display: block;
+  }
+
+  .faturamento-familias .tabela-conteiner,
+  .faturamento-familias .grafico-conteiner {
+    width: 100%;
+  }
+
+  #totalizador-diario-grafico-dashboard {
+    margin-left: 0px !important;
+    margin-top: 19px !important;
+  }
+
+  .area-filtro-grafico {
+    display: block !important;
+  }
+
+  .area-filtro-grafico select {
+    margin-bottom: 10px !important;
+    width: calc(100% - 6px) !important;
+    margin-left: 3px;
+  }
+
+  #totalizador-grafico-div ul,
+  #totalizador-diario-grafico-dashboard ul {
+    margin-left: 3px;
+  }
+}
+
+#totalizador-diario-grafico-dashboard:-webkit-full-screen,
+#totalizador-grafico-div:-webkit-full-screen {
+  margin-top: 0px !important;
+}
+
+#totalizador-diario-grafico-dashboard:-moz-full-screen,
+#totalizador-grafico-div:-moz-full-screen {
+  margin-top: 0px !important;
+}
+
+#totalizador-diario-grafico-dashboard:-ms-fullscreen,
+#totalizador-grafico-div:-ms-fullscreen {
+  margin-top: 0px !important;
+}
+
+#totalizador-diario-grafico-dashboard:fullscreen,
+#totalizador-grafico-div:fullscreen {
+  margin-top: 0px !important;
+}
+
+#totalizador-diario-grafico-dashboard:-webkit-full-screen #totalizador-grafico,
+#totalizador-diario-grafico-dashboard:-webkit-full-screen #totalizador-diario-grafico,
+#totalizador-grafico-div:-webkit-full-screen #totalizador-grafico,
+#totalizador-grafico-div:-webkit-full-screen #totalizador-diario-grafico {
+  height: calc(100% - 164px);
+}
+
+#totalizador-diario-grafico-dashboard:-moz-full-screen #totalizador-grafico,
+#totalizador-diario-grafico-dashboard:-moz-full-screen #totalizador-diario-grafico,
+#totalizador-grafico-div:-moz-full-screen #totalizador-grafico,
+#totalizador-grafico-div:-moz-full-screen #totalizador-diario-grafico {
+  height: calc(100% - 164px);
+}
+
+#totalizador-diario-grafico-dashboard:-ms-fullscreen #totalizador-grafico,
+#totalizador-diario-grafico-dashboard:-ms-fullscreen #totalizador-diario-grafico,
+#totalizador-grafico-div:-ms-fullscreen #totalizador-grafico,
+#totalizador-grafico-div:-ms-fullscreen #totalizador-diario-grafico {
+  height: calc(100% - 164px);
+}
+
+#totalizador-diario-grafico-dashboard:fullscreen #totalizador-grafico,
+#totalizador-diario-grafico-dashboard:fullscreen #totalizador-diario-grafico,
+#totalizador-grafico-div:fullscreen #totalizador-grafico,
+#totalizador-grafico-div:fullscreen #totalizador-diario-grafico {
+  height: calc(100% - 164px);
+}
+
+.container-fluid {
+  padding-top: 0px !important;
+}
+
+.conteiner-filtro {
+  width: 100%;
+  background-color: #e5e8e8;
+  border-radius: 6px;
+  padding: 3px;
+  margin-bottom: 5px;
+  border: 1px solid;
+}
+
+.conteiner-filtro .filtro-btn {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 26px;
+  padding: 3px;
+  margin: 2px;
+}
+
+.conteiner-filtro .filtro-item {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: cadetblue;
+  height: 26px;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 2px;
+}
+
+.conteiner-filtro .filtro-item .filtro-campo {
+  margin-right: 5px;
+}
+
+.conteiner-filtro .filtro-item .filtro-fechar {
+  margin-left: 5px;
+  background: white;
+  width: 20px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.conteiner-filtro .ajuda-filtro {
+  display: inline-block;
+  width: calc(100% - 64px);
+}
+
+.conteiner-filtro .ajuda-filtro div {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: red;
+}
+
+.tab-pane {
+  overflow: auto !important;
+}
+
+.tabela-relatorio-titulo {
+  width: calc(100vw - 24px);
+  height: 34px;
+  overflow: hidden;
+  margin-left: -10px;
+}
+
+.tabela-relatorio-titulo .table-ec {
+  overflow: hidden;
+}
+
+.tabela-relatorio {
+  width: calc(100vw - 5px) !important;
+  height: 84vh !important;
+  overflow: scroll !important;
+  margin-left: -10px !important;
+}
+
+.tabela-relatorio .table-ec {
+  height: unset;
+}
+
+.tabela-relatorio .relatorio-conteiner {
+  margin-right: 8px;
+  margin-top: -33px;
+}
+
+.tabela-relatorio .grafico3-conteiner {
+  margin-right: 10px;
+}
+
+@media (max-width: 510px) {
+  ul.acoes {
+    position: relative;
+    background-color: white;
+  }
+
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover {
+    color: #555555;
+    background-color: #e09696;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+    border-radius: 5px;
+  }
+}
+
+ul.acoes {
+  position: unset;
+}
+
+@media only screen and (max-width: 500px) {
+  div#totalizador-diario-grafico {
+    width: 96vw;
+  }
+}

@@ -1,0 +1,563 @@
+@import "../helper/partials/padrao.scss";
+@import "../helper/print.scss";
+
+
+.popup {
+	left: 10px;
+}
+
+.label {
+	&.label-autorizacao {
+		display: block;
+		padding: 9px 10px;
+		font-size: 14px;
+		font-weight: normal;
+		color: $black50;
+		border: 1px solid;
+		
+		&::before {
+			content: '.';
+			display: inline-block;
+			margin-right: 5px;
+			padding: 0 5px;
+			border-radius: 7px;
+			color: rgba(0, 0, 0, 0);
+		}
+		
+		&.espera {
+			border-color: $bluePrimary;
+			color: $bluePrimary;
+			
+			&::before {
+				background-color: $bluePrimary;
+			}
+		}
+		
+		&.autorizada {
+			border-color: $green;
+			color: $green;
+			
+			&::before {
+				background-color: $green;
+			}
+		}
+		
+		&.negada {
+			border-color: $red180;
+			color: $red180;
+			
+			&::before {
+				background-color: $red180;
+			}
+		}
+	}
+}
+
+span {
+
+    &.danger {
+        color: $redDanger;
+    }
+    
+    &.float-right {
+        float: right;
+    }
+}
+
+section.tabela {
+	max-height: 300px;
+	overflow: auto;
+}
+
+.popup {
+	fieldset {
+		float: left;
+    	width: 100%;
+	}
+}
+
+
+/* PDF (NÃO UTILIZADO)
+page[size="A4"] {
+	border: 2px solid rgb(0, 0, 0);
+}
+
+body {
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	font-family: Arial, Verdana;
+	font-size: 12px;
+	
+	* {
+		box-sizing: border-box;
+	}
+}
+
+label {
+	float: left;
+	clear: left;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+span {
+	float: left;
+}
+
+h4 {
+	margin: 10px 0 0 10px;
+}
+
+a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+table {
+	width: 100%;
+	font-size: 11px;
+	border-collapse: collapse;
+		
+	thead {
+		border-bottom: 1px solid rgb(0, 0, 0);
+	}
+	
+	td, th {
+		padding-right: 5px;
+		
+		&.center {
+			text-align: center;
+		}
+		
+		&.right {
+			text-align: right;
+		}
+	}
+	
+	th {
+		text-align: left;
+	}
+	
+	tfoot {
+		font-weight: bold;
+		border-top: 2px solid rgb(0, 0, 0);
+		border-bottom: 2px solid rgb(0, 0, 0);
+	}
+	
+	&.striped {
+		tbody tr:nth-child(odd) {
+			background-color: rgb(211, 211, 211);
+		}
+	}
+}
+	
+section {
+	display: inline-block;
+	width: 100%;
+	
+	&#top {
+		
+		label {
+			margin-bottom: 3px;
+		}
+		
+		> div {
+			float: left;
+			margin: 10px 5px 0px 5px;
+
+			&.left {
+				margin-left: 10px;
+				width: 160px;
+				height: 50px;
+				background: url("Assinatura/delfa.png") no-repeat center;
+				background-size: contain;
+			}
+
+			&.center, &.right {
+
+				label {
+
+					&:first-child {
+						font-size: 14px;
+					}
+
+					&:not(:first-child) {
+						font-weight: normal;
+					}
+
+				}
+			}
+
+			&.right, &.right * {
+				float: right;
+				clear: right;
+			}
+
+			&.right {
+				label {
+					&:first-child {
+						font-size: 19px;
+					}
+
+					&.pagina {
+						font-size: 9px;
+						font-weight: bold;
+					}
+
+					> span {
+						margin-left: 3px;
+					}
+				}
+			}
+		}
+	}
+	
+	.bloco-container {
+		float: left;
+		clear: left;
+		width: 100%;
+		
+		.bloco {
+			float: left;
+			margin: 10px;
+		}
+		
+		&.info-delfa {
+			
+			.bloco {
+				margin-top: 5px;
+			}
+			
+			label {
+				width: 65px;
+				text-align: right;
+			}
+		}
+		
+		&.info-fornecedor {
+			background-color: rgb(211, 211, 211);
+			
+			.bloco {
+				
+				&:first-of-type {
+					width: 50%;
+				}
+				
+				&:nth-of-type(2) label {
+					width: 61px;
+					text-align: right;
+				}
+				
+				&:nth-of-type(3) label {
+					width: 41px;
+					text-align: right;
+				}	
+				
+				:nth-of-type(3) a {
+					display: inline-block;
+					overflow-wrap: break-word;
+					width: 165px;
+				}
+				
+				label#fornecedor {
+					font-size: 14px;
+				}
+				
+				#fornecedor-endereco label {
+					font-weight: normal;
+				}
+			}
+		}
+		
+		&.info-complementar {
+			
+			.bloco {
+			
+				&:first-of-type {
+					width: 67%;
+					
+					label {
+						width: 177px;
+						text-align: right;
+					}
+				}
+				
+				&:nth-of-type(2) label {
+					width: 85px;
+					text-align: right;
+				}
+			}
+		}
+		
+		&.info-produto {
+			border-top: 2px solid rgb(0, 0, 0);
+			
+			table tbody tr td:nth-child(2) {
+				max-width: 340px;
+			}
+			
+			#alerta {
+				float: left;
+				width: 100%;
+				padding: 5px 10px;
+				background-color: rgb(255, 255, 0);
+				color: rgb(139, 0, 0);
+				font-weight: bold;
+			}
+		}
+		
+		&.obs-gerais {
+			
+			.bloco {
+				margin-top: 5px;
+				margin-left: 0;
+				
+				h4 {
+					margin-top: 0px;
+				}
+				
+				&.obs {
+					width: 75%;
+					
+					#obs {
+						margin: 0 10px;
+						min-height: 85px;
+					}
+
+					#obs-info {
+						margin-left: 10px;
+					}
+				}
+				
+				&.totais {
+					float: right;
+					padding: 5px;
+					background-color: rgb(211, 211, 211);
+					
+					h4 {
+						margin-left: 0;
+						text-align: center;
+					}
+					
+					table tfoot {
+						border-top-width: 1px;
+						border-bottom: 0;
+						
+						td {
+							padding-top: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	&#bottom {
+		margin-top: 30px;
+		
+		.bloco-container {
+			
+			&:last-child {
+				margin-top: 10px;
+				font-size: 9px;
+				background-color: rgb(211, 211, 211);
+				
+				.bloco {
+					margin: 5px;
+					
+					&:last-child {
+						float: right;
+					}
+					
+					span {
+						margin-right: 5px;
+					}
+				}
+			}
+
+			.bloco {
+
+				&.assin {
+					float: left;
+					width: 50%;
+					margin: 0;
+
+					label {
+						float: none;
+						position: relative;
+						display: block;
+						margin: 0 auto;
+						width: 80%;
+						text-align: center;
+						border-top: 1px solid rgb(0, 0, 0);
+					}
+				}
+			}
+		}
+	}
+}
+*/
+
+span.prod-info {
+	float: right;
+	font-size: 13px;
+}
+
+span.operacao-descricao {
+	float: right;
+}
+
+.table-def {
+    
+    th,td { 
+        vertical-align: middle;     
+        
+        &.t-left {
+            text-align: left;
+        }
+
+        &.t-center { 
+            text-align: center;
+        }
+
+        &.t-right {
+            text-align: right;
+        }
+        
+        &.t-btn {
+            padding: 3px 5px;
+            
+            .btn {
+                padding: 2.9px 8px;
+                font-size: 12px;
+                line-height: 1.5;
+                border-radius: 3px;
+            }
+        }    
+        
+        .t-input {
+            margin: -5px -2px;
+            padding: 0px 7px;
+            height: 26px;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+            line-height: 26px;
+        }
+
+        &.t-small-short {
+            width: 50px;
+        }
+
+        &.t-small-normal {
+            width: 70px;
+        }
+
+        &.t-small-extra {
+            width: 90px;
+        }
+
+        &.t-medium-short {
+            width: 110px;
+        }
+
+        &.t-medium-normal {
+            width: 130px;
+        }
+
+        &.t-medium-extra {
+            width: 150px;
+        }
+
+        &.t-big-short {
+            width: 170px;
+        }
+
+        &.t-big-normal {
+            width: 190px;
+        }
+
+        &.t-big-extra {
+            width: 210px;
+        }
+
+        &.t-max-small-short {
+            max-width: 50px;
+        }
+
+        &.t-max-small-normal {
+            max-width: 70px;
+        }
+
+        &.t-max-small-extra {
+            max-width: 90px;
+        }
+
+        &.t-max-medium-short {
+            max-width: 110px;
+        }
+
+        &.t-max-medium-normal {
+            max-width: 130px;
+        }
+
+        &.t-max-medium-extra {
+            max-width: 150px;
+        }
+
+        &.t-max-big-short {
+            max-width: 170px;
+        }
+
+        &.t-max-big-normal {
+            max-width: 190px;
+        }
+
+        &.t-max-big-extra {
+            max-width: 210px;
+        }
+        
+        &.t-min-small-short {
+            min-width: 50px;
+        }
+
+        &.t-min-small-normal {
+            min-width: 70px;
+        }
+
+        &.t-min-small-extra {
+            min-width: 90px;
+        }
+
+        &.t-min-medium-short {
+            min-width: 110px;
+        }
+
+        &.t-min-medium-normal {
+            min-width: 130px;
+        }
+
+        &.t-min-medium-extra {
+            min-width: 150px;
+        }
+
+        &.t-min-big-short {
+            min-width: 170px;
+        }
+
+        &.t-min-big-normal {
+            min-width: 190px;
+        }
+
+        &.t-min-big-extra {
+            min-width: 210px;
+        }
+    }
+}
+
+li {
+    &.right {
+        float: right;
+    }
+}

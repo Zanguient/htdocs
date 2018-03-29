@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+/**
+ * _20110 - Relatorio de Extrato de Caixa/Bancos
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.checkbox-group label {
+  margin-left: 5px;
+}
+
+.cell-dia-anterior {
+  color: red;
+}
+
+/**
+     * Controle padrão de linhas para a coluna fixada no table-lc
+     */
+
+tr:nth-child(even) td.col-fixed:not(.row-fixed) {
+  background: white;
+}
+
+tr:nth-child(odd) td.col-fixed:not(.row-fixed) {
+  background: #f9f9f9;
+}
+
+tr:hover td.col-fixed:not(.row-fixed) {
+  background-color: whitesmoke !important;
+}
+
+tr.selected {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+tr.selected td.col-fixed:not(.row-fixed) {
+  background-color: #adcae2 !important;
+}
+
+tr th .col-fixed {
+  background-color: #337ab7;
+}
+
+tr th.col-fixed {
+  z-index: 999;
+}
+
+tr td.col-fixed {
+  z-index: 99;
+}
+
+tr .col-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  margin-bottom: -2px;
+  box-shadow: 1px 0 0 0 #cccccc;
+}
+
+tr .row-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 1px 0 0 0 #cccccc;
+  font-weight: bold;
+}
+
+tr.tr-fixed-1:nth-child(even) .row-fixed-1 {
+  background: #fff7da;
+  /*#76ca41;/*rgb(200, 207, 224);*/
+}
+
+tr.tr-fixed-1:nth-child(even) .row-fixed-1.col-fixed {
+  background: #fff7da !important;
+  /*rgb(200, 207, 224);*/
+}
+
+tr.tr-fixed-1:nth-child(odd) .row-fixed-1 {
+  background: #f9efca;
+  /*rgb(200, 207, 224);*/
+}
+
+tr.tr-fixed-1:nth-child(odd) .row-fixed-1.col-fixed {
+  background: #f9efca !important;
+  /*rgb(200, 207, 224);*/
+}
+
+tr .row-fixed-1 {
+  top: 62px;
+  /*background: #76ca41;rgb(200, 207, 224);*/
+}
+
+tr .row-fixed-1.col-fixed {
+  z-index: 999;
+  /*background: #76ca41 !important;rgb(200, 207, 224);*/
+}
+
+tr .row-fixed-2 {
+  top: calc(62px + 31px);
+  background: #c8e0de;
+}
+
+tr .row-fixed-2.col-fixed {
+  z-index: 999;
+  background: #c8e0de !important;
+}
+
+.div-frase {
+  text-align: center;
+  font-weight: 800;
+  color: #349c5a;
+  font-size: 2vw;
+}
+
+@media (max-width: 510px) {
+  .acoes {
+    display: block !important;
+  }
+}
+
+@media (min-width: 511px) {
+  .acoes {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+
+  .acoes .btn-filtrar {
+    margin-top: 27px;
+  }
+
+  .acoes .checkbox-group {
+    margin-top: 28px;
+  }
+}
+
+.container-acordeon button.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.container-acordeon button.accordion.active,
+.container-acordeon button.accordion:hover {
+  background-color: #ccc;
+}
+
+.container-acordeon div.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+}

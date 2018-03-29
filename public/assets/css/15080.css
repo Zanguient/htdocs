@@ -1,0 +1,490 @@
+@charset "UTF-8";
+
+/**
+ * _15070 - Transacoes de Consumos de Remessas
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+#main {
+  margin-top: -8px;
+  /**
+     * Controle padrão de linhas para a coluna fixada no table-ec
+     */
+}
+
+#main .table-produtos.table-container .scroll-table {
+  height: calc(100% - 45px);
+}
+
+#main .info-destaque {
+  position: absolute;
+  z-index: 99;
+  right: 0px;
+  top: -42px;
+}
+
+#main .info-destaque .label {
+  display: inline-table;
+  margin-left: -4px;
+  height: 52px;
+  padding: 10px 15px 7px 15px;
+  border-radius: 0;
+}
+
+#main .info-destaque .label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+#main .info-destaque .label:first-of-type.label-default-light {
+  float: left;
+  margin-right: 3px;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid lightgray;
+}
+
+#main .info-destaque .label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+#main .info-destaque .label#operador span.valor {
+  max-width: 180px;
+}
+
+#main .info-destaque .label#up-destaque span.valor {
+  max-width: 150px;
+}
+
+#main .info-destaque .label#estacao-destaque span.valor {
+  max-width: 100px;
+}
+
+#main .info-destaque .label > span {
+  display: block;
+  width: 100%;
+}
+
+#main .info-destaque .label > span:first-of-type {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#main .info-destaque .label > span.valor {
+  margin-top: 2px;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#main .lote-status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 9px;
+  margin-top: 0px;
+  margin-bottom: -3px;
+}
+
+#main .lote-status.fechado {
+  background-color: green;
+}
+
+#main .lote-status.aberto {
+  background-color: red;
+}
+
+#main .main-ctrl {
+  position: relative;
+  height: calc(100vh - 130px);
+}
+
+#main .tab-content {
+  height: calc(100vh - 177px);
+  min-height: 450px;
+}
+
+#main .tab-content .tab-pane {
+  height: 100%;
+}
+
+#main .main-container {
+  height: calc(100% - 170px);
+}
+
+#main .main-container .input-action {
+  width: calc(100% - 212px);
+  display: initial;
+}
+
+#main .main-container .header {
+  height: 200px;
+}
+
+#main .main-container .header .header-item {
+  height: 100%;
+}
+
+#main .main-container .footer {
+  height: calc(100% - 210px);
+  min-height: 218px;
+}
+
+#main .main-container .footer .footer-item {
+  height: 100%;
+}
+
+#main .main-container .table-container {
+  height: calc(100% - 25px);
+}
+
+#main .main-container input {
+  margin-bottom: 3px;
+  height: 23px;
+}
+
+#main .table-container {
+  overflow: scroll;
+  height: 100%;
+}
+
+#main .table-container .scroll-table {
+  height: calc(100% - 22px);
+}
+
+#main table tr {
+  height: 23px;
+}
+
+#main table tr:focus {
+  outline: none;
+}
+
+#main table tr th {
+  padding-top: 0 !important;
+}
+
+#main table tr th,
+#main table tr td {
+  padding: 3px 4px 0 4px;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#main table tr th button,
+#main table tr td button {
+  margin-bottom: 3px;
+}
+
+#main #remessa {
+  width: 100%;
+  height: 100%;
+}
+
+#main #talao {
+  width: 100%;
+  /*width: calc(100% - 325px);*/
+  /*float: left;*/
+  /*margin-left: 10px;*/
+}
+
+#main #consumo {
+  width: 100%;
+  /*        float: left;
+        clear: both;*/
+  margin-top: 10px;
+}
+
+#main .produto-alerta {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+#main .text-alert {
+  color: #d9534f;
+}
+
+#main .um {
+  text-transform: lowercase;
+}
+
+#main .wid-remessa {
+  width: 30%;
+  min-width: 90px;
+  max-width: 90px;
+}
+
+#main .wid-data {
+  width: 25%;
+  min-width: 65px;
+  max-width: 65px;
+}
+
+#main .wid-familia {
+  width: 45%;
+  min-width: 120px;
+  max-width: 120px;
+}
+
+#main .wid-talao {
+  width: 10%;
+  min-width: 40px;
+  max-width: 40px;
+}
+
+#main .wid-modelo {
+  width: 30%;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+#main .wid-cor {
+  width: 40%;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#main .wid-produto {
+  /*        width: 17%;
+        min-width: $wid_produto;*/
+  max-width: 290px;
+}
+
+#main .wid-tamanho {
+  width: 3%;
+  min-width: 40px;
+  max-width: 40px;
+  left: 290px !important;
+}
+
+#main .wid-quantidade {
+  width: 7%;
+  min-width: 95px;
+  max-width: 95px;
+}
+
+#main .wid-localizacao {
+  border-bottom: 0;
+}
+
+#main .table-container {
+  /**
+         * Controle padrão de linhas para a coluna fixada no table-lc
+         */
+}
+
+#main .table-container .table-header {
+  overflow: initial;
+}
+
+#main .table-container tr:nth-child(even) td.col-fixed {
+  background: white;
+}
+
+#main .table-container tr:nth-child(odd) td.col-fixed {
+  background: #f9f9f9;
+}
+
+#main .table-container tr:hover td.col-fixed {
+  background-color: whitesmoke !important;
+}
+
+#main .table-container tr.selected {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+#main .table-container tr.selected td.col-fixed {
+  background-color: #adcae2 !important;
+}
+
+#main .table-container tr th .col-fixed {
+  background-color: #337ab7;
+}
+
+#main .table-container tr .col-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  margin-bottom: -2px;
+  box-shadow: 1px 0 0 0 #cccccc;
+}
+
+#main .modal .form-group {
+  width: calc(100% - 10px);
+}
+
+#main .modal .form-group .form-control {
+  width: 100%;
+}
+
+#main tr:nth-child(even) td.col-fixed:not(.row-fixed) {
+  background: white;
+}
+
+#main tr:nth-child(odd) td.col-fixed:not(.row-fixed) {
+  background: #f9f9f9;
+}
+
+#main tr:hover td.col-fixed:not(.row-fixed) {
+  background-color: whitesmoke !important;
+}
+
+#main tr.selected {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+#main tr.selected td.col-fixed:not(.row-fixed) {
+  background-color: #adcae2 !important;
+}
+
+#main tr th .col-fixed {
+  background-color: #337ab7;
+}
+
+#main tr th.col-fixed {
+  z-index: 999;
+}
+
+#main tr td.col-fixed {
+  z-index: 99;
+}
+
+#main tr .col-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  margin-bottom: -2px;
+  box-shadow: 1px 0 0 0 #cccccc;
+}
+
+#main tr .row-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 1px 0 0 0 #cccccc;
+  font-weight: bold;
+}
+
+#main tr.tr-fixed-1:nth-child(even) .row-fixed-1 {
+  background: #fff7da;
+  /*#76ca41;/*rgb(200, 207, 224);*/
+}
+
+#main tr.tr-fixed-1:nth-child(even) .row-fixed-1.col-fixed {
+  background: #fff7da !important;
+  /*rgb(200, 207, 224);*/
+}
+
+#main tr.tr-fixed-1:nth-child(odd) .row-fixed-1 {
+  background: #f9efca;
+  /*rgb(200, 207, 224);*/
+}
+
+#main tr.tr-fixed-1:nth-child(odd) .row-fixed-1.col-fixed {
+  background: #f9efca !important;
+  /*rgb(200, 207, 224);*/
+}
+
+#main tr .row-fixed-1 {
+  top: 22px;
+  /*background: #76ca41;rgb(200, 207, 224);*/
+}
+
+#main tr .row-fixed-1.col-fixed {
+  z-index: 999;
+  /*background: #76ca41 !important;rgb(200, 207, 224);*/
+}
+
+#main tr .row-fixed-2 {
+  top: calc(22px + 28px);
+  background: #c8e0de;
+}
+
+#main tr .row-fixed-2.col-fixed {
+  z-index: 999;
+  background: #c8e0de !important;
+}

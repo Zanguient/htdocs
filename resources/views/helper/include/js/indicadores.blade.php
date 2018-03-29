@@ -1,0 +1,1 @@
+<script src="{{ elixir('assets/js/filtro/indicadores.js') }}"></script>

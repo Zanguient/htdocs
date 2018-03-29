@@ -1,0 +1,1 @@
+php C:/xampp/htdocs/artisan schedule:run 1>C:/xampp/htdocs/app/Console/Commands/Saidas/Agd_Saida.txt

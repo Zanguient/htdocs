@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+/**
+ * _23037 - Avaliação de desempenho
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Elemento switch, formado por:
+ *
+ * <label class="switch">
+ *     <input type="checkbox">
+ *     <div class="slider round"></div>
+ * </label>
+ */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  /* Rounded sliders */
+}
+
+.switch.round .slider {
+  border-radius: 34px;
+}
+
+.switch.round .slider:before {
+  border-radius: 50%;
+}
+
+.switch input {
+  display: none;
+}
+
+.switch input:checked + .slider {
+  background-color: #449d44;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.switch input:disabled + .slider {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d9534f;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+table tbody {
+  text-transform: none;
+}
+
+.table-avaliacao {
+  height: 70vh;
+}
+
+.table-avaliacao table thead th.id,
+.table-avaliacao table thead td.id,
+.table-avaliacao table tbody th.id,
+.table-avaliacao table tbody td.id {
+  width: 100px;
+}
+
+.table-avaliacao table thead th.status,
+.table-avaliacao table thead td.status,
+.table-avaliacao table tbody th.status,
+.table-avaliacao table tbody td.status {
+  width: 25px;
+}
+
+.table-avaliacao table thead th.status span.status-ativo,
+.table-avaliacao table thead td.status span.status-ativo,
+.table-avaliacao table tbody th.status span.status-ativo,
+.table-avaliacao table tbody td.status span.status-ativo {
+  color: #449d44;
+}
+
+.table-avaliacao table thead th.status span.status-inativo,
+.table-avaliacao table thead td.status span.status-inativo,
+.table-avaliacao table tbody th.status span.status-inativo,
+.table-avaliacao table tbody td.status span.status-inativo {
+  color: #d9534f;
+}
+
+.table-avaliacao table thead th.data-avaliacao,
+.table-avaliacao table thead td.data-avaliacao,
+.table-avaliacao table tbody th.data-avaliacao,
+.table-avaliacao table tbody td.data-avaliacao {
+  width: 100px;
+}
+
+.table-avaliacao ~ .legenda-container .ativo {
+  background-color: #449d44;
+}
+
+.table-avaliacao ~ .legenda-container .inativo {
+  background-color: #d9534f;
+}
+
+.table-resposta {
+  height: 70vh;
+}
+
+.table-resposta table thead th.id,
+.table-resposta table thead td.id,
+.table-resposta table tbody th.id,
+.table-resposta table tbody td.id {
+  width: 60px;
+}
+
+.table-resposta table thead th.colaborador,
+.table-resposta table thead td.colaborador,
+.table-resposta table tbody th.colaborador,
+.table-resposta table tbody td.colaborador {
+  width: 300px;
+}
+
+.table-resposta table thead th.cargo,
+.table-resposta table thead td.cargo,
+.table-resposta table tbody th.cargo,
+.table-resposta table tbody td.cargo {
+  width: 240px;
+}
+
+.table-resposta table thead th.ccusto,
+.table-resposta table thead td.ccusto,
+.table-resposta table tbody th.ccusto,
+.table-resposta table tbody td.ccusto {
+  width: 250px;
+}
+
+.table-resposta table thead th.data,
+.table-resposta table thead td.data,
+.table-resposta table tbody th.data,
+.table-resposta table tbody td.data {
+  width: 80px;
+}
+
+.table-resposta table thead th.data-resposta,
+.table-resposta table thead td.data-resposta,
+.table-resposta table tbody th.data-resposta,
+.table-resposta table tbody td.data-resposta {
+  width: 135px;
+}
+
+.table-colaborador {
+  height: 65vh;
+}
+
+.table-colaborador table thead th.id,
+.table-colaborador table thead td.id,
+.table-colaborador table tbody th.id,
+.table-colaborador table tbody td.id {
+  width: 60px;
+}
+
+.table-colaborador table thead th.setor,
+.table-colaborador table thead td.setor,
+.table-colaborador table tbody th.setor,
+.table-colaborador table tbody td.setor {
+  width: 170px;
+}
+
+.table-filter .filtro-resposta-container {
+  position: absolute;
+  right: 7px;
+}
+
+.table-filter .lbl-checkbox {
+  margin: 0;
+  line-height: 1.7em;
+  padding: 2px 5px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.table-filter .lbl-checkbox input {
+  display: inline-block;
+}
+
+form.form-inline .form-group {
+  vertical-align: top;
+}
+
+form.form-inline .form-group .input-colaborador.alterando {
+  background-color: white !important;
+}
+
+form.form-inline .form-group .input-colaborador {
+  width: calc(400px - 38px) !important;
+}
+
+form .item-dinamico-container .item-dinamico {
+  margin-bottom: 3px;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.descritivo-container {
+  height: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px #a0a0a0;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.descritivo-container.exibe {
+  margin-top: 10px;
+  padding: 5px 10px;
+  height: 150px;
+}
+
+.formacao-ponto {
+  font-weight: bold;
+}
+
+label.alcancou-meta {
+  margin-top: 23px;
+  font-weight: normal;
+}
+
+label.alcancou-meta.alcancou {
+  color: #449d44;
+}
+
+label.alcancou-meta.nao-alcancou {
+  color: #d9534f;
+}
+
+label.alcancou-meta span {
+  top: 4px;
+  font-size: 20px;
+}

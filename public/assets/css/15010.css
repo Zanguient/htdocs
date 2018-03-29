@@ -1,0 +1,113 @@
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.familia-permitida {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 1px 5px;
+  white-space: nowrap;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+table.lista-obj-15010 thead tr th.status {
+  width: 10px;
+}
+
+table.lista-obj-15010 thead tr th.produto {
+  width: 350px;
+}
+
+table.lista-obj-15010 tbody td.status.status-0 {
+  color: #449d44;
+}
+
+table.lista-obj-15010 tbody td.status.status-1 {
+  color: #d9534f;
+}
+
+table.lista-obj-15010 tbody td.status.status-2 {
+  color: #646464;
+}
+
+ul.legenda li:nth-child(1) .cor-legenda {
+  background-color: #449d44;
+}
+
+ul.legenda li:nth-child(2) .cor-legenda {
+  background-color: #d9534f;
+}
+
+ul.legenda li:nth-child(3) .cor-legenda {
+  background-color: #646464;
+}
+
+form .item-dinamico-container .item-dinamico.produto:first-child > .form-group {
+  display: none;
+}

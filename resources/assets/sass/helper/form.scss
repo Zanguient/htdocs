@@ -1,0 +1,300 @@
+/**
+ * Formulários 
+ */
+form {
+	
+
+    .btn-table-filter {
+        margin-top: 16px;
+    }
+    
+	&.form-inline {
+		
+		.form-group {
+			margin: 5px 10px 5px 0px;
+			
+			&.acao-item {
+				margin-right: 5px;
+			}
+			
+			label {
+				display: block;
+				margin-bottom: 0;
+
+				&.lbl-radio, &.lbl-checkbox {
+					margin-top: 18px !important;
+				}
+
+			}
+            
+            .btn-inline {
+                margin-top: 20px;
+            }
+		}
+		.row {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+	}
+	
+	&.edit {
+		/*itens que podem ser adicionados dinamicamente*/
+		.item-dinamico {
+
+			button {
+				
+				&.excluir-item-dinamico, &.editar-item-dinamico {
+                    width: 38px;
+                    height: 35px;
+				}
+			}
+		}
+	}
+	
+	fieldset {
+		margin-bottom: 30px;
+	}
+	
+	.ccusto-container, .gestor-container, .indicadores-container, .turno-container,.ccustoindicador-container, .consulta-container {
+		display: inline-block;
+	}
+	
+	/*itens que podem ser adicionados dinamicamente*/
+	.item-dinamico-container {
+		position: relative;
+		
+		&.anexo-container {
+			padding-bottom: 20px;
+		}
+		
+		.item-dinamico {
+			position: relative;
+			margin-bottom: 10px;
+			padding: 10px;
+			background-color: rgba($bluePrimary, 0.1);
+			border-left: 3px solid rgba($bluePrimary, 0.5);
+			
+			&:nth-of-type(even) {
+				background-color: rgba($greenSuccess, 0.1);
+				border-left-color: rgba($greenSuccess, 0.5);
+			}
+
+			/*&:first-of-type {*/
+
+/*				label {
+					display: block !important;
+				}*/
+				
+				button {
+					margin-top: 20px;
+					
+					&.btn-filtro {
+						margin-top: 0;
+					}
+				}
+			/*}*/
+
+/*			label {
+				display: none !important;
+			}*/
+
+			button {
+				
+				&.excluir-item-dinamico {
+					padding: 0;
+					width: 38px;
+					height: 35px;
+					line-height: 1em;
+					font-size: 14px;
+				}
+			}
+		}
+		
+		progress {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			margin: 10px 0;
+		}
+		
+		~ button.add-item-dinamico {
+			float: left;
+			clear: left;
+		}
+	}
+	
+	div.form-group {
+
+		input, select {
+
+			&.input-menor, {
+				display: inline-block;
+				width: 90px !important;
+			}
+
+			&[type="checkbox"], &[type="radio"] {
+				top: 13px;
+
+                &[checked] {
+                    ~ label.label-chk-bold {
+                        font-weight: bold;
+                    }
+                }
+                
+				~ label {
+				    top: 13px;
+				}
+			}
+
+		}
+
+		progress {
+			margin-top: 25px;
+		}
+
+		&.anexo {
+			display: block;
+		}
+
+		.pesquisa-res-container {
+			position: absolute;
+			z-index: 5;
+			max-height: 0;
+			width: 437px;
+			margin-top: 0px;
+    		margin-left: 1px;
+    		overflow: hidden;
+			text-transform: uppercase;
+		    background-color: $white;
+		    box-shadow: 0px 1px 3px $redDelfa;
+		    @include border-radius(0 0 5px 5px);
+		    @include transition(0.5s);
+
+		    &.ativo {
+		    	max-height: 300px;
+		    }
+			
+			&.lista-tabela-container, &.lista-empresas-container, &.lista-empresa-container {
+				width: 717px;
+				
+				.pesquisa-res {
+					
+					ul, ul.empresas, ul.empresa {
+						
+						li {
+
+							.titulo-lista {
+								padding-left: 5px;
+							}
+
+							a, .titulo-lista {
+								display: inline-flex;
+								padding: 0;
+
+								> span {
+									display: inline-block;
+									position: relative;
+									padding: 5px;
+									overflow: hidden;
+									text-overflow: ellipsis;
+									white-space: nowrap;
+									text-align: left;
+									border-top: 1px solid $lightGrey;
+									border-right: 1px solid $lightGrey;
+
+									&.span-codigo {
+										width: 60px;
+									}
+									&.span-razao {
+										width: 325px;
+									}
+									&.span-uf {
+										width: 35px;
+									}
+									&.span-cidade {
+										width: 150px;
+									}
+									&.span-cnpj {
+										width: 130px;
+										border-right: 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+		    .pesquisa-res {
+		    	max-height: inherit;
+		    	overflow: auto;
+				
+				.titulo-lista {
+					font-weight: bold;
+				}
+
+			    ul li a {
+				    padding: 5px;
+				    cursor: pointer;
+				    color: $black;
+
+				    &:hover, &:focus {
+				    	background-color: rgba($redDelfa, 0.2);
+				    }
+					
+					&.opcao_todos {
+						display: block;
+						padding: 5px !important;
+						text-align: center;
+					}
+				}
+
+				.nao-cadastrado {
+					margin-top: 20px;
+    				margin-bottom: 20px;
+					text-align: center;
+					text-transform: none;
+
+					> div {
+						margin-top: 10px;
+
+						button {
+							margin-top: 0px;
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+    .check-group {
+        padding: 0 0 4px 10px;
+        border-radius: 6px;
+        background: rgb(226, 226, 226);
+        margin-top: -1px;
+
+        label {
+            display: inline-block !important;
+            margin-right: 10px;
+
+            [checked] ~ span {
+                font-weight: bold;
+            }
+            input {
+                &[type="checkbox"], &[type="radio"] {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    top: 5px !important;
+                    position: relative;
+                    width: 20px!important;
+                    height: 20px;
+                    vertical-align: baseline;
+                    box-shadow: none;
+                }
+            }
+        }            
+    }

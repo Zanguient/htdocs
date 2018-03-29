@@ -1,0 +1,58 @@
+/**
+ * _23035 - Cadastro de modelo de avaliação de desempenho.
+ */
+@import "../helper/partials/padrao.scss";
+
+table {
+
+	tbody {
+		text-transform: none;
+	}
+}
+
+.table-modelo {
+	table {
+		thead, tbody {
+			th, td {
+				&.id {
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+
+form.form-inline .form-group {
+	vertical-align: top;
+}
+
+fieldset .button-container.button-container-flutuante {
+	position: sticky;
+    top: -15px;
+    margin-top: 0;
+    z-index: 1;
+    $gradient: to right, rgba($lightGrey231, .5) 35%, $white;
+    @include linear-gradient(rgba($lightGrey231, .5), $gradient);
+}
+
+.item-dinamico-container {
+	.item-dinamico {
+		button {
+    		> span {
+    			line-height: 1.4em;
+    		}
+    	}
+	}
+}
+
+.fieldset-fator, .fieldset-formacao, .fieldset-resumo {
+
+	.item-dinamico-container {
+		overflow: auto;
+
+	    .item-dinamico {
+	    	float: left;
+	    	margin-right: 10px;
+	    }
+	}
+}

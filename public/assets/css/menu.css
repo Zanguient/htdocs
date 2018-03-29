@@ -1,0 +1,389 @@
+/** 
+ * Estilo para o menu
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.menu-legenda {
+  width: calc(100% - 2px);
+  height: 20px;
+  margin-right: 1px;
+  float: right;
+}
+
+.menu-legenda .item-legenda {
+  height: calc(100% - 2px);
+  margin: 1px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.menu-legenda .item-legenda .cor1-legenda {
+  width: 18px;
+  height: 18px;
+  background-color: #0000b4;
+  border-radius: 3px;
+}
+
+.menu-legenda .item-legenda .cor2-legenda {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border-radius: 3px;
+}
+
+.menu-legenda .item-legenda .cor3-legenda {
+  width: 18px;
+  height: 18px;
+  background-color: #b40000;
+  border-radius: 3px;
+}
+
+.menu-legenda .item-legenda .desc-legenda {
+  margin-left: 2px;
+}
+
+.selo-ssl {
+  background-image: url("../../../../assets/images/Selo-SSL.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-size: 100px;
+}
+
+#menu {
+  position: fixed;
+  z-index: 99908;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
+}
+
+#menu.fechado {
+  height: 0px;
+}
+
+#menu.aberto {
+  height: 100%;
+}
+
+#menu .menu-container {
+  margin: 10px auto 0 auto;
+  width: 70%;
+  overflow: hidden;
+}
+
+#menu .menu-container .input-group {
+  display: block;
+  position: relative;
+  z-index: 99999;
+  margin: 0 auto;
+  width: 50%;
+  overflow: auto;
+}
+
+#menu .menu-container .input-group input#menu-filtro {
+  width: 100% !important;
+  border-radius: 4px;
+}
+
+#menu .menu-container .input-group input#menu-filtro:focus {
+  border-color: #a90f0f;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(169, 15, 15, 0.6);
+}
+
+#menu .menu-container .input-group button.btn-filtro {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 5;
+  width: 40px;
+  background: transparent;
+  border: 0;
+}
+
+#menu .menu-container #menu-filtro-titulo {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#menu .menu-container div#menu-filtro-resultado {
+  position: absolute;
+  z-index: 2;
+  margin-top: 5px;
+  height: 0px;
+  width: 70%;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+#menu .menu-container div#menu-filtro-resultado.ativo {
+  height: 500px;
+}
+
+#menu .menu-container div#menu-filtro-resultado.ativo ~ #menu-itens {
+  visibility: hidden;
+  transition: 0.2s;
+}
+
+#menu .menu-container div#menu-filtro-resultado #menu-fechar {
+  position: absolute;
+  z-index: 2;
+  top: 7px;
+  right: 20px;
+  font-size: 15px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+#menu .menu-container div#menu-filtro-resultado #menu-fechar:hover {
+  color: #a90f0f;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 46px);
+  overflow: auto;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li {
+  width: 100%;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li.nao-encontrado {
+  padding: 10px;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a {
+  z-index: 1;
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a:hover,
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a:focus {
+  background-color: rgba(169, 15, 15, 0.2);
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a.tipo-1 {
+  color: #0000b4;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a.tipo-2 {
+  color: black;
+}
+
+#menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a.tipo-3 {
+  color: #b40000;
+}
+
+#menu .menu-container div#menu-itens {
+  height: 85vh;
+  z-index: 1;
+  visibility: visible;
+  overflow: auto;
+}
+
+#menu .menu-container div#menu-itens button {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 10px;
+  height: 115px;
+  width: calc(100% / 5.6);
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-size: 80px;
+  border: 0;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#menu .menu-container div#menu-itens button[disabled] {
+  opacity: 0.15;
+}
+
+#menu .menu-container div#menu-itens button:hover:not([disabled]) {
+  background-color: rgba(169, 15, 15, 0.4) !important;
+  box-shadow: 0 1px 2px #a90f0f;
+}
+
+#menu .menu-container div#menu-itens button.admin {
+  background-image: url("../../../../assets/images/admin.png");
+}
+
+#menu .menu-container div#menu-itens button.comercial {
+  background-image: url("../../../../assets/images/sale.png");
+}
+
+#menu .menu-container div#menu-itens button.compras {
+  background-image: url("../../../../assets/images/compras.png");
+}
+
+#menu .menu-container div#menu-itens button.logistica {
+  background-image: url("../../../../assets/images/logistica.png");
+}
+
+#menu .menu-container div#menu-itens button.estoque {
+  background-image: url("../../../../assets/images/controle-estoque.png");
+}
+
+#menu .menu-container div#menu-itens button.patrimonial {
+  background-image: url("../../../../assets/images/controle-patrimonial.png");
+}
+
+#menu .menu-container div#menu-itens button.contabilidade {
+  background-image: url("../../../../assets/images/contabilidade.png");
+}
+
+#menu .menu-container div#menu-itens button.engenharia {
+  background-image: url("../../../../assets/images/engenharia.png");
+}
+
+#menu .menu-container div#menu-itens button.favoritos {
+  background-image: url("../../../../assets/images/favoritos.png");
+}
+
+#menu .menu-container div#menu-itens button.financeiro {
+  background-image: url("../../../../assets/images/financeiro.png");
+}
+
+#menu .menu-container div#menu-itens button.fiscal {
+  background-image: url("../../../../assets/images/fiscal.png");
+}
+
+#menu .menu-container div#menu-itens button.pcp {
+  background-image: url("../../../../assets/images/pcp.png");
+}
+
+#menu .menu-container div#menu-itens button.rh {
+  background-image: url("../../../../assets/images/rh.png");
+}
+
+#menu .menu-container div#menu-itens button.supply {
+  background-image: url("../../../../assets/images/supply.png");
+}
+
+#menu .menu-container div#menu-itens button.Opex {
+  background-image: url("../../../../assets/images/opex.png");
+}
+
+#menu .menu-container div#menu-itens button.chamados {
+  background-image: url("../../../../assets/images/helpdesk.png");
+}
+
+#menu .menu-container div#menu-itens button.produto {
+  background-image: url("../../../../assets/images/produto.png");
+}
+
+#menu .menu-container div#menu-itens button.relatorio {
+  background-image: url("../../../../assets/images/relatorio.png");
+}
+
+#menu .menu-container div#menu-itens button.workflow {
+  background-image: url("../../../../assets/images/workflow.png");
+}
+
+#menu .menu-container div#menu-itens button.bi {
+  background-image: url("../../../../assets/images/bi.png");
+}
+
+#menu .menu-container div#menu-itens button.custo {
+  background-image: url("../../../../assets/images/custos.png");
+}
+
+#menu .menu-container div#menu-itens button.pcm {
+  background-image: url("../../../../assets/images/pcm.png");
+}
+
+#menu .menu-container div#menu-itens button > span {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

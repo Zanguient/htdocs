@@ -1,0 +1,462 @@
+/**
+ * _12040 - Registro de Pedidos
+ */
+@import "../helper/partials/padrao.scss";
+@import "../helper/chat.scss";
+@import "12060-modal.scss";
+@import "12070-modal.scss";
+@import "../produto/27020-modal.scss";
+@import "../produto/27030-modal.scss";
+
+@media (max-width: 1024px) {
+
+	.modal-pedido-item {
+		.modal-dialog {
+			top: 50px !important;
+		}
+	}
+
+	.modal-consultar-modelo-por-cliente {
+		.modal-dialog {
+			top: 100px !important;
+		}	
+	}
+
+	.modal-consultar-cor-por-modelo {
+		.modal-dialog {
+			top: 100px !important;
+		}	
+	}
+}
+
+.pedido-atrasado{
+	background-color: #efb3b3 !important;
+}
+
+pedido-index-12040 {
+
+	.table-filter {
+		input.input-maior {
+			width: 300px !important;
+		}
+	}
+
+	.table-container {
+
+		&.table-container-pedido {
+
+			thead, tbody {
+				tr {
+					th, td {
+						&.pedido {
+							min-width: 70px;
+							max-width: 70px;
+							width: 70px;
+						}
+						 &.pedido-cliente {
+							min-width: 90px;
+							max-width: 90px;
+							width: 90px;
+						}
+						&.programado, &.confirmado {
+							min-width: 60px;
+							max-width: 60px;
+							width: 60px;	
+						}
+						&.data-cliente, &.data-inclusao, &.valor {
+							min-width: 100px;
+							max-width: 100px;
+							width: 100px;
+						}
+						&.qtd, &.saldo-faturar {
+							min-width: 70px;
+							max-width: 70px;
+							width: 70px;
+						}
+						&.cliente {
+							min-width: 250px;
+							max-width: 250px;
+							width: 250px;
+						}
+						&.modelo {
+							min-width: 300px;
+							max-width: 300px;
+							width: 300px;
+
+							overflow: hidden;
+						    text-overflow: ellipsis;
+						    white-space: nowrap;
+						}
+						&.obs {
+							min-width: 300px;
+						}
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					td {
+						span {
+
+							&.fa {
+								font-size: 14px;
+
+								&.fa-times {
+									color: $redDanger;
+								}
+								&.fa-check {
+									color: $greenSuccess;
+								}
+								&.fa-exclamation-triangle {
+									color: $yellowWarning;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+fieldset {
+	
+	&#info-geral {
+
+		.form-group {
+
+			&.chave {
+				//position: absolute;
+			    //right: 0;
+			    //top: -5px;
+			    //margin: 0;
+			    //padding: 5px 15px;
+			    //background-color: $whiteSmoke;
+			    //border: 1px solid $lightGrey;
+			    @include border-radius(15px);
+
+			    position: relative;
+			    top: -47px;
+			    margin: 0;
+			    padding: 5px 15px;
+			    background-color: whitesmoke;
+			    border: 1px solid lightgray;
+			    //border-radius: 15px;
+			    float: right;
+			    margin-left: 5px;
+
+
+			    label {
+					display: inline-block;
+					line-height: 1em;
+
+					&:nth-child(2) {
+						vertical-align: middle;
+						font-size: 20px;
+						font-weight: normal;
+						cursor: text;
+					}
+			    }
+			}
+		}
+		
+		#detalhe-cliente-toggle {
+			float: left;
+			margin-top: 5px;
+			@include border-radius(4px 4px 0 0);
+			
+			> span.fa:before {
+				content: '\f0d8';
+			}
+			
+			&.collapsed {
+				@include border-radius(4px);
+				
+				> span.fa:before {
+					content: '\f0d7';
+				}
+			}
+		}
+		
+		#detalhe-cliente {
+			float: left;
+			clear: left;
+			border-radius: 0 10px 10px 10px;
+			border: 1px solid $blueInfo;
+			
+			> div {
+				margin: 10px;
+			}
+		}
+	}
+	
+}
+
+.modal {
+
+	&#modal-create {
+
+		.table-container-item-escolhido, .container-qtd-minima {
+			float: left;
+		}
+
+		.table-container-item-escolhido {
+
+			table {
+				thead, tbody {
+					tr {
+						th, td {
+							&.sequencia, &.tamanho {
+								min-width: 50px;
+								max-width: 50px;
+								width: 50px;
+							}
+							&.quantidade {
+								min-width: 65px;
+								max-width: 65px;
+								width: 65px;
+							}
+							&.produto {
+								min-width: 300px;
+							}
+							&.perfil {
+								min-width: 150px;
+								max-width: 150px;
+								width: 150px;
+							}
+							&.um {
+								min-width: 50px;
+								max-width: 50px;
+								width: 50px;
+							}
+							&.valor-unit {
+								min-width: 70px;
+								max-width: 70px;
+								width: 70px;
+							}
+							&.valor-total {
+								min-width: 110px;
+								max-width: 110px;
+								width: 110px;
+							}
+							&.data-ideal {
+								min-width: 90px;
+								max-width: 90px;
+								width: 90px;
+							}
+						}
+					}
+				}
+
+				&.table-header ~ .scroll-table {
+					height: 250px;
+				}
+			}
+		}
+
+		.container-qtd-minima {
+			margin-top: 10px;
+			padding: 10px;
+			border: 1px solid $lightGrey;
+    		@include border-radius(5px);
+
+			table {
+				thead, tbody {
+					tr {
+						th, td {
+							&.status {
+								min-width: 27px;
+								max-width: 27px;
+								width: 27px;
+
+								span {
+									&.fa-check {
+										color: $greenSuccess;
+									}
+									&.fa-times {
+										color: $redDanger;
+									}
+								}
+							}
+							&.cor {
+								min-width: 200px;
+								max-width: 200px;
+								width: 200px;
+
+								&.col-menor {
+									min-width: 100px;
+									max-width: 100px;
+									width: 100px;
+								}
+							}
+							&.quantidade, &.quantidade-min {
+								min-width: 65px;
+								max-width: 65px;
+								width: 65px;
+							}
+							&.quantidade-mult {
+								min-width: 50px;
+								max-width: 50px;
+								width: 50px;
+							}
+						}
+					}
+				}
+
+				tbody {
+					tr {
+						td {
+							&.atualizar-qtd-liberada {
+								padding-bottom: 0;
+	    						padding-top: 5px;
+	    					}
+						}
+					}
+				}
+
+				&.table-header ~ .scroll-table {
+					height: 187px;
+					background-color: $white;
+				}
+			}
+		}
+
+		#pedido-item-escolhido-resumo {
+			clear: left;
+
+			label {
+				&.data-cliente-info {
+					margin-top: 18px;
+					font-size: 14px;
+					font-weight: normal;
+				}
+			}
+		}
+
+	}
+	
+	&#modal-pedido-item, &#modal-liberacao {
+
+		input {
+			&.modelo-selec, &.cor-selec {
+				padding-left: 50px;
+			}
+		}
+
+		span {
+			&.modelo-amostra-selec, &.cor-amostra-selec {
+				display: block;
+			    position: absolute;
+			    z-index: 4;
+			    margin-top: 5px;
+			    margin-left: 6px;
+				width: 40px;
+			    height: 24px;
+			    box-shadow: 0px 1px 3px $black100;
+				@include border-radius(3px);
+				@include transition(0.5s 0s);
+
+				&.sem-amostra {
+					background-color: transparent !important;
+				}
+									
+				&:hover {
+					cursor: -webkit-zoom-in;
+					cursor: zoom-in;
+					box-shadow: 0 0 3px $black;
+					transform-origin: left;
+					@include transform(scale(3));
+					@include transition(1s 0.5s);
+				}
+			}
+
+			&.modelo-amostra-selec {
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+				background-color: $white;
+			}
+		}
+
+		.table-container-tamanho {
+			table {
+				thead, tbody {
+					font-size: 14px;
+
+					tr {
+						th, td {
+							&.tamanho {
+								width: 80px;
+								max-width: 80px;
+							}
+							&.tamanho-valor-unitario {
+								width: 100px;
+								max-width: 100px;
+							}
+							&.tamanho-quantidade {
+								width: 120px;
+								max-width: 120px;
+							}
+							&.tamanho-quantidade-min, &.tamanho-quantidade-mult {
+								width: 50px;
+								max-width: 50px;
+							}
+							&.tamanho-estoque-min {
+								width: 75px;
+								max-width: 75px;
+
+								span {
+									&.fa-check {
+										color: $greenSuccess;
+									}
+									&.fa-times {
+										color: $redDanger;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				tbody {
+
+					tr {
+						td {
+							vertical-align: middle;
+
+							input {
+
+							}
+						}
+					}
+				}
+
+				&.table-header ~ .scroll-table {
+					min-height: 50px;
+					height: auto;
+				}
+			}
+		}
+		
+	}
+
+	&#modal-liberacao {
+
+		.btn-excluir-cor {
+			margin-left: 10px;
+		}
+	}
+}
+
+#resumo-btn {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	width: 45px;
+    height: 45px;
+	padding: 0;
+    font-size: 20px;
+	box-shadow: 0 1px 2px $black;
+	@include border-radius(23px);
+}

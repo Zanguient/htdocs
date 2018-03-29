@@ -1,0 +1,18 @@
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 15:17:32
+Agd_Email Finalizada em: 23/03/2018 15:17:36
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 15:17:36
+Agd_Sql Finalizada em: 23/03/2018 15:17:39
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 15:17:39
+Env_Email Finalizada em: 23/03/2018 15:17:46
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 15:17:46
+Agd_Log Finalizada em: 23/03/2018 15:17:48
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-1aae36a2c68e4e53c21ae29345ebb1ef" & "C:\xampp\php\php.exe" "artisan" Agd_Agd & del "C:\xampp\htdocs\storage\framework/schedule-1aae36a2c68e4e53c21ae29345ebb1ef") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Agd.txt" 2>&1 &
+Agd_Agd Iniciado em: 23/03/2018 15:17:48
+Agd_Agd Finalizada em: 23/03/2018 15:17:54
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d41c680f4e505b449d28b62093d77fc3" & "C:\xampp\php\php.exe" "artisan" Con_dolar & del "C:\xampp\htdocs\storage\framework/schedule-d41c680f4e505b449d28b62093d77fc3") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Con_dolar.txt" 2>&1 &
+Consulta Dólar Iniciado em: 23/03/2018 15:17:54
+Consulta Dólar Iniciado em: 23/03/2018 15:17:59

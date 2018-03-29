@@ -1,0 +1,57 @@
+/**
+ * _11080 - Criar Relatorio
+ */
+@import "../helper/partials/padrao.scss";
+
+.campos-tabela{
+    background: #a3d9f9;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 5px;
+    display: table-caption;
+    margin-left: 2px;
+}
+
+.campo-tabela-desc{
+	background: #54ace0;
+    text-align: center;
+    margin-top: -3px;
+    margin-left: -4px;
+    margin-right: -4px;
+    border-radius: 5px 5px 0px 0px;
+    width: 202px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.campos-tabela-conteiner{
+	display: inline;
+}
+
+.dados-tipo-1 {
+    text-align: left;
+}
+
+.dados-tipo-2 {
+    text-align: right;
+}
+
+.dados-tipo-3 {
+    text-align: center;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+.campos-tabela-conteiner.over {
+	.campos-tabela{
+		border: 1px dashed #000;
+	}
+}

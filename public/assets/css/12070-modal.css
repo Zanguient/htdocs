@@ -1,0 +1,95 @@
+/**
+ * _12070 - Clientes
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.modal#modal-por-representante .table-container-por-representante table thead tr th.cliente,
+.modal#modal-por-representante .table-container-por-representante table thead tr td.cliente,
+.modal#modal-por-representante .table-container-por-representante table tbody tr th.cliente,
+.modal#modal-por-representante .table-container-por-representante table tbody tr td.cliente {
+  min-width: 300px;
+  width: 300px;
+}
+
+.modal#modal-por-representante .table-container-por-representante table thead tr th.nome-fantasia,
+.modal#modal-por-representante .table-container-por-representante table thead tr td.nome-fantasia,
+.modal#modal-por-representante .table-container-por-representante table tbody tr th.nome-fantasia,
+.modal#modal-por-representante .table-container-por-representante table tbody tr td.nome-fantasia {
+  min-width: 180px;
+  width: 180px;
+}
+
+.modal#modal-por-representante .table-container-por-representante table thead tr th.uf,
+.modal#modal-por-representante .table-container-por-representante table thead tr td.uf,
+.modal#modal-por-representante .table-container-por-representante table tbody tr th.uf,
+.modal#modal-por-representante .table-container-por-representante table tbody tr td.uf {
+  min-width: 50px;
+  width: 50px;
+}

@@ -1,0 +1,77 @@
+/**
+ * _23038 - Registro de indicadores por centro de custo
+ */
+@import "../helper/partials/padrao.scss";
+
+table {
+
+	tbody {
+		text-transform: none;
+	}
+}
+
+.table-indicador-por-ccusto {
+	table {
+		thead, tbody {
+			th, td {
+				&.id {
+					width: 60px;
+				}
+
+				&.ccusto {
+					width: 300px;
+				}
+
+				&.data {
+					width: 200px;
+				}
+
+				&.percentual {
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+
+.table-pesq-ccusto {
+	height: 65vh;
+	
+	table {
+		thead, tbody {
+			th, td {
+				&.mask {
+					width: 100px;
+				}
+				&.descricao {
+					width: 420px;
+				}
+			}
+		}
+	}
+}
+
+.table-pesq-indicador {
+	height: 65vh;
+	
+	table {
+		thead, tbody {
+			th, td {
+				&.id {
+					width: 60px;
+				}
+				&.titulo {
+					width: 460px;
+				}
+			}
+		}
+	}
+}
+
+form fieldset {
+	margin-bottom: 0;
+}
+
+input.alterando {
+	background-color: $white !important;
+}

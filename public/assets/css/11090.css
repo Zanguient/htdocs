@@ -1,0 +1,439 @@
+/**
+ * _11090 - Teste
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.cor-legenda2 {
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+}
+
+.cor-legenda2.azul {
+  background-color: blue;
+}
+
+.cor-legenda2.verde {
+  background-color: #4CAF50;
+}
+
+.cor-legenda2.amarelo {
+  background-color: #ffd516;
+}
+
+.cor-legenda2.vermelho {
+  background-color: #ff1e16;
+}
+
+.cor-legenda2.branco {
+  background-color: white;
+  border: 1px solid;
+}
+
+.cor-legenda2.cinza {
+  background-color: #d8d8d8;
+}
+
+.f-azul {
+  color: blue !important;
+  border-color: black;
+}
+
+.f-verde {
+  color: #4CAF50 !important;
+  border-color: black;
+}
+
+.f-amarelo {
+  color: #ffd516 !important;
+  border-color: black;
+}
+
+.f-vermelho {
+  color: #ff1e16 !important;
+  border-color: black;
+}
+
+.f-branco {
+  color: white !important;
+  border-color: black;
+}
+
+.f-cinza {
+  color: #d8d8d8 !important;
+  border-color: black;
+}
+
+.b-branco {
+  background-color: white !important;
+}
+
+.b-cinza {
+  background-color: #d8d8d8 !important;
+}
+
+.legenda-talao {
+  color: black;
+  font-size: 1vw;
+  font-weight: bold;
+  padding: 0;
+  float: right;
+  margin-right: 2px;
+}
+
+.conteiner-tela {
+  display: block;
+  margin-top: -78px;
+  border: 1px solid;
+  width: calc(100vw - 1px);
+  margin-left: -14px;
+}
+
+.conteiner-tela .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.conteiner-tela .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.conteiner-tela .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.conteiner-tela .tg .tg-1sci {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: top;
+  font-size: 1.6vw;
+  border-radius: 4px;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .descfab {
+  background: white;
+  color: black !important;
+  font-size: 2.3vw !important;
+  text-align: center;
+  border-color: white;
+}
+
+.conteiner-tela .descfab2 {
+  background: white;
+  color: black !important;
+  font-size: 1.8vw !important;
+  text-align: center;
+  border: 0px solid;
+  border-color: white;
+}
+
+.conteiner-tela .tg .tg-fqys {
+  background-color: black;
+  color: #ffffff;
+  vertical-align: top;
+}
+
+.conteiner-tela .conteiner-estacao .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.conteiner-tela .conteiner-estacao .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-radius: 4px;
+}
+
+.conteiner-tela .conteiner-estacao .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-radius: 4px;
+}
+
+.conteiner-tela .conteiner-estacao .tg .tg-yw4l {
+  vertical-align: top;
+}
+
+.conteiner-tela .conteiner-estacao .tg .tg-2pns {
+  background-color: black;
+  vertical-align: top;
+  border-color: white;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031e {
+  padding: 0px !important;
+  text-align: center;
+  font-size: 2.5vw !important;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031e div {
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031f {
+  background-color: black;
+  color: white;
+  padding: 0px !important;
+  text-align: center;
+  font-size: 2.5vw !important;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031f div {
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031g {
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 0px !important;
+  text-align: center;
+  font-size: 1.6vw !important;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031g div {
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031h {
+  padding: 0px !important;
+  text-align: center;
+  font-size: 2vw !important;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031h div {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 39%;
+  margin-left: 10%;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031i {
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 0px !important;
+  text-align: center;
+  font-size: 2.5vw !important;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031i div {
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j {
+  padding: 0px !important;
+  font-size: 2vw !important;
+  font-stretch: ultra-condensed;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j .grup-valores {
+  display: inline-block;
+  width: 90%;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j .grup-valores div {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j .grup-valores div div {
+  display: table;
+  width: 52%;
+  margin-top: 0.3vw;
+  margin-left: 4%;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j .grup-valores div .remessa {
+  font-size: 1.5vw;
+  margin-top: 0.6vw;
+  font-style: italic;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j .grup-legenda {
+  display: inline-block;
+  width: 7%;
+  font-size: 1vw;
+  float: right;
+}
+
+.conteiner-tela .conteiner-estacao .tg-031j .grup-legenda div div {
+  display: block;
+  width: 100%;
+  height: 1.1vw;
+}
+
+ul.legenda {
+  margin-left: 5px;
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_27010.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"_27010.js","sourcesContent":["/**\n * _27010 - Cadastro de Familias de Produto\n */\n(function($) {\n    \n\t$(function() {\n\t\t\n\t});\n\t\n})(jQuery);\n\n"]}

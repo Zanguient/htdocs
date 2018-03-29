@@ -1,0 +1,294 @@
+/* Header */
+nav.navbar {
+	z-index: 99999;
+	background-color: $redDelfa;
+	border: 0 !important;
+	@include transition(0.5s 0.7s);
+	
+	* {
+		color: $white !important;
+	}
+	
+	&.menu-aberto {
+		background-color: $black;
+		opacity: 0.85;
+    	border: 0;
+    	@include transition(0.5s);
+    	
+    	.titulo-pagina {
+    		visibility: hidden;
+    		@include transition(0s 0s);
+    	}
+    	
+    	.navbar-header .navbar-toggle, div.sessao a, .go-fullscreen {
+			&:hover {
+				background-color: $redDelfa;
+			}
+    	}
+	}
+	
+	.navbar-header {
+	
+		.navbar-toggle {
+			display: block;
+			float: left;
+			margin-top: 11px;
+			margin-right: 0;
+			padding: 6px 7px;
+			border: 1px solid $white;
+			
+			&:hover {
+				background-color: $black50;
+				color: $lightGrey231;
+			}
+			
+			> .icon-bar {
+				width: 20px;
+				background-color: $white;
+			}
+		}
+		
+		a.navbar-brand {
+			position: relative;
+			margin-left: 0;
+	    	padding: 0px;
+			width: 150px;
+			text-align: center;
+			background: url("../../../../assets/images/logo.png") no-repeat center;
+	   		background-size: 100px;
+
+			span {
+				float: right;
+			    position: relative;
+			    top: 34px;
+			    right: 27px;
+			    font-size: 11px;
+			}
+		}
+		
+		.duplicar-tela-mobile, .go-fullscreen-mobile {
+			display: none;
+			visibility: hidden;
+			position: absolute;
+			top: 11px;
+		}
+		
+		.duplicar-tela-mobile {
+			right: 50px;
+		}
+		
+		.go-fullscreen-mobile {
+			right: 15px;
+		}
+		
+	}
+	
+	.navbar-collapse {
+		border: 0;
+	}
+		
+	.titulo-pagina {
+	    float: left;
+		display: table;
+		vertical-align: middle;
+	    margin: 5px 0;
+	    height: 40px;
+		//width: calc(100% - 597px);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		border-left: 1px solid $white;
+        max-width: calc(100% - 576px);
+	    /*@include transition(0.5s 0.7s);	 transição para menu */
+        
+	
+		h4.navbar-left {
+			float: none !important;
+			padding-left: 10px;
+			white-space: normal;
+			display: table-cell;
+			vertical-align: middle;
+            font-size: 15px;
+		}
+	}
+	
+	.duplicar-tela, .go-fullscreen {
+		display: flex;
+		padding: 6px;
+		
+		&:before {
+			display: none;
+		}
+
+		span {
+			top: 0;
+		}
+	}
+	
+	.nav > li > a:hover {
+		background-color: $redDelfa2;
+	}
+	
+	.navbar-right {
+		margin-right: 0;
+		padding: 0 10px;
+		height: 50px;
+		background-color: rgba($white, 0.1);
+		@include border-radius(0 0 2px 2px);
+		
+		.duplicar-tela, .go-fullscreen {
+			float: left;
+			margin-top: 11px;
+		}
+		
+		.duplicar-tela {
+			margin-right: 5px;
+		}
+		
+		.go-fullscreen {
+			margin-right: 10px;
+
+			> span.glyphicon {
+				line-height: 1;
+			}
+		}
+		
+		#relogio {
+			float: left;
+			margin: 5px 10px 5px 0;
+			padding-top: 4px;
+			width: 100px;
+			height: 40px;
+			background-color: rgba($white, 0.2);
+			@include border-radius(2px);
+
+			#data, #hora {
+				float: left;
+				clear: left;
+				width: 100%;
+				text-align: center;
+				line-height: 1.2em;
+			}
+
+			#hora {
+				font-weight: bold;
+			}
+		}
+	
+		.sessao {
+			float: left;
+			margin-top: 15px;
+			color: $white;
+			text-transform: capitalize;
+
+			> div {
+				float: left;
+			}
+
+			> a {
+				float: left;
+				margin-left: 10px;
+
+				span {
+					margin-right: 3px;
+				}
+			}
+		}
+	}
+
+}
+
+
+/* Ações principais */
+ul {
+    padding-left: 0;
+	list-style: none;
+	
+	&.acoes {
+	    position: fixed;
+	    z-index: 99;
+	    top: 50px;
+	    width: 100%;
+	    padding-top: 10px;
+	    background: $white;
+	    box-shadow: 0px 8px 8px $white;
+		
+		> li {
+			padding-right: 0px;
+			
+			&.status {
+				float: right;
+				margin-right: 135px;
+			}
+			
+			&.align-right {
+				float: right;
+				margin-right: 25px;
+			}
+		}	
+	}
+	
+	&.popup-acoes {
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+		
+		~ .status {
+			float: right;
+			position: relative;
+			top: -45px;
+		}
+        
+        
+	}
+	
+}
+
+//não sei o motivo mais desta maneira ajusta o tamanho
+.popup-acoes{
+    button{
+        margin-bottom: 1px;
+    }
+}
+
+.pesquisa-obj-container {
+	position: absolute;
+	top: 60px;
+    right: 15px;
+	width: 30%;
+	z-index: 99;
+}
+
+[data-acoes="toggle"] {
+	display: none;
+	
+	&.exibir {
+		display: block;
+	}
+}
+
+.acoes-toggle {
+	display: none;
+	position: fixed;
+	z-index: 999;
+    top: 60px;
+	
+	&.exibir {
+		display: block;
+	}
+}
+
+.popup-acoes-toggle {
+	display: none;
+	margin-top: 2px;
+	
+	&.exibir {
+		display: block;
+	}
+}
+
+.menu-aberto {
+    #navbar-title {
+        display: none !important;
+    }
+}

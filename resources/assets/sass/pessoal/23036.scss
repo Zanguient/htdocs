@@ -1,0 +1,97 @@
+/**
+ * _23036 - Cadastro de avaliação de desempenho.
+ */
+@import "../helper/partials/padrao.scss";
+@import "../helper/switch.scss";
+
+table {
+
+	tbody {
+		text-transform: none;
+	}
+}
+
+.table-base {
+	height: 70vh;
+
+	table {
+		thead, tbody {
+			th, td {
+				&.id {
+					width: 100px;
+				}
+
+				&.status {
+					width: 25px;
+
+					span {
+						&.status-ativo {
+							color: $greenSuccess;
+						}
+
+						&.status-inativo {
+							color: $redDanger;
+						}
+					}
+				}
+
+				&.data {
+					width: 100px;
+				}
+			}
+		}
+	}
+
+	~ .legenda-container {
+
+		.ativo {
+			background-color: $greenSuccess;
+		}
+		.inativo {
+			background-color: $redDanger;
+		}
+	}
+}
+
+.table-pesq-ccusto, .table-ccusto {
+
+	table {
+		thead, tbody {
+			th, td {
+				&.mask {
+					width: 100px;
+				}
+				&.descricao {
+					width: 420px;
+				}
+			}
+		}
+	}
+}
+
+.table-pesq-ccusto {
+	height: 65vh;
+} 
+
+.table-ccusto {
+	width: 558px;
+	height: 200px;
+}
+
+form {
+
+	&.form-inline .form-group {
+		vertical-align: top;
+
+		.select-modelo {
+			width: 400px;
+		}
+
+		.input-ccusto {
+			
+			&.alterando {
+				background-color: $white !important;
+			}
+		}
+	}
+}

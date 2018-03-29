@@ -1,0 +1,11 @@
+/* Mobile Large */
+@media (max-width: 425px) {
+	
+	fieldset {
+		
+		&.montar-orcamento, &.resumo-orcamento {
+			overflow: auto;
+		}
+	}
+	
+}

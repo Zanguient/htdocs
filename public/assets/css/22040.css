@@ -1,0 +1,935 @@
+@charset "UTF-8";
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Estilo para impressão.
+ */
+
+@page {
+  size: A4 portrait;
+  margin: 30pt 25pt 30pt 25pt;
+}
+
+page[size="A4"] {
+  display: block;
+  /*
+	background: white;
+	height: 21cm;
+	width: 29.7cm;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	*/
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+.pdf-ver {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pdf-ver .pdf-acoes {
+  position: fixed;
+  z-index: 99999;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.pdf-ver .pdf-acoes button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.pdf-ver object {
+  position: fixed;
+  z-index: 99999;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+input#remessa.selecionado ~ button#selec-remessa {
+  display: none;
+}
+
+input#remessa.selecionado ~ button#limpar-remessa {
+  display: table-cell;
+}
+
+.btn-visible0,
+.btn-visible1,
+.btn-visible3,
+.btn-visible4 {
+  display: none;
+}
+
+button#limpar-remessa {
+  display: none;
+}
+
+button#btn-table-filter {
+  margin-right: 5px;
+}
+
+.conteudo-filtro {
+  margin-top: -30px;
+}
+
+ul.legenda li:nth-child(1) div.cor-legenda {
+  background-color: #449d44;
+}
+
+ul.legenda li:nth-child(2) div.cor-legenda {
+  background-color: #d9534f;
+}
+
+/* Status desabilitado */
+
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-off,
+.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-on {
+  opacity: 1;
+}
+
+/* Tabelas */
+
+.dataTables_wrapper table.lista-obj thead th.gerar-rem-comp {
+  width: 100px;
+}
+
+.dataTables_wrapper table.lista-obj tbody tr {
+  cursor: pointer;
+}
+
+.dataTables_wrapper table.lista-obj tbody tr td {
+  position: relative;
+}
+
+.dataTables_wrapper table.lista-obj tbody tr td a {
+  text-transform: none;
+}
+
+.dataTables_wrapper table.lista-obj tbody tr td a.btn-componente {
+  position: absolute;
+  top: 3px;
+}
+
+.dataTables_wrapper table.table-22040 thead tr th:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.table-22040 thead tr td:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.table-22040 tbody tr th:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.table-22040 tbody tr td:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.estacao thead tr th:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.estacao thead tr td:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.estacao tbody tr th:first-child:not(.dataTables_empty),
+.dataTables_wrapper table.estacao tbody tr td:first-child:not(.dataTables_empty) {
+  /* checkbox */
+  display: none;
+}
+
+.dataTables_wrapper table.table-22040 thead tr th.tempo,
+.dataTables_wrapper table.table-22040 thead tr td.tempo,
+.dataTables_wrapper table.table-22040 tbody tr th.tempo,
+.dataTables_wrapper table.table-22040 tbody tr td.tempo,
+.dataTables_wrapper table.estacao thead tr th.tempo,
+.dataTables_wrapper table.estacao thead tr td.tempo,
+.dataTables_wrapper table.estacao tbody tr th.tempo,
+.dataTables_wrapper table.estacao tbody tr td.tempo {
+  display: none;
+}
+
+.dataTables_wrapper table.table-22040 thead tr th.espaco-scroll,
+.dataTables_wrapper table.table-22040 thead tr td.espaco-scroll,
+.dataTables_wrapper table.table-22040 tbody tr th.espaco-scroll,
+.dataTables_wrapper table.table-22040 tbody tr td.espaco-scroll,
+.dataTables_wrapper table.estacao thead tr th.espaco-scroll,
+.dataTables_wrapper table.estacao thead tr td.espaco-scroll,
+.dataTables_wrapper table.estacao tbody tr th.espaco-scroll,
+.dataTables_wrapper table.estacao tbody tr td.espaco-scroll {
+  width: 10px !important;
+  max-width: 10px !important;
+}
+
+.dataTables_wrapper table.table-22040 tbody tr td.esconder-texto,
+.dataTables_wrapper table.estacao tbody tr td.esconder-texto {
+  color: transparent;
+}
+
+.dataTables_wrapper table.table-22040 tbody tr td input.editar-qtd,
+.dataTables_wrapper table.table-22040 tbody tr td input.editar-perfil,
+.dataTables_wrapper table.table-22040 tbody tr td input.editar-qtd-taloes,
+.dataTables_wrapper table.estacao tbody tr td input.editar-qtd,
+.dataTables_wrapper table.estacao tbody tr td input.editar-perfil,
+.dataTables_wrapper table.estacao tbody tr td input.editar-qtd-taloes {
+  display: none;
+  padding: 6px;
+  width: 70px;
+  height: 23px;
+}
+
+.dataTables_wrapper table.table-22040 tbody tr td button.btn-confirmar-editar-qtd,
+.dataTables_wrapper table.table-22040 tbody tr td button.btn-cancelar-editar-qtd,
+.dataTables_wrapper table.table-22040 tbody tr td button.btn-confirmar-editar-qtd-taloes,
+.dataTables_wrapper table.table-22040 tbody tr td button.btn-cancelar-editar-qtd-taloes,
+.dataTables_wrapper table.table-22040 tbody tr td button.btn-confirmar-editar-perfil,
+.dataTables_wrapper table.table-22040 tbody tr td button.btn-cancelar-editar-perfil,
+.dataTables_wrapper table.estacao tbody tr td button.btn-confirmar-editar-qtd,
+.dataTables_wrapper table.estacao tbody tr td button.btn-cancelar-editar-qtd,
+.dataTables_wrapper table.estacao tbody tr td button.btn-confirmar-editar-qtd-taloes,
+.dataTables_wrapper table.estacao tbody tr td button.btn-cancelar-editar-qtd-taloes,
+.dataTables_wrapper table.estacao tbody tr td button.btn-confirmar-editar-perfil,
+.dataTables_wrapper table.estacao tbody tr td button.btn-cancelar-editar-perfil {
+  display: none;
+}
+
+.dataTables_wrapper table.table-22040.dragging {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.dataTables_wrapper .dataTables_scrollBody.dragging {
+  overflow: hidden;
+}
+
+/* Drag */
+
+.ui-draggable-dragging {
+  position: fixed !important;
+  z-index: 99999;
+  padding: 5px 10px;
+  background: white !important;
+  box-shadow: 0 0 10px black;
+  border-radius: 4px;
+}
+
+.ui-draggable-dragging td {
+  display: block;
+  text-align: left;
+}
+
+/* UP's' */
+
+.up-container {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.up-container .up-bloco {
+  display: inline-block;
+  width: 485px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.up-container .up-bloco > label {
+  width: 94%;
+  text-align: center;
+}
+
+.up-container .up-bloco .estacao-container {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 25px);
+  overflow: auto;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco {
+  position: relative;
+  float: left;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 460px;
+  height: 265px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .acoes-ordenar-estacao {
+  float: left;
+  margin-bottom: 2px;
+  width: 55px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .estacao-header-text {
+  display: inline-block;
+  padding: 0 5px;
+  width: calc(100% - 145px);
+  max-width: calc(100% - 145px);
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .estacao-header-text > label {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .estacao-header-text > label.estacao-perfil {
+  width: auto;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .estacao-header-text > label > span {
+  font-weight: bold;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .acoes-estacao {
+  float: right;
+  margin-bottom: 2px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco .acoes-estacao button {
+  padding: 1px 10px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao {
+  font-size: 9px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao * {
+  font-size: 9px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th:nth-of-type(1),
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td:nth-of-type(1),
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th:nth-of-type(1),
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td:nth-of-type(1) {
+  width: 14px !important;
+  max-width: 14px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.densidade,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.densidade,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.densidade,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.densidade {
+  width: 25px !important;
+  max-width: 25px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.espessura,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.espessura,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.espessura,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.espessura {
+  width: 30px !important;
+  max-width: 30px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.modelo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.modelo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.modelo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.modelo {
+  width: 100px !important;
+  max-width: 100px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.cor,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.cor,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.cor,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.cor {
+  width: 80px !important;
+  max-width: 80px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.tamanho,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.tamanho,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.tamanho,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.tamanho {
+  width: 30px !important;
+  max-width: 30px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.qtd-alternativa,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.qtd-alternativa,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.qtd-alternativa,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.qtd-alternativa {
+  width: 60px !important;
+  max-width: 60px !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.qtd-prog,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.qtd-prog,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.qtd-prog,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.qtd-prog {
+  width: 60px !important;
+  max-width: 60px !important;
+  border-right-width: 0;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.qtd-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.tempo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.qtd-taloes-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.cota-talao,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.qtd-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.tempo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.qtd-taloes-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.cota-talao,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.qtd-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.tempo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.qtd-taloes-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.cota-talao,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.qtd-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.tempo,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.qtd-taloes-total,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.cota-talao {
+  display: none;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th {
+  padding: 4px 5px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody {
+  font-size: 9px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr {
+  position: static !important;
+  /* devido ao clone (drop) */
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td {
+  padding: 3px 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.dataTables_empty {
+  padding: 86px 0;
+  font-size: 16px;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.esconder-texto {
+  color: #323232 !important;
+}
+
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td input.editar-qtd,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-editar-qtd,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-confirmar-editar-qtd,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-cancelar-editar-qtd,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td input.editar-qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-editar-qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-confirmar-editar-qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-cancelar-editar-qtd-taloes,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td input.editar-perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-editar-perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-confirmar-editar-perfil,
+.up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-cancelar-editar-perfil {
+  display: none !important;
+}
+
+/* Popup */
+
+.popup .popup-body ul.popup-acoes {
+  margin-bottom: 10px;
+}
+
+.popup .popup-body ul.popup-acoes li {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.popup .popup-body ul.popup-acoes li.imprimir-consumo {
+  padding: 5px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.popup .popup-body ul.popup-acoes li.imprimir-consumo > * {
+  float: left;
+  margin-left: 5px;
+}
+
+.popup .popup-body ul.popup-acoes li.imprimir-consumo > label {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 7px 0px;
+}
+
+/* Remessa processada (Popup) */
+
+.remessa-processada-container .up-container .up-bloco {
+  height: 600px;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco {
+  height: 95%;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco .acoes-ordenar-estacao,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco .acoes-estacao {
+  display: none;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco .estacao-header-text {
+  width: 100%;
+  max-width: 100%;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco .estacao-header-text > label {
+  width: 100%;
+  margin-left: 0;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco div.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  max-height: 60vh;
+  height: 100% !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao {
+  /*					thead tr th:first-of-type, tbody tr td:first-of-type:not(.dataTables_empty) {
+						display: none;
+					}*/
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th:first-of-type,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td:first-of-type,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th:first-of-type,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td:first-of-type {
+  display: none;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.densidade,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.densidade,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.densidade,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.densidade {
+  width: 24px !important;
+  max-width: 24px !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.espessura,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.espessura,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.espessura,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.espessura {
+  width: 25px !important;
+  max-width: 25px !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.modelo,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.modelo,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.modelo,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.modelo {
+  width: 80px !important;
+  max-width: 80px !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.cor,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.cor,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.cor,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.cor {
+  width: 70px !important;
+  max-width: 70px !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.qtd-prog,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.qtd-prog,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.qtd-prog,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.qtd-prog {
+  border-right-width: 1px;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr th.tempo,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao thead tr td.tempo,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr th.tempo,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.tempo {
+  display: table-cell;
+  width: 40px !important;
+  max-width: 40px !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr.selected {
+  background-color: transparent;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr.bloco-novo td:nth-child(2) {
+  border-left-color: #449d44;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr.bloco-modelo {
+  font-weight: bold;
+  background-color: #e7e7e7;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td:nth-child(2) {
+  border-left: 3px solid #f0ad4e;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.esconder-texto {
+  color: #323232 !important;
+}
+
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td input.editar-qtd,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-editar-qtd,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-confirmar-editar-qtd,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-cancelar-editar-qtd,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td input.editar-qtd-taloes,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-editar-qtd-taloes,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-confirmar-editar-qtd-taloes,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-cancelar-editar-qtd-taloes,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td input.editar-perfil,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-editar-perfil,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-confirmar-editar-perfil,
+.remessa-processada-container .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td .btn-cancelar-editar-perfil {
+  display: none !important;
+}
+
+/* Alterar (popup) */
+
+.remessa-popup-show fieldset {
+  margin-bottom: 0;
+}
+
+.remessa-popup-show #taloes section.talao {
+  overflow: hidden;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table {
+  height: 55vh;
+  min-width: 1400px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:first-child,
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:first-child {
+  min-width: 20px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(2),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(2) {
+  min-width: 85px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(3),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(3) {
+  min-width: 230px;
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(4),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(4) {
+  min-width: 70px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(5),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(5) {
+  min-width: 70px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(6),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(6) {
+  min-width: 200px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(7),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(7) {
+  min-width: 100px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(8),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(8) {
+  min-width: 100px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(9),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(9) {
+  min-width: 100px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(10),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(10) {
+  min-width: 100px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(11),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(11) {
+  min-width: 150px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(12),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(12) {
+  min-width: 150px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(13),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(13) {
+  max-width: 97px;
+  min-width: 97px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading a span:nth-child(14),
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(14) {
+  min-width: 75px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table .panel-heading div span:nth-child(14) {
+  min-width: 93px;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body {
+  height: calc(55vh - 40px);
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body span.t-status.status0:before {
+  background-color: #d9534f;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body span.t-status.status1:before {
+  background-color: #f0ad4e;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body span.t-status.status2:before {
+  background-color: #337ab7;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body span.t-status.status3:before {
+  background-color: #449d44;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body span.t-status.status6:before {
+  background-color: #828282;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body table tbody td.t-status.status1:before {
+  background-color: #f0ad4e;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body table tbody td.t-status.status2:before {
+  background-color: #337ab7;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body table tbody td.t-status.status3:before {
+  background-color: #449d44;
+}
+
+.remessa-popup-show #taloes section.talao .panel.panel-table > .panel-body table tbody td.t-status.status6:before {
+  background-color: #828282;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container {
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container label.label-legenda {
+  float: left;
+  margin-bottom: 0;
+  font-size: 11px;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda {
+  clear: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao li:nth-child(1) div.cor-legenda {
+  background-color: #d9534f;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao li:nth-child(2) div.cor-legenda {
+  background-color: #f0ad4e;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao li:nth-child(3) div.cor-legenda {
+  background-color: #337ab7;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao li:nth-child(4) div.cor-legenda {
+  background-color: #449d44;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao li:nth-child(5) div.cor-legenda {
+  background-color: #828282;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao-detalhe li:nth-child(1) div.cor-legenda {
+  background-color: #f0ad4e;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao-detalhe li:nth-child(2) div.cor-legenda {
+  background-color: #337ab7;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao-detalhe li:nth-child(3) div.cor-legenda {
+  background-color: #449d44;
+}
+
+.remessa-popup-show #taloes section.talao .legenda-container ul.legenda.legenda-talao-detalhe li:nth-child(4) div.cor-legenda {
+  background-color: #828282;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco {
+  width: 590px;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco {
+  width: 570px;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td:nth-child(6) {
+  display: table-cell;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.t-status.status0:before {
+  background-color: #d9534f;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.t-status.status1:before {
+  background-color: #f0ad4e;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.t-status.status2:before {
+  background-color: #337ab7;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.t-status.status3:before {
+  background-color: #449d44;
+}
+
+.remessa-popup-show #ups .up-container .up-bloco .estacao-container .estacao-bloco table.estacao tbody tr td.t-status.status6:before {
+  background-color: #828282;
+}
+
+.remessa-popup-show #ups ul.legenda {
+  float: none;
+  display: inline-block;
+  margin: 0;
+}
+
+.remessa-popup-show #ups ul.legenda li:nth-child(1) div.cor-legenda {
+  background-color: #d9534f;
+}
+
+.remessa-popup-show #ups ul.legenda li:nth-child(2) div.cor-legenda {
+  background-color: #f0ad4e;
+}
+
+.remessa-popup-show #ups ul.legenda li:nth-child(3) div.cor-legenda {
+  background-color: #337ab7;
+}
+
+.remessa-popup-show #ups ul.legenda li:nth-child(4) div.cor-legenda {
+  background-color: #449d44;
+}
+
+.remessa-popup-show #ups ul.legenda li:nth-child(5) div.cor-legenda {
+  background-color: #828282;
+}

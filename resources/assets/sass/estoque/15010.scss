@@ -1,0 +1,77 @@
+@import "../helper/partials/_padrao.scss";
+
+.familia-permitida {
+	display: inline-block;
+    margin-top: 5px;
+	margin-right: 5px;
+	padding: 1px 5px;
+	white-space: nowrap;
+	border: 1px solid;
+	@include border-radius(3px);
+}
+
+table {
+	
+	&.lista-obj-15010 {
+		
+		thead {
+			tr {
+				th {
+					&.status {
+						width: 10px;
+					}
+					&.produto {
+						width: 350px;
+					}
+				}
+			}
+		}
+		tbody {
+			td {
+				&.status {
+					&.status-0 {
+						color: $greenSuccess;
+					}
+					&.status-1 {
+						color: $redDanger
+					}
+					&.status-2 {
+						color: $black100;
+					}
+				}
+			}
+		}
+	}
+}
+
+ul.legenda {
+	li {
+		&:nth-child(1) {
+			.cor-legenda {
+				background-color: $greenSuccess;
+			}
+		}
+		&:nth-child(2) {
+			.cor-legenda {
+				background-color: $redDanger;
+			}
+		}
+		&:nth-child(3) {
+			.cor-legenda {
+				background-color: $black100;
+			}
+		}
+	}
+}
+
+form .item-dinamico-container .item-dinamico {
+	
+	&.produto {
+		&:first-child {
+			> .form-group {
+				display: none;
+			}
+		}
+	}
+	
+}

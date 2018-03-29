@@ -1,0 +1,51 @@
+@import "../helper/partials/padrao.scss";
+
+nav.navbar {
+	
+	.navbar-header .navbar-toggle, div.sessao {
+		display: none;
+	}
+}
+
+fieldset {
+	
+	&.item-orcamento {
+		
+		> .label {
+			float: left;
+			margin-bottom: 10px;
+			font-size: 14px;
+			font-weight: normal;
+		}
+		
+		> .row {
+			float: left;
+			clear: left;
+			
+			&:not(:first-of-type) {
+			
+				label {
+					//display: none;
+				}
+			}
+
+			.panel {
+				float: left;
+				padding: 20px 10px 10px 10px;
+				margin-bottom: 10px;
+			}
+
+			&:nth-child(even) {
+				.panel {
+					background-color: rgba($green205, 0.4);
+				}
+			}
+			
+			&:nth-child(odd) {
+				.panel {
+					background-color: rgba($blue205, 0.4);
+				}
+			}
+		}
+	}
+}

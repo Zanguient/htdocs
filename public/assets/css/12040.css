@@ -1,0 +1,1496 @@
+/**
+ * _12040 - Registro de Pedidos
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.chat {
+  position: fixed;
+  z-index: 99998;
+  right: 10px;
+  bottom: 10px;
+  padding: 30px 10px 10px 10px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 3px black;
+  border-radius: 20px 20px 0 20px;
+}
+
+.chat.minimizado {
+  padding: 0;
+  height: 60px;
+  width: 60px;
+  background-color: #a90f0f;
+  /* minimizar o 'serrilhado' */
+  border-radius: 30px;
+}
+
+.chat.minimizado label.chat-titulo {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chat.minimizado label.chat-titulo:hover {
+  background-color: #810000;
+}
+
+.chat.minimizado .erro-container,
+.chat.minimizado .lista-usuario-container,
+.chat.minimizado .msg-container {
+  display: none;
+}
+
+.chat label.chat-titulo {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: 0px;
+  margin-bottom: 0;
+  padding: 2px;
+  width: 100%;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  background-color: #a90f0f;
+  cursor: pointer;
+}
+
+.chat label.chat-titulo span.fa-window-minimize {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}
+
+.chat label.chat-titulo span.fa-comment {
+  margin-top: 12px;
+  font-size: 28px;
+}
+
+.chat label.chat-titulo span.fa-circle {
+  position: fixed;
+  right: 10px;
+  bottom: 55px;
+  font-size: 18px;
+  color: #dc993a;
+  text-shadow: -1px 2px 3px black;
+}
+
+.chat .erro-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  z-index: 999;
+  top: 24px;
+  left: 0;
+  height: calc(100% - 24px);
+  width: 100%;
+  background-color: white;
+}
+
+.chat .erro-container > div {
+  width: 100%;
+  text-align: center;
+}
+
+.chat .erro-container > div label {
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  font-weight: normal;
+  color: #a90f0f;
+}
+
+.chat .erro-container > div span.fa-circle-o-notch {
+  animation: spin 1s linear infinite;
+}
+
+.chat .lista-usuario-container,
+.chat .msg-container {
+  float: right;
+}
+
+.chat .lista-usuario-container {
+  width: 200px;
+  height: 253px;
+  overflow: auto;
+}
+
+.chat .lista-usuario-container .lista .btn-selec-usuario {
+  display: block;
+  position: relative;
+  padding: 5px 15px 5px 5px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  text-align: left;
+  text-transform: capitalize;
+  border: 0;
+  border-bottom: 1px solid #e7e7e7;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.chat .lista-usuario-container .lista .btn-selec-usuario:last-child {
+  border-bottom: 0;
+}
+
+.chat .lista-usuario-container .lista .btn-selec-usuario.btn-primary {
+  color: #323232;
+  background-color: rgba(51, 122, 183, 0.3);
+  outline: 0;
+}
+
+.chat .lista-usuario-container .lista .btn-selec-usuario span.usuario-online {
+  color: #449d44;
+}
+
+.chat .lista-usuario-container .lista .btn-selec-usuario span.usuario-offline {
+  color: #d9534f;
+}
+
+.chat .lista-usuario-container .lista .btn-selec-usuario span.usuario-nova-msg {
+  position: absolute;
+  right: 3px;
+  color: #dc993a;
+}
+
+.chat .msg-container {
+  margin-right: 5px;
+}
+
+.chat .msg-container .conversa {
+  width: 400px;
+  margin-bottom: 5px;
+}
+
+.chat .msg-container .conversa .conversa-msg-container {
+  display: block;
+  height: 200px;
+  max-width: 400px;
+  overflow: auto;
+  background-color: rgba(245, 245, 245, 0.9);
+  border-radius: 3px;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg {
+  position: relative;
+  margin: 5px 5px 0 5px;
+  padding: 5px 10px 12px 10px;
+  width: 92%;
+  overflow-wrap: break-word;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg.msg-remetente {
+  float: left;
+  background-color: rgba(68, 157, 68, 0.2);
+  border-radius: 0 20px 20px 20px;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg.msg-destinatario {
+  float: right;
+  background-color: rgba(51, 122, 183, 0.2);
+  border-radius: 20px 0 20px 20px;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg.msg-destinatario label {
+  text-align: right;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg.msg-destinatario label.data {
+  text-align: left;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg label {
+  width: 100%;
+  font-weight: normal;
+  line-height: 1.2em;
+  font-size: 12px;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg label.msg {
+  white-space: pre-wrap;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg label.data {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  margin-bottom: 0;
+  padding: 0 15px;
+  font-size: 10px;
+  text-align: right;
+}
+
+.chat .msg-container .conversa .conversa-msg-container .conversa-msg label.data span.chave {
+  font-weight: bold;
+}
+
+.chat .msg-container .digitar-msg {
+  position: relative;
+}
+
+.chat .msg-container .digitar-msg textarea {
+  width: 400px;
+  padding-right: 30px;
+  font-size: 12px;
+}
+
+.chat .msg-container .digitar-msg button {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  width: 30px;
+  height: 46px;
+  padding: 4px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/**
+ * _12060 - Representante
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.modal#modal-consultar-representante .table-container-representante table thead tr th.representante,
+.modal#modal-consultar-representante .table-container-representante table thead tr td.representante,
+.modal#modal-consultar-representante .table-container-representante table tbody tr th.representante,
+.modal#modal-consultar-representante .table-container-representante table tbody tr td.representante {
+  min-width: 470px;
+  width: 470px;
+}
+
+.modal#modal-consultar-representante .table-container-representante table thead tr th.uf,
+.modal#modal-consultar-representante .table-container-representante table thead tr td.uf,
+.modal#modal-consultar-representante .table-container-representante table tbody tr th.uf,
+.modal#modal-consultar-representante .table-container-representante table tbody tr td.uf {
+  min-width: 50px;
+  width: 50px;
+}
+
+/**
+ * _12070 - Clientes
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.modal#modal-por-representante .table-container-por-representante table thead tr th.cliente,
+.modal#modal-por-representante .table-container-por-representante table thead tr td.cliente,
+.modal#modal-por-representante .table-container-por-representante table tbody tr th.cliente,
+.modal#modal-por-representante .table-container-por-representante table tbody tr td.cliente {
+  min-width: 300px;
+  width: 300px;
+}
+
+.modal#modal-por-representante .table-container-por-representante table thead tr th.nome-fantasia,
+.modal#modal-por-representante .table-container-por-representante table thead tr td.nome-fantasia,
+.modal#modal-por-representante .table-container-por-representante table tbody tr th.nome-fantasia,
+.modal#modal-por-representante .table-container-por-representante table tbody tr td.nome-fantasia {
+  min-width: 180px;
+  width: 180px;
+}
+
+.modal#modal-por-representante .table-container-por-representante table thead tr th.uf,
+.modal#modal-por-representante .table-container-por-representante table thead tr td.uf,
+.modal#modal-por-representante .table-container-por-representante table tbody tr th.uf,
+.modal#modal-por-representante .table-container-por-representante table tbody tr td.uf {
+  min-width: 50px;
+  width: 50px;
+}
+
+/**
+ * _27020 - Cadastro de Modelos
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+/**
+ * Estilo para arquivo.
+ */
+
+/**
+ * Visualizar arquivo.
+ */
+
+.visualizar-arquivo {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 99998;
+  overflow: auto;
+  width: 100%;
+  height: 95%;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.visualizar-arquivo .esconder-arquivo {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+
+.visualizar-arquivo .download-arquivo {
+  position: fixed;
+  top: 60px;
+  right: 120px;
+}
+
+.visualizar-arquivo object {
+  display: block;
+  margin: 0 auto;
+}
+
+.visualizar-arquivo object.pdf {
+  width: 100%;
+  height: 100%;
+}
+
+.visualizar-arquivo object.txt {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.modal#modal-consultar-modelo-por-cliente form .form-group label.lbl-radio {
+  display: inline-block !important;
+  margin-top: 0px !important;
+  margin-left: 10px;
+}
+
+.table-container-modelo-por-cliente table thead tr th.amostra,
+.table-container-modelo-por-cliente table thead tr td.amostra,
+.table-container-modelo-por-cliente table tbody tr th.amostra,
+.table-container-modelo-por-cliente table tbody tr td.amostra {
+  width: 70px;
+}
+
+.table-container-modelo-por-cliente table thead tr th.modelo,
+.table-container-modelo-por-cliente table thead tr td.modelo,
+.table-container-modelo-por-cliente table tbody tr th.modelo,
+.table-container-modelo-por-cliente table tbody tr td.modelo {
+  width: 250px;
+}
+
+.table-container-modelo-por-cliente table thead tr th.grade,
+.table-container-modelo-por-cliente table thead tr td.grade,
+.table-container-modelo-por-cliente table tbody tr th.grade,
+.table-container-modelo-por-cliente table tbody tr td.grade {
+  width: 215px;
+}
+
+.table-container-modelo-por-cliente table tbody tr.mais-pedido {
+  background-color: rgba(240, 173, 78, 0.2);
+}
+
+.table-container-modelo-por-cliente table tbody tr.mais-pedido:nth-of-type(odd),
+.table-container-modelo-por-cliente table tbody tr.mais-pedido:hover {
+  background-color: rgba(240, 173, 78, 0.25);
+}
+
+.table-container-modelo-por-cliente table tbody tr td.amostra {
+  position: relative;
+  padding: 6px 0 0 0;
+}
+
+.table-container-modelo-por-cliente table tbody tr td.amostra span {
+  position: absolute;
+  top: 1px;
+  left: 9px;
+  width: 50px;
+  height: 30px;
+  font-size: 21px;
+  text-shadow: 1px 1px 1px #646464;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 3px;
+  transition: 0.5s 0s;
+}
+
+.table-container-modelo-por-cliente table tbody tr td.amostra span:hover {
+  z-index: 1;
+  cursor: zoom-in;
+  background-color: white;
+  box-shadow: 0 0 3px black;
+  transform-origin: top left;
+  transform: scale(5);
+  transition: 1s 0.5s;
+}
+
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(1):not(:nth-child(1)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(2):not(:nth-child(2)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(3):not(:nth-child(3)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(4):not(:nth-child(4)) td.amostra span:hover,
+.table-container-modelo-por-cliente table tbody tr:nth-last-child(5):not(:nth-child(5)) td.amostra span:hover {
+  transform-origin: bottom left;
+}
+
+.table-container-modelo-por-cliente table.table-header ~ .scroll-table {
+  height: 66vh;
+}
+
+.table-container-modelo-por-cliente ~ ul.legenda {
+  margin-bottom: 0;
+}
+
+.table-container-modelo-por-cliente ~ ul.legenda li div.cor-legenda {
+  background-color: rgba(240, 173, 78, 0.3);
+  box-shadow: 0px 0px 2px black;
+}
+
+/**
+ * _27030 - Cadastro de Cores - Modal
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.modal#modal-consultar-cor-por-modelo table thead tr th,
+.modal#modal-consultar-cor-por-modelo table thead tr td,
+.modal#modal-consultar-cor-por-modelo table tbody tr th,
+.modal#modal-consultar-cor-por-modelo table tbody tr td,
+.modal#modal-consultar-cor table thead tr th,
+.modal#modal-consultar-cor table thead tr td,
+.modal#modal-consultar-cor table tbody tr th,
+.modal#modal-consultar-cor table tbody tr td {
+  /*
+						&.cor-classe {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						&.cor-perfil {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						&.cor-tonalidade {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						&.cor-tonalidade-fornecedor {
+							min-width: 80px;
+							max-width: 80px;
+							width: 80px;
+						}
+						&.cor-observacao {
+							min-width: 150px;
+							max-width: 150px;
+							width: 150px;
+						}
+						&.cor-quantidade {
+							min-width: 50px;
+							max-width: 50px;
+							width: 50px;
+						}
+						*/
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-amostra,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-amostra,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-amostra,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra,
+.modal#modal-consultar-cor table thead tr th.cor-amostra,
+.modal#modal-consultar-cor table thead tr td.cor-amostra,
+.modal#modal-consultar-cor table tbody tr th.cor-amostra,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra {
+  min-width: 70px;
+  max-width: 70px;
+  width: 70px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-id,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-id,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-id,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-id,
+.modal#modal-consultar-cor table thead tr th.cor-id,
+.modal#modal-consultar-cor table thead tr td.cor-id,
+.modal#modal-consultar-cor table tbody tr th.cor-id,
+.modal#modal-consultar-cor table tbody tr td.cor-id {
+  min-width: 60px;
+  max-width: 60px;
+  width: 60px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-descricao,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-descricao,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-descricao,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-descricao,
+.modal#modal-consultar-cor table thead tr th.cor-descricao,
+.modal#modal-consultar-cor table thead tr td.cor-descricao,
+.modal#modal-consultar-cor table tbody tr th.cor-descricao,
+.modal#modal-consultar-cor table tbody tr td.cor-descricao {
+  min-width: 275px;
+  max-width: 275px;
+  width: 275px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-condicao,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-condicao,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-condicao,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-condicao,
+.modal#modal-consultar-cor table thead tr th.cor-condicao,
+.modal#modal-consultar-cor table thead tr td.cor-condicao,
+.modal#modal-consultar-cor table tbody tr th.cor-condicao,
+.modal#modal-consultar-cor table tbody tr td.cor-condicao {
+  min-width: 125px;
+  max-width: 125px;
+  width: 125px;
+}
+
+.modal#modal-consultar-cor-por-modelo table thead tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor-por-modelo table thead tr td.cor-condicao.col-maior,
+.modal#modal-consultar-cor-por-modelo table tbody tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-condicao.col-maior,
+.modal#modal-consultar-cor table thead tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor table thead tr td.cor-condicao.col-maior,
+.modal#modal-consultar-cor table tbody tr th.cor-condicao.col-maior,
+.modal#modal-consultar-cor table tbody tr td.cor-condicao.col-maior {
+  min-width: 400px;
+  max-width: 400px;
+  width: 400px;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr.mais-pedido,
+.modal#modal-consultar-cor table tbody tr.mais-pedido {
+  background-color: rgba(240, 173, 78, 0.2);
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr.mais-pedido:nth-of-type(odd),
+.modal#modal-consultar-cor-por-modelo table tbody tr.mais-pedido:hover,
+.modal#modal-consultar-cor table tbody tr.mais-pedido:nth-of-type(odd),
+.modal#modal-consultar-cor table tbody tr.mais-pedido:hover {
+  background-color: rgba(240, 173, 78, 0.25);
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra {
+  position: relative;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra > span,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra > span {
+  position: absolute;
+  top: 4px;
+  width: 52px;
+  height: calc(100% - 8px);
+  box-shadow: 0px 1px 3px #646464;
+  border-radius: 3px;
+  transition: 0.5s 0s;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr td.cor-amostra > span:hover,
+.modal#modal-consultar-cor table tbody tr td.cor-amostra > span:hover {
+  z-index: 1;
+  cursor: zoom-in;
+  box-shadow: 0 0 3px black;
+  transform-origin: top left;
+  transform: scale(3);
+  transition: 1s 0.5s;
+}
+
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(1):not(:nth-child(1)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(2):not(:nth-child(2)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(3):not(:nth-child(3)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(4):not(:nth-child(4)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor-por-modelo table tbody tr:nth-last-child(5):not(:nth-child(5)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(1):not(:nth-child(1)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(2):not(:nth-child(2)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(3):not(:nth-child(3)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(4):not(:nth-child(4)) td.cor-amostra span:hover,
+.modal#modal-consultar-cor table tbody tr:nth-last-child(5):not(:nth-child(5)) td.cor-amostra span:hover {
+  transform-origin: bottom left;
+}
+
+.modal#modal-consultar-cor-por-modelo table.table-header ~ .scroll-table,
+.modal#modal-consultar-cor table.table-header ~ .scroll-table {
+  height: 66vh;
+}
+
+.modal#modal-consultar-cor-por-modelo ul.legenda,
+.modal#modal-consultar-cor ul.legenda {
+  margin-bottom: 0;
+}
+
+.modal#modal-consultar-cor-por-modelo ul.legenda li div.cor-legenda,
+.modal#modal-consultar-cor ul.legenda li div.cor-legenda {
+  background-color: rgba(240, 173, 78, 0.3);
+  box-shadow: 0px 0px 2px black;
+}
+
+@media (max-width: 1024px) {
+  .modal-pedido-item .modal-dialog {
+    top: 50px !important;
+  }
+
+  .modal-consultar-modelo-por-cliente .modal-dialog {
+    top: 100px !important;
+  }
+
+  .modal-consultar-cor-por-modelo .modal-dialog {
+    top: 100px !important;
+  }
+}
+
+.pedido-atrasado {
+  background-color: #efb3b3 !important;
+}
+
+pedido-index-12040 .table-filter input.input-maior {
+  width: 300px !important;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.pedido,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.pedido,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.pedido,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.pedido {
+  min-width: 70px;
+  max-width: 70px;
+  width: 70px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.pedido-cliente,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.pedido-cliente,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.pedido-cliente,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.pedido-cliente {
+  min-width: 90px;
+  max-width: 90px;
+  width: 90px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.programado,
+pedido-index-12040 .table-container.table-container-pedido thead tr th.confirmado,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.programado,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.confirmado,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.programado,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.confirmado,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.programado,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.confirmado {
+  min-width: 60px;
+  max-width: 60px;
+  width: 60px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.data-cliente,
+pedido-index-12040 .table-container.table-container-pedido thead tr th.data-inclusao,
+pedido-index-12040 .table-container.table-container-pedido thead tr th.valor,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.data-cliente,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.data-inclusao,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.valor,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.data-cliente,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.data-inclusao,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.valor,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.data-cliente,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.data-inclusao,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.valor {
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.qtd,
+pedido-index-12040 .table-container.table-container-pedido thead tr th.saldo-faturar,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.qtd,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.saldo-faturar,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.qtd,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.saldo-faturar,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.qtd,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.saldo-faturar {
+  min-width: 70px;
+  max-width: 70px;
+  width: 70px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.cliente,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.cliente,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.cliente,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.cliente {
+  min-width: 250px;
+  max-width: 250px;
+  width: 250px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.modelo,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.modelo,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.modelo,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.modelo {
+  min-width: 300px;
+  max-width: 300px;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+pedido-index-12040 .table-container.table-container-pedido thead tr th.obs,
+pedido-index-12040 .table-container.table-container-pedido thead tr td.obs,
+pedido-index-12040 .table-container.table-container-pedido tbody tr th.obs,
+pedido-index-12040 .table-container.table-container-pedido tbody tr td.obs {
+  min-width: 300px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido tbody tr td span.fa {
+  font-size: 14px;
+}
+
+pedido-index-12040 .table-container.table-container-pedido tbody tr td span.fa.fa-times {
+  color: #d9534f;
+}
+
+pedido-index-12040 .table-container.table-container-pedido tbody tr td span.fa.fa-check {
+  color: #449d44;
+}
+
+pedido-index-12040 .table-container.table-container-pedido tbody tr td span.fa.fa-exclamation-triangle {
+  color: #f0ad4e;
+}
+
+fieldset#info-geral .form-group.chave {
+  border-radius: 15px;
+  position: relative;
+  top: -47px;
+  margin: 0;
+  padding: 5px 15px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  float: right;
+  margin-left: 5px;
+}
+
+fieldset#info-geral .form-group.chave label {
+  display: inline-block;
+  line-height: 1em;
+}
+
+fieldset#info-geral .form-group.chave label:nth-child(2) {
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: text;
+}
+
+fieldset#info-geral #detalhe-cliente-toggle {
+  float: left;
+  margin-top: 5px;
+  border-radius: 4px 4px 0 0;
+}
+
+fieldset#info-geral #detalhe-cliente-toggle > span.fa:before {
+  content: '\f0d8';
+}
+
+fieldset#info-geral #detalhe-cliente-toggle.collapsed {
+  border-radius: 4px;
+}
+
+fieldset#info-geral #detalhe-cliente-toggle.collapsed > span.fa:before {
+  content: '\f0d7';
+}
+
+fieldset#info-geral #detalhe-cliente {
+  float: left;
+  clear: left;
+  border-radius: 0 10px 10px 10px;
+  border: 1px solid #5bc0de;
+}
+
+fieldset#info-geral #detalhe-cliente > div {
+  margin: 10px;
+}
+
+.modal#modal-create .table-container-item-escolhido,
+.modal#modal-create .container-qtd-minima {
+  float: left;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.sequencia,
+.modal#modal-create .table-container-item-escolhido table thead tr th.tamanho,
+.modal#modal-create .table-container-item-escolhido table thead tr td.sequencia,
+.modal#modal-create .table-container-item-escolhido table thead tr td.tamanho,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.sequencia,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.tamanho,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.sequencia,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.tamanho {
+  min-width: 50px;
+  max-width: 50px;
+  width: 50px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.quantidade,
+.modal#modal-create .table-container-item-escolhido table thead tr td.quantidade,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.quantidade,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.quantidade {
+  min-width: 65px;
+  max-width: 65px;
+  width: 65px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.produto,
+.modal#modal-create .table-container-item-escolhido table thead tr td.produto,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.produto,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.produto {
+  min-width: 300px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.perfil,
+.modal#modal-create .table-container-item-escolhido table thead tr td.perfil,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.perfil,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.perfil {
+  min-width: 150px;
+  max-width: 150px;
+  width: 150px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.um,
+.modal#modal-create .table-container-item-escolhido table thead tr td.um,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.um,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.um {
+  min-width: 50px;
+  max-width: 50px;
+  width: 50px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.valor-unit,
+.modal#modal-create .table-container-item-escolhido table thead tr td.valor-unit,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.valor-unit,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.valor-unit {
+  min-width: 70px;
+  max-width: 70px;
+  width: 70px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.valor-total,
+.modal#modal-create .table-container-item-escolhido table thead tr td.valor-total,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.valor-total,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.valor-total {
+  min-width: 110px;
+  max-width: 110px;
+  width: 110px;
+}
+
+.modal#modal-create .table-container-item-escolhido table thead tr th.data-ideal,
+.modal#modal-create .table-container-item-escolhido table thead tr td.data-ideal,
+.modal#modal-create .table-container-item-escolhido table tbody tr th.data-ideal,
+.modal#modal-create .table-container-item-escolhido table tbody tr td.data-ideal {
+  min-width: 90px;
+  max-width: 90px;
+  width: 90px;
+}
+
+.modal#modal-create .table-container-item-escolhido table.table-header ~ .scroll-table {
+  height: 250px;
+}
+
+.modal#modal-create .container-qtd-minima {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.status,
+.modal#modal-create .container-qtd-minima table thead tr td.status,
+.modal#modal-create .container-qtd-minima table tbody tr th.status,
+.modal#modal-create .container-qtd-minima table tbody tr td.status {
+  min-width: 27px;
+  max-width: 27px;
+  width: 27px;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.status span.fa-check,
+.modal#modal-create .container-qtd-minima table thead tr td.status span.fa-check,
+.modal#modal-create .container-qtd-minima table tbody tr th.status span.fa-check,
+.modal#modal-create .container-qtd-minima table tbody tr td.status span.fa-check {
+  color: #449d44;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.status span.fa-times,
+.modal#modal-create .container-qtd-minima table thead tr td.status span.fa-times,
+.modal#modal-create .container-qtd-minima table tbody tr th.status span.fa-times,
+.modal#modal-create .container-qtd-minima table tbody tr td.status span.fa-times {
+  color: #d9534f;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.cor,
+.modal#modal-create .container-qtd-minima table thead tr td.cor,
+.modal#modal-create .container-qtd-minima table tbody tr th.cor,
+.modal#modal-create .container-qtd-minima table tbody tr td.cor {
+  min-width: 200px;
+  max-width: 200px;
+  width: 200px;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.cor.col-menor,
+.modal#modal-create .container-qtd-minima table thead tr td.cor.col-menor,
+.modal#modal-create .container-qtd-minima table tbody tr th.cor.col-menor,
+.modal#modal-create .container-qtd-minima table tbody tr td.cor.col-menor {
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.quantidade,
+.modal#modal-create .container-qtd-minima table thead tr th.quantidade-min,
+.modal#modal-create .container-qtd-minima table thead tr td.quantidade,
+.modal#modal-create .container-qtd-minima table thead tr td.quantidade-min,
+.modal#modal-create .container-qtd-minima table tbody tr th.quantidade,
+.modal#modal-create .container-qtd-minima table tbody tr th.quantidade-min,
+.modal#modal-create .container-qtd-minima table tbody tr td.quantidade,
+.modal#modal-create .container-qtd-minima table tbody tr td.quantidade-min {
+  min-width: 65px;
+  max-width: 65px;
+  width: 65px;
+}
+
+.modal#modal-create .container-qtd-minima table thead tr th.quantidade-mult,
+.modal#modal-create .container-qtd-minima table thead tr td.quantidade-mult,
+.modal#modal-create .container-qtd-minima table tbody tr th.quantidade-mult,
+.modal#modal-create .container-qtd-minima table tbody tr td.quantidade-mult {
+  min-width: 50px;
+  max-width: 50px;
+  width: 50px;
+}
+
+.modal#modal-create .container-qtd-minima table tbody tr td.atualizar-qtd-liberada {
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
+.modal#modal-create .container-qtd-minima table.table-header ~ .scroll-table {
+  height: 187px;
+  background-color: white;
+}
+
+.modal#modal-create #pedido-item-escolhido-resumo {
+  clear: left;
+}
+
+.modal#modal-create #pedido-item-escolhido-resumo label.data-cliente-info {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.modal#modal-pedido-item input.modelo-selec,
+.modal#modal-pedido-item input.cor-selec,
+.modal#modal-liberacao input.modelo-selec,
+.modal#modal-liberacao input.cor-selec {
+  padding-left: 50px;
+}
+
+.modal#modal-pedido-item span.modelo-amostra-selec,
+.modal#modal-pedido-item span.cor-amostra-selec,
+.modal#modal-liberacao span.modelo-amostra-selec,
+.modal#modal-liberacao span.cor-amostra-selec {
+  display: block;
+  position: absolute;
+  z-index: 4;
+  margin-top: 5px;
+  margin-left: 6px;
+  width: 40px;
+  height: 24px;
+  box-shadow: 0px 1px 3px #646464;
+  border-radius: 3px;
+  transition: 0.5s 0s;
+}
+
+.modal#modal-pedido-item span.modelo-amostra-selec.sem-amostra,
+.modal#modal-pedido-item span.cor-amostra-selec.sem-amostra,
+.modal#modal-liberacao span.modelo-amostra-selec.sem-amostra,
+.modal#modal-liberacao span.cor-amostra-selec.sem-amostra {
+  background-color: transparent !important;
+}
+
+.modal#modal-pedido-item span.modelo-amostra-selec:hover,
+.modal#modal-pedido-item span.cor-amostra-selec:hover,
+.modal#modal-liberacao span.modelo-amostra-selec:hover,
+.modal#modal-liberacao span.cor-amostra-selec:hover {
+  cursor: zoom-in;
+  box-shadow: 0 0 3px black;
+  transform-origin: left;
+  transform: scale(3);
+  transition: 1s 0.5s;
+}
+
+.modal#modal-pedido-item span.modelo-amostra-selec,
+.modal#modal-liberacao span.modelo-amostra-selec {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead,
+.modal#modal-pedido-item .table-container-tamanho table tbody,
+.modal#modal-liberacao .table-container-tamanho table thead,
+.modal#modal-liberacao .table-container-tamanho table tbody {
+  font-size: 14px;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho {
+  width: 80px;
+  max-width: 80px;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-valor-unitario,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-valor-unitario,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-valor-unitario,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-valor-unitario,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-valor-unitario,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-valor-unitario,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-valor-unitario,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-valor-unitario {
+  width: 100px;
+  max-width: 100px;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-quantidade,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-quantidade,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-quantidade,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-quantidade,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-quantidade,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-quantidade,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-quantidade,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-quantidade {
+  width: 120px;
+  max-width: 120px;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-quantidade-min,
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-quantidade-mult,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-quantidade-min,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-quantidade-mult,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-quantidade-min,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-quantidade-mult,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-quantidade-min,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-quantidade-mult,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-quantidade-min,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-quantidade-mult,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-quantidade-min,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-quantidade-mult,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-quantidade-min,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-quantidade-mult,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-quantidade-min,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-quantidade-mult {
+  width: 50px;
+  max-width: 50px;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-estoque-min,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-estoque-min,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-estoque-min,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-estoque-min,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-estoque-min,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-estoque-min,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-estoque-min,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-estoque-min {
+  width: 75px;
+  max-width: 75px;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-estoque-min span.fa-check,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-estoque-min span.fa-check,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-estoque-min span.fa-check,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-estoque-min span.fa-check,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-estoque-min span.fa-check,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-estoque-min span.fa-check,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-estoque-min span.fa-check,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-estoque-min span.fa-check {
+  color: #449d44;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table thead tr th.tamanho-estoque-min span.fa-times,
+.modal#modal-pedido-item .table-container-tamanho table thead tr td.tamanho-estoque-min span.fa-times,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr th.tamanho-estoque-min span.fa-times,
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td.tamanho-estoque-min span.fa-times,
+.modal#modal-liberacao .table-container-tamanho table thead tr th.tamanho-estoque-min span.fa-times,
+.modal#modal-liberacao .table-container-tamanho table thead tr td.tamanho-estoque-min span.fa-times,
+.modal#modal-liberacao .table-container-tamanho table tbody tr th.tamanho-estoque-min span.fa-times,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td.tamanho-estoque-min span.fa-times {
+  color: #d9534f;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table tbody tr td,
+.modal#modal-liberacao .table-container-tamanho table tbody tr td {
+  vertical-align: middle;
+}
+
+.modal#modal-pedido-item .table-container-tamanho table.table-header ~ .scroll-table,
+.modal#modal-liberacao .table-container-tamanho table.table-header ~ .scroll-table {
+  min-height: 50px;
+  height: auto;
+}
+
+.modal#modal-liberacao .btn-excluir-cor {
+  margin-left: 10px;
+}
+
+#resumo-btn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  font-size: 20px;
+  box-shadow: 0 1px 2px black;
+  border-radius: 23px;
+}

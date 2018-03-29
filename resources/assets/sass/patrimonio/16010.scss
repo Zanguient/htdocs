@@ -1,0 +1,18 @@
+@import "../helper/partials/padrao.scss";
+
+.nav-tabs > li > a{
+    background-color: #f7f7f7;
+    font-weight: bold;
+    //box-shadow: -3px -4px 5px -6px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.nav-tabs > li.active > a{
+    font-weight: bold;
+    //background-color: aliceblue;
+}
+
+.table-patrimonio{
+    overflow: hidden;
+}
+

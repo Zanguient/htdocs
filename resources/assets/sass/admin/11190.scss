@@ -1,0 +1,54 @@
+/**
+ * _11190 - Notificacao
+ */
+@import "../helper/partials/padrao.scss";
+
+.div-frase{
+    text-align: center;
+    font-weight: 800;
+    color: #349c5a;
+    font-size: 2vw;
+}
+
+.lista-funcoes{
+    padding: 8px;
+    border: 1px solid;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: #a90f0f;
+}
+
+.envio-user{
+    height: 120px;
+    overflow: inherit;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.form-group{
+	textarea{
+		margin-top: 0px;
+    	margin-bottom: 0px;
+    	height: 250px;
+    }
+}
+
+.tab-pane.fade.active.in {
+    display: block;
+}
+
+.tab-pane{
+    padding: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    border-top: 0px;
+
+    .table-container .table-header ~ .scroll-table {
+        height: 66vh;
+    }
+}
+
+.tab-pane.fade{
+    display: none;
+}

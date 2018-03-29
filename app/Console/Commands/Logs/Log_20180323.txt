@@ -1,0 +1,1444 @@
+
+
+#####################################################
+Log de 23/03/2018 10:51:56
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 10:51:44
+Agd_Email Finalizada em: 23/03/2018 10:51:46
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 10:51:46
+Agd_Sql Finalizada em: 23/03/2018 10:51:50
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 10:51:50
+Env_Email Finalizada em: 23/03/2018 10:51:54
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 10:51:54
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 10:55:23
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 10:55:12
+Agd_Email Finalizada em: 23/03/2018 10:55:16
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 10:55:16
+Agd_Sql Finalizada em: 23/03/2018 10:55:18
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 10:55:18
+Env_Email Finalizada em: 23/03/2018 10:55:21
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 10:55:21
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:04:48
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:04:30
+Agd_Email Finalizada em: 23/03/2018 11:04:34
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:04:34
+Agd_Sql Finalizada em: 23/03/2018 11:04:37
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:04:37
+Env_Email Finalizada em: 23/03/2018 11:04:46
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:04:46
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Class 'App\Console\Commands\SoapClient' not found        
+                                                           
+
+PHP Fatal error:  Class 'App\Console\Commands\SoapClient' not found in C:\xampp\htdocs\app\Console\Commands\Con_dolar.php on line 67
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:07:19
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:07:02
+Agd_Email Finalizada em: 23/03/2018 11:07:06
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:07:06
+Agd_Sql Finalizada em: 23/03/2018 11:07:11
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:07:11
+Env_Email Finalizada em: 23/03/2018 11:07:17
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:07:17
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Class 'App\Console\Commands\SoapClient' not found        
+                                                           
+
+PHP Fatal error:  Class 'App\Console\Commands\SoapClient' not found in C:\xampp\htdocs\app\Console\Commands\Con_dolar.php on line 70
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:10:17
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:10:06
+Agd_Email Finalizada em: 23/03/2018 11:10:09
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:10:09
+Agd_Sql Finalizada em: 23/03/2018 11:10:12
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:10:12
+Env_Email Finalizada em: 23/03/2018 11:10:15
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:10:15
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                   
+  [ErrorException]                 
+  Undefined variable: soapWrapper  
+                                   
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:11:05
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:10:55
+Agd_Email Finalizada em: 23/03/2018 11:10:58
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:10:58
+Agd_Sql Finalizada em: 23/03/2018 11:11:00
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:11:00
+Env_Email Finalizada em: 23/03/2018 11:11:04
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:11:04
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                   
+  [ErrorException]                 
+  Undefined variable: soapWrapper  
+                                   
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:12:33
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:12:21
+Agd_Email Finalizada em: 23/03/2018 11:12:25
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:12:25
+Agd_Sql Finalizada em: 23/03/2018 11:12:28
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:12:28
+Env_Email Finalizada em: 23/03/2018 11:12:32
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:12:32
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                   
+  [ErrorException]                 
+  Undefined variable: soapWrapper  
+                                   
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:17:56
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:17:46
+Agd_Email Finalizada em: 23/03/2018 11:17:49
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:17:49
+Agd_Sql Finalizada em: 23/03/2018 11:17:51
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:17:51
+Env_Email Finalizada em: 23/03/2018 11:17:54
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:17:54
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                                   
+  [SoapFault]                                                      
+  Class 'App\Soap\Response\GetConversionAmountResponse' not found  
+                                                                   
+
+
+                                                                   
+  [Symfony\Component\Debug\Exception\FatalErrorException]          
+  Class 'App\Soap\Response\GetConversionAmountResponse' not found  
+                                                                   
+
+PHP Fatal error:  Class 'App\Soap\Response\GetConversionAmountResponse' not found in C:\xampp\htdocs\vendor\artisaninweb\laravel-soap\src\Artisaninweb\SoapWrapper\Client.php on line 189
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:21:44
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:21:31
+Agd_Email Finalizada em: 23/03/2018 11:21:34
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:21:34
+Agd_Sql Finalizada em: 23/03/2018 11:21:37
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:21:37
+Env_Email Finalizada em: 23/03/2018 11:21:42
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:21:42
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                                            
+  [Symfony\Component\Debug\Exception\FatalErrorException]                   
+  Call to undefined method Artisaninweb\SoapWrapper\SoapWrapper::service()  
+                                                                            
+
+PHP Fatal error:  Call to undefined method Artisaninweb\SoapWrapper\SoapWrapper::service() in C:\xampp\htdocs\app\Console\Commands\Con_dolar.php on line 73
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:25:27
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:25:16
+Agd_Email Finalizada em: 23/03/2018 11:25:19
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:25:19
+Agd_Sql Finalizada em: 23/03/2018 11:25:22
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:25:22
+Env_Email Finalizada em: 23/03/2018 11:25:25
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:25:25
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                                   
+  [SoapFault]                                                      
+  Class 'App\Soap\Response\GetConversionAmountResponse' not found  
+                                                                   
+
+
+                                                                   
+  [Symfony\Component\Debug\Exception\FatalErrorException]          
+  Class 'App\Soap\Response\GetConversionAmountResponse' not found  
+                                                                   
+
+PHP Fatal error:  Class 'App\Soap\Response\GetConversionAmountResponse' not found in C:\xampp\htdocs\vendor\artisaninweb\laravel-soap\src\Artisaninweb\SoapWrapper\Client.php on line 189
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:28:43
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:28:30
+Agd_Email Finalizada em: 23/03/2018 11:28:33
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:28:33
+Agd_Sql Finalizada em: 23/03/2018 11:28:36
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:28:36
+Env_Email Finalizada em: 23/03/2018 11:28:41
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:28:41
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Class 'App\Console\Commands\SoapClient' not found        
+                                                           
+
+PHP Fatal error:  Class 'App\Console\Commands\SoapClient' not found in C:\xampp\htdocs\app\Console\Commands\Con_dolar.php on line 61
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:29:45
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:29:32
+Agd_Email Finalizada em: 23/03/2018 11:29:35
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:29:35
+Agd_Sql Finalizada em: 23/03/2018 11:29:38
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:29:38
+Env_Email Finalizada em: 23/03/2018 11:29:43
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:29:43
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Class 'App\Console\Commands\SoapClient' not found        
+                                                           
+
+PHP Fatal error:  Class 'App\Console\Commands\SoapClient' not found in C:\xampp\htdocs\app\Console\Commands\Con_dolar.php on line 61
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:31:50
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:31:40
+Agd_Email Finalizada em: 23/03/2018 11:31:42
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:31:42
+Agd_Sql Finalizada em: 23/03/2018 11:31:45
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:31:45
+Env_Email Finalizada em: 23/03/2018 11:31:48
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:31:48
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Response: stdClass Object
+(
+    [ConvertTempResult] => 87.8
+)
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:37:27
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:34:15
+Agd_Email Finalizada em: 23/03/2018 11:34:17
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:34:17
+Agd_Sql Finalizada em: 23/03/2018 11:34:19
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:34:19
+Env_Email Finalizada em: 23/03/2018 11:37:26
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:37:26
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Response: stdClass Object
+(
+    [ConvertTempResult] => 87.8
+)
+O sistema nÆo pode encontrar o caminho especificado.
+
+23/03/2018 11:34:22 - Gravando tentativa de envio do email de ID:47639
+23/03/2018 11:34:22 - Enviando o email de ID:47639 para janny@delfa.com.br, elenitasousa@delfa.com.br, ricardomugnol@delfa.com.br, marcosvinicio@delfa.com.br
+2018-03-23 14:37:25	Could not instantiate mail function.
+23/03/2018 11:37:25 - Erro ao enviar email de ID:47639 -> Erro:Could not instantiate mail function.
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:44:49
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:44:38
+Agd_Email Finalizada em: 23/03/2018 11:44:41
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:44:41
+Agd_Sql Finalizada em: 23/03/2018 11:44:43
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:44:43
+Env_Email Finalizada em: 23/03/2018 11:44:47
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:44:47
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                                                                                                                                                                    
+  [SoapFault]                                                                                                                                                                                       
+  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl' : failed to load external entity "https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/Facha  
+  daWSSGS.wsdl"                                                                                                                                                                                     
+                                                                                                                                                                                                    
+
+
+                                                                                                                                                                                                    
+  [Symfony\Component\Debug\Exception\FatalErrorException]                                                                                                                                           
+  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl' : failed to load external entity "https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/Facha  
+  daWSSGS.wsdl"                                                                                                                                                                                     
+                                                                                                                                                                                                    
+
+PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl' : failed to load external entity "https://www3.bcb.gov.br/sgspub/JSP/sgsgeral/FachadaWSSGS.wsdl"
+ in C:\xampp\htdocs\app\Console\Commands\Con_dolar.php on line 67
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:46:20
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:46:10
+Agd_Email Finalizada em: 23/03/2018 11:46:12
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:46:12
+Agd_Sql Finalizada em: 23/03/2018 11:46:15
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:46:15
+Env_Email Finalizada em: 23/03/2018 11:46:18
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:46:18
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                             
+  [ErrorException]           
+  Undefined variable: serie  
+                             
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 11:47:43
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 11:47:33
+Agd_Email Finalizada em: 23/03/2018 11:47:36
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 11:47:36
+Agd_Sql Finalizada em: 23/03/2018 11:47:38
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 11:47:38
+Env_Email Finalizada em: 23/03/2018 11:47:42
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 11:47:42
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                        
+  [SoapFault]                           
+  No such operation 'getUltimoValorVO'  
+                                        
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:00:45
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:00:36
+Agd_Email Finalizada em: 23/03/2018 13:00:40
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:00:40
+Agd_Sql Finalizada em: 23/03/2018 13:00:42
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:00:42
+Env_Email Finalizada em: 23/03/2018 13:00:44
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:00:44
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                        
+  [SoapFault]                           
+  No such operation 'getUltimoValorVO'  
+                                        
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:06:50
+
+ExecuÃ§Ã£o do agendamento de ID:159561
+Gravando execuÃ§Ã£o do agendamento de ID:159561
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:06:37
+Agd_Email Finalizada em: 23/03/2018 13:06:40
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:06:40
+Agd_Sql Finalizada em: 23/03/2018 13:06:43
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:06:43
+Env_Email Finalizada em: 23/03/2018 13:06:49
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:06:49
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                        
+  [SoapFault]                           
+  No such operation 'getUltimoValorVO'  
+                                        
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:15:52
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:12:40
+Agd_Email Finalizada em: 23/03/2018 13:12:42
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:12:42
+Agd_Sql Finalizada em: 23/03/2018 13:12:45
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:12:45
+Env_Email Finalizada em: 23/03/2018 13:15:50
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:15:50
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                 
+  [ErrorException]               
+  Undefined variable: NomeMoeda  
+                                 
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+23/03/2018 13:12:47 - Gravando tentativa de envio do email de ID:47654
+23/03/2018 13:12:47 - Enviando o email de ID:47654 para ricardomugnol@delfa.com.br
+2018-03-23 16:15:50	Could not instantiate mail function.
+23/03/2018 13:15:50 - Erro ao enviar email de ID:47654 -> Erro:Could not instantiate mail function.
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:20:47
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:20:39
+Agd_Email Finalizada em: 23/03/2018 13:20:41
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:20:41
+Agd_Sql Finalizada em: 23/03/2018 13:20:44
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:20:44
+Env_Email Finalizada em: 23/03/2018 13:20:46
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:20:46
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018 
+                                        
+  [SoapFault]                           
+  No such operation 'getUltimoValorVO'  
+                                        
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:24:00
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:23:53
+Agd_Email Finalizada em: 23/03/2018 13:23:55
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:23:55
+Agd_Sql Finalizada em: 23/03/2018 13:23:57
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:23:57
+Env_Email Finalizada em: 23/03/2018 13:23:59
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:23:59
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018  Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018 O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:26:17
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:26:10
+Agd_Email Finalizada em: 23/03/2018 13:26:11
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:26:11
+Agd_Sql Finalizada em: 23/03/2018 13:26:13
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:26:13
+Env_Email Finalizada em: 23/03/2018 13:26:16
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:26:16
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:29:16
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:29:03
+Agd_Email Finalizada em: 23/03/2018 13:29:06
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:29:06
+Agd_Sql Finalizada em: 23/03/2018 13:29:10
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:29:10
+Env_Email Finalizada em: 23/03/2018 13:29:15
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:29:15
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 13:37:37
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:37:28
+Agd_Email Finalizada em: 23/03/2018 13:37:30
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:37:30
+Agd_Sql Finalizada em: 23/03/2018 13:37:33
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:37:33
+Env_Email Finalizada em: 23/03/2018 13:37:35
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 13:37:35
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 <br /> Dia da CotaÃ§Ã£o: 23/3/2018
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:01:26
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 13:58:15
+Agd_Email Finalizada em: 23/03/2018 13:58:17
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 13:58:17
+Agd_Sql Finalizada em: 23/03/2018 13:58:19
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 13:58:19
+Env_Email Finalizada em: 23/03/2018 14:01:25
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:01:25
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+  Valor: $1 equivale Ã  R$  Dia da CotaÃ§Ã£o: //
+O sistema nÆo pode encontrar o caminho especificado.
+
+23/03/2018 13:58:22 - Gravando tentativa de envio do email de ID:47659
+23/03/2018 13:58:22 - Enviando o email de ID:47659 para mymo_malhas@oul.com.br;carlosjpedrosa@hotmail.com;contasareceber1@delfa.com.br;vendas1@delfa.com.br
+2018-03-23 17:01:24	Could not instantiate mail function.
+23/03/2018 14:01:24 - Erro ao enviar email de ID:47659 -> Erro:Could not instantiate mail function.
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:04:16
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:04:09
+Agd_Email Finalizada em: 23/03/2018 14:04:11
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:04:11
+Agd_Sql Finalizada em: 23/03/2018 14:04:13
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:04:13
+Env_Email Finalizada em: 23/03/2018 14:04:15
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:04:15
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3041 Dia da CotaÃ§Ã£o: 23/3/2018
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:08:41
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:08:29
+Agd_Email Finalizada em: 23/03/2018 14:08:34
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:08:34
+Agd_Sql Finalizada em: 23/03/2018 14:08:36
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:08:36
+Env_Email Finalizada em: 23/03/2018 14:08:39
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:08:39
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+ Taxa de cÃƒÂ¢mbio - Livre - DÃƒÂ³lar americano (venda) - diÃƒÂ¡rio Valor: $1 equivale Ã  R$ 3,3033 Dia da CotaÃ§Ã£o: 22/3/2018
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:12:11
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:12:03
+Agd_Email Finalizada em: 23/03/2018 14:12:05
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:12:05
+Agd_Sql Finalizada em: 23/03/2018 14:12:07
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:12:07
+Env_Email Finalizada em: 23/03/2018 14:12:10
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:12:10
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+  Valor: $1 equivale Ã  R$  Dia da CotaÃ§Ã£o: //
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:17:35
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:17:25
+Agd_Email Finalizada em: 23/03/2018 14:17:28
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:17:28
+Agd_Sql Finalizada em: 23/03/2018 14:17:30
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:17:30
+Env_Email Finalizada em: 23/03/2018 14:17:33
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:17:33
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+  Valor: $1 equivale Ã  R$  Dia da CotaÃ§Ã£o: //
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:25:32
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:25:21
+Agd_Email Finalizada em: 23/03/2018 14:25:25
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:25:25
+Agd_Sql Finalizada em: 23/03/2018 14:25:27
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:25:27
+Env_Email Finalizada em: 23/03/2018 14:25:31
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:25:31
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+  Valor: $1 equivale Ã  R$ 3.3041 Dia da CotaÃ§Ã£o: 23/3/2018
+  Valor: $1 equivale Ã  R$ 3.3035 Dia da CotaÃ§Ã£o: 23/3/2018
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:27:06
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:26:59
+Agd_Email Finalizada em: 23/03/2018 14:27:01
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:27:01
+Agd_Sql Finalizada em: 23/03/2018 14:27:03
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:27:03
+Env_Email Finalizada em: 23/03/2018 14:27:05
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:27:05
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                 
+  [ErrorException]               
+  Undefined variable: NomeMoeda  
+                                 
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:30:22
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:30:15
+Agd_Email Finalizada em: 23/03/2018 14:30:17
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:30:17
+Agd_Sql Finalizada em: 23/03/2018 14:30:19
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:30:19
+Env_Email Finalizada em: 23/03/2018 14:30:21
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:30:21
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.3041 Dia da CotaÃ§Ã£o: 23/3/2018
+Valor Venda R$ 3.3035 Dia da CotaÃ§Ã£o: 23/3/2018
+23/03/2018 14:27:12 - Gravando DÃ³lar
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:32:04
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:31:51
+Agd_Email Finalizada em: 23/03/2018 14:31:54
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:31:54
+Agd_Sql Finalizada em: 23/03/2018 14:31:57
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:31:57
+Env_Email Finalizada em: 23/03/2018 14:32:02
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:32:02
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.3041 Dia da CotaÃ§Ã£o: 23/3/2018
+Valor Venda R$ 3.3035 Dia da CotaÃ§Ã£o: 23/3/2018
+23/03/2018 14:30:30 - Gravando DÃ³lar
+23/03/2018 14:30:30 - DÃ³lar Gravado
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:39:24
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:36:13
+Agd_Email Finalizada em: 23/03/2018 14:36:16
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:36:16
+Agd_Sql Finalizada em: 23/03/2018 14:36:17
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:36:17
+Env_Email Finalizada em: 23/03/2018 14:39:23
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:39:23
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.3041 Dia da CotaÃ§Ã£o: 23/3/2018
+Valor Venda R$ 3.3035 Dia da CotaÃ§Ã£o: 23/3/2018
+23/03/2018 14:32:09 - Gravando DÃ³lar
+23/03/2018 14:32:09 - DÃ³lar Gravado
+O sistema nÆo pode encontrar o caminho especificado.
+
+23/03/2018 14:36:20 - Gravando tentativa de envio do email de ID:47670
+23/03/2018 14:36:20 - Enviando o email de ID:47670 para financeiro1@bodyplus.com;contasareceber1@delfa.com.br
+2018-03-23 17:39:23	Could not instantiate mail function.
+23/03/2018 14:39:23 - Erro ao enviar email de ID:47670 -> Erro:Could not instantiate mail function.
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:44:17
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:44:09
+Agd_Email Finalizada em: 23/03/2018 14:44:11
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:44:11
+Agd_Sql Finalizada em: 23/03/2018 14:44:13
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:44:13
+Env_Email Finalizada em: 23/03/2018 14:44:16
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:44:16
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+key: SERIE
+Valor Venda R$ 3.3041 Dia da CotaÃ§Ã£o: 23/3/2018
+key: SERIE
+Valor Venda R$ 3.3035 Dia da CotaÃ§Ã£o: 23/3/2018
+23/03/2018 14:39:30 - Gravando DÃ³lar
+23/03/2018 14:39:31 - DÃ³lar Gravado
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 14:51:06
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 14:50:52
+Agd_Email Finalizada em: 23/03/2018 14:50:55
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 14:50:55
+Agd_Sql Finalizada em: 23/03/2018 14:50:59
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 14:50:59
+Env_Email Finalizada em: 23/03/2018 14:51:04
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 14:51:04
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.3041 Dia da CotaÃ§Ã£o: 23/3/2018
+Valor Compra R$ 3.3035 Dia da CotaÃ§Ã£o: 23/3/2018
+23/03/2018 14:44:24 - Gravando DÃ³lar
+23/03/2018 14:44:24 - DÃ³lar Gravado
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 15:05:47
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 15:02:34
+Agd_Email Finalizada em: 23/03/2018 15:02:37
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 15:02:37
+Agd_Sql Finalizada em: 23/03/2018 15:02:40
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 15:02:40
+Env_Email Finalizada em: 23/03/2018 15:05:46
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 15:05:46
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                                               
+  [SoapFault]                                                                  
+  br.gov.bcb.pec.sgs.comum.excecoes.SGSNegocioException: Invalid initial date  
+                                                                               
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+23/03/2018 15:02:43 - Gravando tentativa de envio do email de ID:47670
+23/03/2018 15:02:43 - Enviando o email de ID:47670 para financeiro1@bodyplus.com;contasareceber1@delfa.com.br
+2018-03-23 18:05:46	Could not instantiate mail function.
+23/03/2018 15:05:46 - Erro ao enviar email de ID:47670 -> Erro:Could not instantiate mail function.
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 15:07:44
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 15:07:37
+Agd_Email Finalizada em: 23/03/2018 15:07:39
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 15:07:39
+Agd_Sql Finalizada em: 23/03/2018 15:07:41
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 15:07:41
+Env_Email Finalizada em: 23/03/2018 15:07:43
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 15:07:43
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.1270 Dia da CotaÃ§Ã£o: 31/1/2017
+Valor Compra R$ 3.1264 Dia da CotaÃ§Ã£o: 31/1/2017
+23/03/2018 15:05:53 - Gravando DÃ³lar
+
+                        
+  [ErrorException]      
+  Undefined index: MES  
+                        
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 15:12:27
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 15:12:20
+Agd_Email Finalizada em: 23/03/2018 15:12:21
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 15:12:21
+Agd_Sql Finalizada em: 23/03/2018 15:12:23
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 15:12:23
+Env_Email Finalizada em: 23/03/2018 15:12:26
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 15:12:26
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.1270 Dia da CotaÃ§Ã£o: 31/1/2017
+Valor Compra R$ 3.1264 Dia da CotaÃ§Ã£o: 31/1/2017
+23/03/2018 15:07:50 - Gravando DÃ³lar
+23/03/2018 15:07:50 - DÃ³lar Gravado
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 15:15:15
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 15:15:01
+Agd_Email Finalizada em: 23/03/2018 15:15:03
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 15:15:03
+Agd_Sql Finalizada em: 23/03/2018 15:15:07
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 15:15:07
+Env_Email Finalizada em: 23/03/2018 15:15:13
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 15:15:13
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+                                                                             
+  [SoapFault]                                                                
+  br.gov.bcb.pec.sgs.comum.excecoes.SGSNegocioException: Value(s) not found  
+                                                                             
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+#####################################################
+Log de 23/03/2018 15:17:48
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb" & "C:\xampp\php\php.exe" "artisan" Agd_Email & del "C:\xampp\htdocs\storage\framework/schedule-43c9e494335ac75ee293d394c77ff0bb") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Email.txt" 2>&1 &
+Agd_Email Iniciado em: 23/03/2018 15:17:32
+Agd_Email Finalizada em: 23/03/2018 15:17:36
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a" & "C:\xampp\php\php.exe" "artisan" Agd_Sql & del "C:\xampp\htdocs\storage\framework/schedule-f7e74f83f8d67bfc62eac559c297757a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Sql.txt" 2>&1 &
+Agd_Sql Iniciado em: 23/03/2018 15:17:36
+Agd_Sql Finalizada em: 23/03/2018 15:17:39
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a" & "C:\xampp\php\php.exe" "artisan" Env_Email & del "C:\xampp\htdocs\storage\framework/schedule-f5784ec2df216a03dc16d076b1b0445a") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Env_Email.txt" 2>&1 &
+Env_Email Iniciado em: 23/03/2018 15:17:39
+Env_Email Finalizada em: 23/03/2018 15:17:46
+Running scheduled command: (echo '' > "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf" & "C:\xampp\php\php.exe" "artisan" Agd_Log & del "C:\xampp\htdocs\storage\framework/schedule-d82780c8e374779e3657f4a6a9f57bdf") > "C:\xampp\htdocs\app/Console/Commands/Saidas/Agd_Log.txt" 2>&1 &
+Agd_Log Iniciado em: 23/03/2018 15:17:46
+
+O sistema nÆo pode encontrar o caminho especificado.
+
+Valor Venda R$ 3.1247 Dia da CotaÃ§Ã£o: 30/3/2017
+Valor Compra R$ 3.1241 Dia da CotaÃ§Ã£o: 30/3/2017
+23/03/2018 15:15:27 - Gravando DÃ³lar
+23/03/2018 15:15:27 - DÃ³lar Gravado
+O sistema nÆo pode encontrar o caminho especificado.
+
+O sistema nÆo pode encontrar o caminho especificado.

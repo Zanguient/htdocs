@@ -1,0 +1,664 @@
+/**
+ * _25010 - Cadastro de Formulários
+ */
+@import "../helper/partials/padrao.scss";
+
+.form-inline .form-group {
+	vertical-align: top;
+}
+
+.button-container {
+
+	.radio-group {
+		display: inline-block;
+	    margin-right: 10px;
+	    padding-left: 5px;
+	    background-color: $whiteSmoke;
+	    border: 1px solid $grey204;
+	    @include border-radius(3px);
+
+	    label {
+	    	left: -2px;
+	    	font-size: 12px;
+	    }
+	}
+
+	button {
+		margin-top: -10px;
+	}
+
+}
+
+.table-ec {
+	height: 70vh;
+
+	table {
+
+		thead, tbody {
+			tr {
+				th, td {
+
+					&.vazio {
+						text-align: center;
+					}
+
+					&.id {
+						max-width: 50px;
+						width: 50px;
+					}
+
+					&.ccusto-mask {
+						max-width: 80px;
+						width: 80px;
+					}
+
+					&.usuario {
+						max-width: 100px;
+						width: 100px;
+					}
+
+					&.nome {
+						max-width: 250px;
+						width: 250px;
+					}
+
+				}
+			}
+		}
+
+	}
+
+	&.table-container-formulario {
+		height: 70vh;
+
+		table {
+
+			thead, tbody {
+				tr {
+					th, td {
+						text-transform: none !important;
+
+						&.status {
+							max-width: 20px;
+							width: 20px;
+							padding: 8px 0;
+    						text-align: center;
+
+							&.status-0 {
+								color: $redDanger;
+							}
+							&.status-1 {
+								color: $greenSuccess;
+							}
+						}
+
+						&.titulo {
+							max-width: 300px;
+							width: 300px;
+						}
+
+						&.descricao {
+							max-width: 400px;
+							width: 400px;
+						}
+
+						&.tipo {
+							max-width: 260px;
+							width: 260px;
+						}
+
+						&.usuario {
+							max-width: 200px;
+							width: 200px;
+						}
+
+						&.data-criacao {
+							max-width: 100px;
+							width: 100px;
+						}
+
+						&.periodo-form {
+							max-width: 150px;
+							width: 150px;
+							text-transform: none;
+						}
+
+					}
+				}
+			}
+
+		}
+
+	}
+
+	&.table-container-destinatario {
+		width: 800px;
+		height: 30vh;
+
+		table {
+
+			thead, tbody {
+				tr {
+					th, td {
+						padding-top: 5px;
+						padding-bottom: 5px;
+						vertical-align: middle;
+
+						input[type="checkbox"] {
+							vertical-align: text-bottom;
+						}
+
+						&.peso {
+							max-width: 100px;
+							width: 100px;
+
+							input {
+							    padding: 0 0 0 12px;
+								height: 25px;
+								width: 50px !important;
+							    text-align: center;
+							}
+						}
+
+						&.reabilitar {
+							max-width: 100px;
+							width: 100px;
+						}
+
+						&.visualiza-cadastro {
+							max-width: 150px;
+							width: 150px;
+						}
+
+					}
+				}
+			}
+		}
+	}
+
+}
+
+.bloco-total-nota {
+	display: inline-block;
+	position: sticky;
+    top: -13px;
+    z-index: 1;
+    margin-bottom: 10px;
+	padding: 5px 10px;
+	background-color: rgba($white, .7);
+	border: 1px solid $black100;
+	box-shadow: 1px 1px 3px $black100;
+	@include border-radius(5px);
+	@include transition(1s);
+
+	&:hover {
+		opacity: .1;
+	}
+
+	> label {
+		margin-bottom: 0;
+		vertical-align: middle;
+
+		&:first-of-type {
+			font-weight: normal;
+		}
+		&:nth-of-type(2) {
+			font-size: 18px;
+			color: $redDanger;
+
+			&.ok {
+				color: $greenSuccess;
+			}
+		}
+	}
+}
+
+.item-dinamico-pergunta {
+
+	button.btn-pergunta-excluir {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	    margin: 0 !important;
+	}
+
+}
+
+.tipo-resposta-container {
+	float: left;
+    padding: 10px;
+	margin-top: 15px;
+	min-width: 50%;
+	background-color: rgba($white, 0.3);
+	border: 1px solid $lightGrey;
+	@include border-radius(5px);
+
+	.alternativa-grupo {
+		float: left;
+		margin-right: 15px;
+    	margin-bottom: 15px;
+    	padding: 5px 10px;
+    	border: 1px solid $lightGrey;
+    	@include border-radius(3px);
+
+		> .form-group {
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&.form-group-justif {
+
+				input[type="checkbox"] {
+					top: 22px;
+					
+					~ label {
+						top: 22px;
+					}
+
+				}
+
+			}
+
+			input[type="text"], input[type="number"], select {
+				padding: 4px 6px;
+				height: 30px;
+				vertical-align: super;
+				text-transform: none;
+			}
+
+		}
+
+	}
+
+	.form-group-textarea {
+		display: block;
+	}
+
+	textarea[disabled] {
+		background-color: $white;
+	}
+
+	input[type="radio"] {
+		top: 0 !important;
+
+		~ label {
+			top: 0 !important;
+		}
+	}
+
+	.add-item-dinamico {
+		float: left;
+    	clear: left;
+    	margin-top: 0 !important;
+	}
+}
+
+.painel {
+
+	> div {
+		float: left;
+		width: 100%;
+
+		&.painel-bloco-1 {
+			margin-bottom: 10px;
+
+			.painel-info-top {
+				margin-top: 5px;
+				margin-bottom: 15px;
+
+				> label {
+					margin-bottom: 0;
+					font-size: 18px;
+				}
+
+				.painel-filtro {
+					margin-top: 5px;
+					
+					label {
+						font-weight: normal;
+					}
+				}
+			}
+
+			.geral-container, .geral-grafico-container {
+				float: left;
+			}
+
+			.geral-container {
+				width: 120px;
+
+				.lbl-grupo {
+					float: left;
+					clear: left;
+					margin-left: 15px;
+				    margin-bottom: 10px;
+				    padding-top: 18px;
+				    width: 90px;
+				    height: 90px;
+				    background-color: $lightGrey231;
+				    @include border-radius(45px);
+
+					label {
+
+						&.lbl-rotulo, &.lbl-dado {
+							width: 100%;
+							line-height: 1em;
+							text-align: center;
+						}
+
+						&.lbl-rotulo {
+							font-weight: normal;
+						}
+
+						&.lbl-dado {
+							font-size: 28px;
+							font-weight: normal;
+						}
+					}
+				}
+
+			}
+
+			.geral-grafico-container {
+				width: calc(100% - 120px);
+
+				> div {
+					float: left;
+					width: 50%;
+				}
+
+			}
+
+		}
+
+		&.painel-bloco-2 {
+	    	clear: left;
+	    	width: 100%;
+
+	    	fieldset {
+	    		margin-top: 15px;
+
+	    		&.destinatario-container {
+
+	    			.destinatario-bloco {
+	    				float: left;
+	    				margin-right: 15px;
+
+		    			.destinatario-filtro {
+		    				margin-bottom: 5px;
+
+		    				.input-group {
+		    					width: 100%;
+
+		    					.btn-filtro {
+			    					width: auto;
+			    				}
+		    				}
+		    			}
+
+		    		}
+
+		    		.destinatario-resposta-bloco {
+		    			float: left;
+
+		    			.grafico-container {
+
+		    				.sobre-delfa-bloco {
+		    					margin-top: 10px;
+		    					padding: 10px;
+		    					border-top: 1px solid $lightGrey231;
+
+		    					label {
+		    						width: auto;
+								    margin-bottom: 0;
+								    margin-top: 0;
+								    text-align: left;
+								    line-height: 1.2em;
+    								vertical-align: bottom;
+
+								    &.lbl-titulo {
+								    	width: 100%;
+								    	text-align: center;
+								    }
+
+		    						&.lbl-valor {
+		    							max-height: 65px;
+    									overflow: auto;
+		    							font-weight: normal;
+		    						}
+		    					}
+		    				}
+		    			}
+		    		}
+	    		}
+
+	    		.table-ec {
+
+	    			&.table-container-destinatario {
+						width: 320px;
+						height: 339px;
+						
+						thead, tbody {
+							tr {
+								th, td {
+									&.destinatario {
+										max-width: 250px;
+										width: 250px;
+									}
+									&.destinatario-peso, &.destinatario-status-resposta {
+										max-width: 40px;
+										width: 40px;
+									}
+									&.destinatario-uf {
+										max-width: 35px;
+										width: 35px;
+									}
+									&.destinatario-status-resposta {
+										&.status-0 {
+											color: $redDanger;
+										}
+										&.status-1 {
+											color: $greenSuccess;
+										}
+									}
+								}
+							}
+						}
+
+						thead {
+							tr {
+								th {
+									font-size: 11px;
+
+									&.destinatario-peso, &.destinatario-status-resposta {
+									    padding-left: 0;
+									    padding-right: 0;
+									}
+								}
+							}
+						}
+
+					}
+
+					&.table-container-resposta {
+						float: left;
+						width: 950px;
+						height: 378px;
+
+						thead, tbody {
+							tr {
+								th, td {
+									text-transform: none;
+
+									&.usuario {
+										max-width: 300px;
+										min-width: 300px;
+									}
+
+									&.pergunta {
+										max-width: 350px;
+										min-width: 350px;
+									}
+
+									&.resposta {
+										max-width: 150px;
+										min-width: 150px;
+									}
+
+									&.nota {
+										max-width: 50px;
+										min-width: 50px;
+									}
+
+									&.nivel-satisfacao {
+										max-width: 120px;
+										min-width: 120px;
+									}
+
+									&.justificativa {
+										max-width: 250px;
+										min-width: 250px;
+									}
+								}
+							}
+						}
+
+						~ .grafico-container {
+			    			float: left;
+			    			margin-left: 5px;
+			    			width: 235px;
+			    			height: 378px;
+			    			border: 1px solid $lightGrey231;
+			    			@include border-radius(3px);
+
+			    			label {
+			    				margin-top: 10px;
+			    				width: 100%;
+			    				text-align: center;
+			    			}
+			    		}
+
+					}
+	    		}
+	    	}
+
+	    	.panel-group {
+
+	    		.panel {
+	    			margin-top: 5px;
+	    			margin-bottom: 5px;
+
+	    			&.panel-pergunta {
+	    				float: left;
+    					margin-right: 10px;
+    					min-width: 750px;
+    					width: calc(100% / 2 - 10px);
+
+    					.panel-heading {
+
+    						> span {
+
+	    						&.pergunta {
+	    							display: table-cell;
+	    							padding: 10px;
+	    							height: 70px;
+	    							line-height: 1.2em;
+	    							vertical-align: middle;
+	    						}
+	    					}
+    					}
+
+	    				.panel-collapse .panel-body {
+	    					padding: 5px;
+
+	    					.grafico-container {
+	    						float: left;
+				    			height: auto;
+
+				    			&:nth-child(1) {
+				    				width: 45%;
+				    			}
+				    			&:nth-child(2) {
+				    				width: 55%;
+				    			}
+				    		}
+	    				}
+	    			}
+
+		    		.panel-heading a > span {
+			    		display: inline-block;
+					    padding: 3px 10px;
+					    margin-top: -3px;
+					    margin-bottom: -3px;
+					    margin-right: 10px;
+					    @include border-radius(15px);
+
+			    		&.usuario {
+			    			width: 500px;
+			    		}
+
+			    		&.peso, &.satisfacao {
+			    			float: right;
+			    			color: $white;
+			    			background-color: $bluePrimary;
+			    		}
+
+			    		&.satisfacao {
+
+			    			&.green {
+			    				background-color: $greenSuccess;
+			    			}
+
+			    			&.red {
+			    				background-color: $redDanger;
+			    			}
+			    		}
+			    	}
+
+			    }
+	    	}
+		}
+	}
+}
+
+.table-filter .input-group {
+    display: inline-table;
+
+    .input-group-addon.btn-filtro.btn-filtro-limpar {
+    	margin-right: 0;
+    }
+}
+
+.table-representante {
+
+	table {
+		thead, tbody {
+			tr {
+				th, td {
+					&.representante {
+						width: 470px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.table-uf {
+
+	table {
+		thead, tbody {
+			tr {
+				th, td {
+					&.uf {
+						width: 40px;
+					}
+					&.descricao {
+						width: 470px;
+					}
+				}
+			}
+		}
+	}
+}

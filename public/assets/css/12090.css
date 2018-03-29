@@ -1,0 +1,161 @@
+/**
+ * _12090 - Cadastro de Clientes
+ */
+
+/*Cores*/
+
+.kay-cor-0 {
+  background-color: #ebf4fb;
+}
+
+.kay-cor-1 {
+  background-color: #ffece2;
+}
+
+.kay-cor-2 {
+  background-color: #e8ffe2;
+}
+
+.kay-cor-3 {
+  background-color: #e3e2ff;
+}
+
+.kay-cor-4 {
+  background-color: #fffad1;
+}
+
+.kay-cor-5 {
+  background-color: #7efff8;
+}
+
+.kay-cor-6 {
+  background-color: #ffe2e2;
+}
+
+.kay-cor-7 {
+  background-color: #f6ccf9;
+}
+
+.kay-cor-8 {
+  background-color: #9ec5b7;
+}
+
+.kay-cor-9 {
+  background-color: #fffbdf;
+}
+
+.kay-cor-10 {
+  background-color: #ffb74d;
+}
+
+.kay-cor-11 {
+  background-color: #cecece;
+}
+
+.kay-cor-12 {
+  background-color: #d0b2a8;
+}
+
+.kay-cor-13 {
+  background-color: #ff8bb2;
+}
+
+/*fontes*/
+
+/* @font-face { */
+
+/* 	font-family: Ubuntu; */
+
+/* 	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); */
+
+/* } */
+
+.div-frase {
+  text-align: center;
+  font-weight: 800;
+  color: #349c5a;
+  font-size: 2vw;
+}
+
+.tab-content .tab-pane {
+  height: calc(100vh - 450px);
+  min-height: 402px;
+  overflow: scroll;
+}
+
+#main .modal-body ul {
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#main .modal-body ul li {
+  float: inherit;
+  margin-bottom: -1px;
+  display: inline-block !important;
+}
+
+@media (min-width: 769px) {
+  #main .modal-header .list-inline.acoes {
+    position: initial;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  #main .row {
+    float: left !important;
+    margin-right: 10px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #main .form-group {
+    width: 100%;
+  }
+
+  #main .form-group input:not([type="checkbox"]):not([type="radio"]):not([type="search"]) {
+    width: 100% !important;
+  }
+
+  #main .form-group [type="checkbox"],
+  #main .form-group [type="radio"] {
+    float: left;
+  }
+
+  #main .form-group [type="checkbox"] ~ label,
+  #main .form-group [type="radio"] ~ label {
+    margin-left: 8px;
+    top: 16px;
+  }
+}
+
+#main .row {
+  float: left;
+  margin-right: 50px;
+  /*width: calc(50% - 10px);*/
+}
+
+#main .row.break {
+  clear: both;
+}
+
+#main .row.large {
+  width: 100% !important;
+  margin-right: initial !important;
+}
+
+#main .form-group .input-group {
+  width: 100%;
+}
+
+#main .form-group .input-group .input-group-addon {
+  height: 34px;
+}
+
+#main .form-group .input-group .input-group-addon + input {
+  width: calc(100% - 33px) !important;
+}

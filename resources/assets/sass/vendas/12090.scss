@@ -1,0 +1,101 @@
+/**
+ * _12090 - Cadastro de Clientes
+ */
+@import "../helper/partials/padrao.scss";
+
+.div-frase{
+    text-align: center;
+    font-weight: 800;
+    color: #349c5a;
+    font-size: 2vw;
+}
+
+.tab-content {
+    .tab-pane {
+        height: calc(100vh - 450px);
+        min-height: 402px;
+        overflow: scroll;
+    }
+}
+
+#main {
+    
+    .modal-body {
+        ul {
+            overflow-y: hidden;
+            white-space: nowrap;
+
+            li {
+                float: inherit;
+                margin-bottom: -1px;
+                display: inline-block !important;
+            }
+        }
+    }
+    
+    
+    @media (min-width: 769px) {
+        .modal-header .list-inline.acoes {
+            position: initial;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+    }
+    
+    @media (max-width: 700px) {
+
+        .row {
+            float: left !important;
+            margin-right: 10px !important;
+            width: 100% !important;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .form-group {
+            width: 100%;
+                        
+            input:not([type="checkbox"]):not([type="radio"]):not([type="search"]) {
+                width: 100% !important;
+            }
+            
+            [type="checkbox"],[type="radio"] {
+                float: left;
+                ~ label {
+                    margin-left: 8px;
+                    top: 16px;                
+                }
+            }
+        }
+    }
+
+    .row {
+        float: left;
+        margin-right: 50px;
+        /*width: calc(50% - 10px);*/
+        
+        &.break {
+            clear: both;
+        }
+        
+        &.large {
+            width: 100% !important;
+            margin-right: initial !important;
+        }
+    }
+    
+    .form-group {
+        .input-group {
+            width: 100%;
+            
+            .input-group-addon {
+                height: 34px;
+            }
+            .input-group-addon + input {
+                width: calc(100% - 33px) !important;
+            }
+        }    
+    }
+}

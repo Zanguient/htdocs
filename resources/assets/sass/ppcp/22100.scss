@@ -1,0 +1,1072 @@
+/**
+ * _22100 - Geracao de Remessas de Bojo
+ */
+@import "../helper/partials/padrao.scss";
+@import "../helper/jquery-ui.min.scss";
+
+/*
+@media (max-width: 1400px) {
+	
+	body > .container-fluid {
+		padding-top: 90px;
+	}
+
+	ul.acoes {
+		top: 45px;
+
+		> li {
+			float: left;
+			margin-bottom: 5px;
+
+			&:nth-child(3) {
+				clear: left;
+			}
+			
+			button, a {
+				float: left;
+				clear: left;
+				width: 152px;
+			}
+		}
+	}
+}*/
+
+#main-app .btn {
+    transition: .5s;
+}
+
+#filtrar-toggle {
+    position: absolute;
+    top: 4px;
+    left: 270px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.btn-table-filter {
+    margin-top: 16px;
+}
+
+
+.info-danger {
+    color: $redDanger;
+}
+
+.bg-info-danger {
+    color: $redDanger;
+    font-weight: bold;
+}
+
+body > .popover {
+    * {
+        font-size: 11px;
+    }
+    
+    table {
+        
+        th,td {
+            padding: 2px 5px;
+            line-height: 1.5em;
+        }
+    }
+}
+
+fieldset.programacao {
+    min-width: 1500px;
+}
+
+.container-programacao {
+    height: 72vh;
+    min-height: 460px;
+    min-width: 1556px;
+    
+    font-size: 11px;
+
+    * {
+        font-size: 11px;
+    }
+    
+    legend {
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+
+    .table {
+        table-layout: fixed;
+
+        tr {
+            &.selected {
+                background-color: rgba(51,122,183,.4);
+            }
+
+            &.disabled {
+                color: rgba(0, 0, 0, 0.4);
+            }
+        }
+
+        th,td {
+            padding: 2px 5px;
+            line-height: 1.5em;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+			
+			&.wid-scroll {
+				padding: 0 !important;
+				width: 11px !important;
+			}
+        }
+        
+        .wid-acoes {
+            button {
+                margin: -4px 0 -2px 0;
+                padding: 0 5px 0 3px;
+            }
+        }
+        
+        .wid-cor {
+            &.cor-amostra {
+                height: 100%;
+                position: relative;
+
+                > span {
+                    &:first-child {
+                        position: relative;
+                        display: inline-block;
+                        top: 1px;
+                        width: 25px;
+                        height: 12px;
+                        box-shadow: 0px 1px 2px $black100;
+                        @include border-radius(3px);
+
+                        &.disabled {
+                            box-shadow: none;
+                            background-image: none!important;
+                        }
+                    }
+
+/*                    &.descricao {
+                        position: relative;
+                        top: -2px;
+                    }*/
+                }
+            }
+        }
+    }
+    
+    .container-left,.container-right {
+        height: 100%;
+        float: left;
+    }
+    
+    .container-left {
+        width: 717px;
+        padding: 0px 10px 0px 0px;
+        
+        .input-filtrar-modelo {
+            width: 100%;
+            margin-bottom: 3px;
+            height: 23px;
+        }
+		
+		.linha-container {
+            margin-bottom: 10px;
+            
+            .filtrar-linha {
+                width: calc(100% - 200px);
+            }
+            
+            .btn-percentual-extra {
+                height: 24px;
+                width: 163px;
+                padding: 4px;
+            }            
+            
+            .btn-atualizar {
+                height: 24px;
+                width: 29px;
+                padding: 0;
+            }
+            
+            .table-container {
+                height: 250px;
+            }
+
+            .scroll-table {
+                height: calc(100% - 48px);
+            }
+            
+            .table {
+                table-layout: initial;
+
+                .wid-tamanho {
+                    width: 35px;
+                    min-width: 35px;
+                }
+
+                .wid-quantidade {
+                    width: 70px;
+                    min-width: 70px;
+
+                    input {
+                        width: 51px;
+                        height: 16px;
+                        text-align: right;
+                        padding: 0px;
+                    }
+                }
+                
+                .wid-acoes {
+                    width: 69px;
+                    min-width: 69px;
+                }
+                
+                .wid-check {
+                    width: 22px;
+                    min-width: 22px;
+                    
+                    span {
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+        }
+        
+		.agrupamento-container {
+            height: calc(100% - (250px + 10px));
+
+            .modelo-top {
+                
+                input {
+                    margin-right: 10px;
+                    width: calc(100% - 207px);
+                    height: 23px;
+                    float: left;
+                }
+                
+                >div {
+                    float: left;
+                    margin: 0;
+                    
+                    label {
+                        float: left;
+                        line-height: 2em;
+                        padding-right: 5px;
+                        font-weight: normal;
+                    }
+                    
+                    input {
+                        height: 23px;
+                        float: left;
+                        padding: 3px 6px;
+                        width: 111px;
+                        margin: 0;
+                        
+                        &::-webkit-clear-button {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            
+            .table-container {
+                display: inline-block;
+                height: 100%;
+            }
+
+            .scroll-table {
+                height: calc(100% - 48px);
+            }
+
+            .table {
+                
+                th.check .check {
+                    left: 8px !important;
+                }
+                
+                td.check, th.check {
+                    position: relative;
+                    
+                    .check {
+                        font-size: 17px;
+                        position: absolute;
+                        top: 1px;
+                        left: 6px;
+                    }
+                    
+                    >span {
+                        position: absolute;
+                        top: 3px;
+                        left: 7px;
+                        font-size: 14px;
+                    }
+                }
+                
+                .wid-check {
+                    width: 28px;
+                }
+
+                .wid-modelo {
+                    width: 105px;
+                }
+
+/*                .wid-tamanho {
+                    width: 35px;
+                }*/
+
+                .wid-cor {
+                    width: calc(160px + 35px);
+                }
+
+                .wid-perfil {
+                    width: 90px;
+                }
+
+                .wid-quantidade {
+                    transition: 0.5s;
+                    width: 62px;
+                    
+                    &.empty-necessidade-especial {
+                        width: 0;
+                    }
+                    
+                    &.necessidade-especial {
+                        background: rgba(255, 165, 0, 0.35);
+                    }
+
+                    input {
+                        width: 51px;
+                        height: 16px;
+                        text-align: right;
+                        padding: 0px;
+                        
+                        &.consumo-indisponivel {
+                            background-color: rgb(217, 83, 79);
+                            color: rgb(255, 255, 255);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .container-right {
+        width: calc(100% - 717px);
+        min-width: 835px;
+        height : 100%;
+        
+        .container-consumo {
+            margin-top: 5px;
+            
+            .wid-quantidade {
+                width: 85px;
+            }
+            
+            .scroll-table {
+                height: 44px;
+            }
+        }
+        
+        .container-ferramenta {
+            margin-top: 5px;
+
+            .recebe-puxador-ferramenta {
+                height: 114px;
+            }
+            
+            .table-ferramenta {
+                height: 100%;
+                
+                .scroll-table {
+                    height: calc(100% - 22px);
+                }
+            }
+            
+            .table {
+                
+                .wid-ferramenta {
+                    width: 165px;
+                }
+                
+                .wid-serie {
+                    width: 40px;
+                }
+                
+                .wid-data {
+                    width: 70px;
+                }
+                
+                .wid-matriz {
+                    width: 160px;
+                }
+                
+                .wid-medidas {
+                    width: 160px;
+                }
+                
+                .wid-escala {
+                    position: relative;
+                    width: 100%;
+                    
+                    .escala {
+                        background-color: $white238;
+                        position: relative;
+                        height: 16px;
+                        width: 100%;
+                        overflow: hidden;
+                        @include border-radius(11px);
+                        box-shadow: 0px 1px 1px $grey160;
+                        
+                        >div {
+                            position: absolute;
+                            height: 100%;
+                            background: rgb(120, 175, 100);
+                            transition: 0.5s;
+                            
+                            &[aria-describedby] {
+                                background: rgb(94, 142, 204);
+                                transition: 0s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .container-gp {
+            margin-top: 5px;
+            height: calc(100% - 240px);
+            
+            fieldset {
+                height : 100%;
+            
+                .agrupamento-gp {
+                    height: calc(100% - 19px);
+                    
+                    .panel-table {
+                        height: 100%;
+                        margin: 0;
+                        border-color: rgb(231, 231, 231);
+                        
+                        .titulo-lista {
+                            height: 21px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            
+                            span {
+                                padding-top: 3px;
+                            }
+                            
+                            .wid-gp-estacao {
+                                width: 132px;
+                            }
+                            
+                            .wid-qtd {
+                                width: 64px;
+                            }
+                            
+                            .wid-perfil-sku {
+                                width: 90px
+                            }
+                            
+                            .wid-medidas {
+                                width: 158px;
+                            }
+                            
+                            .wid-setup {
+                                width: 28px;
+                            }
+                            
+                            .wid-escala {
+                                width: calc(100% - 553px + 90px - 22px);
+                            }
+                            
+                            .wid-tempo-utilizado {
+                                width: 29px;
+                            }
+                        }
+                        
+                        .panel-body {
+                            .panel {
+                                border: 1px solid rgb(211, 211, 211);
+                            }
+                        }
+                        
+                        >.panel-body {
+                            height: calc(100% - 20px);
+                            overflow-y: scroll;
+                            
+                            >.panel-group {
+                                display: initial;
+                                
+                                a >span {
+                                    padding: initial; 
+                                }
+                            }
+                        }
+                    }
+
+                    .panel-group {
+                        width: calc(100% - 2px);
+
+                        .panel + .panel {
+                            margin-top: 1px;
+                        }
+
+                        .panel {
+
+                            &.selected {
+                                border: 1px dashed $bluePrimary;
+                            }
+
+                            .panel-heading {
+                                padding: 0px;
+                                height: 21px;
+
+                                a {
+                                    font-weight: bold; 
+
+                                    &:hover { 
+                                        height: 21px;
+                                        background-color: rgb(220, 220, 220);
+                                    }
+
+                                    height: 100%;
+
+                                    > span {
+                                        float: left;
+                                        height: 21px;
+                                        line-height: 2em;
+                                        padding: 0 6px 0 6px;
+                                        border-right: 1px solid rgb(211, 211, 211);
+                                        overflow: hidden;
+                                        white-space: nowrap;
+                                        text-overflow: ellipsis;
+
+                                        &.descricao {
+                                            width: 105px;
+
+                                            &.gp {
+                                                width: 132px;
+                                            }
+                                        }
+
+                                        &.pares-programados {
+                                            width: 64px;
+                                            text-align: right;
+                                        }
+                                        
+                                        &.wid-medidas {
+                                            width: 158px;
+                                            font-weight: normal;
+                                        }
+                                        
+                                        
+                                        &.wid-setup {
+                                            width: 28px;
+                                            font-weight: normal;
+                                        }
+                                        
+                                        &.minutos-total {
+                                            width: 64px;
+                                            
+                                            &.estacao {
+                                                width: 63px;
+                                                
+                                                input {
+                                                    width: 52px;
+                                                    height: 18px;
+                                                    text-align: right;
+                                                    padding: 0px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    div {
+                                        
+                                        &.tempo-disponivel {
+                                            position: relative;
+                                            float: left;
+                                            padding: 0 7px 0 2px;
+                                            width: calc(100% - 438px - 22px);
+                                            border-right: 1px solid rgb(211, 211, 211);
+                                            height: 21px;
+
+                                            &.gp {
+                                                width: calc(100% - 452px - 22px);
+                                            }
+
+                                            > span {
+                                                position: relative;
+                                                z-index: 1;
+
+                                                &.tempo-final {
+                                                    float: right;
+                                                }
+                                            }
+
+                                            .tempo-barra-progresso-container {
+                                                margin: 3px 0 0 2px;
+                                                height: 15px;
+                                                width: 100%;
+                                                overflow: hidden;
+                                                box-shadow: 0px 1px 1px $grey160;
+                                                @include border-radius(11px);
+                                                $gradient: to right, rgb(90, 150, 0) 20%, rgb(255, 220, 0) 80%, rgb(225, 30, 0);
+                                                @include linear-gradient($white, $gradient);
+
+                                                > span {
+                                                    float: left;
+                                                    height: 100%;
+                                                    z-index: 0;
+
+                                                    &.tempo-barra-progresso {
+                                                        float: right;
+                                                        background-color: $white238;
+                                                        @include transition(1s);
+                                                    }
+
+                                                    &.tempo-alocado {
+                                                        float: right;
+                                                        margin-right: 5px;
+                                                        color: $white;
+                                                        text-shadow: 1px 1px 1px $black50;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+
+                            &:nth-child(odd) {
+
+                                .panel-heading {
+                                    background-color: rgb(236, 236, 236);
+                                }
+                            }
+
+                            &:nth-child(even) {
+
+                                .panel-heading {
+                                    background-color: rgb(249, 249, 249);
+                                }
+                            }
+
+                            .panel-body {
+                                padding: 5px;
+
+                                .estacao-container {
+
+                                    .panel-group {
+                                        margin-bottom: initial;
+
+                                        .panel {
+
+                                            .panel-heading {
+                                                padding: 0px;
+                                                height: 21px;
+                                                position: relative;
+
+                                                input[type='checkbox'],input[type='radio'] {
+                                                    float: left;
+                                                    height: 14px;
+                                                    /*margin: 0 4px 0 4px;*/
+                                                }
+                                                
+                                                .input-tempo {
+                                                    position: absolute;
+                                                    top: 1px;
+                                                    right: 25px;
+                                                        
+                                                    input {
+                                                        width: 57px;
+                                                        height: 19px;
+                                                        text-align: right;
+                                                        padding: 0px;
+                                                    }
+                                                }
+                                                
+                                                div.check {
+                                                    float: left;
+                                                    position: relative;
+                                                    padding: 10px 10px 10px 11px;
+                                                    
+                                                    &.tempo {
+                                                        position: absolute;
+                                                        top: 0;
+                                                        right: 0;
+                                                    }
+                                                    
+                                                    i.check {
+                                                        font-size: 17px;
+                                                        position: absolute;
+                                                        top: 2px;
+                                                        left: 4px;
+                                                    }
+                                                }
+
+                                            }
+
+                                            &:nth-child(odd) {
+
+                                                .panel-heading {
+                                                    background-color: rgba(176,190,217,0.2);
+                                                }
+                                            }
+
+                                            &:nth-child(even) {
+
+                                                .panel-heading {
+                                                    background-color: rgba(176, 190, 217, 0.45);
+                                                }
+                                            }
+                                            
+                                            .panel-body .itens-programado-container {
+                                                height: 200px;
+                                                
+                                                >div {
+                                                    float: left;
+                                                    height: 100%;
+                                                    
+                                                    .scroll-table {
+                                                        height: calc(100% - 22px);
+                                                    }
+                                                }
+                                                
+                                                .linhas {
+                                                    width: 30%;
+                                                    padding-right: 1%;
+                                                    
+                                                    .wid-linha {
+                                                        width: 140px;
+                                                    }
+                                                    
+                                                    .wid-tamanho {
+                                                        width: 35px;
+                                                    }
+                                                    
+                                                    .wid-quantidade {
+                                                        width: 50px;
+                                                    }
+                                                }
+                                                
+                                                .modelos {
+                                                    /*width: 70%;*/
+                                                    
+                                                    .talao-programado {
+                                                        background: rgba(255, 152, 0, 0.15);
+                                                    }
+                                                    
+                                                    .wid-linha {
+                                                        width: 140px;
+                                                    }                                                    
+                                                    
+                                                    .wid-tamanho {
+                                                        width: 35px;
+                                                    }
+                                                    
+                                                    .wid-modelo {
+                                                        /*width: 130px;*/
+                                                        width: 25%;
+                                                    }
+                                                    
+                                                    .wid-cor {
+                                                        width: 35%;
+                                                    }
+                                                    
+                                                    .wid-ferramenta {
+                                                        /*width: 150px;*/
+                                                        width: 25%;
+                                                    }
+                                                    
+                                                    .wid-quantidade {
+                                                        width: 50px;
+                                                    }
+                                                    
+                                                    .wid-acoes {
+                                                        width: 70px;
+                                                        
+                                                        span {
+                                                            font-size: 13px;
+                                                            padding: 0 2px 0 1px;
+                                                        }
+                                                    }
+                                                    
+                                                    .wid-check {
+                                                        width: 22px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#modal-linha-remessa-historico {
+
+    .table-remessa-historico {
+        .wid-remessa {
+            width: 105px;
+            min-width: 105px;
+        }
+
+        .wid-remessa-data {
+            width: 80px;
+            min-width: 80px;
+        }
+
+        .wid-gp {
+            width: 130px;
+            min-width: 130px;
+        }
+
+        .wid-estacao {
+            min-width: 120px;
+        }
+        
+        .scroll-table {
+            height: calc(70vh - 100px);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== editable-form ==== */
+
+/* class for single editable element */
+.editable-wrap {
+  display: inline-block;
+  white-space: pre;
+  margin: 0;
+}
+
+/* remove bottom-margin for bootstrap */
+.editable-wrap .editable-controls,
+.editable-wrap .editable-error {
+  margin-bottom: 0;
+}
+
+/* remove bottom-margin of inputs */
+.editable-wrap .editable-controls > input,
+.editable-wrap .editable-controls > select,
+.editable-wrap .editable-controls > textarea {
+  margin-bottom: 0;
+}
+
+/* keep buttons on the same line */
+.editable-wrap .editable-input {
+  display: inline-block;
+}
+
+.editable-buttons {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.editable-buttons button {
+  margin-left: 5px;
+}
+
+/* in bootstrap width: 100% => buttons go outside the box */
+.editable-input.editable-has-buttons {
+  width: auto;
+}
+
+/* ==== editable-text ==== */
+
+/* fix padding issue on typeahead */
+.editable-text {
+    white-space: nowrap;
+}
+
+/* ==== editable-bsdate ==== */
+
+/* fix padding issue on bsdate popup */
+.editable-bsdate {
+    white-space: nowrap;
+}
+
+/* ==== editable-bstime ==== */
+
+/* fix padding issue on bstime */
+.editable-bstime {
+    white-space: nowrap;
+}
+
+/* workaround for bootstrap that sets width: 100% and inputs become too wide */
+.editable-bstime .editable-input input[type="text"] {
+  width: 46px;
+}
+
+/* less padding for .well */
+.editable-bstime .well-small {
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+/* ==== editable-range ==== */
+
+.editable-range output {
+  display: inline-block;
+  min-width: 30px;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* ==== editable-color ==== */
+
+.editable-color input[type="color"] {
+  width: 50px;
+}
+
+
+/* ==== editable-checkbox ==== */
+/* ==== editable-checklist ==== */
+/* ==== editable-radiolist ==== */
+
+.editable-checkbox label span,
+.editable-checklist label span,
+.editable-radiolist label span {
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+/* ==== element ==== */
+
+/* hiding element */
+.editable-hide {
+  display: none !important;
+}
+
+.editable-click,
+a.editable-click {
+  text-decoration: none;
+  color: #428bca;
+  border-bottom: dashed 1px #428bca;
+}
+
+.editable-click:hover, 
+a.editable-click:hover {
+  text-decoration: none;
+  color: #2a6496;
+  border-bottom-color: #2a6496;
+}
+
+/* editable-empty */
+.editable-empty, 
+.editable-empty:hover, 
+.editable-empty:focus,
+a.editable-empty, 
+a.editable-empty:hover, 
+a.editable-empty:focus {
+  font-style: italic; 
+  color: #DD1144;  
+  text-decoration: none;
+}
+
+/* editable popover */
+.popover-wrapper > a {
+  /* make the link always show up */
+  display: inline !important;
+}
+
+.popover-wrapper {
+  /* make absolutely positioned children constrained to this box*/
+  display: inline;
+  position: relative;
+}
+
+.popover-wrapper form {
+  position: absolute;
+  top: -53px;
+  background: #FFF;
+  border: 1px solid #AAA;
+  border-radius: 5px;
+  padding: 7px;
+  width: auto;
+  display: inline-block;
+  left: 50%;
+  z-index: 101;
+}
+
+.popover-wrapper form:before {
+  content:"";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #AAA;
+  position:absolute;
+  bottom:-10px;
+}
+
+.popover-wrapper form:after {
+  content:"";
+  width:0;
+  height:0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #FFF;
+  position:absolute;
+  bottom:-9px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .popover-wrapper form {
+        margin-left: -60px;
+    }
+
+    .popover-wrapper form:before {
+        left:50px;
+    }
+
+    .popover-wrapper form:after {
+        left:51px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .popover-wrapper form {
+        margin-left: -110px;
+    }
+
+    .popover-wrapper form:before {
+        left:100px;
+    }
+
+    .popover-wrapper form:after {
+        left:101px;
+    }
+}
+
