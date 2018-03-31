@@ -42,7 +42,7 @@ class RouteServiceProvider extends ServiceProvider
 
             require app_path('Http/Routes/Admin/_11000.php'     );
             require app_path('Http/Routes/Admin/_11040.php'     );
-			#NOVALINHA#
+			require app_path('Http/Routes/Admin/_11001.php');require app_path('Http/Routes/Admin/_11002.php');#NOVALINHA#
         });
     }
 	

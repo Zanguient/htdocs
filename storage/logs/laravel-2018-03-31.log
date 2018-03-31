@@ -1,568 +1,907 @@
-[2018-03-31 14:36:03] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 14:41:17] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:41:30] local.INFO: ADMIN      | 127.0.0.1     | 11000 - Configurações de Ambiente  
-[2018-03-31 14:41:44] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:44:36] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:44:44] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:44:49] local.INFO: ADMIN      | 127.0.0.1     | 11000 - Configurações de Ambiente  
-[2018-03-31 14:48:36] local.INFO: ADMIN      | 127.0.0.1     | 11000 - Configurações de Ambiente  
-[2018-03-31 14:48:42] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:49:17] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:49:23] local.INFO: ADMIN      | 127.0.0.1     | 11000 - Configurações de Ambiente  
-[2018-03-31 14:49:27] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:50:01] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 14:50:21] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 15:04:27] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:04:27] local.ERROR: InvalidArgumentException: File assets/js/app.notificacoes.js not defined in asset manifest. in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
+[2018-03-31 16:00:55] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:55] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:55] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:55] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:55] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:56] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:56] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:56] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:56] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:00:57] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:00:57] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:01:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:02:00] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:02:00] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:04:49] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 1  
+[2018-03-31 16:04:49] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:04:49] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -204 Dynamic SQL Error SQL error code = -204 Table unknown TBHISTORICO At line 10, column 17  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:87
 Stack trace:
-#0 C:\xampp\htdocs\storage\framework\views\26aa30fd207e45e6e4cfd1c92065c054(333): elixir('assets/js/app.n...')
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#6 C:\xampp\htdocs\storage\framework\views\b47e873552a7cdf26e81783b10ce8265(38): Illuminate\View\View->render()
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7722): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
-#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
-#16 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(87): PDO->prepare('\r\n            S...')
+#1 C:\xampp\htdocs\app\Models\DAO\Helper\HistoricoDAO.php(84): App\Models\Conexao\_Conexao->query('\r\n            S...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Helper\Historico.php(42): App\Models\DAO\Helper\HistoricoDAO::getHistorico2(Object(stdClass))
+#3 C:\xampp\htdocs\app\Http\Controllers\Helper\HistoricoController.php(75): App\Models\DTO\Helper\Historico::getHistorico2(Object(stdClass))
+#4 [internal function]: App\Http\Controllers\Helper\HistoricoController->getApiHistorico(Object(stdClass))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('getApiHistorico', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), 'getApiHistorico')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'getApiHistorico')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'getApiHistorico')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 16:06:18] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:06:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:06:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:06:28] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:06:28] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:06:28] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -204 Dynamic SQL Error SQL error code = -204 Table unknown TBHISTORICO At line 10, column 17  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:87
+Stack trace:
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(87): PDO->prepare('\r\n            S...')
+#1 C:\xampp\htdocs\app\Models\DAO\Helper\HistoricoDAO.php(84): App\Models\Conexao\_Conexao->query('\r\n            S...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Helper\Historico.php(42): App\Models\DAO\Helper\HistoricoDAO::getHistorico2(Object(stdClass))
+#3 C:\xampp\htdocs\app\Http\Controllers\Helper\HistoricoController.php(75): App\Models\DTO\Helper\Historico::getHistorico2(Object(stdClass))
+#4 [internal function]: App\Http\Controllers\Helper\HistoricoController->getApiHistorico(Object(stdClass))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('getApiHistorico', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), 'getApiHistorico')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'getApiHistorico')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'getApiHistorico')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 16:23:05] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:23:05] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -413 conversion error from string "TBUSUARIO" At trigger 'TBUSUARIO_BU0' line: 7, col: 2  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:88
+Stack trace:
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(88): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php(144): App\Models\Conexao\_Conexao->query('\r\n            U...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Admin\_11002.php(43): App\Models\DAO\Admin\_11002DAO::alterar(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#3 C:\xampp\htdocs\app\Http\Controllers\Admin\_11002Controller.php(138): App\Models\DTO\Admin\_11002::alterar(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#4 [internal function]: app\Http\Controllers\Admin\_11002Controller->alterar(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('alterar', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), 'alterar')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'alterar')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'alterar')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 16:24:33] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:24:33] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:24:33] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -804 Dynamic SQL Error SQL error code = -804 Function unknown FN_TIMESTAMP_TO_STRING  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:87
+Stack trace:
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(87): PDO->prepare('\r\n            S...')
+#1 C:\xampp\htdocs\app\Models\DAO\Helper\HistoricoDAO.php(84): App\Models\Conexao\_Conexao->query('\r\n            S...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Helper\Historico.php(42): App\Models\DAO\Helper\HistoricoDAO::getHistorico2(Object(stdClass))
+#3 C:\xampp\htdocs\app\Http\Controllers\Helper\HistoricoController.php(75): App\Models\DTO\Helper\Historico::getHistorico2(Object(stdClass))
+#4 [internal function]: App\Http\Controllers\Helper\HistoricoController->getApiHistorico(Object(stdClass))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('getApiHistorico', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), 'getApiHistorico')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'getApiHistorico')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'getApiHistorico')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 16:28:37] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:28:37] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:28:37] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -206 Dynamic SQL Error SQL error code = -206 Column unknown H.USUARIO_CODIGO At line 8, column 101  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:87
+Stack trace:
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(87): PDO->prepare('\r\n            S...')
+#1 C:\xampp\htdocs\app\Models\DAO\Helper\HistoricoDAO.php(84): App\Models\Conexao\_Conexao->query('\r\n            S...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Helper\Historico.php(42): App\Models\DAO\Helper\HistoricoDAO::getHistorico2(Object(stdClass))
+#3 C:\xampp\htdocs\app\Http\Controllers\Helper\HistoricoController.php(75): App\Models\DTO\Helper\Historico::getHistorico2(Object(stdClass))
+#4 [internal function]: App\Http\Controllers\Helper\HistoricoController->getApiHistorico(Object(stdClass))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('getApiHistorico', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), 'getApiHistorico')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Helper\HistoricoController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'getApiHistorico')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'getApiHistorico')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 16:29:27] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:29:36] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:30:29] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:31:05] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:10] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:31:12] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:31:12] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:31:15] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:32:14] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:37:56] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 12  
+[2018-03-31 16:41:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:20] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:41:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:41:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:48:11] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:48:11] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:49:30] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:30] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:49:32] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:49:32] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:49:38] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:49:43] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:49:58] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:50:06] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:50:23] local.INFO:            | 127.0.0.1     | Erro: LG0002 - Usuário Inativo  
+[2018-03-31 16:50:24] local.INFO:            | 127.0.0.1     | Sua sessão expirou. Por favor, conecte-se novamente.  
+[2018-03-31 16:50:31] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:50:44] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:45] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:45] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:45] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:45] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:45] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:45] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:50:46] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:50:46] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:50:56] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:51:11] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:51:17] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:51:25] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:51:36] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:51:38] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:51:38] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:01] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 16:53:04] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:53:04] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:53:12] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 16:54:20] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:09:30] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:09:30] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:06] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:07] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:10:07] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:10:52] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:52] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:52] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:52] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:52] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:52] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:53] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:10:55] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:10:56] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:11:01] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:11:01] local.ERROR: ErrorException: Undefined property: stdClass::$TBUSUARIO_ID in C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php:133
+Stack trace:
+#0 C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php(133): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\app\Models\DTO\Admin\_11002.php(54): App\Models\DAO\Admin\_11002DAO::atualizarMenusUser(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#2 C:\xampp\htdocs\app\Http\Controllers\Admin\_11002Controller.php(98): App\Models\DTO\Admin\_11002::atualizarMenusUser(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#3 [internal function]: app\Http\Controllers\Admin\_11002Controller->atualizarMenusUser(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('atualizarMenusU...', Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), 'atualizarMenusU...')
+#7 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'atualizarMenusU...')
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'atualizarMenusU...')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
 #17 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#18 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Menu\MenuController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'home')
-#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'home')
-#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
-#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
-#25 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#27 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#28 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
-#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#30 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
-#36 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#39 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#18 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#19 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#21 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#27 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#28 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
 #40 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#42 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
 #43 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#45 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#45 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
 #46 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#48 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#51 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#52 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#53 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#54 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#55 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#56 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#58 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#59 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#60 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#61 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
+#47 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#51 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#52 {main}  
+[2018-03-31 17:15:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:27] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:28] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:28] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:28] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:28] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:15:29] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:15:29] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:15:32] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:15:32] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -206 Dynamic SQL Error SQL error code = -206 Column unknown M.VIZUALIZAR At line 9, column 17  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:87
 Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 2)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\storage\framework\views\b47e873552a7cdf26e81783b10ce8265(38): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(7722): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
-#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
-#15 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#17 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Menu\MenuController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'home')
-#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'home')
-#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
-#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
-#24 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#27 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
-#28 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#29 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
-#35 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#38 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
-#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#40 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#41 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#43 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#46 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#48 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#52 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#53 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#54 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#55 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#56 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#58 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#59 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#60 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(87): PDO->prepare('\r\n            S...')
+#1 C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php(67): App\Models\Conexao\_Conexao->query('\r\n            S...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Admin\_11002.php(89): App\Models\DAO\Admin\_11002DAO::consultar_itens(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#3 C:\xampp\htdocs\app\Http\Controllers\Admin\_11002Controller.php(198): App\Models\DTO\Admin\_11002::consultar_itens(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#4 [internal function]: app\Http\Controllers\Admin\_11002Controller->consultar_itens(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('consultar_itens', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), 'consultar_itens')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'consultar_itens')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'consultar_itens')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 17:16:10] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:16:10] local.ERROR: PDOException: SQLSTATE[HY000]: General error: -206 Dynamic SQL Error SQL error code = -206 Column unknown M.VIZUALIZAR At line 9, column 17  in C:\xampp\htdocs\app\Models\Conexao\_Conexao.php:87
 Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(7722): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
-#9 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Menu\MenuController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'home')
-#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'home')
-#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
-#17 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
-#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#21 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
-#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#23 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#28 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
-#29 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#32 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
-#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#35 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#38 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#40 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#41 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#43 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#46 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#48 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#49 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#52 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#53 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#54 {main}  
-[2018-03-31 15:04:27] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:04:27] local.ERROR: InvalidArgumentException: File assets/js/app.notificacoes.js not defined in asset manifest. in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
+#0 C:\xampp\htdocs\app\Models\Conexao\_Conexao.php(87): PDO->prepare('\r\n            S...')
+#1 C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php(67): App\Models\Conexao\_Conexao->query('\r\n            S...', Array)
+#2 C:\xampp\htdocs\app\Models\DTO\Admin\_11002.php(89): App\Models\DAO\Admin\_11002DAO::consultar_itens(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#3 C:\xampp\htdocs\app\Http\Controllers\Admin\_11002Controller.php(198): App\Models\DTO\Admin\_11002::consultar_itens(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#4 [internal function]: app\Http\Controllers\Admin\_11002Controller->consultar_itens(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('consultar_itens', Array)
+#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), 'consultar_itens')
+#8 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#10 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'consultar_itens')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'consultar_itens')
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#22 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#37 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#40 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#48 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#53 {main}  
+[2018-03-31 17:16:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:31] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:32] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:32] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:32] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:32] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:32] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:16:33] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:16:33] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:17:50] local.INFO: ADMIN      | 127.0.0.1     | Consultando Histórico da Tabela: TBUSUARIO Id: 9  
+[2018-03-31 17:18:05] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:18:12] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:18:16] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:18:25] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:18:36] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:18:46] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:46] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:46] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:46] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:47] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:47] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:47] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:18:48] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:18:48] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:22:32] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:22:43] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:14] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:25:16] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:25:16] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:28:51] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:28:51] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:05] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:31:07] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:31:07] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:32:23] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:23] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:23] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:23] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:23] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:23] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:24] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:32:26] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:32:26] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:08] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:09] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:09] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:10] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:10] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:38:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:46] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:38:46] local.ERROR: ErrorException: Undefined property: stdClass::$VIZUALIZAR in C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php:223
 Stack trace:
-#0 C:\xampp\htdocs\storage\framework\views\26aa30fd207e45e6e4cfd1c92065c054(333): elixir('assets/js/app.n...')
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#6 C:\xampp\htdocs\storage\framework\views\963444c727c60a8cabc62b396267d538(25): Illuminate\View\View->render()
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#14 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(57): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View), 500, Array)
-#15 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(71): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
-#16 C:\xampp\htdocs\app\Exceptions\Handler.php(156): Illuminate\Routing\ResponseFactory->view('errors.500', Array, 500)
-#17 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(98): App\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
-#18 C:\xampp\htdocs\app\Exceptions\Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(2327): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(2243): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ErrorException))
-#21 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#22 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 2)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\storage\framework\views\963444c727c60a8cabc62b396267d538(25): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#13 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(57): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View), 500, Array)
-#14 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(71): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
-#15 C:\xampp\htdocs\app\Exceptions\Handler.php(156): Illuminate\Routing\ResponseFactory->view('errors.500', Array, 500)
-#16 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(98): App\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
-#17 C:\xampp\htdocs\app\Exceptions\Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(2327): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(2243): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ErrorException))
-#20 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#21 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#7 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(57): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View), 500, Array)
-#8 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(71): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
-#9 C:\xampp\htdocs\app\Exceptions\Handler.php(156): Illuminate\Routing\ResponseFactory->view('errors.500', Array, 500)
-#10 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(98): App\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
-#11 C:\xampp\htdocs\app\Exceptions\Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(2327): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(2243): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ErrorException))
-#14 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#15 {main}  
-[2018-03-31 15:04:27] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:04:27] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught InvalidArgumentException: File assets/js/app.notificacoes.js not defined in asset manifest. in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\storage\framework\views\26aa30fd207e45e6e4cfd1c92065c054(333): elixir('assets/js/app.n...')
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#6 C:\xampp\htdocs\storage\framework\views\963444c727c60a8cabc62b396267d538(25): Illuminate\View\View->render()
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): incl in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 {main}  
-[2018-03-31 15:04:31] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:04:31] local.ERROR: InvalidArgumentException: File assets/js/app.notificacoes.js not defined in asset manifest. in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\storage\framework\views\26aa30fd207e45e6e4cfd1c92065c054(333): elixir('assets/js/app.n...')
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#6 C:\xampp\htdocs\storage\framework\views\b47e873552a7cdf26e81783b10ce8265(38): Illuminate\View\View->render()
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7722): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
-#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
-#16 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#0 C:\xampp\htdocs\app\Models\DAO\Admin\_11002DAO.php(223): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 223, Array)
+#1 C:\xampp\htdocs\app\Models\DTO\Admin\_11002.php(111): App\Models\DAO\Admin\_11002DAO::alterar_itens(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#2 C:\xampp\htdocs\app\Http\Controllers\Admin\_11002Controller.php(258): App\Models\DTO\Admin\_11002::alterar_itens(Object(stdClass), Object(App\Models\Conexao\_Conexao))
+#3 [internal function]: app\Http\Controllers\Admin\_11002Controller->alterar_itens(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(8909): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(8978): Illuminate\Routing\Controller->callAction('alterar_itens', Array)
+#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\ControllerDispatcher->call(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), 'alterar_itens')
+#7 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(app\Http\Controllers\Admin\_11002Controller), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'alterar_itens')
+#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'alterar_itens')
+#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
 #17 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#18 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Menu\MenuController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'home')
-#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'home')
-#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
-#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
-#25 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#27 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#28 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
-#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#30 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
-#36 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#39 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#18 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#19 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#21 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#27 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#28 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#29 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#35 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#36 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
+#38 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#39 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
 #40 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#42 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#41 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#42 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
 #43 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#45 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#44 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#45 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
 #46 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#47 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#48 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#51 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#52 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#53 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#54 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#55 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#56 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#58 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#59 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#60 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#61 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 2)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\storage\framework\views\b47e873552a7cdf26e81783b10ce8265(38): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(7722): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
-#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
-#15 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#17 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Menu\MenuController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'home')
-#21 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'home')
-#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
-#23 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
-#24 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#27 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
-#28 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#29 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#32 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
-#35 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#38 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
-#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#40 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#41 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#43 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#46 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#48 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#52 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#53 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#54 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#55 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#56 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#58 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#59 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#60 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(7722): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(8958): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
-#9 [internal function]: Illuminate\Routing\ControllerDispatcher->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(8959): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#14 C:\xampp\htdocs\bootstrap\cache\compiled.php(8944): Illuminate\Routing\ControllerDispatcher->callWithinStack(Object(App\Http\Controllers\Menu\MenuController), Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'home')
-#15 C:\xampp\htdocs\bootstrap\cache\compiled.php(7889): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'App\\Http\\Contro...', 'home')
-#16 C:\xampp\htdocs\bootstrap\cache\compiled.php(7860): Illuminate\Routing\Route->runWithCustomDispatcher(Object(Illuminate\Http\Request))
-#17 C:\xampp\htdocs\bootstrap\cache\compiled.php(7513): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
-#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\app\Http\Middleware\Authenticate.php(60): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#21 [internal function]: App\Http\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
-#22 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#23 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#24 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\bootstrap\cache\compiled.php(7514): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#26 C:\xampp\htdocs\bootstrap\cache\compiled.php(7502): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#27 C:\xampp\htdocs\bootstrap\cache\compiled.php(7487): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#28 C:\xampp\htdocs\bootstrap\cache\compiled.php(2310): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
-#29 [internal function]: Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#30 C:\xampp\htdocs\bootstrap\cache\compiled.php(9629): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\bootstrap\cache\compiled.php(2925): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#32 [internal function]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
-#33 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#34 C:\xampp\htdocs\bootstrap\cache\compiled.php(12980): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#35 [internal function]: Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#36 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#37 C:\xampp\htdocs\bootstrap\cache\compiled.php(11572): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#38 [internal function]: Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#39 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#40 C:\xampp\htdocs\bootstrap\cache\compiled.php(12717): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#41 [internal function]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#42 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#43 C:\xampp\htdocs\bootstrap\cache\compiled.php(12654): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 [internal function]: Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#45 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#46 C:\xampp\htdocs\bootstrap\cache\compiled.php(2982): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 [internal function]: Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#48 C:\xampp\htdocs\bootstrap\cache\compiled.php(9621): call_user_func_array(Array, Array)
-#49 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#51 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#52 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#53 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#54 {main}  
-[2018-03-31 15:04:31] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:04:31] local.ERROR: InvalidArgumentException: File assets/js/app.notificacoes.js not defined in asset manifest. in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\storage\framework\views\26aa30fd207e45e6e4cfd1c92065c054(333): elixir('assets/js/app.n...')
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#6 C:\xampp\htdocs\storage\framework\views\963444c727c60a8cabc62b396267d538(25): Illuminate\View\View->render()
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#14 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(57): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View), 500, Array)
-#15 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(71): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
-#16 C:\xampp\htdocs\app\Exceptions\Handler.php(156): Illuminate\Routing\ResponseFactory->view('errors.500', Array, 500)
-#17 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(98): App\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
-#18 C:\xampp\htdocs\app\Exceptions\Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(2327): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#20 C:\xampp\htdocs\bootstrap\cache\compiled.php(2243): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ErrorException))
-#21 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#22 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 2)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\storage\framework\views\963444c727c60a8cabc62b396267d538(25): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#8 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#9 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#10 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#11 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#13 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(57): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View), 500, Array)
-#14 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(71): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
-#15 C:\xampp\htdocs\app\Exceptions\Handler.php(156): Illuminate\Routing\ResponseFactory->view('errors.500', Array, 500)
-#16 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(98): App\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
-#17 C:\xampp\htdocs\app\Exceptions\Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#18 C:\xampp\htdocs\bootstrap\cache\compiled.php(2327): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#19 C:\xampp\htdocs\bootstrap\cache\compiled.php(2243): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ErrorException))
-#20 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#21 {main}
-
-Next ErrorException: File assets/js/app.notificacoes.js not defined in asset manifest. (View: C:\xampp\htdocs\resources\views\master.blade.php) (View: C:\xampp\htdocs\resources\views\master.blade.php) in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\bootstrap\cache\compiled.php(14777): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(15778): Illuminate\View\View->render()
-#6 C:\xampp\htdocs\bootstrap\cache\compiled.php(15293): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
-#7 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(57): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View), 500, Array)
-#8 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Routing\ResponseFactory.php(71): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
-#9 C:\xampp\htdocs\app\Exceptions\Handler.php(156): Illuminate\Routing\ResponseFactory->view('errors.500', Array, 500)
-#10 C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(98): App\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
-#11 C:\xampp\htdocs\app\Exceptions\Handler.php(82): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#12 C:\xampp\htdocs\bootstrap\cache\compiled.php(2327): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
-#13 C:\xampp\htdocs\bootstrap\cache\compiled.php(2243): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ErrorException))
-#14 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#15 {main}  
-[2018-03-31 15:04:31] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:04:31] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught InvalidArgumentException: File assets/js/app.notificacoes.js not defined in asset manifest. in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 C:\xampp\htdocs\storage\framework\views\26aa30fd207e45e6e4cfd1c92065c054(333): elixir('assets/js/app.n...')
-#1 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bootstrap\cache\compiled.php(14811): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\bootstrap\cache\compiled.php(14644): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\bootstrap\cache\compiled.php(14632): Illuminate\View\View->getContents()
-#5 C:\xampp\htdocs\bootstrap\cache\compiled.php(14616): Illuminate\View\View->renderContents()
-#6 C:\xampp\htdocs\storage\framework\views\963444c727c60a8cabc62b396267d538(25): Illuminate\View\View->render()
-#7 C:\xampp\htdocs\bootstrap\cache\compiled.php(14775): incl in C:\xampp\htdocs\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php:301
-Stack trace:
-#0 {main}  
-[2018-03-31 15:06:45] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 15:06:46] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:06:46] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:10:12] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 15:10:13] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:10:13] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:11:15] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 15:11:17] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:11:18] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:11:26] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
-[2018-03-31 15:11:28] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:11:28] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
-[2018-03-31 15:11:30] local.INFO: ADMIN      | 127.0.0.1     | 11000 - Configurações de Ambiente  
-[2018-03-31 15:11:36] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+#47 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 C:\xampp\htdocs\bootstrap\cache\compiled.php(9611): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\bootstrap\cache\compiled.php(2257): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#50 C:\xampp\htdocs\bootstrap\cache\compiled.php(2240): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#51 C:\xampp\htdocs\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#52 {main}  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:33] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:40:35] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:40:35] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:41:39] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:41:39] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:42:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:42:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:42:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:42:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:42:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:42:58] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:42:59] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:43:00] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:43:00] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:44:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:38] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:44:40] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:44:40] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:47:50] local.INFO: ADMIN      | 127.0.0.1     | 
+            UPDATE TBUSUARIO_MENU SET 
+                INCLUIR    = :INCLUIR,
+                ALTERAR    = :ALTERAR,
+                EXCLUIR    = :EXCLUIR,
+                VIZUALIZAR = :VIZUALIZAR
+            WHERE (ID = :ID);
+          
+[2018-03-31 17:47:50] local.INFO: ADMIN      | 127.0.0.1     | Array
+(
+    [:INCLUIR] => 0
+    [:ALTERAR] => 0
+    [:EXCLUIR] => 0
+    [:VIZUALIZAR] => 1
+    [:ID] => 7
+)
+  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:03] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:48:05] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:48:05] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:50] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:49:52] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:49:52] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:50:18] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:18] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:18] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:18] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:18] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:19] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:50:21] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:50:22] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:50:38] local.INFO: ADMIN      | 127.0.0.1     | 
+            UPDATE TBUSUARIO_MENU SET 
+                INCLUIR    = :INCLUIR,
+                ALTERAR    = :ALTERAR,
+                EXCLUIR    = :EXCLUIR,
+                VIZUALIZAR = :VIZUALIZAR
+            WHERE (ID = :ID);
+          
+[2018-03-31 17:50:38] local.INFO: ADMIN      | 127.0.0.1     | Array
+(
+    [:INCLUIR] => 1
+    [:ALTERAR] => 0
+    [:EXCLUIR] => 1
+    [:VIZUALIZAR] => 0
+    [:ID] => 8
+)
+  
+[2018-03-31 17:51:46] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:51:54] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:52:02] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:52:11] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:52:16] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:52:34] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:52:59] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:53:03] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:53:18] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:53:27] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:53:38] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:39] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:39] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:39] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:39] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:39] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:39] local.INFO: ANDERSON   | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:53:41] local.INFO: ANDERSON   | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:53:41] local.INFO: ANDERSON   | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:53:56] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:54:04] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:54:12] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:54:20] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:54:29] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:54:38] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:54:49] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:00] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:55:01] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:01] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:12] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:14] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:26] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:40] local.INFO: HERLAN     | 127.0.0.1     | 11040 - Logs do sistema  
+[2018-03-31 17:55:40] local.INFO: HERLAN     | 127.0.0.1     | 11040 - Logs do sistema  
+[2018-03-31 17:55:42] local.INFO: HERLAN     | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:42] local.INFO: HERLAN     | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:55:45] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:57:29] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
+[2018-03-31 17:57:31] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:57:31] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:57:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:37] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:38] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:38] local.INFO: ADMIN      | 127.0.0.1     | 11002 - Usuários  
+[2018-03-31 17:57:39] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:57:39] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:58:09] local.INFO: ADMIN      | 127.0.0.1     | 11040 - Logs do sistema  
+[2018-03-31 17:58:10] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:58:10] local.INFO: ADMIN      | 127.0.0.1     | Ocorreu uma falha no sistema:  
+[2018-03-31 17:58:17] local.INFO:            | 127.0.0.1     | Ocorreu uma falha no sistema:  

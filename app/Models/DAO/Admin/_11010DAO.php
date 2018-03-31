@@ -346,6 +346,7 @@ class _11010DAO {
 
                 WHERE C.USUARIO_ID = :USERID
                 AND U.ID = C.ID
+                and and n.vizualizar = 1
                 order by u.parametro';
         
         $args = [
@@ -767,6 +768,7 @@ class _11010DAO {
             WHERE
                 M.menu_id = :MENU_ID
             AND M.USUARIO_ID = :USUARIO_ID
+            and M.vizualizar = 1
 		";
 		
 		$args = array(

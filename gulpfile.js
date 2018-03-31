@@ -83,6 +83,21 @@ elixir(function(mix) {
 		.sass('admin/11000.scss', cssPathPublic)
 		.scripts('admin/_11000.js' , jsPathPublic)
 		.addarray([cssPathPublic+'/11000.css',jsPathPublic+'/_11000.js'])
+		.sass('admin/11001.scss', cssPathPublic)
+		.scripts([
+			'admin/_11001/_11001.app.js',
+			'admin/_11001/_11001.controller.js',
+			'admin/_11001/_11001.factory.index.js'
+		], jsPathPublic+'/_11001.js')
+		.addarray([cssPathPublic+'/11001.css',jsPathPublic+'/_11001.js'])
+		.sass('admin/11002.scss', cssPathPublic)
+		.scripts([
+			'admin/_11002/_11002.app.js',
+			'admin/_11002/_11002.controller.js',
+			'admin/_11002/_11002.factory.index.js',
+			'admin/_11002/_11002.factory.indexItens.js'
+		], jsPathPublic+'/_11002.js')
+		.addarray([cssPathPublic+'/11002.css',jsPathPublic+'/_11002.js'])
 		.sass('admin/11010.scss', cssPathPublic)
 		.scripts('admin/_11010.js' , jsPathPublic)
 		.addarray([cssPathPublic+'/11010.css',jsPathPublic+'/_11010.js'])

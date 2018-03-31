@@ -131,6 +131,7 @@ class MenuDAO
 				    TBUSUARIO_MENU n, TBMENU m
 				    where USUARIO_ID = :USUARIO_ID
 				    and m.CODIGO = n.MENU_ID
+				    and n.vizualizar = 1
 				ORDER BY 3,4
             ";
 					
@@ -147,6 +148,7 @@ class MenuDAO
 				    TBUSUARIO_MENU n, TBMENU m
 				    where USUARIO_ID = :USUARIO_ID
 				    and m.CODIGO = n.MENU_ID
+				    and n.vizualizar = 1
 				ORDER BY 1
             ";
 					

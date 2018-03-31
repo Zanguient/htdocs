@@ -1,6 +1,6 @@
 @if ( !isset($no_button) )
 	<button type="button" class="btn gerar-historico gerar-historico-padrao" data-hotkey="alt+h" data-toggle="modal" data-target="#modal-historico">
-		<span class="glyphicon glyphicon-time"></span> {{ Lang::get('master.historico') }}
+		<span class="glyphicon glyphicon-time"></span>Histórico
 	</button>
 @endif
 
@@ -8,7 +8,7 @@
 	
 @section('modal-header-left')
 	
-	<h4 class="modal-title" id="myModalLabel">{{ Lang::get('master.historico') }}</h4>
+	<h4 class="modal-title" id="myModalLabel">Histórico</h4>
 	
 @overwrite
 
