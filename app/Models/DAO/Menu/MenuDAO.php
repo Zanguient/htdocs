@@ -131,7 +131,7 @@ class MenuDAO
 				':USUARIO_ID'	=>	Auth::user()->CODIGO,
 			);
             
-            $menus = $con->query($sql);
+            $menus = $con->query($sql, $args);
             
 			$con->commit();
             
