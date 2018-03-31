@@ -100,5 +100,5 @@ nav.navbar #navbar .navbar-right {
 
 nav.navbar #navbar .navbar-right a:hover,
 nav.navbar #navbar .navbar-right .go-fullscreen:hover {
-  background-color: #a90f0f;
+  background-color: rgba(51, 122, 183, 0.85);
 }

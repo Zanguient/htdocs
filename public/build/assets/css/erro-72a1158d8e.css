@@ -101,7 +101,7 @@ nav.navbar div.sessao {
 }
 
 .container .title {
-  color: #a90f0f;
+  color: rgba(51, 122, 183, 0.85);
   font-size: 72px;
   margin-bottom: 40px;
 }

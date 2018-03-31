@@ -8896,12 +8896,12 @@ a[data-hotkey="return"]:not(.hotkey-no-label)::before {
 
 ul.pagination li.active span,
 ul.pagination li.active span:hover {
-  background-color: #a90f0f;
-  border-color: #a90f0f;
+  background-color: rgba(51, 122, 183, 0.85);
+  border-color: rgba(51, 122, 183, 0.85);
 }
 
 ul.pagination li a {
-  color: #a90f0f;
+  color: rgba(51, 122, 183, 0.85);
 }
 
 ul.pagination li a:hover {
@@ -8967,7 +8967,7 @@ select[type="radio"] ~ label,
 input[required],
 select[required],
 .form-control[required] {
-  border-left: 1px solid #a90f0f;
+  border-left: 1px solid rgba(51, 122, 183, 0.85);
 }
 
 input[readonly],
@@ -9141,7 +9141,7 @@ label.lbl-checkbox input[type="checkbox"] {
 }
 
 .input-group.left-icon.required .input-group-addon {
-  border-left: 1px solid #a90f0f;
+  border-left: 1px solid rgba(51, 122, 183, 0.85);
 }
 
 .input-group.left-icon.required input {
@@ -9415,7 +9415,7 @@ div:fullscreen {
 
 nav.navbar {
   z-index: 99999;
-  background-color: #a90f0f;
+  background-color: rgba(51, 122, 183, 0.85);
   border: 0 !important;
   transition: 0.5s 0.7s;
 }
@@ -9439,7 +9439,7 @@ nav.navbar.menu-aberto .titulo-pagina {
 nav.navbar.menu-aberto .navbar-header .navbar-toggle:hover,
 nav.navbar.menu-aberto div.sessao a:hover,
 nav.navbar.menu-aberto .go-fullscreen:hover {
-  background-color: #a90f0f;
+  background-color: rgba(51, 122, 183, 0.85);
 }
 
 nav.navbar .navbar-header .navbar-toggle {
@@ -9725,7 +9725,7 @@ ul.popup-acoes ~ .status {
 }
 
 #modal-historico .historico-corpo .title {
-  color: #a90f0f;
+  color: rgba(51, 122, 183, 0.85);
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -9897,8 +9897,8 @@ ul.popup-acoes ~ .status {
 }
 
 #menu .menu-container .input-group input#menu-filtro:focus {
-  border-color: #a90f0f;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(169, 15, 15, 0.6);
+  border-color: rgba(51, 122, 183, 0.85);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(51, 122, 183, 0.6);
 }
 
 #menu .menu-container .input-group button.btn-filtro {
@@ -9950,7 +9950,7 @@ ul.popup-acoes ~ .status {
 }
 
 #menu .menu-container div#menu-filtro-resultado #menu-fechar:hover {
-  color: #a90f0f;
+  color: rgba(51, 122, 183, 0.85);
 }
 
 #menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens {
@@ -9977,7 +9977,7 @@ ul.popup-acoes ~ .status {
 
 #menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a:hover,
 #menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a:focus {
-  background-color: rgba(169, 15, 15, 0.2);
+  background-color: rgba(51, 122, 183, 0.2);
 }
 
 #menu .menu-container div#menu-filtro-resultado div#menu-filtro-itens ul li a.tipo-1 {
@@ -10023,8 +10023,8 @@ ul.popup-acoes ~ .status {
 }
 
 #menu .menu-container div#menu-itens button:hover:not([disabled]) {
-  background-color: rgba(169, 15, 15, 0.4) !important;
-  box-shadow: 0 1px 2px #a90f0f;
+  background-color: rgba(51, 122, 183, 0.4) !important;
+  box-shadow: 0 1px 2px rgba(51, 122, 183, 0.85);
 }
 
 #menu .menu-container div#menu-itens button.admin {
@@ -11100,7 +11100,7 @@ table tr td.selecionar {
 }
 
 table tr td.red {
-  color: #a90f0f;
+  color: rgba(51, 122, 183, 0.85);
 }
 
 table tr td.green {
@@ -11866,7 +11866,7 @@ form div.form-group .pesquisa-res-container {
   overflow: hidden;
   text-transform: uppercase;
   background-color: white;
-  box-shadow: 0px 1px 3px #a90f0f;
+  box-shadow: 0px 1px 3px rgba(51, 122, 183, 0.85);
   border-radius: 0 0 5px 5px;
   transition: 0.5s;
 }
@@ -12068,7 +12068,7 @@ form div.form-group .pesquisa-res-container .pesquisa-res ul li a {
 
 form div.form-group .pesquisa-res-container .pesquisa-res ul li a:hover,
 form div.form-group .pesquisa-res-container .pesquisa-res ul li a:focus {
-  background-color: rgba(169, 15, 15, 0.2);
+  background-color: rgba(51, 122, 183, 0.2);
 }
 
 form div.form-group .pesquisa-res-container .pesquisa-res ul li a.opcao_todos {
@@ -12954,7 +12954,7 @@ div.carregando-pagina .progress {
 }
 
 div.carregando-pagina .progress .progress-bar {
-  background-color: rgba(169, 15, 15, 0.8);
+  background-color: rgba(51, 122, 183, 0.8);
 }
 
 .progress {
@@ -13292,7 +13292,7 @@ div.carregando-pagina2 .progress {
     margin: 0;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 1px 3px #a90f0f;
+    box-shadow: 0 1px 3px rgba(51, 122, 183, 0.85);
     border-radius: 0 0 5px 5px;
     transition: 0.5s;
   }
@@ -13538,7 +13538,7 @@ div.carregando-pagina2 .progress {
     max-height: calc(100% - 100px);
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0px 1px 3px #a90f0f;
+    box-shadow: 0px 1px 3px rgba(51, 122, 183, 0.85);
   }
 
   form .form-group .pesquisa-res-container ul li {

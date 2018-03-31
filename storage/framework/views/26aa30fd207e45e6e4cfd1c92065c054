@@ -256,18 +256,6 @@
 				<!--<footer></footer>-->
 			</div> 
 			
-            <div class="idNotificacao" id="idNotificacao" ng-app="appNotificacao">
-                <div class="notificacoes-container" ng-controller="CrtNotificacao as vm" ng-cloak ng-init="vm.init()"> 
-                    <div class="contagem-regresiva" ng-if="vm.contador.visivel == true">
-                        <div class="painel-contagem-regresiva">
-                            <div ng-click="vm.contador.fechar()" class="fechar-contador" title="{{vm.contador.msg2}}">X</div>
-                            <div class="mensagem">{{vm.contador.msg1}}</div>	
-                            <div class="numero">{{vm.acaoContador.tempo}}</div>
-                            <div class="mensagem">segundos</div>	
-                        </div>
-                    </div>
-                </div>
-            </div>
 		</div>
 
 		<?php echo $__env->make('menu.menu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
@@ -330,7 +318,6 @@
         <div class="baloes"></div>
 
         <script src="<?php echo e(elixir('assets/js/menu.js')); ?>"></script>
-    	<script src="<?php echo e(elixir('assets/js/app.notificacoes.js')); ?>"></script>
 	    
 	    <?php echo $__env->yieldContent('script'); ?> 		
 		<?php echo $__env->yieldContent('script2'); ?>
