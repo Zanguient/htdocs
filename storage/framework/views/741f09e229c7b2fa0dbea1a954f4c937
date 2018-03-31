@@ -54,15 +54,7 @@
                 </ul>
             </div>
             <div class="menu-legenda">
-                <div class="item-legenda">
-                    <div class="cor1-legenda"></div>
-                    <div class="desc-legenda">Cadastros/Operacional</div>
-                </div>
-
-                <div class="item-legenda">
-                    <div class="cor3-legenda"></div>
-                    <div class="desc-legenda">Relatórios</div>
-                </div>
+ 
             </div>
 		</div>
         <div id="menu-itens" ng-init="vm.menu_grupo = ''">
