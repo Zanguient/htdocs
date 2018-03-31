@@ -33,10 +33,7 @@ class MenuController extends Controller
             {
                 $con->rollback();
                 throw $e;
-            }
-            
-        
-            
+            }    
             
         }
     }

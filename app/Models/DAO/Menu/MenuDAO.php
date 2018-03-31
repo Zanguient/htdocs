@@ -120,11 +120,18 @@ class MenuDAO
 		try
 		{
 			 $sql = "
-                SELECT * FROM
-
-                	TBUSUARIO_MENU
-                	where USUARIO_ID = :USUARIO_ID
-                ORDER BY 1,3
+                SELECT DISTINCT
+				    n.MENU_ID AS CONTROLE,
+				    m.CODIGO,
+				    m.GRUPO,
+				    m.DESCRICAO,
+				    '' AS URL,
+				    0 AS REL
+				FROM
+				    TBUSUARIO_MENU n, TBMENU m
+				    where USUARIO_ID = :USUARIO_ID
+				    and m.CODIGO = n.MENU_ID
+				ORDER BY 3,4
             ";
 					
 			$args = array(
@@ -132,13 +139,31 @@ class MenuDAO
 			);
             
             $menus = $con->query($sql, $args);
+
+            $sql = "
+                SELECT DISTINCT
+				    m.GRUPO
+				FROM
+				    TBUSUARIO_MENU n, TBMENU m
+				    where USUARIO_ID = :USUARIO_ID
+				    and m.CODIGO = n.MENU_ID
+				ORDER BY 1
+            ";
+					
+			$args = array(
+				':USUARIO_ID'	=>	Auth::user()->CODIGO,
+			);
+            
+            $grupo = $con->query($sql, $args);
             
 			$con->commit();
-            
-            return [
+
+			$ret = [
                 'menus'  => $menus,
-                'grupos' => []
+                'grupos' => $grupo
             ];
+            
+            return $ret;
 			
 		} catch (Exception $e) {
 			$con->rollback();

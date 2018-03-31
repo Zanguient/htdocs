@@ -39,6 +39,9 @@ class RouteServiceProvider extends ServiceProvider
 			require app_path('Http/Routes/Helper/Msg.php'         );
 			require app_path('Http/Routes/Helper/Turno.php'       );
             require app_path('Http/Routes/Helper/DirectPrint.php' );
+
+            require app_path('Http/Routes/Admin/_11000.php'     );
+            require app_path('Http/Routes/Admin/_11040.php'     );
 			#NOVALINHA#
         });
     }

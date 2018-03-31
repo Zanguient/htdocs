@@ -1,0 +1,23 @@
+<?php $__env->startSection('estilo'); ?>
+    <link rel="stylesheet" href="<?php echo e(elixir('assets/css/11000.css')); ?>" />
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('titulo'); ?>
+    <?php echo e(Lang::get('admin/_11000.titulo')); ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('conteudo'); ?>
+
+<div class="container-env">
+    <textarea class="form-control normal-case" placeholder="Selecione um log..." id="env" rows="32" wrap="off" spellcheck="false"><?php echo e($arquivo); ?></textarea> 
+    <button type="button" id="gravar" class="btn btn-success btn-circle bottom" data-hotkey="alt+a" title="Atualizar (Alt+A)"><span class="glyphicon glyphicon-ok"></span></button>
+</div>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('script'); ?>
+    <script src="<?php echo e(elixir('assets/js/_11000.js')); ?>"></script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

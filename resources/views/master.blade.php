@@ -244,38 +244,6 @@
 					<div id="main-app">
 					@yield('conteudo')
       
-                    @if ( $__env->yieldContent('titulo') != null ) 
-                        @php $str = explode(' - ', $__env->yieldContent('titulo') ) 
-
-                        @php $menu = is_numeric( trim($str[0]) ) ? trim($str[0]) : 0
-                        
-                        @if ( $menu > 0 )
-              
-                            @php $con = new App\Models\Conexao\_Conexao
-                            @php $qry = $con->query('SELECT FIRST 1 S.* FROM TBSVN S, TBSVN_FILE F WHERE S.REVISION = F.REVISION AND (UPPER("FILE") CONTAINING UPPER(\'' . $menu . '\')) ORDER BY S.REVISION DESC')
-                            
-                            @if ( isset($qry[0]) )
-                                @php $qry = $qry[0]
-
-                                <div 
-                                    class="alert alert-warning version-of-system"
-                                    style="
-                                        position: fixed;
-                                        right: 4px;
-                                        bottom: -15px;
-                                        z-index: 99999;
-                                        background-color: rgb(234, 234, 234);
-                                        border-color: rgb(0, 0, 0);
-                                        color: rgb(0, 0, 0);
-                                        padding: 1px 6px 0 6px;
-                                        font-size: 10px;
-                                        cursor: default;
-                                    "
-                                    > Vs.{{ date('Y.n.j-H:i',strtotime($qry->DATE)) }} / {{ $qry->REVISION }}</div>
-                            @endif
-                        @endif
-                    @endif
-                    
                     </div>
 					
 				</div>

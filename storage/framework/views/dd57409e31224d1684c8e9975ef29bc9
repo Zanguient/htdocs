@@ -1,0 +1,27 @@
+<?php $__env->startSection('estilo'); ?>
+    <link rel="stylesheet" href="<?php echo e(elixir('assets/css/11040.css')); ?>" />
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('titulo'); ?>
+    <?php echo e(Lang::get('admin/_11040.titulo')); ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('conteudo'); ?>
+    <div class="log-list">
+        <ul>
+        <?php foreach( $arquivos as $arquivo ): ?>
+        <li><a href="#" data-file-name="<?php echo e($arquivo->FILE_NAME); ?>"><?php echo e($arquivo->FILE_NAME); ?></a></li>
+        <?php endforeach; ?>
+        </ul>
+    </div>
+    <div class="log-show">
+        <textarea class="form-control normal-case" placeholder="Selecione um log..." id="log" rows="32" wrap="off" readonly></textarea> 
+        <button type="button" class="btn btn-warning btn-circle bottom" data-hotkey="alt+a" title="Atualizar (Alt+A)"><span class="fa fa-refresh"></span></button>
+    </div>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('script'); ?>
+    <script src="<?php echo e(elixir('assets/js/_11040.js')); ?>"></script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

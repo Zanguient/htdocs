@@ -758,14 +758,14 @@ class _11010DAO {
 
 		$sql = "
             SELECT FIRST 1
-                TRIM(INCLUIR) INCLUIR,
-                TRIM(ALTERAR) ALTERAR,
-                TRIM(EXCLUIR) EXCLUIR,
-                TRIM(IMPRIMIR) IMPRIMIR
+                TRIM(m.INCLUIR) INCLUIR,
+                TRIM(m.ALTERAR) ALTERAR,
+                TRIM(m.EXCLUIR) EXCLUIR,
+                1 IMPRIMIR
             FROM
-                VWPERFIL_USER M
+                tbusuario_menu M
             WHERE
-                M.CONTROLE = :MENU_ID
+                M.menu_id = :MENU_ID
             AND M.USUARIO_ID = :USUARIO_ID
 		";
 		
@@ -786,9 +786,13 @@ class _11010DAO {
 		$con = new _Conexao();
 		
         $sql = "
-            SELECT DISTINCT U.GRUPO
-              FROM VWPERFIL_USER U
-             WHERE U.USUARIO_ID = :USUARIO_ID
+            SELECT DISTINCT
+                    m.GRUPO
+                FROM
+                    TBUSUARIO_MENU n, TBMENU m
+                    where USUARIO_ID = :USUARIO_ID
+                    and m.CODIGO = n.MENU_ID
+                ORDER BY 1
 		";
 		
 		$args = [

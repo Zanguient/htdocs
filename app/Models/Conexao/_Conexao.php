@@ -75,8 +75,6 @@ class _Conexao
         
 		if ($args){
 
-			log_info('Teste44'); 
-
             $rplc = $this->argsReplace($sql, (array) $args);
             $sql  = $rplc->sql;
             $args = $rplc->args;
@@ -85,8 +83,6 @@ class _Conexao
 				log_info($sql);
 				print_l($args);
 			}
-			
-			log_info('Teste5'); 
 
 			$query = $this->pdo->prepare($sql);
 			$query->execute($args);
@@ -98,7 +94,6 @@ class _Conexao
             }
 			
 			return $ret;
-
 
 		}else{
 			
