@@ -122,8 +122,8 @@ class MenuDAO
 			 $sql = "
                 SELECT * FROM
 
-                	TBMENU
-
+                	TBUSUARIO_MENU
+                	where USUARIO_ID = :USUARIO_ID
                 ORDER BY 1,3
             ";
 					

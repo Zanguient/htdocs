@@ -14,9 +14,18 @@
 
 	<div class="container">
 
-		<div class="login col-md-8 col-md-offset-2">
+		<div class="login col-md-8 col-md-offset-2" style="/* padding-top: 0px; */">
 	
-			<span id="gc"></span>
+			<span id="gc" style="
+				background: url(../../../../assets/images/logo.jpg) no-repeat center;
+				background-size: 230px;
+    			height: 134px;
+    			margin-top: -144px;
+    			border-radius: 17px;
+    			width: 200px;
+			">
+				
+			</span>
 			
 			<div class="row">
 	        

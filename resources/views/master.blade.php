@@ -102,7 +102,7 @@
 						<span class="glyphicon glyphicon-option-vertical"></span>
 					</button>
                     
-					<a class="navbar-brand" href="{{ url('') }}"><span>HD - Sistemas</span></a>
+					<a class="navbar-brand" style="background-size: 45px;" href="{{ url('') }}"><span></span></a>
 
 					<a href="{{ Request::fullUrl() }}" class="btn btn-alpha duplicar-tela duplicar-tela-mobile" data-hotkey="alt+f10" target="_blank" title="{{ Lang::get('master.duplicar-tela-title') }}">
 						<span class="glyphicon glyphicon-new-window"></span>
