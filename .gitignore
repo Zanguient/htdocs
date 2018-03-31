@@ -2,4 +2,8 @@
 /node_modules
 Homestead.yaml
 Homestead.json
+/public/assets/js
+/public/assets/css
+/storage/logs
+/storage/framework
 .env
