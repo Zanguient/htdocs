@@ -83,105 +83,12 @@ elixir(function(mix) {
 		.sass('admin/11000.scss', cssPathPublic)
 		.scripts('admin/_11000.js' , jsPathPublic)
 		.addarray([cssPathPublic+'/11000.css',jsPathPublic+'/_11000.js'])
-		.sass('admin/11001.scss', cssPathPublic)
-		.scripts('admin/_11001.js' , jsPathPublic)
-		.addarray([cssPathPublic+'/11001.css',jsPathPublic+'/_11001.js'])
-		.sass('admin/11005.scss', cssPathPublic)
-		.scripts([
-			'admin/_11005/_11005.app.js',
-			'admin/_11005/_11005.factory.parametro-detalhe.js',
-			'admin/_11005/_11005.factory.parametro.js',
-			'admin/_11005/_11005.controller.js'			
-		], jsPathPublic+'/_11005.js')
-		.addarray([cssPathPublic+'/11005.css',jsPathPublic+'/_11005.js'])
 		.sass('admin/11010.scss', cssPathPublic)
 		.scripts('admin/_11010.js' , jsPathPublic)
 		.addarray([cssPathPublic+'/11010.css',jsPathPublic+'/_11010.js'])
-		.scripts('admin/include/_11020-listar.js' , jsPathPublic)
-		.addarray([jsPathPublic+'/_11020-listar.js'])
 		.sass('admin/11040.scss', cssPathPublic)
 		.scripts('admin/_11040.js' , jsPathPublic)
 		.addarray([cssPathPublic+'/11040.css',jsPathPublic+'/_11040.js'])
-		.sass('admin/11060.scss', cssPathPublic)
-		.scripts('admin/_11060.js' , jsPathPublic)
-		.addarray([cssPathPublic+'/11060.css',jsPathPublic+'/_11060.js'])
-		.sass('admin/11070.scss', cssPathPublic)
-		.scripts('admin/_11070.js' , jsPathPublic)
-		.addarray([cssPathPublic+'/11070.css',jsPathPublic+'/_11070.js'])
-		.sass('admin/11080.scss', cssPathPublic)
-		.scripts('admin/_11080.js' , jsPathPublic)
-		.addarray([cssPathPublic+'/11080.css',jsPathPublic+'/_11080.js'])
-		.sass('admin/11090.scss', cssPathPublic)
-		.scripts('admin/_11090.js' , jsPathPublic)
-		.addarray([cssPathPublic+'/11090.css',jsPathPublic+'/_11090.js'])
-		.sass('admin/11100.scss', cssPathPublic)
-		.scripts('admin/_11100.js' , jsPathPublic)
-		.addarray([cssPathPublic+'/11100.css',jsPathPublic+'/_11100.js'])
-		.sass('admin/11110.scss', cssPathPublic)
-		.scripts([
-			'admin/_11110/app.js'
-		], jsPathPublic+'/_11110.js')
-		.addarray([cssPathPublic+'/11110.css',jsPathPublic+'/_11110.js'])	
-		.sass('admin/11140.scss', cssPathPublic)
-		.scripts([
-			'admin/_11140/_11140.app.js',
-			'admin/_11140/_11140.factory.create.js',
-			'admin/_11140/_11140.factory.index.js',
-			'admin/_11140/_11140.controller.js'
-		], jsPathPublic+'/_11140.app.js')
-		.addarray([cssPathPublic+'/11140.css',jsPathPublic+'/_11140.app.js'])	
-		.sass('admin/11150.scss', cssPathPublic)
-		.scripts([
-			'admin/_11150/_11150.app.js',
-			'admin/_11150/_11150.script.js',
-			'admin/_11140/_11140.factory.create.js',
-			'helper/plugin/angular/ng-file-upload/ng-file-upload.min.js',
-			'admin/_11150/_11150.arquivos.js',
-			'admin/_11150/_11150.controller.js'
-		], jsPathPublic+'/_11150.app.js')
-		.addarray([cssPathPublic+'/11150.css',jsPathPublic+'/_11150.app.js'])
-		.sass('admin/11180.scss', cssPathPublic)
-		.scripts([
-			'admin/_11180/app.js'
-		], jsPathPublic+'/_11180.js')
-		.addarray([cssPathPublic+'/11180.css',jsPathPublic+'/_11180.js'])
-	.sass('admin/11190.scss', cssPathPublic)
-	.scripts([
-		'admin/_11190/app.js'
-	], jsPathPublic+'/_11190.js')
-	.addarray([cssPathPublic+'/11190.css',jsPathPublic+'/_11190.js'])
-	
-	.scripts([
-		'admin/_11190/app.notificacoes.js'
-	], jsPathPublic+'/app.notificacoes.js')
-	.addarray([jsPathPublic+'/app.notificacoes.js'])
-		.sass('admin/11200.scss', cssPathPublic)
-		.scripts([
-			'admin/_11200/_11200.app.js',
-			'admin/_11200/_11200.factory.gp.js',
-			'admin/_11200/_11200.factory.operador.js',
-			'admin/_11200/_11200.factory.talao.js',
-			'admin/_11200/_11200.factory.filtro.js',
-			'admin/_11200/_11200.controller.js'			
-		], jsPathPublic+'/_11200.js')
-		.addarray([cssPathPublic+'/11200.css',jsPathPublic+'/_11200.js'])
-		.sass('admin/11210.scss', cssPathPublic)
-		.scripts([
-			'admin/_11210/_11210.app.js',
-			'admin/_11210/_11210.controller.js',
-			'admin/_11210/_11210.factory.index.js',
-			'admin/_11210/_11210.factory.indexItens.js',
-			'admin/_11210/_11210.factory.indexMenus.js',
-			'admin/_11210/_11210.factory.indexGrupos.js'
-		], jsPathPublic+'/_11210.js')
-		.addarray([cssPathPublic+'/11210.css',jsPathPublic+'/_11210.js'])
-		.sass('admin/11220.scss', cssPathPublic)
-		.scripts([
-			'admin/_11220/_11220.app.js',
-			'admin/_11220/_11220.factory.filtro.js',
-			'admin/_11220/_11220.controller.js'			
-		], jsPathPublic+'/_11220.js')
-		.addarray([cssPathPublic+'/11220.css',jsPathPublic+'/_11220.js'])
 		.sass('auth/auth.scss', cssPathPublic)
 		.addarray([cssPathPublic+'/auth.css'])
 		.scripts([
